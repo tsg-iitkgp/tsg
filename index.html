@@ -4,7 +4,12 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display&amp;subset=latin-ext" rel="stylesheet">
+
+
         <link rel="stylesheet" href="css/style.css">
 
         <title>TSG</title>
@@ -13,43 +18,66 @@
     <body class="homepage">
         <div class="container page z-depth-5">
             <nav>
-                <div class="nav-wrapper">
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Inter IIT</a></li>
-                        <li><a href="#">GC</a></li>
-                        <li><a href="#">Fests</a></li>
-                        <li><a href="#">Societies</a></li>
-                        <li><a href="#">Blog</a></li>
+                <div class="nav-wrapper right">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="hide-on-med-and-down">
+                        <li class="active"><a href="index.html" class="waves-effect waves-light">Home</a></li>
+                        <li><a href="#" class="waves-effect">Inter IIT</a></li>
+                        <li><a href="#" class="waves-effect">GC</a></li>
+                        <li><a href="#" class="waves-effect">Fests</a></li>
+                        <li><a href="#" class="waves-effect">Societies</a></li>
+                        <li><a href="#" class="waves-effect">Blog</a></li>
+                        <li><a href="#" class="waves-effect"><i class="material-icons">search</i></a></li>
                     </ul>
                 </div>
             </nav>
 
-            <div class="header row">
-                <img src="" alt="IIT Icon">
-                <h1>Technology Student's Gymkhana</h1>
-                <h2>Indian Institute of Technology Kharagpur</h2>
+            <ul class="sidenav" id="mobile-demo">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Inter IIT</a></li>
+                <li><a href="#">GC</a></li>
+                <li><a href="#">Fests</a></li>
+                <li><a href="#">Societies</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#"><i class="material-icons">search</i></a></li>
+            </ul>
+
+            <div class="header row ">
+                <div class="col s3 m3 center">
+                    <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
+                </div>
+                <div class="col s9">
+                    <h1>Technology Student's Gymkhana</h1>
+                    <h2>Indian Institute of Technology Kharagpur</h2>
+                </div>
             </div>
 
-            <div class="intro">
-                <img src="" alt="Gymkhana main Image">
-                <img src="" alt="scroll down">
+            <div class="intro center">
+                <img src="static/images/gymkhana.png" alt="Gymkhana main Image" class="responsive-img">
+
             </div>
+
+
+
+
 
             <div class="content">
-                <div class="about flow-text">
-                    <h1>About</h1>
-                    <p>
-                        Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
-                    </p>
+                <div class="row">
+                    <div class="about col s12 m8" id = "about">
+                        <h1>About</h1>
+                        <p>
+                            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
+                        </p>
 
-                    <blockquote cite="http://">
-                        "Yogah Karmasu Kausalam"
-                    </blockquote>
+                        <blockquote cite="http://">
+                            "Yogah Karmasu Kausalam"
+                        </blockquote>
 
-                    <p>
-                        The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
-                    </p>
+                        <p>
+                            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
+                        </p>
+                    </div>
+
                 </div>
 
                 <div class="carrousel">
@@ -70,13 +98,17 @@
             </div>
         </div>
 
+        <div class="fixed-action-btn center">
+            <a href="#about" class="btn-floating btn-large waves-effect waves-light deep-purple"><i class="material-icons">expand_more</i></a>
+        </div>
+
         <div class="footer">
 
         </div>
 
-        <script type="text/javascript" src="materialize/js/bin/materialize.min.js">
-
-        </script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 
 </html>

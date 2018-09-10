@@ -12,7 +12,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "html"
     ],
     "rules": {
         "indent": [

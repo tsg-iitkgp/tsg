@@ -16,6 +16,9 @@
     "url": "https://github.com/xypnox/tsg-design/issues"
   },
   "homepage": "https://github.com/xypnox/tsg-design#readme",
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-react": "^7.11.1"
+  },
   "devDependencies": {}
 }
