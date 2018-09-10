@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/xypnox/tsg-design/issues"
   },
-  "homepage": "https://github.com/xypnox/tsg-design#readme"
+  "homepage": "https://github.com/xypnox/tsg-design#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
