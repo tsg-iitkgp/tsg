@@ -1,0 +1,19 @@
+{
+  "name": "tsg-website",
+  "version": "1.0.0",
+  "description": "Design for tsg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://"
+  },
+  "author": "xypnox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xypnox/tsg-design/issues"
+  },
+  "homepage": "https://github.com/xypnox/tsg-design#readme"
+}
