@@ -1,2 +1,0 @@
-# tsg-design
-TSG Design
