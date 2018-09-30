@@ -9,6 +9,11 @@ h1, h2, h3 {
 
 html {
     body {
+        &.homepage{
+            .brand-logo {
+                display: none;
+            }
+        }
         background: linear-gradient(135deg, color("red", "base"), $primary-color);
         @media #{$small-and-down} {
             .container {
@@ -41,6 +46,20 @@ html {
             &, .nav-wrapper i{
                 height: 48px;
                 line-height: 48px;
+            }
+            .brand-logo {
+                position: relative;
+                float: left;
+                font-family: "Playfair Display", serif;
+                font-size: 1.7rem;
+                img {
+                    position: absolute;
+                    height: 2.1rem;
+                    top: 20%;
+                }
+                span {
+                    padding-left: 3rem;
+                }
             }
             ul {
                 li {
