@@ -67,6 +67,19 @@ html {
                 span {
                     padding-left: 3rem;
                 }
+                @media #{$small-and-down} {
+                    font-size: 1.4rem;
+                    &.left {
+                        left: 0px;
+                    }
+                    img {
+                        display: none;
+                    }
+                    span {
+                        padding-left: 0;
+                    }
+                }
+                
             }
             ul {
                 li {
@@ -167,17 +180,26 @@ html {
                 font-family: "Roboto Slab", sans-serif;
                 font-size: 1.2rem;
 
+                @media #{$small-and-down} {
+                    font-size: 1rem;
+                }
+
+                h1 {
+                    font-size: 3.2rem;
+                }
+
                 .description{
                     margin-top: 3rem;
                     margin-bottom: 3rem;
                     color: #222;
                     @media #{$medium-and-up} {
-                        margin-left: -4rem ;
+                        margin-left: -32px ;
                     }
                     img {
                         margin: 0;
                         padding: 0;
-                        // height: 3rem;;
+                        height: 72px;
+                        width: 72px;
                     }
                     .col {
                         margin-left: 0;
@@ -197,8 +219,13 @@ html {
 
             .fixed-action-btn {
                 @media #{$medium-and-up} {
+                    right: 15rem ;
+                }
+
+                @media #{$large-and-up} {
                     right: 20rem ;
                 }
+
             }
         }
 
