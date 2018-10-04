@@ -1,5 +1,6 @@
 $navbar-font-color: #222 !default;
 @import "../materialize/sass/materialize.scss";
+@import "compass/css3";
 
 
 h1, h2, h3 {
@@ -53,6 +54,8 @@ html {
             &, .nav-wrapper i{
                 height: 48px;
                 line-height: 48px;
+                position: sticky;
+                top: 0;
             }
             .brand-logo {
                 position: relative;
