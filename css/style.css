@@ -16,3 +16,8 @@
 	padding-top: .5rem;
 	padding-bottom: 4rem;
 }
+
+.sidenav li.active {
+	background : #F44336;
+}
+
