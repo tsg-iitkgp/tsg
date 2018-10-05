@@ -17,7 +17,8 @@
 	padding-bottom: 4rem;
 }
 
-.sidenav li.active {
+.sidenav li.active a {
 	background : #F44336;
+	color: #fff;
 }
 
