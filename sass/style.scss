@@ -116,6 +116,12 @@ html {
             }
         }
 
+        .sidenav {
+            @media #{$medium-and-up} {
+                width: 500px;
+            }
+        }
+
 
         .header{
             @media #{$medium-and-up} {
@@ -246,15 +252,17 @@ html {
         }
 
         &.interiit {
-            h1 {
-                font-size: 3em;
-            }
-            .tab a {
-                padding: 0px;
-            }
-            .tab {
-                ul, li {
-                    list-style-type: circle;
+            .content{
+                h1 {
+                    font-size: 3em;
+                }
+                .tab a {
+                    padding: 0px;
+                }
+                .tab {
+                    ul, li {
+                        list-style-type: circle;
+                    }
                 }
             }
         }
