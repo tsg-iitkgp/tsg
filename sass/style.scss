@@ -9,6 +9,8 @@ h1, h2, h3 {
 }
 
 html {
+    min-height: 100%;
+
     body {
         &.homepage{
             .brand-logo {
@@ -23,6 +25,7 @@ html {
             }
         }
         background: linear-gradient(135deg, color("red", "base"), $primary-color);
+        min-height: 100%;
         @media #{$small-and-down} {
             .container {
                 width: 100%;
@@ -53,7 +56,7 @@ html {
             background: none;
             box-shadow: none;
             padding: 8px;
-            background: rgba(255,255,255, 0.75);
+            background: rgba(255,255,255, 0.85);
             z-index: 100;
             border-radius: 10px;
             &, .nav-wrapper i{
@@ -239,6 +242,20 @@ html {
                     right: 20rem ;
                 }
 
+            }
+        }
+
+        &.interiit {
+            h1 {
+                font-size: 3em;
+            }
+            .tab a {
+                padding: 0px;
+            }
+            .tab {
+                ul, li {
+                    list-style-type: circle;
+                }
             }
         }
 
