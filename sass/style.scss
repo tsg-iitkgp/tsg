@@ -40,6 +40,7 @@ html {
             margin-bottom: 5rem;
             padding: 2rem 3rem;
             @media #{$small-and-down} {
+                border-radius: 1.5rem;
                 padding: 1rem 0.5rem;
                 position: relative;
                 top: -2rem;
@@ -192,7 +193,8 @@ html {
                     padding-left: 3rem;
                 }
                 @media #{$small-and-down} {
-                    font-size: 1.4rem;
+                    margin-top: 0.5rem;
+                    font-size: 1.6rem;
                     padding-left: 0.5rem;
                     text-align: center;
                 }
@@ -342,6 +344,7 @@ html {
         }
 
         .footer {
+            color: rgba(255,255,255, 0.5);
             padding: 3em;
         }
     }
