@@ -130,7 +130,8 @@ html {
             img {
                 width: 10rem;
                 @media #{$small-and-down} {
-                    width: 5rem;
+                    width: 8rem;
+                    margin: 2rem;
                 }
             }
             h1{
@@ -138,9 +139,10 @@ html {
                 font-size: 3rem;
                 margin-bottom: 0.25rem;
                 @media #{$small-and-down} {
-                    font-size: 1.5rem;
+                    text-align: center;
+                    font-size: 3rem;
                     margin: 0;
-                    padding-left: 0.5rem;;
+                    padding-left: 0.5rem;
                 }
             }
             h2 {
@@ -148,8 +150,9 @@ html {
                 font-size: 1.6rem;
                 margin-top: 0.25rem;
                 @media #{$small-and-down} {
-                    font-size: 1rem;
+                    font-size: 1.4rem;
                     padding-left: 0.5rem;
+                    text-align: center;
                 }
             }
         }
