@@ -155,6 +155,12 @@ html {
 
 
         .header{
+            &.valign-wrapper {
+                @media #{$small-and-down} {
+                    display: inherit;
+                    align-items: baseline;
+                }
+            }
             @media #{$medium-and-up} {
                 margin-top: 2rem ;
             }
@@ -166,9 +172,11 @@ html {
                 }
             }
             h1{
-                padding-left: 2rem;
+                padding-left: 2.5rem;
                 font-size: 3rem;
                 margin-bottom: 0.25rem;
+                margin-top: 0;
+
                 @media #{$small-and-down} {
                     text-align: center;
                     font-size: 3rem;
@@ -177,9 +185,12 @@ html {
                 }
             }
             h2 {
-                padding-left: 2.5rem;
+                padding-left: 2rem;
                 font-size: 1.6rem;
                 margin-top: 0.25rem;
+                @media #{$medium-and-up} {
+                    padding-left: 3rem;
+                }
                 @media #{$small-and-down} {
                     font-size: 1.4rem;
                     padding-left: 0.5rem;
@@ -310,6 +321,10 @@ html {
             margin-bottom: 0rem;
             background: linear-gradient(45deg, color("pink", "darken-2"), color("red", "base"));
             
+            @media #{$small-and-down} {
+                margin-top: -10rem;
+            }
+
             .container {
                 padding-bottom: 1rem;
             }
