@@ -120,6 +120,37 @@ html {
             @media #{$medium-and-up} {
                 width: 500px;
             }
+            .header-sidenav {
+                margin-bottom: 2rem;
+                @media #{$medium-and-up} {
+                    margin-top: 2rem ;
+                }
+                img {
+                    width: 10rem;
+                    @media #{$small-and-down} {
+                        width: 6rem;
+                    }
+                }
+                h1{
+                    padding-left: 2rem;
+                    margin-top: 0;
+                    font-size: 2rem;
+                    margin-bottom: 0.25rem;
+                    @media #{$small-and-down} {
+                        font-size: 1.7rem;
+                        padding-left: 0;
+                    }
+                }
+                // h2 {
+                //     padding-left: 2rem;
+                //     font-size: 1.4rem;
+                //     margin-top: 0.25rem;
+                //     @media #{$small-and-down} {
+                //         font-size: 1.3rem;
+                //         padding-left: 0;
+                //     }
+                // }
+            }
         }
 
 
