@@ -100,16 +100,20 @@ html {
                     span {
                         padding-left: 0;
                     }
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                    }
                 }
                 
                 @media #{$extra-large-and-up} {
                     font-size: 1.7rem;
                     &:after{
-                    padding-left: 3rem;
-                    content: "Technology Students' Gymkhana";
+                        content: "Technology Students' Gymkhana";
+                        padding-left: 3rem;
+                    }
+                }
+
+                @media #{$medium-and-down} {
+                    &:after{
+                        content: "Technology Students' Gymkhana";
+                        font-size: 1.6rem;
                     }
                 }
                 
@@ -319,10 +323,14 @@ html {
             }
         }
 
-        &.interiit {
+        &.interiit, &.gc {
             .content{
                 h1 {
-                    font-size: 3em;
+                    font-size: 4em;
+                    text-align: center;
+                }
+                h2 {
+                    font-size: 3rem;
                 }
                 .tab a {
                     padding: 0px;
