@@ -13,3 +13,8 @@ sshfs https://github.com/libfuse/sshfs can be installed using standard apt insta
 3. The files are also available in file browser so they can be edited by system programs (VS Code) but I would recommend editing in the repo only
 4. After updating the files it is better to unmount using `fusermount -u gymkhana`
 5. note that the git files will dissappear from the folder `gymkhana`. When we need to update just mount > git pull > unmount
+
+
+# TODO
+
+[x] Fix Navbar bug
