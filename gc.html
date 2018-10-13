@@ -17,72 +17,62 @@
         <link rel="stylesheet" href="css/style.css">
 
         <title>TSG</title>
+        <style>
+             .bullet:not(.browser-default)>li {
+    list-style-type: disc;
+}
+        </style>
     </head>
 
-    <body class="blogpost">
+    <body class="interiit">
         <div class="container page z-depth-5">
-            <nav>
+            <nav class="navigation">
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <a href="#" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-                        <!-- <span>Technology Students’ Gymkhana</span> -->
-                        <!-- CSS :after inserts the Appropriate text -->
+                        <span>Technology Students’ Gymkhana</span>
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
-                        <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
+                        <li><a href="index.html" class="waves-effect waves-light">Home</a></li>
                         <li><a href="interiit.html" class="waves-effect">Inter IIT</a></li>
-                        <li><a href="gc.html" class="waves-effect">GC</a></li>
+                        <li class="active"><a href="gc.html" class="waves-effect">GC</a></li>
                         <li><a href="#" class="waves-effect">Fests</a></li>
                         <li><a href="#" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-                        <li class="active"><a href="blogpost.html" class="waves-effect">Blog</a></li>
+                        <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
                     </ul>
                 </div>
             </nav>
 
             <div class="content">
+                <h1>General Championships</h1>
+
+
+                
                 <div class="row">
-                    <div class="col s12 m8 offset-m1" id = "about">
+                <div class="col s12">
+                    <ul class="tabs">
+                    <li class="tab col s3"><a class="active" href="#sports">Sports GC</a></li>
+                    <li class="tab col s3"><a href="#socult">Soc-Cult GC</a></li>
+                    <li class="tab col s3"><a href="#tech">Technology GC</a></li>
+                    </ul>
+                </div>
+                <div id="sports" class="col s12 row">
+                    <div class="col s12">
+                        Page will be updated soon!
 
-                        <h1>Sixth of September: A Day of Pride</h1>
-                        <div class="description row  valign-wrapper grey-text text-darken-2">
-                            <img src="static/images/blog-author-1.jpg" alt="" class="circle responsive-img col s2">
-                            
-                            <div class="col s6">
-                                <p>Captain NS Mohan Ram</p>
-                                <p>1 day ago / 239 views / 7 min read</p>
-                            </div>
-                        </div>
-                        
-                        <p>
-                            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
-                        </p>
 
-                        <blockquote cite="http://">
-                            "Yogah Karmasu Kausalam"
-                        </blockquote>
-
-                        <p>
-                            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
-                        </p>
-
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum culpa unde similique reprehenderit, natus quisquam porro ex iste doloribus voluptatibus doloremque repellat nam eius, quos, sed aperiam itaque nihil adipisci.
-                        </p>
-
-                        <img src="static/images/1.jpg" class="responsive-img" alt="">
-
-                        <p>
-                            SLorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum culpa unde similique reprehenderit, natus quisquam porro ex iste doloribus voluptatibus doloremque repellat nam eius, quos, sed aperiam itaque nihil adipisci.
-                        </p>
                     </div>
+                </div>
 
-                    <div class="comments col s12 offset-m1">
-                        <h3>Comments</h3>
-                        Discuss comments!!
-                    </div>
+                <div id="tech" class="col s12">
+                    Page will be updated soon!
+                </div>
 
+                <div id="socult" class="col s12">
+                        Page will be updated soon!
+                </div>
                 </div>
 
                 <!-- <div class="carrousel">
@@ -125,21 +115,7 @@
                 </div>
             </div>
         </div>
-
         
-        <div class="fixed-action-btn">
-            <span class="btn-floating btn-large blue">
-                <i class="large material-icons">share</i>
-            </span>
-            <ul>
-                <li><a class="btn-floating green"><i class="material-icons">email</i></a></li>
-                <li><a class="btn-floating pink"><i class="material-icons">insert_link</i></a></li>
-                <li><a class="btn-floating blue lighten-1"><i class="icon-twitter"></i></a></li>
-                <li><a class="btn-floating blue darken-2"><i class="icon-facebook"></i></a></li>
-            </ul>
-        </div>
-            
-
         <ul class="sidenav" id="mobile-demo">
             <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
                <div class="col s5 m3 center">
@@ -152,11 +128,11 @@
            </div>
            <li><a href="index.html">Home</a></li>
            <li><a href="interiit.html">Inter IIT</a></li>
-           <li><a href="gc.html">GC</a></li>
+           <li class="active"><a href="gc.html">GC</a></li>
            <li><a href="#">Fests</a></li>
            <li><a href="#">Societies</a></li>
            <li><a href="contacts.html">Contacts</a></li>
-           <li class="active"><a href="blogpost.html">Blog</a></li>
+           <li><a href="blogpost.html">Blog</a></li>
           
        </ul>
 
@@ -169,6 +145,7 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
         <script type="text/javascript" src="js/blogpost.js"></script>
+        <script src="js/tabs.js"></script>
     </body>
 
 </html>
