@@ -116,6 +116,13 @@ html {
                         font-size: 1.6rem;
                     }
                 }
+
+                @media #{$small-and-down} {
+                    &:after {
+                        font-size: 1.4rem;
+                        padding-left: 0px;
+                    }
+                }
                 
             }
             @media (max-width: 1400px) {
