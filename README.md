@@ -17,4 +17,4 @@ sshfs https://github.com/libfuse/sshfs can be installed using standard apt insta
 
 # TODO
 
-[x] Fix Navbar bug
+- [x] Fix Navbar bug
