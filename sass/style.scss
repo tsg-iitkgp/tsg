@@ -382,6 +382,15 @@ html {
             .modal-overlay {
                 background-color: $primary-color;
             }
+            .card {
+                border-radius: 1rem;
+            }
+            .card-image img {
+                border-radius: 1rem 1rem 0 0;
+            }
+            .card-content, .card-action, .card-action:last-child {
+                border-radius: 0 0 1rem 1rem;
+            }
         }
 
 
