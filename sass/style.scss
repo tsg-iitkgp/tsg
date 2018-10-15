@@ -347,6 +347,15 @@ html {
                         list-style-type: disc;
                     }
                 }
+                .interiit-img {
+                    display: block;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-bottom: 10px; 
+                    @media #{$small-and-down} {
+                        width: 100%;
+                    }
+                }
             }
         }
 
