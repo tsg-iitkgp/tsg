@@ -168,7 +168,15 @@
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-        <script type="text/javascript" src="js/blogpost.js"></script>
+        <script type="text/javascript">
+            (function($){
+                $(function(){
+
+                    $('.sidenav').sidenav();
+                    $('.fixed-action-btn').floatingActionButton();
+                }); // end of document ready
+            })(jQuery); // end of jQuery name space
+        </script>
     </body>
 
 </html>

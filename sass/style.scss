@@ -185,6 +185,9 @@ html {
                 // }
             }
         }
+        .sidenav-overlay {
+            background-color: rgba($primary-color, 0.5);
+        }
 
 
         .header{
@@ -241,7 +244,7 @@ html {
         }
 
         .content{
-            .about, .tsg-graph, .blog-recent {
+            .about, .tsg-graph, .blog-recent, .contacts {
                 margin: 2rem 0;
                 h1 {
                     font-size: 3rem;
@@ -329,13 +332,17 @@ html {
 
             }
         }
-
-        &.interiit, &.gc {
+        &.interiit, &.gc, &.contacts {
             .content{
                 h1 {
                     font-size: 4em;
                     text-align: center;
                 }
+            }
+        }
+
+        &.interiit, &.gc {
+            .content{
                 h2 {
                     font-size: 3rem;
                 }
@@ -360,9 +367,24 @@ html {
                     background-color: #f07;
                     padding-bottom: 10px;
                 }
-
             }
         }
+
+        &.contacts {
+            #modal-complaint {
+                height: 100% !important;
+                overflow: hidden;
+                border-radius: 1rem;
+            }
+            .modal {
+                max-height: 80%;
+            }
+            .modal-overlay {
+                background-color: $primary-color;
+            }
+        }
+
+
 
         .links {
             position: relative;
