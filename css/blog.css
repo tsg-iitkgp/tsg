@@ -6242,6 +6242,8 @@ html body.blog .fixed-action-btn .btn-floating {
     right: 20rem; } }
 html body.blog .fixed-action-btn .icon-facebook, html body.blog .fixed-action-btn .icon-twitter {
   font-family: "fontello"; }
+html body.blog .facebook-color {
+  background-color: #3b5998; }
 html body .links {
   position: relative;
   z-index: 0;

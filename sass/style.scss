@@ -434,6 +434,7 @@ html {
                 border-radius: 1rem;
                 width: 100%;
                 margin: 0 auto;
+                margin-bottom: 2rem;
             }
             .card-image img {
                 border-radius: 1rem 1rem 0 0;
@@ -442,6 +443,12 @@ html {
             }
             .card-content, .card-action, .card-action:last-child {
                 border-radius: 0 0 1rem 1rem;
+            }
+            .card .card-title {
+                line-height: 1.8rem;
+            }
+            .card .card-image .card-title {
+                padding:13px;
             }
         }
 

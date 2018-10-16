@@ -6294,13 +6294,18 @@ html body.contacts .modal-overlay, html body.societies .modal-overlay {
 html body.contacts .card, html body.societies .card {
   border-radius: 1rem;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 2rem; }
 html body.contacts .card-image img, html body.societies .card-image img {
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
   height: 20rem; }
 html body.contacts .card-content, html body.contacts .card-action, html body.contacts .card-action:last-child, html body.societies .card-content, html body.societies .card-action, html body.societies .card-action:last-child {
   border-radius: 0 0 1rem 1rem; }
+html body.contacts .card .card-title, html body.societies .card .card-title {
+  line-height: 1.8rem; }
+html body.contacts .card .card-image .card-title, html body.societies .card .card-image .card-title {
+  padding: 13px; }
 html body.societies .content .col {
   height: 30rem;
   margin: 2rem 0; }
