@@ -38,6 +38,7 @@ html {
             border-radius: 1rem;
             margin-top: 5rem;
             margin-bottom: 5rem;
+            padding-top: 1rem;
             // padding: 2rem 3rem;
             @media #{$small-and-down} {
                 border-radius: 1.5rem;
@@ -56,7 +57,7 @@ html {
             // padding-right: 1rem;
             background: none;
             box-shadow: none;
-            padding: 8px 0px;
+            padding: 8px 16px;
             background: rgba(255,255,255, 0.85);
             z-index: 100;
             border-radius: 10px;
@@ -78,6 +79,7 @@ html {
                 font-size: 1.3rem;
                 
                 img {
+                    left: 0.5rem;
                     position: absolute;
                     height: 2.1rem;
                     top: 20%;
@@ -85,6 +87,7 @@ html {
                 &:after{
                     padding-left: 3rem;
                     content: "TSG";
+                    font-size: 1.6rem;
                 }
                 span {
                     padding-left: 3rem;
@@ -107,6 +110,7 @@ html {
                     &:after{
                         content: "Technology Students' Gymkhana";
                         padding-left: 3rem;
+                        font-size: 1.3rem;
                     }
                 }
 
