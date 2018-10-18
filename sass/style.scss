@@ -418,6 +418,12 @@ html {
                 overflow: hidden;
                 border-radius: 1rem;
             }
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                margin: 0 auto;
+            }
             .modal {
                 max-height: 80%;
             }
@@ -426,6 +432,8 @@ html {
             }
             .card {
                 border-radius: 1rem;
+                width: 100%;
+                margin: 0 auto;
             }
             .card-image img {
                 border-radius: 1rem 1rem 0 0;
