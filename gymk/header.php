@@ -21,51 +21,24 @@
         <title>TSG</title>
     </head>
 
-    <body class="homepage">
+    <body class="blog">
         <div class="container page z-depth-5">
             <nav>
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="#" class="brand-logo left valign-wrapper">
+                    <a href="index.html" class="brand-logo left valign-wrapper">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-                        <span>Technology Students’ Gymkhana</span>
+                        <!-- <span>Technology Students’ Gymkhana</span> -->
+                        <!-- CSS :after inserts the Appropriate text -->
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
-                        <li class="active"><a href="index.html" class="waves-effect waves-light">Home</a></li>
-                        <li><a href="#" class="waves-effect">Inter IIT</a></li>
-                        <li><a href="#" class="waves-effect">GC</a></li>
+                        <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
+                        <li><a href="interiit.html" class="waves-effect">Inter IIT</a></li>
+                        <li><a href="gc.html" class="waves-effect">GC</a></li>
                         <li><a href="#" class="waves-effect">Fests</a></li>
-                        <li><a href="#" class="waves-effect">Societies</a></li>
-                        <li><a href="#" class="waves-effect">Blog</a></li>
-                        <li><a href="#" class="waves-effect"><i class="material-icons">search</i></a></li>
+                        <li><a href="societies.html" class="waves-effect">Societies</a></li>
+                        <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
+                        <li class="active"><a href="blogpost.html" class="waves-effect">Blog</a></li>
                     </ul>
                 </div>
             </nav>
-
-
-
-            <div class="header row ">
-                <div class="col s3 m3 center">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
-                </div>
-                <div class="col s9">
-                    <h1>Technology Student's Gymkhana</h1>
-                    <h2>Indian Institute of Technology Kharagpur</h2>
-                </div>
-            </div>
-
-            <div class="intro center">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/static/images/gymkhana.png" alt="Gymkhana main Image" class="responsive-img">
-
-            </div>
-
-
-
-
-
-            <div class="content">
-            
-
-                <!-- <div class="carrousel">
-
-                </div> -->

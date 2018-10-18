@@ -8,6 +8,27 @@
 </div>
         </div>
 
+        <ul class="sidenav" id="mobile-demo">
+            <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
+               <div class="col s5 m3 center">
+                   <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
+               </div>
+               <div class="col m9 s7 valign-wrapper">
+                   <h1>Technology Students' Gymkhana</h1>
+                   <!-- <h2>Indian Institute of Technology Kharagpur</h2> -->
+               </div>
+           </div>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="interiit.html">Inter IIT</a></li>
+           <li><a href="gc.html">GC</a></li>
+           <li><a href="#">Fests</a></li>
+           <li><a href="societies.html">Societies</a></li>
+           <li><a href="contacts.html">Contacts</a></li>
+           <li class="active"><a href="blogpost.html">Blog</a></li>
+          
+       </ul>
+
+
         <div class="links container z-depth-3">
             <div class="container white-text">
                 <div class="row">
