@@ -371,6 +371,21 @@ html {
                 .tab a {
                     padding: 0px;
                 }
+                @media #{$small-and-down} {
+                    .s2{
+                        width: auto;
+                    }
+                    .tab-container {
+                        padding: 0;
+                    }
+                    .tab a {
+
+                        font-size: 14px;
+                    }
+                    .tab {
+                        text-transform: none;
+                    }
+                }
                 #aquatics, #sports, #tech, #socult {
                     ul, li {
                         list-style-type: disc;
