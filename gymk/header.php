@@ -15,7 +15,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
 
-
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/fontello/css/fontello.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
         <title>TSG</title>

@@ -6,13 +6,13 @@
 
 get_header(); ?>
 
-<div class="content">
+<div id="content">
 
 	<div class="header row valign-wrapper">
-		<div class="col s3 m3 center">
+		<div class="col s12 m3 center">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
 		</div>
-		<div class="col s9">
+		<div class="col m9 s12">
 			<h1>Blog</h1>
 			<h2>Technology Students' Gymkhana</h2>
 		</div>

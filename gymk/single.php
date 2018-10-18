@@ -7,7 +7,7 @@
 get_header();
 ?>
 
-	<div id="content" class="widecolumn" role="main">
+	<div id="content" class="row" role="main">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -16,7 +16,7 @@ get_header();
 			<div class="alignright"><?php next_post_link( '%link', '%title &raquo;' ) ?></div>
 		</div>
 
-		<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+		<div <?php post_class("col s12 m9 l8 offset-m1 offset-l1"); ?> id="post-<?php the_ID(); ?>">
 			<h2><?php the_title(); ?></h2>
 
 			<div class="entry">
@@ -65,6 +65,18 @@ get_header();
 		<p><?php _e('Sorry, no posts matched your criteria.', 'kubrick'); ?></p>
 
 <?php endif; ?>
+
+	<div class="fixed-action-btn">
+		<span class="btn-floating btn-large blue">
+			<i class="large material-icons">share</i>
+		</span>
+		<ul>
+			<li><a class="btn-floating green"><i class="material-icons">email</i></a></li>
+			<li><a class="btn-floating pink"><i class="material-icons">insert_link</i></a></li>
+			<li><a class="btn-floating blue lighten-1"><i class="icon-facebook"></i></a></li>
+			<li><a class="btn-floating blue darken-2"><i class="icon-twitter"></i></a></li>
+		</ul>
+	</div>
 
 	</div>
 

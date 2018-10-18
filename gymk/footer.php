@@ -63,10 +63,6 @@
             </div>
         </div>
 
-        <div class="fixed-action-btn center">
-            <a href="#about" class="btn-floating pulse waves-effect waves-light deep-purple"><i class="material-icons">expand_more</i></a>
-        </div>
-
         <ul class="sidenav" id="mobile-demo">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#">Inter IIT</a></li>
@@ -84,8 +80,16 @@
         </div>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript">
+            (function($){
+                $(function(){
+
+                    $('.sidenav').sidenav();
+                    $('.fixed-action-btn').floatingActionButton();
+                }); // end of document ready
+            })(jQuery); // end of jQuery name space
+        </script>
     </body>
 
 </html>

@@ -197,7 +197,10 @@ html {
 
 
         .header{
-            padding-left: 10rem;
+            padding-left: 3rem;
+            @media #{$small-and-down} {
+                padding-left: 0rem;
+            }
             &.valign-wrapper {
                 @media #{$small-and-down} {
                     display: inherit;
@@ -216,7 +219,7 @@ html {
             }
             h1{
                 // padding-left: 2.5rem;
-                font-size: 5rem;
+                font-size: 5rem !important;
                 margin-bottom: 0.25rem;
                 margin-top: 0;
 
@@ -257,12 +260,12 @@ html {
             }
 
             .blog-recent {
-                .card {
-                    border-radius: 1rem;
-                }
 
                 .card-title {
+                    font-size: 2rem;
                     font-family: "Roboto Slab", serif;
+                    margin-bottom: 0.2rem;
+                    // font-weight: bold;
                 }
 
                 .card-content {
@@ -275,6 +278,16 @@ html {
 
                 .collection-item {
                     padding: 20px 0px;
+                    small {
+                        font-style: italic;
+                        font-size: 1rem;
+                    }
+                    a {
+                        margin: 1rem 0;
+                    }
+                    p {
+                        margin-top: 2rem;
+                    }
                 }
 
             }
@@ -324,12 +337,19 @@ html {
             }
 
             .fixed-action-btn {
+                .btn-floating {
+                    border-radius: 2rem;
+                }
                 @media #{$medium-and-up} {
                     right: 15rem ;
                 }
 
                 @media #{$large-and-up} {
                     right: 20rem ;
+                }
+
+                .icon-facebook, .icon-twitter{
+                    font-family: "fontello";
                 }
 
             }
