@@ -38,7 +38,7 @@ html {
             border-radius: 1rem;
             margin-top: 5rem;
             margin-bottom: 5rem;
-            padding: 2rem 3rem;
+            // padding: 2rem 3rem;
             @media #{$small-and-down} {
                 border-radius: 1.5rem;
                 padding: 1rem 0.5rem;
@@ -244,6 +244,7 @@ html {
         }
 
         .content{
+            padding: 2rem 3rem;
             .about, .tsg-graph, .blog-recent, .contacts {
                 margin: 2rem 0;
                 h1 {
