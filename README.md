@@ -17,4 +17,5 @@ sshfs https://github.com/libfuse/sshfs can be installed using standard apt insta
 
 # TODO
 
+- [ ] Fix Medium screen society card length
 - [x] Fix Navbar bug
