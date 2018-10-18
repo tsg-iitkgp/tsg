@@ -2,6 +2,7 @@ $navbar-font-color: #222 !default;
 @import "../materialize/sass/materialize.scss";
 // @import "compass/css3";
 
+$facebook-color: #3b5998;
 
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
@@ -38,7 +39,7 @@ html {
             border-radius: 1rem;
             margin-top: 5rem;
             margin-bottom: 5rem;
-            padding-top: 1rem;
+            padding-top: 2rem;
             // padding: 2rem 3rem;
             @media #{$small-and-down} {
                 border-radius: 1.5rem;
@@ -57,7 +58,7 @@ html {
             // padding-right: 1rem;
             background: none;
             box-shadow: none;
-            padding: 8px 16px;
+            padding: 8px 2rem;
             background: rgba(255,255,255, 0.85);
             z-index: 100;
             border-radius: 10px;
@@ -110,7 +111,14 @@ html {
                     &:after{
                         content: "Technology Students' Gymkhana";
                         padding-left: 3rem;
-                        font-size: 1.3rem;
+                        font-size: 1.25rem;
+                    }
+                }
+                @media #{"only screen and (min-width : #{1400px})"} {
+                    &:after{
+                        content: "Technology Students' Gymkhana";
+                        padding-left: 3rem;
+                        font-size: 1.7rem;
                     }
                 }
 
@@ -125,6 +133,12 @@ html {
                     &:after {
                         font-size: 1.4rem;
                         padding-left: 0px;
+                    }
+                }
+
+                @media #{"only screen and (max-width : #{360px})"} {
+                    &:after{
+                        font-size: 1.2rem;
                     }
                 }
                 
@@ -249,6 +263,9 @@ html {
 
         .content{
             padding: 2rem 3rem;
+            @media #{$small-and-down} {
+                padding: 0;
+            }
             .about, .tsg-graph, .blog-recent, .contacts {
                 margin: 2rem 0;
                 h1 {
@@ -337,7 +354,7 @@ html {
 
             }
         }
-        &.interiit, &.gc, &.contacts {
+        &.interiit, &.gc, &.contacts, &.societies {
             .content{
                 h1 {
                     font-size: 4em;
@@ -380,7 +397,7 @@ html {
             }
         }
 
-        &.contacts {
+        &.contacts, &.societies {
             #modal-complaint {
                 height: 100% !important;
                 overflow: hidden;
@@ -397,9 +414,36 @@ html {
             }
             .card-image img {
                 border-radius: 1rem 1rem 0 0;
+                object-fit: cover;
+                height: 20rem;
             }
             .card-content, .card-action, .card-action:last-child {
                 border-radius: 0 0 1rem 1rem;
+            }
+        }
+
+        &.societies {
+            .content{
+                .col {
+                    height: 30rem;
+                    margin: 2rem 0;
+                }
+                .card:hover {
+                    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14),0 9px 46px 8px rgba(0,0,0,0.12),0 11px 15px -7px rgba(0,0,0,0.2);
+                }
+                .card-action{
+                    padding: 4px 24px;
+                    height: 3.5rem;
+                    a {
+                        padding: 1rem;
+                        line-height: 1.3rem;
+                    }
+                    .icon-facebook{
+                        top: -0.33rem;
+                        position: relative;
+                        color: $facebook-color;
+                    }
+                }
             }
         }
 
