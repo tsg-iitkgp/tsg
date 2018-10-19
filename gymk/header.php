@@ -18,6 +18,9 @@
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/fontello/css/fontello.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
+
+        <link rel="canonical" href="http://example.com/" />
+
         <title>TSG</title>
     </head>
 
