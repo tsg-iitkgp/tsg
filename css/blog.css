@@ -6022,13 +6022,6 @@ html {
 html body {
   background: linear-gradient(135deg, #F44336, #673ab7);
   min-height: 100%; }
-html body.homepage .brand-logo {
-  display: none; }
-html body.homepage .fixed-action-btn {
-  right: auto;
-  left: auto;
-  width: 100%;
-  transition: 1s all; }
 @media only screen and (max-width: 600px) {
   html body .container {
     width: 100%; } }
@@ -6149,13 +6142,18 @@ html body .sidenav .header-sidenav h1 {
     padding-left: 0; } }
 html body .sidenav-overlay {
   background-color: rgba(103, 58, 183, 0.5); }
+html body .header {
+  padding-left: 3rem; }
+@media only screen and (max-width: 600px) {
+  html body .header {
+    padding-left: 0rem; } }
 @media only screen and (max-width: 600px) {
   html body .header.valign-wrapper {
     display: inherit;
     align-items: baseline; } }
 @media only screen and (min-width: 601px) {
   html body .header {
-    margin-top: 2rem; } }
+    margin-top: 5rem; } }
 html body .header img {
   width: 10rem; }
 @media only screen and (max-width: 600px) {
@@ -6163,159 +6161,87 @@ html body .header img {
     width: 8rem;
     margin: 2rem; } }
 html body .header h1 {
-  padding-left: 2.5rem;
-  font-size: 3rem;
+  font-size: 5rem !important;
   margin-bottom: 0.25rem;
   margin-top: 0; }
 @media only screen and (max-width: 600px) {
   html body .header h1 {
     text-align: center;
     font-size: 3rem;
-    margin: 0;
-    padding-left: 0.5rem; } }
+    margin: 0; } }
 html body .header h2 {
-  padding-left: 2rem;
   font-size: 1.6rem;
   margin-top: 0.25rem; }
-@media only screen and (min-width: 601px) {
-  html body .header h2 {
-    padding-left: 3rem; } }
 @media only screen and (max-width: 600px) {
   html body .header h2 {
     margin-top: 0.5rem;
     font-size: 1.6rem;
-    padding-left: 0.5rem;
     text-align: center; } }
 html body .intro {
   margin: 0 -3rem; }
 @media only screen and (max-width: 600px) {
   html body .intro {
     margin: 0 -0.5em; } }
-html body .content {
+html body #content {
   padding: 2rem 3rem; }
 @media only screen and (max-width: 600px) {
-  html body .content {
+  html body #content {
     padding: 0; } }
-html body .content .about, html body .content .tsg-graph, html body .content .blog-recent, html body .content .contacts {
-  margin: 2rem 0; }
-html body .content .about h1, html body .content .tsg-graph h1, html body .content .blog-recent h1, html body .content .contacts h1 {
-  font-size: 3rem; }
-html body .content .tsg-graph {
-  margin: 7rem 0; }
-html body .content .blog-recent .card {
-  border-radius: 1rem; }
-html body .content .blog-recent .card-title {
-  font-family: "Roboto Slab", serif; }
-html body .content .blog-recent .card-content {
+html body #content .blog-recent .card-title {
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 0.2rem; }
+html body #content .blog-recent .card-content {
   padding-bottom: 0; }
-html body .content .blog-recent .collection {
+html body #content .blog-recent .collection {
   border: none; }
-html body .content .blog-recent .collection-item {
+html body #content .blog-recent .collection-item {
   padding: 20px 0px; }
-html body.blogpost .content {
+html body #content .blog-recent .collection-item small {
+  font-style: italic;
+  font-size: 1rem; }
+html body #content .blog-recent .collection-item a {
+  margin: 1rem 0; }
+html body #content .blog-recent .collection-item p {
+  margin-top: 2rem; }
+html body.blog #content {
   margin-top: 3rem;
   font-family: "Roboto Slab", sans-serif;
   font-size: 1.2rem; }
 @media only screen and (max-width: 600px) {
-  html body.blogpost .content {
+  html body.blog #content {
     font-size: 1rem; } }
-html body.blogpost .content h1 {
+html body.blog #content h1 {
   font-size: 3.2rem; }
-html body.blogpost .content .description {
+html body.blog #content .description {
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: #222; }
 @media only screen and (min-width: 601px) {
-  html body.blogpost .content .description {
+  html body.blog #content .description {
     margin-left: -32px; } }
-html body.blogpost .content .description img {
+html body.blog #content .description img {
   margin: 0;
   padding: 0;
   height: 72px;
   width: 72px; }
-html body.blogpost .content .description .col {
+html body.blog #content .description .col {
   margin-left: 0; }
-html body.blogpost .content .description p {
+html body.blog #content .description p {
   margin: .25rem; }
-html body.blogpost .content .comments {
+html body.blog #content .comments {
   margin-top: 4rem;
   margin-bottom: 4rem; }
+html body.blog .fixed-action-btn .btn-floating {
+  border-radius: 2rem; }
 @media only screen and (min-width: 601px) {
-  html body.blogpost .fixed-action-btn {
+  html body.blog .fixed-action-btn {
     right: 15rem; } }
 @media only screen and (min-width: 1100px) {
-  html body.blogpost .fixed-action-btn {
+  html body.blog .fixed-action-btn {
     right: 20rem; } }
-html body.interiit .content h1, html body.gc .content h1, html body.contacts .content h1, html body.societies .content h1 {
-  font-size: 4em;
-  text-align: center; }
-html body.interiit .content h2, html body.gc .content h2 {
-  font-size: 3rem; }
-html body.interiit .content .tab a, html body.gc .content .tab a {
-  padding: 0px; }
-@media only screen and (max-width: 600px) {
-  html body.interiit .content .s2, html body.gc .content .s2 {
-    width: auto; }
-  html body.interiit .content .tab-container, html body.gc .content .tab-container {
-    padding: 0; }
-  html body.interiit .content .tab a, html body.gc .content .tab a {
-    font-size: 14px; }
-  html body.interiit .content .tab, html body.gc .content .tab {
-    text-transform: none; } }
-html body.interiit .content #aquatics ul, html body.interiit .content #aquatics li, html body.interiit .content #sports ul, html body.interiit .content #sports li, html body.interiit .content #tech ul, html body.interiit .content #tech li, html body.interiit .content #socult ul, html body.interiit .content #socult li, html body.gc .content #aquatics ul, html body.gc .content #aquatics li, html body.gc .content #sports ul, html body.gc .content #sports li, html body.gc .content #tech ul, html body.gc .content #tech li, html body.gc .content #socult ul, html body.gc .content #socult li {
-  list-style-type: disc; }
-html body.interiit .content .flex-container, html body.gc .content .flex-container {
-  display: flex !important;
-  flex-wrap: wrap !important; }
-html body.interiit .content .interiit-img-1, html body.interiit .content .interiit-img-2, html body.interiit .content .interiit-img-3, html body.interiit .content .interiit-img-4, html body.gc .content .interiit-img-1, html body.gc .content .interiit-img-2, html body.gc .content .interiit-img-3, html body.gc .content .interiit-img-4 {
-  width: 50%;
-  height: 100%;
-  padding-right: 10px;
-  padding-bottom: 10px; }
-@media only screen and (max-width: 600px) {
-  html body.interiit .content .interiit-img-1, html body.interiit .content .interiit-img-2, html body.interiit .content .interiit-img-3, html body.interiit .content .interiit-img-4, html body.gc .content .interiit-img-1, html body.gc .content .interiit-img-2, html body.gc .content .interiit-img-3, html body.gc .content .interiit-img-4 {
-    width: 100%; } }
-html body.interiit .content .btn, html body.interiit .content .btn-large, html body.interiit .content .btn-small, html body.gc .content .btn, html body.gc .content .btn-large, html body.gc .content .btn-small {
-  background-color: #f07;
-  padding-bottom: 10px; }
-html body.contacts #modal-complaint, html body.societies #modal-complaint {
-  height: 100% !important;
-  overflow: hidden;
-  border-radius: 1rem; }
-html body.contacts .flex-container, html body.societies .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0 auto; }
-html body.contacts .modal, html body.societies .modal {
-  max-height: 80%; }
-html body.contacts .modal-overlay, html body.societies .modal-overlay {
-  background-color: #673ab7; }
-html body.contacts .card, html body.societies .card {
-  border-radius: 1rem;
-  width: 100%;
-  margin: 0 auto; }
-html body.contacts .card-image img, html body.societies .card-image img {
-  border-radius: 1rem 1rem 0 0;
-  object-fit: cover;
-  height: 20rem; }
-html body.contacts .card-content, html body.contacts .card-action, html body.contacts .card-action:last-child, html body.societies .card-content, html body.societies .card-action, html body.societies .card-action:last-child {
-  border-radius: 0 0 1rem 1rem; }
-html body.societies .content .col {
-  height: 30rem;
-  margin: 2rem 0; }
-html body.societies .content .card:hover {
-  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2); }
-html body.societies .content .card-action {
-  padding: 4px 24px;
-  height: 3.5rem; }
-html body.societies .content .card-action a {
-  padding: 1rem;
-  line-height: 1.3rem; }
-html body.societies .content .card-action .icon-facebook {
-  top: -0.33rem;
-  position: relative;
-  color: #3b5998; }
+html body.blog .fixed-action-btn .icon-facebook, html body.blog .fixed-action-btn .icon-twitter {
+  font-family: "fontello"; }
 html body .links {
   position: relative;
   z-index: 0;
@@ -6338,4 +6264,4 @@ html body .footer {
   color: rgba(255, 255, 255, 0.5);
   padding: 3em; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=blog.css.map */
