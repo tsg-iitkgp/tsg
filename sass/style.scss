@@ -32,6 +32,16 @@ html {
                 width: 100%;
             }
         }
+        @media #{$large-and-up} {
+            .container {
+                width: 85%;
+            }
+        }
+        @media #{$extra-large-and-up} {
+            .container {
+                width: 75%;
+            }
+        }
         .page{
             position: relative;
             z-index: 10;
@@ -87,7 +97,7 @@ html {
                 }
                 &:after{
                     padding-left: 3rem;
-                    content: "TSG";
+                    content: "Technology Student's Gymkhana";
                     font-size: 1.6rem;
                 }
                 span {
@@ -103,29 +113,6 @@ html {
                     }
                     span {
                         padding-left: 0;
-                    }
-                }
-                
-                @media #{$extra-large-and-up} {
-                    font-size: 1.7rem;
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                        padding-left: 3rem;
-                        font-size: 1.25rem;
-                    }
-                }
-                @media #{"only screen and (min-width : #{1400px})"} {
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                        padding-left: 3rem;
-                        font-size: 1.7rem;
-                    }
-                }
-
-                @media #{$medium-and-down} {
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                        font-size: 1.6rem;
                     }
                 }
 
@@ -192,15 +179,6 @@ html {
                         padding-left: 0;
                     }
                 }
-                // h2 {
-                //     padding-left: 2rem;
-                //     font-size: 1.4rem;
-                //     margin-top: 0.25rem;
-                //     @media #{$small-and-down} {
-                //         font-size: 1.3rem;
-                //         padding-left: 0;
-                //     }
-                // }
             }
         }
         .sidenav-overlay {
@@ -412,6 +390,14 @@ html {
                     background-color: #f07;
                     padding-bottom: 10px;
                 }
+            }
+        }
+        &.interiit {
+            .tabs {
+                overflow-x: hidden;
+            }
+            .tab {
+                width: 20%;
             }
         }
 
