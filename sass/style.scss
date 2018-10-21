@@ -395,13 +395,16 @@ html {
                     display: flex !important;
                     flex-wrap: wrap !important;
                 }
-                .interiit-img-1,.interiit-img-2,.interiit-img-3,.interiit-img-4 {
+                .material-placeholder {
                     
                     width: 50%;
                     height: 100%;
                     padding-right: 10px;
                     padding-bottom: 10px; 
                     @media #{$small-and-down} {
+                        width: 100%;
+                    }
+                    .interiit-img {
                         width: 100%;
                     }
                 }
