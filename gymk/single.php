@@ -7,69 +7,88 @@
 get_header();
 ?>
 
-	<div id="content" class="row" role="main">
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	
+<h2 class="post-title"><?php the_title(); ?></h2>
+<?php
+if ( has_post_thumbnail() ) {
+	the_post_thumbnail();
+} 
+?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<div id="content" class="row" role="main">
+	
+	<div <?php post_class("col s12 m9 l8 offset-m1 offset-l1"); ?> id="post-<?php the_ID(); ?>">
+		<!-- <h2><?php //the_title(); ?></h2> -->
 
-		<div class="navigation">
-			<div class="alignleft"><?php previous_post_link( '%link', '&laquo; %title' ) ?></div>
-			<div class="alignright"><?php next_post_link( '%link', '%title &raquo;' ) ?></div>
-		</div>
-		
-		<div <?php post_class("col s12 m9 l8 offset-m1 offset-l1"); ?> id="post-<?php the_ID(); ?>">
-		<h2><?php the_title(); ?></h2>
-		
-		<div class="entry">
-				<?php the_content('<p class="serif">' . __('Read the rest of this entry &raquo;', 'kubrick') . '</p>'); ?>
+		<div class="description row  valign-wrapper grey-text text-darken-2">
+			<?php echo get_avatar( get_the_author_meta( 'ID' ), 72); ?>
 
-				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-				<?php the_tags( '<p>' . __('Tags:', 'kubrick') . ' ', ', ', '</p>'); ?>
-
-				<p class="postmetadata alt">
-					<small>
-						<?php /* This is commented, because it requires a little adjusting sometimes.
-							You'll need to download this plugin, and follow the instructions:
-							http://binarybonsai.com/wordpress/time-since/ */
-							/* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); $time_since = sprintf(__('%s ago', 'kubrick'), time_since($entry_datetime)); */ ?>
-						<?php printf(__('This entry was posted on %1$s at %2$s and is filed under %3$s.', 'kubrick'), get_the_time(__('l, F jS, Y', 'kubrick')), get_the_time(), get_the_category_list(', ')); ?>
-						<?php printf(__("You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed.", "kubrick"), get_post_comments_feed_link()); ?> 
-
-						<?php if ( comments_open() && pings_open() ) {
-							// Both Comments and Pings are open ?>
-							<?php printf(__('You can <a href="#respond">leave a response</a>, or <a href="%s" rel="trackback">trackback</a> from your own site.', 'kubrick'), get_trackback_url()); ?>
-
-						<?php } elseif ( !comments_open() && pings_open() ) {
-							// Only Pings are Open ?>
-							<?php printf(__('Responses are currently closed, but you can <a href="%s" rel="trackback">trackback</a> from your own site.', 'kubrick'), get_trackback_url()); ?>
-
-						<?php } elseif ( comments_open() && !pings_open() ) {
-							// Comments are open, Pings are not ?>
-							<?php _e('You can skip to the end and leave a response. Pinging is currently not allowed.', 'kubrick'); ?>
-
-						<?php } elseif ( !comments_open() && !pings_open() ) {
-							// Neither Comments, nor Pings are open ?>
-							<?php _e('Both comments and pings are currently closed.', 'kubrick'); ?>
-
-						<?php } edit_post_link(__('Edit this entry', 'kubrick'),'','.'); ?>
-
-					</small>
-				</p>
+			<!-- <img src="static/images/blog-author-1.jpg" alt="" class="circle responsive-img col s2"> -->
+			
+			<div class="col s8">
+				<p><?php echo get_the_author_meta("display_name"); ?></p>
+				<p><?php 
+						$days = round((date('U') - get_the_time('U')) / (60*60*24));
+						if ($days==0) {
+							echo "Published today"; 
+						}
+						elseif ($days==1) {
+							echo "Published yesterday"; 
+						}
+						else {
+							echo "Published " . $days . " days ago";
+						} 
+					?>
+					/ 
+					<?php
+					    $count_key = 'post_views_count';
+						$count = get_post_meta($postID, $count_key, true);
+						echo $count.' Views';
+					?> / 
+					<?php 
+				$content = get_post_field( 'post_content', $post->ID );
+				$word_count = str_word_count( strip_tags( $content ) );
+				$readingtime = ceil($word_count / 200);
 				
+				if ($readingtime == 1) {
+					$timer = " minute";
+				} else {
+					$timer = " minutes";
+				}
+				$totalreadingtime = $readingtime . $timer;
+				
+				echo $totalreadingtime;
+				?> read</p>
 			</div>
 		</div>
 		
+		<div class="entry">
+			
+			<?php the_content('<p class="serif">' . __('Read the rest of this entry &raquo;', 'kubrick') . '</p>'); ?>
+			
+			<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+			<?php the_tags( '<p>' . __('Tags:', 'kubrick') . ' ', ', ', '</p>'); ?>
+			
+		</div>
+	</div>
+	<div class="navigation col offset-m1 offset-l2">
+		<div class="alignleft"><?php previous_post_link( '%link', '&laquo; %title' ) ?></div>
+		<div class="alignright"><?php next_post_link( '%link', '%title &raquo;' ) ?></div>
+	</div>
+	<?php $withcomments="1"; comments_template(); ?>
+			
+	
+	
+	<?php endwhile; else: ?>
 		
-		<?php comments_template(); ?>
-		
-		<?php endwhile; else: ?>
-		
-		<p><?php _e('Sorry, no posts matched your criteria.', 'kubrick'); ?></p>
-		
-		<?php endif; ?>
-		
-		<div class="fixed-action-btn">
-			<span class="btn-floating btn-large blue">
-				<i class="large material-icons">share</i>
+	<p><?php _e('Sorry, no posts matched your criteria.', 'kubrick'); ?></p>
+	
+	<?php endif; ?>
+	
+	<div class="fixed-action-btn">
+		<span class="btn-floating btn-large blue">
+			<i class="large material-icons">share</i>
 		</span>
 		<ul>
 			<li><a class="btn-floating green"><i class="material-icons">email</i></a></li>
@@ -79,6 +98,6 @@ get_header();
 		</ul>
 	</div>
 
-	</div>
+</div>
 
 <?php get_footer(); ?>

@@ -27,7 +27,7 @@ get_header(); ?>
 				<?php if (have_posts()) : ?>
 					<?php while (have_posts()) : the_post(); ?>
 						<li class="collection-item">
-							<span class="card-title"><?php the_title(); ?></span>
+							<a class="post-title" href="<?php the_permalink() ?>"><span class="card-title"><?php the_title(); ?></span></a>
 							<small><?php the_time(__('F jS, Y', 'kubrick')) ?> <!-- by <?php the_author() ?> --></small>
 							<p><?php the_excerpt(); ?></p>
 							<a href="<?php the_permalink() ?>" class="purple-text btn-flat waves-effect">Read More <i class="material-icons right">keyboard_arrow_right</i> </a>

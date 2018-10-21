@@ -20,6 +20,17 @@ html {
                 width: 100%;
             }
         }
+
+        @media #{$large-and-up} {
+            .container {
+                width: 85%;
+            }
+        }
+        @media #{$extra-large-and-up} {
+            .container {
+                width: 75%;
+            }
+        }
         .page{
             position: relative;
             z-index: 10;
@@ -75,7 +86,7 @@ html {
                 }
                 &:after{
                     padding-left: 3rem;
-                    content: "TSG";
+                    content: "Technology Students' Gymkhana";
                     font-size: 1.6rem;
                 }
                 span {
@@ -93,27 +104,11 @@ html {
                         padding-left: 0;
                     }
                 }
-                
-                @media #{$extra-large-and-up} {
-                    font-size: 1.7rem;
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                        padding-left: 3rem;
-                        font-size: 1.25rem;
-                    }
-                }
-                @media #{"only screen and (min-width : #{1400px})"} {
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                        padding-left: 3rem;
-                        font-size: 1.7rem;
-                    }
-                }
 
-                @media #{$medium-and-down} {
-                    &:after{
-                        content: "Technology Students' Gymkhana";
-                        font-size: 1.6rem;
+                @media #{"only screen and (min-width : #{1500px})"} {
+                    &:after {
+                        font-size: 1.7rem;
+                        // padding-left: 0px;
                     }
                 }
 
@@ -268,6 +263,11 @@ html {
                     // font-weight: bold;
                 }
 
+                .post-title{
+                    text-decoration: none;
+                    color: #222;
+                }
+
                 .card-content {
                     padding-bottom: 0;
                 }
@@ -294,8 +294,23 @@ html {
         }
 
         &.blog {
+
+            .post-title {
+                margin-top: 6rem;
+                margin-left: 8.33%;
+            }
+            .wp-post-image {
+                margin-top: 2rem;
+                width: 100%;
+                height: 30rem;
+                object-fit: cover;
+                @media #{$small-and-down} {
+                    height: 18rem;
+                }
+            }
+            
             #content {
-                margin-top: 3rem;
+                // margin-top: 1rem;
                 font-family: "Roboto Slab", sans-serif;
                 font-size: 1.2rem;
 
@@ -319,6 +334,7 @@ html {
                         padding: 0;
                         height: 72px;
                         width: 72px;
+                        border-radius: 50%;
                     }
                     .col {
                         margin-left: 0;
