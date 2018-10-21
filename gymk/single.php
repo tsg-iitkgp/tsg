@@ -72,11 +72,15 @@ if ( has_post_thumbnail() ) {
 			
 		</div>
 	</div>
-	<div class="navigation col offset-m1 offset-l2">
+
+	<!-- <hr class="col s12"> -->
+	
+	<?php $withcomments="1"; comments_template(); ?>
+
+	<div class="navigation col s12">
 		<div class="alignleft"><?php previous_post_link( '%link', '&laquo; %title' ) ?></div>
 		<div class="alignright"><?php next_post_link( '%link', '%title &raquo;' ) ?></div>
 	</div>
-	<?php $withcomments="1"; comments_template(); ?>
 			
 	
 	
