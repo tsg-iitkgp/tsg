@@ -11,27 +11,29 @@
 
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
 
+        <link rel="stylesheet" href="fontello/css/fontello.css">
+
 
         <link rel="stylesheet" href="css/style.css">
 
         <title>TSG</title>
     </head>
 
-    <body class="homepage">
-        <script type="text/javascript" src="js/index.js"></script>
+    <body class="interiit">
         <div class="container page z-depth-5">
             <nav class="navigation">
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="#" class="brand-logo left valign-wrapper">
+                    <a href="index.html" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-                        <span>Technology Students’ Gymkhana</span>
+                        <!-- <span>Technology Students’ Gymkhana</span> -->
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
-                        <li class="active"><a href="index.html" class="waves-effect waves-light">Home</a></li>
-                        <li><a href="interiit.html" class="waves-effect">Inter IIT</a></li>
+                        <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
+                        <!-- CSS :after inserts the Appropriate text -->
+                        <li class="active"><a href="interiit.html" class="waves-effect waves-light">Inter IIT</a></li>
                         <li><a href="gc.html" class="waves-effect">GC</a></li>
-                        <li><a href="#" class="waves-effect">Fests</a></li>
+                        <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
                         <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
@@ -39,57 +41,99 @@
                 </div>
             </nav>
 
-
-
-            
-            
-            
-            
-            
             <div class="content">
-                <div class="header row valign-wrapper">
-                    <div class="col s12 m3 center">
-                        <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
-                    </div>
-                    <div class="col m9 s12">
-                        <h1>Technology Students' Gymkhana</h1>
-                        <h2>Indian Institute of Technology Kharagpur</h2>
-                    </div>
-                </div>
-    
-                <div class="intro center">
-                    <img src="static/images/gymkhana.png" alt="Gymkhana main Image" class="responsive-img">
-    
-                </div>
+                <h1>Inter IIT</h1>
+
+
+                
                 <div class="row">
-                    <div class="about col s12 m8 offset-m2" id = "about">
-                        <h1>About</h1>
-                        <p>
-                            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
-                        </p>
+                <div class="col s12 tab-container">
+                    <ul class="tabs">
+                    <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li>
+                    <li class="tab"><a href="#sports">Sports</a></li>
+                    <li class="tab"><a href="#tech">Technology</a></li>
+                    <li class="tab"><a href="#socult">SoCult</a></li>
+                    <li class="tab"><a href="#yesteryear">Point's Tally</a></li>
+                    </ul>
+                </div>
+                <div id="aquatics" class="col s12 row">
+                    <div class="col s12">
+                        <h2>Aquatics 2018</h2>
+                        <h4>Updates</h4>
+                        <ul class="bullet">
+                            <?php
+                              $mysqli = new mysqli("localhost", "dibya", "dibyaWP@99", "wp_myblog");
+                              $result = $mysqli->query("SELECT * FROM aquatics_news");
+                              
+                              while($row = mysqli_fetch_array($result))
+                              {
+                                echo "<li>".$row['news']."</li>";
+                                // echo "<br />";
+                              }
+                              $result->close();
+                              $mysqli->close();
+                          ?>
 
-                        <blockquote cite="http://">
-                            "Yogah Karmasu Kausalam"
-                        </blockquote>
-
-                        <p>
-                            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
-                        </p>
-
-                        <a href="#" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
-                        <a href="#" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
+                        </ul>
+                    </div>
+                    <div class="col m6 s12">
+                        <h4>Women's contingent</h4>
+                        <ul class="bullet">
+                            <li>Oindrila Saha</li>
+                            <li>Kalyani Ingle</li>
+                            <li>Aditi Sen</li>
+                            <li>Supriti Sen</li>
+                            <li>Barsa Majmder</li>
+                        </ul>
                     </div>
 
+                    <div class="col m6 s12">
+                        <h4>Men's contingent</h4>
+                        <ul class="bullet">
+                            <li>Amlan Shil</li>
+                            <li>Gitanshu Bhatia</li>
+                            <li>Shaswat Gangwal</li>
+                            <li>Anirudh Agrawal</li>
+                            <li>Indresh</li>
+                            <li>Raj Prabhu</li>
+                            <li>Utkarsh Sah</li>
+                            <li>Soham Chandorkar</li>
+                            <li>Pushpak Roy</li>
+                            <li>Harsh Choudhary</li>
+                            <li>Rahul Saxena</li>
+                            <li>Arpan Dey</li>
+                            <li>Shubham Pandey</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div id="sports" class="col s12">
+                    <h2>Sports</h2>
+                    Page will be updated soon!
+                </div>
+                <div id="tech" class="col s12">
+                    <h2>Technology</h2>
+                    Page will be updated soon!
+                </div>
+                <div id="socult" class="col s12">
+                    <h2>Social and Cultural</h2>
+                    Page will be updated soon!
+                </div>
+                <div id="yesteryear" class="col s12">
+                    <h2>Last year's Point Tally</h2>
+                    <a class="waves-effect waves-light btn" href="https://docs.google.com/spreadsheets/d/1uWW-CS3e6o9UNgkmmlKyUbaAVWsOSfEiOJfV7ELvQX0/edit?usp=drivesdk">INTER IIT POINT'S TALLY</a><br>
+                    <div class="flex-container">
+                    <img class="interiit-img materialboxed" src="static/images/interiit socult.jpg">
+                    <img class="interiit-img materialboxed" src="static/images/interiit tech.jpg">
+                    <img class="interiit-img materialboxed" src="static/images/interiit sports.jpg">
+                    <img class="interiit-img materialboxed" src="static/images/interiit sports individual.jpg">
+                    </div>
+                </div>
                 </div>
 
                 <!-- <div class="carrousel">
-
                 </div> -->
 
-                <div class="tsg-graph row">
-                    <h1 class="col m8 offset-m2">G C Standings</h1>
-                    <div class="infogram-embed s12" data-id="bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" data-type="interactive" data-title="GC Sports"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-                </div>
 
             </div>
         </div>
@@ -143,30 +187,26 @@
                 </div>
             </div>
         </div>
-
-        <div class="fixed-action-btn center">
-            <a href="#about" class="btn-floating pulse waves-effect waves-light deep-purple"><i class="material-icons">expand_more</i></a>
-        </div>
-
+        
         <ul class="sidenav" id="mobile-demo">
-             <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
-                <div class="col s5 m3 center">
-                    <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
-                </div>
-                <div class="col m9 s7 valign-wrapper">
-                    <h1>Technology Students' Gymkhana</h1>
-                    <!-- <h2>Indian Institute of Technology Kharagpur</h2> -->
-                </div>
-            </div>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="interiit.html">Inter IIT</a></li>
-            <li><a href="gc.html">GC</a></li>
-            <li><a href="#">Fests</a></li>
-            <li><a href="societies.html">Societies</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="blogpost.html">Blog</a></li>
-           
-        </ul>
+            <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
+               <div class="col s5 m3 center">
+                   <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
+               </div>
+               <div class="col m9 s7 valign-wrapper">
+                   <h1>Technology Students' Gymkhana</h1>
+                   <!-- <h2>Indian Institute of Technology Kharagpur</h2> -->
+               </div>
+           </div>
+           <li><a href="index.html">Home</a></li>
+           <li class="active"><a href="interiit.html">Inter IIT</a></li>
+           <li><a href="gc.html">GC</a></li>
+           <li><a href="fests.html">Fests</a></li>
+           <li><a href="societies.html">Societies</a></li>
+           <li><a href="contacts.html">Contacts</a></li>
+           <li><a href="blogpost.html">Blog</a></li>
+          
+       </ul>
 
         <div class="footer center">
             <div class="footer-copyright">
@@ -176,7 +216,17 @@
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+                $('.sidenav').sidenav();                
+                $('.tabs').tabs({
+                    swipeable: false
+                });
+                $('.materialboxed').materialbox();
+            });
+
+        </script>
     </body>
 
 </html>
