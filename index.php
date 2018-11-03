@@ -87,7 +87,7 @@
                 </div> -->
 
                 <div class="tsg-graph row">
-                    <h1 class="col m8 offset-m2">G C Standings</h1>
+                    <h1 class="col m8 offset-m2">G C Standings - 2017</h1>
                     <div class="infogram-embed s12" data-id="bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" data-type="interactive" data-title="GC Sports"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
                 </div>
 

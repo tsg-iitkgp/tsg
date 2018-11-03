@@ -24,14 +24,14 @@
             <nav class="navigation">
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="index.html" class="brand-logo left valign-wrapper">
+                    <a href="index.php" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
                         <!-- <span>Technology Students’ Gymkhana</span> -->
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
                         <!-- CSS :after inserts the Appropriate text -->
-                        <li class="active"><a href="interiit.html" class="waves-effect waves-light">Inter IIT</a></li>
+                        <li class="active"><a href="interiit.php" class="waves-effect waves-light">Inter IIT</a></li>
                         <li><a href="gc.html" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
