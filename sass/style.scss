@@ -234,6 +234,7 @@ html {
 
         .intro {
             margin: 0 -3rem;
+            margin-top: -4rem;
             @media #{$small-and-down} {
                 margin: 0 -0.5em;
             }
