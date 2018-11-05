@@ -29,12 +29,12 @@
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <li class="active"><a href="index.html" class="waves-effect waves-light">Home</a></li>
-                        <li><a href="interiit.html" class="waves-effect">Inter IIT</a></li>
+                        <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
                         <li><a href="gc.html" class="waves-effect">GC</a></li>
-                        <li><a href="#" class="waves-effect">Fests</a></li>
+                        <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-                        <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
+                        <li><a href="blog/" class="waves-effect">Blog</a></li>
                     </ul>
                 </div>
             </nav>
@@ -87,38 +87,8 @@
                 </div> -->
 
                 <div class="tsg-graph row">
-                    <h1 class="col m8 offset-m2">G C Standings</h1>
+                    <h1 class="col m8 offset-m2">G C Standings - 2017</h1>
                     <div class="infogram-embed s12" data-id="bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" data-type="interactive" data-title="GC Sports"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-                </div>
-
-                <div class="blog-recent row">
-                    <h1 class="col m8 offset-m2">Blog</h1>
-                    <div class="col m8 offset-m2 card z-depth-0">
-                        <div class="card-content">
-                            <ul class="collection">
-                                <li class="collection-item">
-                                    <span class="card-title">Sixth of September: A Day of Pride</span>
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectivel.</p>
-                                    <a href="#" class="purple-text btn-flat waves-effect">Read More <i class="material-icons right">keyboard_arrow_right</i> </a>
-                                </li>
-                                <li class="collection-item">
-                                    <span class="card-title">Sixth Day of Pride</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse nulla pariatur.</p>
-                                    <a href="#" class="purple-text btn-flat waves-effect">Read More <i class="material-icons right">keyboard_arrow_right</i> </a>
-                                </li>
-                                <li class="collection-item">
-                                    <span class="card-title">Sixth of A Day of Pride</span>
-                                    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
-                                    <a href="#" class="purple-text btn-flat waves-effect">Read More <i class="material-icons right">keyboard_arrow_right</i> </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-action">
-                            <a href="#" class="btn purple waves-effect waves-light">Older Posts</a>
-                        </div>
-                    </div>
                 </div>
 
             </div>
@@ -194,7 +164,7 @@
             <li><a href="#">Fests</a></li>
             <li><a href="societies.html">Societies</a></li>
             <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="blogpost.html">Blog</a></li>
+            <li><a href="blog/">Blog</a></li>
            
         </ul>
 

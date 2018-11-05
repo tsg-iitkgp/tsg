@@ -21,47 +21,6 @@ if ( has_post_thumbnail() ) {
 	<div <?php post_class("col s12 m9 l8 offset-m1 offset-l1"); ?> id="post-<?php the_ID(); ?>">
 		<!-- <h2><?php //the_title(); ?></h2> -->
 
-		<div class="description row  valign-wrapper grey-text text-darken-2">
-			<?php echo get_avatar( get_the_author_meta( 'ID' ), 72); ?>
-
-			<!-- <img src="static/images/blog-author-1.jpg" alt="" class="circle responsive-img col s2"> -->
-			
-			<div class="col s8">
-				<p><?php echo get_the_author_meta("display_name"); ?></p>
-				<p><?php 
-						$days = round((date('U') - get_the_time('U')) / (60*60*24));
-						if ($days==0) {
-							echo "Published today"; 
-						}
-						elseif ($days==1) {
-							echo "Published yesterday"; 
-						}
-						else {
-							echo "Published " . $days . " days ago";
-						} 
-					?>
-					/ 
-					<?php
-					    $count_key = 'post_views_count';
-						$count = get_post_meta($postID, $count_key, true);
-						echo $count.' Views';
-					?> / 
-					<?php 
-				$content = get_post_field( 'post_content', $post->ID );
-				$word_count = str_word_count( strip_tags( $content ) );
-				$readingtime = ceil($word_count / 200);
-				
-				if ($readingtime == 1) {
-					$timer = " minute";
-				} else {
-					$timer = " minutes";
-				}
-				$totalreadingtime = $readingtime . $timer;
-				
-				echo $totalreadingtime;
-				?> read</p>
-			</div>
-		</div>
 		
 		<div class="entry">
 			

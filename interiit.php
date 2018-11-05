@@ -19,7 +19,7 @@
         <title>TSG</title>
     </head>
 
-    <body class="societies">
+    <body class="interiit">
         <div class="container page z-depth-5">
             <nav class="navigation">
                 <div class="nav-wrapper">
@@ -27,66 +27,114 @@
                     <a href="index.php" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
                         <!-- <span>Technology Students’ Gymkhana</span> -->
-                        <!-- CSS :after inserts the Appropriate text -->
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
-                        <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
-                        <li><a href="gc.php" class="waves-effect">GC</a></li>
-                        <li class="active"><a href="fests.html" class="waves-effect waves-light">Fests</a></li>
+                        <!-- CSS :after inserts the Appropriate text -->
+                        <li class="active"><a href="interiit.php" class="waves-effect waves-light">Inter IIT</a></li>
+                        <li><a href="gc.html" class="waves-effect">GC</a></li>
+                        <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-                        <li><a href="blog/" class="waves-effect">Blog</a></li>
+                        <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
                     </ul>
                 </div>
             </nav>
 
             <div class="content">
-                <h1>Fests</h1>
-        
+                <h1>Inter IIT</h1>
+
+
+                
                 <div class="row">
-                    <div class="col s12 m6 l6">
-                        <div class="card z-depth-1 sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="static/images/sf.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Spring Fest<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-action">
-                                <a class="waves-effect btn-flat" href="https://www.facebook.com/springfest.iitkgp/"><i class="icon-facebook"></i></a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Spring Fest<i class="material-icons right">close</i></span>
-                                <p>The grandest festival of IIT Kharagpur is here! Spring Fest enters into its Diamond Jubilee year and welcomes you to join in the culmination of 60 glorious years. Revel in the celebration of a nostalgia filled journey that promises to be full of enjoyment and leave you with tons of rich memories.
-Come one, come all, to the Diamond Jubilee celebration of Spring Fest!</p>
-                            </div>
-                        </div>
+                <div class="col s12 tab-container">
+                    <ul class="tabs">
+                    <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li>
+                    <li class="tab"><a href="#sports">Sports</a></li>
+                    <li class="tab"><a href="#tech">Technology</a></li>
+                    <li class="tab"><a href="#socult">SoCult</a></li>
+                    <li class="tab"><a href="#yesteryear">Point's Tally</a></li>
+                    </ul>
+                </div>
+                <div id="aquatics" class="col s12 row">
+                    <div class="col s12">
+                        <h2>Aquatics 2018</h2>
+                        <h4>Updates</h4>
+                        <ul class="bullet">
+                            <?php
+                              $mysqli = new mysqli("localhost", "dibya", "dibyaWP@99", "wp_myblog");
+                              $result = $mysqli->query("SELECT * FROM aquatics_news");
+                              
+                              while($row = mysqli_fetch_array($result))
+                              {
+                                echo "<li>".$row['news']."</li>";
+                                // echo "<br />";
+                              }
+                              $result->close();
+                              $mysqli->close();
+                          ?>
+
+                        </ul>
+                    </div>
+                    <div class="col m6 s12">
+                        <h4>Women's contingent</h4>
+                        <ul class="bullet">
+                            <li>Oindrila Saha</li>
+                            <li>Kalyani Ingle</li>
+                            <li>Aditi Sen</li>
+                            <li>Supriti Sen</li>
+                            <li>Barsa Majmder</li>
+                        </ul>
                     </div>
 
-                    <div class="col s12 m6 l6">
-                        <div class="card z-depth-1 sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="static/images/ktj.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Kshitij<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-action">
-                                <a class="waves-effect btn-flat" href="https://www.facebook.com/ktj.iitkgp/"><i class="icon-facebook"></i></a>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Kshitij<i class="material-icons right">close</i></span>
-                                <p>While the competitions at Kshitij prove to be the ultimate test of grit, knowledge and skill, the guest lectures and workshops provide an enriching experience for the avid learners. The fest has been graced by the presence of such luminaries who are looked up to for their distinguished contribution in their respective fields. The upcoming 16th edition is going to be held from 18th-20th January 2019.
-Above all, with over 70,000 participation per year and a prize money of over INR 5 million, it is the Asia'a largest Techno-Management Symposium.</p>
-                            </div>
-                        </div>
+                    <div class="col m6 s12">
+                        <h4>Men's contingent</h4>
+                        <ul class="bullet">
+                            <li>Amlan Shil</li>
+                            <li>Gitanshu Bhatia</li>
+                            <li>Shaswat Gangwal</li>
+                            <li>Anirudh Agrawal</li>
+                            <li>Indresh</li>
+                            <li>Raj Prabhu</li>
+                            <li>Utkarsh Sah</li>
+                            <li>Soham Chandorkar</li>
+                            <li>Pushpak Roy</li>
+                            <li>Harsh Choudhary</li>
+                            <li>Rahul Saxena</li>
+                            <li>Arpan Dey</li>
+                            <li>Shubham Pandey</li>
+                        </ul>
                     </div>
 
+                </div>
+                <div id="sports" class="col s12">
+                    <h2>Sports</h2>
+                    Page will be updated soon!
+                </div>
+                <div id="tech" class="col s12">
+                    <h2>Technology</h2>
+                    Page will be updated soon!
+                </div>
+                <div id="socult" class="col s12">
+                    <h2>Social and Cultural</h2>
+                    Page will be updated soon!
+                </div>
+                <div id="yesteryear" class="col s12">
+                    <h2>Last year's Point Tally</h2>
+                    <a class="waves-effect waves-light btn" href="https://docs.google.com/spreadsheets/d/1uWW-CS3e6o9UNgkmmlKyUbaAVWsOSfEiOJfV7ELvQX0/edit?usp=drivesdk">INTER IIT POINT'S TALLY</a><br>
+                    <div class="flex-container">
+                    <img class="interiit-img materialboxed" src="static/images/interiit socult.jpg">
+                    <img class="interiit-img materialboxed" src="static/images/interiit tech.jpg">
+                    <img class="interiit-img materialboxed" src="static/images/interiit sports.jpg">
+                    <img class="interiit-img materialboxed" src="static/images/interiit sports individual.jpg">
+                    </div>
+                </div>
                 </div>
 
                 <!-- <div class="carrousel">
                 </div> -->
+
+
             </div>
         </div>
 
@@ -139,7 +187,7 @@ Above all, with over 70,000 participation per year and a prize money of over INR
                 </div>
             </div>
         </div>
-
+        
         <ul class="sidenav" id="mobile-demo">
             <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
                <div class="col s5 m3 center">
@@ -151,9 +199,9 @@ Above all, with over 70,000 participation per year and a prize money of over INR
                </div>
            </div>
            <li><a href="index.html">Home</a></li>
-           <li><a href="interiit.html">Inter IIT</a></li>
+           <li class="active"><a href="interiit.html">Inter IIT</a></li>
            <li><a href="gc.html">GC</a></li>
-           <li class="active"><a href="fests.html">Fests</a></li>
+           <li><a href="fests.html">Fests</a></li>
            <li><a href="societies.html">Societies</a></li>
            <li><a href="contacts.html">Contacts</a></li>
            <li><a href="blogpost.html">Blog</a></li>
@@ -168,12 +216,16 @@ Above all, with over 70,000 participation per year and a prize money of over INR
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-        <!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
-        <script type="text/javascript">  
+        <script type="text/javascript">
+
             $(document).ready(function(){
-                $('.modal').modal();
-                $('.sidenav').sidenav();
+                $('.sidenav').sidenav();                
+                $('.tabs').tabs({
+                    swipeable: false
+                });
+                $('.materialboxed').materialbox();
             });
+
         </script>
     </body>
 

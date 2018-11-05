@@ -18,6 +18,7 @@ get_header(); ?>
 		</div>
 	</div>
 	
+
 	<div class="blog-recent row">
 		<!-- <h1 class="col m8 offset-m2">Blog</h1> -->
 		<div class="col m9 offset-m1 card z-depth-0">
@@ -26,12 +27,14 @@ get_header(); ?>
 				
 				<?php if (have_posts()) : ?>
 					<?php while (have_posts()) : the_post(); ?>
+
 						<li class="collection-item">
 							<a class="post-title" href="<?php the_permalink() ?>"><span class="card-title"><?php the_title(); ?></span></a>
 							<small><?php the_time(__('F jS, Y', 'kubrick')) ?> <!-- by <?php the_author() ?> --></small>
-							<p><?php the_excerpt(); ?></p>
+							<?php the_excerpt(); ?>
 							<a href="<?php the_permalink() ?>" class="purple-text btn-flat waves-effect">Read More <i class="material-icons right">keyboard_arrow_right</i> </a>
 						</li>
+							
 					<?php endwhile; ?>
 					<?php endif; ?>
 				</ul>

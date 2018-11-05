@@ -19,101 +19,56 @@
         <title>TSG</title>
     </head>
 
-    <body class="interiit">
+    <body class="gc">
         <div class="container page z-depth-5">
             <nav class="navigation">
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="index.html" class="brand-logo left valign-wrapper">
+                    <a href="index.php" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
                         <!-- <span>Technology Students’ Gymkhana</span> -->
+                        <!-- CSS :after inserts the Appropriate text -->                        
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
-                        <!-- CSS :after inserts the Appropriate text -->
-                        <li class="active"><a href="interiit.html" class="waves-effect waves-light">Inter IIT</a></li>
-                        <li><a href="gc.html" class="waves-effect">GC</a></li>
+                        <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                        <li class="active"><a href="gc.php" class="waves-effect waves-light">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-                        <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
+                        <li><a href="blog/" class="waves-effect">Blog</a></li>
                     </ul>
                 </div>
             </nav>
 
+
+
             <div class="content">
-                <h1>Inter IIT</h1>
-
-
                 
                 <div class="row">
                 <div class="col s12 tab-container">
                     <ul class="tabs">
-                    <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li>
-                    <li class="tab"><a href="#sports">Sports</a></li>
-                    <li class="tab"><a href="#tech">Technology</a></li>
-                    <li class="tab"><a href="#socult">SoCult</a></li>
-                    <li class="tab"><a href="#yesteryear">Point's Tally</a></li>
+                    <li class="tab col s4"><a class="active" href="#sports">Sports GC</a></li>
+                    <li class="tab col s4"><a href="#socult">Soc-Cult GC</a></li>
+                    <li class="tab col s4"><a href="#tech">Technology GC</a></li>
                     </ul>
                 </div>
-                <div id="aquatics" class="col s12 row">
-                    <div class="col s12">
-                        <h2>Aquatics</h2>
-                        <h4>Updates</h4>
-                        <ul class="bullet"><li>The Inter-IIT Aquatics Contingent have left for the event!</li><li>On the first day of the 34th Inter IIT Aquatics meet, IIT Kharagpur smashed IIT Bombay in Water Polo by 13-2 </li><li>Men's Team 100m Backstroke - Pushpak Roy bagged silver while Gitanshu Bhatia bagged the bronze medal.</li><li>Men's Team 200m Breaststroke - Indresh bagged silver medal for IIT Kharagpur.</li><li>Men's Team 100m Breaststroke - Indresh bagged the silver medal.</li><li>Men's Team 200m Freestyle - Shubham Pandey stood fourth.</li><li>Men's Team 50m Butterfly - Arpan Dey stood 4th</li><li>Women's Team 50m Butterfly- Oindrila Saha opened up for kgp by bagging the bronze medal</li><li>IIT KGP bagged silver medal in Women's 4X50m Freestyle Relay. Relay team comprised of Oindrila Saha, Supriti Sen, Aditi Sen and Kalyani Ingle.</li><li>Women's 50m Freestyle - Kalyani Ingle stood 4th.</li><li>Men's 200m Individual Medley - Arpan Dey bagged the silver medal.</li><li>Men's 50m Backstroke - Arpan Dey and Pushpak Roy made IIT KGP proud by bagging the Gold and Bronze medal respectively.</li><li>IIT KGP bagged silver medal in Men's 4X100 Medley Relay. </li><li>Men's Team 200m Backstroke - Gitanshu Bhatia and Pushpak Roy bagged the gold and silver medal respectively.</li><li>Men's Team 50m Breaststroke - Indresh wins one more silver medal making the count to three.</li><li>Men's Water Polo - IIT KGP defeated IIT Guwahati by 13-2 in semi- final to face IIT Kanpur in final on 7/10/18.</li></ul>
-                    </div>
-                    <div class="col m6 s12">
-                        <h4>Women's contingent</h4>
-                        <ul class="bullet">
-                            <li>Oindrila Saha</li>
-                            <li>Kalyani Ingle</li>
-                            <li>Aditi Sen</li>
-                            <li>Supriti Sen</li>
-                            <li>Barsa Majmder</li>
-                        </ul>
-                    </div>
-
-                    <div class="col m6 s12">
-                        <h4>Men's contingent</h4>
-                        <ul class="bullet">
-                            <li>Amlan Shil</li>
-                            <li>Gitanshu Bhatia</li>
-                            <li>Shaswat Gangwal</li>
-                            <li>Anirudh Agrawal</li>
-                            <li>Indresh</li>
-                            <li>Raj Prabhu</li>
-                            <li>Utkarsh Sah</li>
-                            <li>Soham Chandorkar</li>
-                            <li>Pushpak Roy</li>
-                            <li>Harsh Choudhary</li>
-                            <li>Rahul Saxena</li>
-                            <li>Arpan Dey</li>
-                            <li>Shubham Pandey</li>
-                        </ul>
-                    </div>
+                <div id="sports" class="col s12 row">
+                    <h3> Points Tally </h3>
+                    <script id="infogram_0_8506083e-3c62-4279-9f80-8a38016a4dd7" title="GC Sports and Games" src="https://e.infogram.com/js/dist/embed.js?UuH" type="text/javascript"></script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/8506083e-3c62-4279-9f80-8a38016a4dd7" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports and Games</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
 
                 </div>
-                <div id="sports" class="col s12">
-                    <h2>Sports</h2>
-                    Page will be updated soon!
-                </div>
+
                 <div id="tech" class="col s12">
-                    <h2>Technology</h2>
-                    Page will be updated soon!
+                    <h3> Points Tally </h3>
+                    <script id="infogram_0_7dce6730-4b7f-4858-b365-6697ca9be5e5" title="GC TECH" src="https://e.infogram.com/js/dist/embed.js?Oik" type="text/javascript"></script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/7dce6730-4b7f-4858-b365-6697ca9be5e5" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC TECH</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+
                 </div>
+
                 <div id="socult" class="col s12">
-                    <h2>Social and Cultural</h2>
-                    Page will be updated soon!
-                </div>
-                <div id="yesteryear" class="col s12">
-                    <h2>Last year's Point Tally</h2>
-                    <a class="waves-effect waves-light btn" href="https://docs.google.com/spreadsheets/d/1uWW-CS3e6o9UNgkmmlKyUbaAVWsOSfEiOJfV7ELvQX0/edit?usp=drivesdk">INTER IIT POINT'S TALLY</a><br>
-                    <div class="flex-container">
-                    <img class="interiit-img materialboxed" src="static/images/interiit socult.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit tech.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit sports.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit sports individual.jpg">
-                    </div>
+                        <h3> Points Tally </h3>
+                        <script id="infogram_0_bcf785cc-2fcb-4b4a-9409-d922226c4dfe" title="GC: Socult" src="https://e.infogram.com/js/dist/embed.js?UwY" type="text/javascript"></script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bcf785cc-2fcb-4b4a-9409-d922226c4dfe" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC: Socult</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+
                 </div>
                 </div>
 
@@ -185,8 +140,8 @@
                </div>
            </div>
            <li><a href="index.html">Home</a></li>
-           <li class="active"><a href="interiit.html">Inter IIT</a></li>
-           <li><a href="gc.html">GC</a></li>
+           <li><a href="interiit.html">Inter IIT</a></li>
+           <li class="active"><a href="gc.html">GC</a></li>
            <li><a href="fests.html">Fests</a></li>
            <li><a href="societies.html">Societies</a></li>
            <li><a href="contacts.html">Contacts</a></li>
@@ -209,7 +164,6 @@
                 $('.tabs').tabs({
                     swipeable: false
                 });
-                $('.materialboxed').materialbox();
             });
 
         </script>
