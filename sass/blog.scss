@@ -363,8 +363,9 @@ html {
                             display: block;
                             -webkit-appearance: none; 
                             -moz-appearance: none;
+                            border-color: #bbb;
                             appearance: none;       /* remove default arrow */
-                            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAACVBMVEUAAAAyMjIzMzMmhMtFAAAAAnRSTlMAgJsrThgAAABcSURBVHgBYhgxYBSMglGQtQoKVqJJSMEklqBJsAHam0MjAEAggGHHZozIyKgYOgDmaytinGcsYxdBBAkBCQEJAQkBQQRBBEEUQQRBBEEEQRRBBEEEQQRBTNP0vwu7s0JpRPs+OAAAAABJRU5ErkJggg==");   /* add custom arrow **/
+                            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAACVBMVEUAAAAyMjIzMzMmhMtFAAAAAnRSTlMAgJsrThgAAABcSURBVHgBYhgxYBSMglGQtQoKVqJJSMEklqBJsAHam0MjAEAggGHHZozIyKgYOgDmaytinGcsYxdBBAkBCQEJAQkBQQRBBEEUQQRBBEEEQRRBBEEEQQRBTNP0vwu7s0JpRPs+OAAAAABJRU5ErkJggg==") 97% / 6% no-repeat #fff;   /* add custom arrow **/
                         }
                     }
                 }
