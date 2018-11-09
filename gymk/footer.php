@@ -11,7 +11,7 @@
         <ul class="sidenav" id="mobile-demo">
             <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
                <div class="col s5 m3 center">
-                   <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
+                   <img src="<?php bloginfo('stylesheet_directory'); ?>/static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
                </div>
                <div class="col m9 s7 valign-wrapper">
                    <h1>Technology Students' Gymkhana</h1>
