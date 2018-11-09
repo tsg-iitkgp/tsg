@@ -333,11 +333,12 @@ html {
 
             }
         }
-        &.interiit, &.gc, &.contacts, &.societies {
+        &.interiit, &.gc, &.contacts, &.societies, &.fests {
             .content{
                 h1 {
                     font-size: 4em;
                     text-align: center;
+                    margin: 4rem 0;
                 }
             }
         }
@@ -402,7 +403,7 @@ html {
             }
         }
 
-        &.contacts, &.societies {
+        &.contacts, &.societies, &.fests {
             #modal-complaint {
                 height: 100% !important;
                 overflow: hidden;
@@ -442,7 +443,7 @@ html {
             }
         }
 
-        &.societies {
+        &.societies, &.fests {
             .content{
                 .col {
                     height: 30rem;
