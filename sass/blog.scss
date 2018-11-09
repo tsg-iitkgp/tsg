@@ -367,6 +367,9 @@ html {
                             appearance: none;       /* remove default arrow */
                             background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAACVBMVEUAAAAyMjIzMzMmhMtFAAAAAnRSTlMAgJsrThgAAABcSURBVHgBYhgxYBSMglGQtQoKVqJJSMEklqBJsAHam0MjAEAggGHHZozIyKgYOgDmaytinGcsYxdBBAkBCQEJAQkBQQRBBEEUQQRBBEEEQRRBBEEEQQRBTNP0vwu7s0JpRPs+OAAAAABJRU5ErkJggg==") 97% / 6% no-repeat #fff;   /* add custom arrow **/
                         }
+                        .wpcf7-not-valid-tip {
+                            color: #f00;
+                        }
                     }
                 }
                 
