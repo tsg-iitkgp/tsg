@@ -32,11 +32,11 @@
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
                         <!-- CSS :after inserts the Appropriate text -->
                         <li class="active"><a href="interiit.php" class="waves-effect waves-light">Inter IIT</a></li>
-                        <li><a href="gc.html" class="waves-effect">GC</a></li>
+                        <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-                        <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
+                        <li><a href="blog/" class="waves-effect">Blog</a></li>
                     </ul>
                 </div>
             </nav>
@@ -198,13 +198,13 @@
                    <!-- <h2>Indian Institute of Technology Kharagpur</h2> -->
                </div>
            </div>
-           <li><a href="index.html">Home</a></li>
-           <li class="active"><a href="interiit.html">Inter IIT</a></li>
-           <li><a href="gc.html">GC</a></li>
+           <li><a href="index.php">Home</a></li>
+           <li class="active"><a href="interiit.php">Inter IIT</a></li>
+           <li><a href="gc.php">GC</a></li>
            <li><a href="fests.html">Fests</a></li>
            <li><a href="societies.html">Societies</a></li>
            <li><a href="contacts.html">Contacts</a></li>
-           <li><a href="blogpost.html">Blog</a></li>
+           <li><a href="blog/">Blog</a></li>
           
        </ul>
 

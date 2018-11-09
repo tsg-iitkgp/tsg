@@ -30,7 +30,7 @@
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <li class="active"><a href="index.html" class="waves-effect waves-light">Home</a></li>
                         <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
-                        <li><a href="gc.html" class="waves-effect">GC</a></li>
+                        <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
@@ -76,8 +76,8 @@
                             The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
                         </p>
 
-                        <a href="#" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
-                        <a href="#" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
+                        <a href="https://wiki.metakgp.org/images/4/4d/Gymkhana_Constitution.pdf" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
+                        <a href="/blag" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
                     </div>
 
                 </div>
@@ -158,10 +158,10 @@
                     <!-- <h2>Indian Institute of Technology Kharagpur</h2> -->
                 </div>
             </div>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="interiit.html">Inter IIT</a></li>
-            <li><a href="gc.html">GC</a></li>
-            <li><a href="#">Fests</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="interiit.php">Inter IIT</a></li>
+            <li><a href="gc.php">GC</a></li>
+            <li><a href="fests.html">Fests</a></li>
             <li><a href="societies.html">Societies</a></li>
             <li><a href="contacts.html">Contacts</a></li>
             <li><a href="blog/">Blog</a></li>
