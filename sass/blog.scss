@@ -343,9 +343,14 @@ html {
                 .entry {
                     // border-bottom: solid $primary-color 4px;
                     padding-bottom: 4rem;
-                    .size-full, .progressiveMedia-image {
-                        width: 100%;
+                    // .size-full, .progressiveMedia-image {
+                    //     width: 100%;
+                    //     height: auto;
+                    // }
+                    img {
+                        max-width: 100%;
                         height: auto;
+                        vertical-align: middle;
                     }
                     .aligncenter {
                         clear: both;
