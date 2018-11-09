@@ -443,6 +443,19 @@ html {
             }
         }
 
+        &.contacts {
+            address {
+                font-size: 18px;
+            }
+            .card-title {
+                padding: 13px;
+                background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.75));
+                min-width: 100%;
+                /* min-height: 18%; */
+                padding-top: 60px !important;
+            }
+        }
+
         &.societies, &.fests {
             .content{
                 .col {
