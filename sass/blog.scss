@@ -296,8 +296,10 @@ html {
         &.blog {
 
             .post-title {
-                margin-top: 6rem;
-                margin-left: 8.33%;
+                margin: 8.33% 6rem 0;
+                @media #{$small-and-down} {
+                    margin: 2% 0;
+                }
             }
             .wp-post-image {
                 margin-top: 2rem;
@@ -313,28 +315,21 @@ html {
                 // margin-top: 1rem;
                 font-family: "Roboto Slab", sans-serif;
                 font-size: 1.2rem;
-
+                
                 @media #{$small-and-down} {
                     font-size: 1rem;
                 }
-
+                
                 h1 {
                     font-size: 3.2rem;
                 }
-
+                
                 .description{
                     margin-top: 3rem;
                     margin-bottom: 3rem;
                     color: #222;
                     @media #{$medium-and-up} {
                         margin-left: -32px ;
-                    }
-                    img {
-                        margin: 0;
-                        padding: 0;
-                        height: 72px;
-                        width: 72px;
-                        border-radius: 50%;
                     }
                     .col {
                         margin-left: 0;
@@ -344,13 +339,19 @@ html {
                         
                     }
                 }
-
+                
                 .entry {
                     // border-bottom: solid $primary-color 4px;
                     padding-bottom: 4rem;
                     .size-full, .progressiveMedia-image {
                         width: 100%;
                         height: auto;
+                    }
+                    .aligncenter {
+                        clear: both;
+                        display: block;
+                        margin: 0 auto 24px;
+                        max-width: 100%;
                     }
                 }
                 
@@ -362,7 +363,7 @@ html {
                         text-transform: none;
                     }
                 }
-
+                
                 #comments {
                     margin-top: 4rem;
                     margin-bottom: 4rem; 
@@ -389,7 +390,13 @@ html {
                         font-size: 1.6rem;
                     }
                 }
+                .navigation {
+                    .alignright {
+                        text-align: right;
+                    }
+                }
             }
+
 
             .fixed-action-btn {
                 .btn-floating {

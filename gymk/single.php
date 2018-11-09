@@ -20,8 +20,43 @@ if ( has_post_thumbnail() ) {
 	
 	<div <?php post_class("col s12 m9 l8 offset-m1 offset-l1"); ?> id="post-<?php the_ID(); ?>">
 		<!-- <h2><?php //the_title(); ?></h2> -->
+		<div class="description row  valign-wrapper grey-text text-darken-2">
+			<div class="col s12">
+				<p><?php 
+						$days = round((date('U') - get_the_time('U')) / (60*60*24));
+						if ($days==0) {
+							echo "Published today"; 
+						}
+						elseif ($days==1) {
+							echo "Published yesterday"; 
+						}
+						else {
+							echo "Published " . $days . " days ago";
+						} 
+					?>
+					/ 
+					<?php
+					    $count_key = 'post_views_count';
+						$count = get_post_meta($postID, $count_key, true);
+						echo $count.' Views';
+					?> / 
+					<?php 
+				$content = get_post_field( 'post_content', $post->ID );
+				$word_count = str_word_count( strip_tags( $content ) );
+				$readingtime = ceil($word_count / 200);
+				
+				if ($readingtime == 1) {
+					$timer = " minute";
+				} else {
+					$timer = " minutes";
+				}
+				$totalreadingtime = $readingtime . $timer;
+				
+				echo $totalreadingtime;
+				?> read</p>
+			</div>
+		</div>
 
-		
 		<div class="entry">
 			
 			<?php the_content('<p class="serif">' . __('Read the rest of this entry &raquo;', 'kubrick') . '</p>'); ?>
