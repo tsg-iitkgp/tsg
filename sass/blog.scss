@@ -358,6 +358,15 @@ html {
                         margin: 0 auto 24px;
                         max-width: 100%;
                     }
+                    .wpcf7-form{
+                        .select {
+                            display: block;
+                            -webkit-appearance: none; 
+                            -moz-appearance: none;
+                            appearance: none;       /* remove default arrow */
+                            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAACVBMVEUAAAAyMjIzMzMmhMtFAAAAAnRSTlMAgJsrThgAAABcSURBVHgBYhgxYBSMglGQtQoKVqJJSMEklqBJsAHam0MjAEAggGHHZozIyKgYOgDmaytinGcsYxdBBAkBCQEJAQkBQQRBBEEUQQRBBEEEQRRBBEEEQQRBTNP0vwu7s0JpRPs+OAAAAABJRU5ErkJggg==");   /* add custom arrow **/
+                        }
+                    }
                 }
                 
                 .navigation {
