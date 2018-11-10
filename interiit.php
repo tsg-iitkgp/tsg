@@ -111,15 +111,15 @@
                 </div>
                 <div id="sports" class="col s12">
                     <h2>Sports</h2>
-                    Page will be updated soon!
+                    <img src="static/images/interiit sports filler.jpg" alt="">
                 </div>
                 <div id="tech" class="col s12">
                     <h2>Technology</h2>
-                    Page will be updated soon!
+                    <img src="static/images/interiit tech filler.jpg" alt="">
                 </div>
                 <div id="socult" class="col s12">
                     <h2>Social and Cultural</h2>
-                    Page will be updated soon!
+                    <img src="static/images/interiit socult filler.jpg" alt="">
                 </div>
                 <div id="yesteryear" class="col s12">
                     <h2>Last year's Point Tally</h2>
