@@ -21,7 +21,7 @@ get_header(); ?>
 
 	<div class="blog-recent row">
 		<!-- <h1 class="col m8 offset-m2">Blog</h1> -->
-		<div class="col m9 offset-m1 card z-depth-0">
+		<div class="col m9 s12 offset-m1 card z-depth-0">
 			<div class="card-content">
 				<ul class="collection">
 				
