@@ -18,13 +18,13 @@
                    <!-- <h2>Indian Institute of Technology Kharagpur</h2> -->
                </div>
            </div>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="interiit.html">Inter IIT</a></li>
-           <li><a href="gc.html">GC</a></li>
-           <li><a href="#">Fests</a></li>
-           <li><a href="societies.html">Societies</a></li>
-           <li><a href="contacts.html">Contacts</a></li>
-           <li class="active"><a href="blogpost.html">Blog</a></li>
+           <li><a href="<?php echo MYURL; ?>/index.php">Home</a></li>
+           <li><a href="<?php echo MYURL; ?>/interiit.php">Inter IIT</a></li>
+           <li><a href="<?php echo MYURL; ?>/gc.php">GC</a></li>
+           <li><a href="<?php echo MYURL; ?>/fests.html">Fests</a></li>
+           <li><a href="<?php echo MYURL; ?>/societies.html">Societies</a></li>
+           <li><a href="<?php echo MYURL; ?>/contacts.html">Contacts</a></li>
+           <li class="active"><a href="<?php echo MYURL; ?>/blog/">Blog</a></li>
           
        </ul>
 
@@ -78,16 +78,6 @@
                 </div>
             </div>
         </div>
-
-        <ul class="sidenav" id="mobile-demo">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Inter IIT</a></li>
-            <li><a href="#">GC</a></li>
-            <li><a href="#">Fests</a></li>
-            <li><a href="#">Societies</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#"><i class="material-icons">search</i></a></li>
-        </ul>
 
         <div class="footer center">
             <div class="footer-copyright">
