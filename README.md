@@ -1,8 +1,15 @@
 
-## How to generate 'css' files from edited 'sass'
+## How to generate 'css' files from edited 'sass' 
 
-Run `sass --watch sass:css --style compressed`
+### For the website
+
+Run `sass --watch sass/style.scss:css/style.css --style compressed`
 This will watch for changes in the sass folder and auto generate css
+
+### For the gymk blog theme
+
+Run `sass --watch sass/blog.scss:gymk/style.css --style compressed`
+This will watch for changes in the sass folder and auto generate css in the gymk folder.
 
 ## How to update the gymkhana beta folder 
 
@@ -17,5 +24,5 @@ sshfs https://github.com/libfuse/sshfs can be installed using standard apt insta
 
 # TODO
 
-- [ ] Fix Medium screen society card length
+- [x] Fix Medium screen society card length
 - [x] Fix Navbar bug

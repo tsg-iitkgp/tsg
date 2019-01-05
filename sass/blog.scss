@@ -381,6 +381,12 @@ html {
                         text-transform: none;
                     }
                 }
+
+                .nav-links {
+                    a {
+                        @extend .btn, .purple, .waves-effect;
+                    }
+                }
                 
                 #comments {
                     margin-top: 4rem;

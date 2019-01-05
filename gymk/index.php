@@ -40,8 +40,8 @@ get_header(); ?>
 				</ul>
 			</div>
 		
-			<div class="card-action">
-				<a href="#" class="btn purple waves-effect waves-light">Older Posts</a>
+			<div class="card-action nav-links">
+				<?php posts_nav_link( " ", "Newer Posts", "Older Posts" ); ?> 
 			</div>
 		</div>
 	</div>
