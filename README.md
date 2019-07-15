@@ -14,6 +14,28 @@ cd /path/to/folder/with/index.php
 php -S 127.0.0.1:8000
 ```
 
+## Deployment on the gymkhana server
+
+Below is the detailed step by step guide on how to get your pushed changes into deployment.
+
+1. SSH into the gymkhana server and run `cd /home/gymkhana`.
+2. Do `git remote -v` and verify that the origin points to correct repo. If not, change origin using the following commands:
+
+```shell
+git remote rm origin
+git remote add origin <new_repo_url>
+```
+
+3. Run `git fetch origin`
+4. On your local system, run `git diff <commit hash before your changes> <commit hash of head>`. Use `git log` to get commit hashes.
+5. For every new file or folder, do `git checkout origin/master -- path/to/file/or/folder`. The path here should be relative to root of the repository.
+
+This will ensure that all the changes that you have pushed are now deployed. There is no delay in the deployment and the website is updated immediately.
+
+## Updating blogs
+
+To update blog, visit "http://www.gymkhana.iitkgp.ac.in/blog/wp-admin" and enter the credentials provided in the credentials sheet.
+
 ## How to generate 'css' files from edited 'sass'
 
 ### For the website
