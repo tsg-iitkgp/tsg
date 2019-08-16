@@ -1,0 +1,162 @@
+# Copyright (C) 2019 stop-wp-emails-going-to-spam
+# This file is distributed under the same license as the stop-wp-emails-going-to-spam package.
+msgid ""
+msgstr ""
+"Project-Id-Version: stop-wp-emails-going-to-spam\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/stop-wp-emails-going-to-spam.php:85
+msgid "Cannot execute as the plugin already exists"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:94
+msgid "Are you sure want to do this?"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:206
+msgid "Save Options"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:234
+msgid "Save"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:250
+msgid "Settings reset to defaults."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:38
+msgid "Stop WP Emails Going to Spam"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:95
+msgid "Information"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:103
+msgid "Envelope Sender"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:111
+msgid "Sender Permitted From ( SPF )"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:144
+msgid "This sets envelope sender of the message, if not set by another program.<br>This will usually be turned into a Return-Path header by the receiver, and is the address that bounces will be sent to"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:149
+msgid "Use Admin Email"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:160
+msgid "Use another Domain email"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:175
+msgid "You can use an email like noreply@%s, but make sure the email account exists."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:180
+msgid "From Address"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:183
+msgid "Set the relationship between From address and Envelope address"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:190
+msgid "Tick to set the From to the same as Envelope (above) recommended"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:197
+msgid "Tick to set the Envelope to the From, not recommended unless all your forms use a From address of your domain, however the SPF check below is ignored"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:204
+msgid "Tick to leave the From address alone - this may raise warnings in email clients when different from Envelope, not generally recommended"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:209
+msgid "WordPress default mail address"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:212
+msgid "WordPress default system messages come from an account WordPress &lt;wordpress@%s&gt;  you can control that with the following settings"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:220
+msgid "Tick to set the WP default to the same as the email set above - recommended"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:233
+msgid "Tick and set an email name on your domain for the default email"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:238
+msgid "WordPress default name"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:246
+msgid "You can change the display name associated with the default WordPress email, this is cosmetic only"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:263
+msgid "Invalid email for Envelope"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:273
+msgid "Invalid email for WordPress default"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:334
+msgid "Server Info"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:339
+msgid "IPv4"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:339
+msgid "IPv6"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:343
+msgid "<p class=\"notice notice-error\">Cannot identify a valid IP address - you may want to check with your hosting company</p>"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:350
+msgid "SPF Record"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:354
+msgid "<p class=\"notice notice-error\">Cannot get DNS records - refresh this page - if you still get this message after a few refreshes you may want to check your domain DNS control panel</p>"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:357
+msgid "<p class=\"notice notice-error\">No SPF record found for %s, the following SPF record is recommended"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:365
+msgid "Current record SPF record for %s: <br><strong>%s</strong><br><br>"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:367
+msgid "<p class=\"notice notice-success\">Good!, this contains your server IP address</p>"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:369
+msgid "<p class=\"notice notice-warning\">Recommend you add +%s:%s to your SPF record</p>"
+msgstr ""
+
+#: src/includes/autoloader.php:61
+msgid "The system file attempting to be loaded at %1$s does not exist."
+msgstr ""
