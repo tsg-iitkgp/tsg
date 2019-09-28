@@ -99,14 +99,19 @@
                 </div>
                 <div id="sports" class="col s12">
                     <h2>Sports</h2>
+                    <h1> To Be Held at: Indian Institute of Technology Kharagpur</h1>
                     <img src="static/images/interiit sports filler.jpg" alt="">
                 </div>
                 <div id="tech" class="col s12">
                     <h2>Technology</h2>
+
+                    <h1> To Be Held at: Indian Institute of Technology Roorkee</h1>
                     <img src="static/images/interiit tech filler.jpg" alt="">
                 </div>
                 <div id="socult" class="col s12">
                     <h2>Social and Cultural</h2>
+
+                    <h1> To Be Held at: Indian Institute of Technology Bombay</h1>
                     <img src="static/images/interiit socult filler.jpg" alt="">
                 </div>
                
