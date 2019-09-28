@@ -99,7 +99,7 @@
                 </div>
                 <div id="sports" class="col s12">
                     <h2>Sports</h2>
-                    <h1> To Be Held at: Indian Institute of Technology Kharagpur</h1>
+                    <h1> To Be Held at- Indian Institute of Technology Kharagpur</h1>
                     <img src="static/images/interiit sports filler.jpg" alt="">
                 </div>
                 <div id="tech" class="col s12">
