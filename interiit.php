@@ -50,11 +50,11 @@
                 
                 <div class="row">
                 <div class="col s12 tab-container">
-                    <ul class="tabs">
+                    <ul class="tabs center-align">
                    <!--  <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li> -->
-                    <li class="tab"><a href="#sports">Sports</a></li>
-                    <li class="tab"><a href="#tech">Technology</a></li>
-                    <li class="tab"><a href="#socult">SoCult</a></li>
+                        <li class="tab"><a class="active" href="#sports">Sports</a></li>
+                        <li class="tab"><a href="#tech">Technology</a></li>
+                        <li class="tab"><a href="#socult">SoCult</a></li>
                    
                     </ul>
                 </div>
@@ -97,22 +97,25 @@
                     </div> -->
 
                 </div>
-                <div id="sports" class="col s12">
-                    <h2>Sports</h2>
-                    <h1> To Be Held at- Indian Institute of Technology Kharagpur</h1>
-                    <img src="static/images/interiit sports filler.jpg" alt="">
+                <div id="sports" class="col s4">
+                    <!-- <h2>Sports</!-->
+                    <h3 class="center-align"> To Be Held at Indian Institute of Technology Kharagpur</h3>
+                    <!-- <img src="static/images/interiit sports filler.jpg" alt=""> -->
+                    <h6 class="center-align">more updates coming soon...</h6>
                 </div>
-                <div id="tech" class="col s12">
-                    <h2>Technology</h2>
+                <div id="tech" class="col s4">
+                    <!-- <h2>Technology</h2> -->
 
-                    <h1> To Be Held at: Indian Institute of Technology Roorkee</h1>
-                    <img src="static/images/interiit tech filler.jpg" alt="">
+                    <h3 class="center-align"> To Be Held at Indian Institute of Technology Roorkee</h3>
+                    <!-- <img src="static/images/interiit tech filler.jpg" alt=""> -->
+                    <h6 class="center-align">more updates coming soon...</h6>
                 </div>
-                <div id="socult" class="col s12">
-                    <h2>Social and Cultural</h2>
+                <div id="socult" class="col s4">
+                    <!-- <h2>Social and Cultural</h2> -->
 
-                    <h1> To Be Held at: Indian Institute of Technology Bombay</h1>
-                    <img src="static/images/interiit socult filler.jpg" alt="">
+                    <h3 class="center-align"> To Be Held at Indian Institute of Technology Bombay</h3>
+                    <!-- <img src="static/images/interiit socult filler.jpg" alt=""> -->
+                    <h6 class="center-align">more updates coming soon...</h6>
                 </div>
                
                 </div>
