@@ -51,32 +51,20 @@
                 <div class="row">
                 <div class="col s12 tab-container">
                     <ul class="tabs">
-                    <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li>
+                   <!--  <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li> -->
                     <li class="tab"><a href="#sports">Sports</a></li>
                     <li class="tab"><a href="#tech">Technology</a></li>
                     <li class="tab"><a href="#socult">SoCult</a></li>
-                    <li class="tab"><a href="#yesteryear">Point's Tally</a></li>
+                   
                     </ul>
                 </div>
-                <div id="aquatics" class="col s12 row">
+                <!-- <div id="aquatics" class="col s12 row">
                     <div class="col s12">
                         <h2>Aquatics 2018</h2>
                         <h4>Updates</h4>
-                        <ul class="bullet">
-                            <?php
-                              $mysqli = new mysqli("localhost", "dibya", "dibyaWP@99", "wp_myblog");
-                              $result = $mysqli->query("SELECT * FROM aquatics_news");
-                              
-                              while($row = mysqli_fetch_array($result))
-                              {
-                                echo "<li>".$row['news']."</li>";
-                                // echo "<br />";
-                              }
-                              $result->close();
-                              $mysqli->close();
-                          ?>
-
-                        </ul>
+                        <ul class="bullet"> -->
+                            
+                       <!-- </ul>
                     </div>
                     <div class="col m6 s12">
                         <h4>Women's contingent</h4>
@@ -106,7 +94,7 @@
                             <li>Arpan Dey</li>
                             <li>Shubham Pandey</li>
                         </ul>
-                    </div>
+                    </div> -->
 
                 </div>
                 <div id="sports" class="col s12">
@@ -121,16 +109,7 @@
                     <h2>Social and Cultural</h2>
                     <img src="static/images/interiit socult filler.jpg" alt="">
                 </div>
-                <div id="yesteryear" class="col s12">
-                    <h2>Last year's Point Tally</h2>
-                    <a class="waves-effect waves-light btn" href="https://docs.google.com/spreadsheets/d/1uWW-CS3e6o9UNgkmmlKyUbaAVWsOSfEiOJfV7ELvQX0/edit?usp=drivesdk">INTER IIT POINT'S TALLY</a><br>
-                    <div class="flex-container">
-                    <img class="interiit-img materialboxed" src="static/images/interiit socult.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit tech.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit sports.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit sports individual.jpg">
-                    </div>
-                </div>
+               
                 </div>
 
                 <!-- <div class="carrousel">
