@@ -84,62 +84,59 @@
                         <br/><br/><br/>
                         <div>
                             <div class="container">
-                            <h5 style="text-align: center">Our Activities</h5>
-                            <div class="row">
-
-                             <div class="col-sm-4">
-                                <h5 style="text-align: center; background-color: red">Social and Cultural</h5>
-                                <ul style="list-style-type: square">
-                                    <li>Choreography </li>
-                                    <li>Dramatics</li>
-                                    <li>Street Play</li>
-                                    <li>Western Music</li>
-                                    <li>Eastern Music</li>
-                                    <li>English Elocution</li>
-                                    <li>Hindi Elocution</li>
-                                    <!-- more items -->
-
-                                </ul>
+                                <h5 style="text-align: center"><strong><u>Our Activities</u></strong></h5>
+                                <div class="row">
+                                    <div class="col s12"/>
+                                        <div class="col s4">
+                                            <h5 style="text-align: center; background-color: #9c27b0">SoCult</h5>
+                                            <ul style="list-style-type: square">
+                                                <li>Choreography </li>
+                                                <li>Dramatics</li>
+                                                <li>Street Play</li>
+                                                <li>Western Music</li>
+                                                <li>Eastern Music</li>
+                                                <li>English Elocution</li>
+                                                <li>Hindi Elocution</li>
+                                                <li>Standup Comedy</li>
+                                                <!-- more items -->
+                                            </ul>
+                                        </div>
+                                        <div class="col s4">
+                                            <h5 style="text-align: center; background-color: #9c27b0">Sports</h5>
+                                            <ul style="list-style-type: square">
+                                                <li>Cricket</li>
+                                                <li>Football</li>
+                                                <li>Hockey</li>
+                                                <li>Basketball</li>
+                                                <li>Volleyball</li>
+                                                <li>Lawn Tennis</li>
+                                                <li>Table Tennis</li>
+                                                <li>Athletics</li>
+                                                <li>Long Jump</li>
+                                                <li>Sprint</li>
+                                                <li>Squash</li>
+                                                <!-- more items -->
+                                            </ul>
+                                        </div>
+                                        <div class="col s4">
+                                            <h5 style="text-align: center; background-color: #9c27b0">Technology</h5>
+                                            <ul style="list-style-type: square">
+                                                <li>Product Design</li>
+                                                <li>Hardware Modeling</li>
+                                                <li>Data Analytics</li>
+                                                <li>Case Study</li>
+                                                <li>Ad Design</li>
+                                                <li>Opensoft</li>
+                                                <li>Chemquest</li>
+                                                <li>Biz Quiz</li>
+                                                <li>Tech Quiz</li>
+                                                <li>Maths Olympiad</li>
+                                                <!-- more items -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-4">
-                                <h5 style="text-align: center; background-color: #1b1e21">Sports</h5>
-                                <ul style="list-style-type: square">
-                                    <li>Cricket</li>
-                                    <li>Football</li>
-                                    <li>Hockey</li>
-                                    <li>Basketball</li>
-                                    <li>Volleyball</li>
-                                    <li>Lawn Tennis</li>
-                                    <li>Table Tennis</li>
-                                    <li>Athletics</li>
-                                    <li>Long Jump</li>
-                                    <li>Sprint</li>
-                                    <li>Squash</li>
-                                    <!-- more items -->
-                                </ul>
-
-
-
-                            </div>
-                            <div class="col-sm-4">
-                                <h5 style="text-align: center; background-color: #533f03">Technology</h5>
-                                <ul style="list-style-type: square">
-                                    <li>Product Design</li>
-                                    <li>Hardware Modeling</li>
-                                    <li>Data Analytics</li>
-                                    <li>Case Study</li>
-                                    <li>Ad Design</li>
-                                    <li>Opensoft</li>
-                                    <li>Chemquest</li>
-                                    <li>Biz Quiz</li>
-                                    <li>Tech Quiz</li>
-                                    <li>Maths Olympiad</li>
-                                    <!-- more items -->
-                                </ul>
-
-                            </div>
-                          </div>
-
                             <h5>Student Welfare: <a href="https://web.scholarsavenue.org/yourdost-when-we-need-one-the-most-340eabfde3aa">Your Dost</a></h5>
                         </div>
 

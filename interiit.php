@@ -52,9 +52,9 @@
                 <div class="col s12 tab-container">
                     <ul class="tabs center-align">
                    <!--  <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li> -->
-                        <li class="tab"><a class="active" href="#sports">Sports</a></li>
-                        <li class="tab"><a href="#tech">Technology</a></li>
-                        <li class="tab"><a href="#socult">SoCult</a></li>
+                        <li class="tab col s4"><a class="active" href="#sports">Sports</a></li>
+                        <li class="tab col s4"><a href="#tech">Technology</a></li>
+                        <li class="tab col s4"><a href="#socult">SoCult</a></li>
                    
                     </ul>
                 </div>
