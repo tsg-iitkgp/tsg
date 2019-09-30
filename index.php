@@ -83,7 +83,44 @@
 
                         <br/><br/><br/>
                         <div>
-                            <h5>Our Activities: SoCult | Sports | Technology</h5>
+                            <div class="container">
+                            <h5 style="text-align: center">Our Activities</h5>
+                            <div class="row">
+
+                             <div class="col-sm-4">
+                                <h5 style="text-align: center; background-color: red">Social and Cultural</h5>
+                                <ul style="list-style-type: square">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <!-- more items -->
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <h5 style="text-align: center; background-color: #1b1e21">Sports</h5>
+                                <ul style="list-style-type: square">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <!-- more items -->
+                                </ul>
+
+
+
+                            </div>
+                            <div class="col-sm-4">
+                                <h5 style="text-align: center; background-color: #533f03">Technology</h5>
+                                <ul style="list-style-type: square">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <!-- more items -->
+                                </ul>
+
+                            </div>
+                          </div>
+
                             <h5>Student Welfare: <a href="https://web.scholarsavenue.org/yourdost-when-we-need-one-the-most-340eabfde3aa">Your Dost</a></h5>
                         </div>
 
