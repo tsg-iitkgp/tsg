@@ -80,7 +80,68 @@
 
                         <a href="https://wiki.metakgp.org/images/4/4d/Gymkhana_Constitution.pdf" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
                         <a href="blog/" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
+
+                        <br/><br/><br/>
+                        <div>
+                            <div class="container">
+                                <h5 style="text-align: center"><strong><u>Our Activities</u></strong></h5>
+                                <div class="row">
+                                    <div class="col s12"/>
+                                        <div class="col s4">
+                                            <h5 style="text-align: center; background-color: #9c27b0">SoCult</h5>
+                                            <ul style="list-style-type: square">
+                                                <li>Choreography </li>
+                                                <li>Dramatics</li>
+                                                <li>Street Play</li>
+                                                <li>Western Music</li>
+                                                <li>Eastern Music</li>
+                                                <li>English Elocution</li>
+                                                <li>Hindi Elocution</li>
+                                                <li>Standup Comedy</li>
+                                                <!-- more items -->
+                                            </ul>
+                                        </div>
+                                        <div class="col s4">
+                                            <h5 style="text-align: center; background-color: #9c27b0">Sports</h5>
+                                            <ul style="list-style-type: square">
+                                                <li>Cricket</li>
+                                                <li>Football</li>
+                                                <li>Hockey</li>
+                                                <li>Basketball</li>
+                                                <li>Volleyball</li>
+                                                <li>Lawn Tennis</li>
+                                                <li>Table Tennis</li>
+                                                <li>Athletics</li>
+                                                <li>Long Jump</li>
+                                                <li>Sprint</li>
+                                                <li>Squash</li>
+                                                <!-- more items -->
+                                            </ul>
+                                        </div>
+                                        <div class="col s4">
+                                            <h5 style="text-align: center; background-color: #9c27b0">Technology</h5>
+                                            <ul style="list-style-type: square">
+                                                <li>Product Design</li>
+                                                <li>Hardware Modeling</li>
+                                                <li>Data Analytics</li>
+                                                <li>Case Study</li>
+                                                <li>Ad Design</li>
+                                                <li>Opensoft</li>
+                                                <li>Chemquest</li>
+                                                <li>Biz Quiz</li>
+                                                <li>Tech Quiz</li>
+                                                <li>Maths Olympiad</li>
+                                                <!-- more items -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Student Welfare: <a href="https://web.scholarsavenue.org/yourdost-when-we-need-one-the-most-340eabfde3aa">Your Dost</a></h5>
+                        </div>
+
                     </div>
+
 
                 </div>
 
@@ -88,10 +149,11 @@
 
                 </div> -->
 
-                <div class="tsg-graph row">
+                <!-- <div class="tsg-graph row">
                     <h1 class="col m8 offset-m2">G C Standings - 2017</h1>
                     <div class="infogram-embed s12" data-id="bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" data-type="interactive" data-title="GC Sports"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-                </div>
+                </div> -->
+
 
             </div>
         </div>

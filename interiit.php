@@ -50,33 +50,21 @@
                 
                 <div class="row">
                 <div class="col s12 tab-container">
-                    <ul class="tabs">
-                    <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li>
-                    <li class="tab"><a href="#sports">Sports</a></li>
-                    <li class="tab"><a href="#tech">Technology</a></li>
-                    <li class="tab"><a href="#socult">SoCult</a></li>
-                    <li class="tab"><a href="#yesteryear">Point's Tally</a></li>
+                    <ul class="tabs center-align">
+                   <!--  <li class="tab"><a class="active" href="#aquatics">Aquatics</a></li> -->
+                        <li class="tab col s4"><a class="active" href="#sports">Sports</a></li>
+                        <li class="tab col s4"><a href="#tech">Technology</a></li>
+                        <li class="tab col s4"><a href="#socult">SoCult</a></li>
+                   
                     </ul>
                 </div>
-                <div id="aquatics" class="col s12 row">
+                <!-- <div id="aquatics" class="col s12 row">
                     <div class="col s12">
                         <h2>Aquatics 2018</h2>
                         <h4>Updates</h4>
-                        <ul class="bullet">
-                            <?php
-                              $mysqli = new mysqli("localhost", "dibya", "dibyaWP@99", "wp_myblog");
-                              $result = $mysqli->query("SELECT * FROM aquatics_news");
-                              
-                              while($row = mysqli_fetch_array($result))
-                              {
-                                echo "<li>".$row['news']."</li>";
-                                // echo "<br />";
-                              }
-                              $result->close();
-                              $mysqli->close();
-                          ?>
-
-                        </ul>
+                        <ul class="bullet"> -->
+                            
+                       <!-- </ul>
                     </div>
                     <div class="col m6 s12">
                         <h4>Women's contingent</h4>
@@ -106,31 +94,30 @@
                             <li>Arpan Dey</li>
                             <li>Shubham Pandey</li>
                         </ul>
-                    </div>
+                    </div> -->
 
                 </div>
-                <div id="sports" class="col s12">
-                    <h2>Sports</h2>
-                    <img src="static/images/interiit sports filler.jpg" alt="">
+                <div id="sports" class="col s4">
+                    <!-- <h2>Sports</!-->
+                    <h3 class="center-align"> To Be Held at Indian Institute of Technology Kharagpur</h3>
+                    <!-- <img src="static/images/interiit sports filler.jpg" alt=""> -->
+                    <h6 class="center-align">more updates coming soon...</h6>
                 </div>
-                <div id="tech" class="col s12">
-                    <h2>Technology</h2>
-                    <img src="static/images/interiit tech filler.jpg" alt="">
+                <div id="tech" class="col s4">
+                    <!-- <h2>Technology</h2> -->
+
+                    <h3 class="center-align"> To Be Held at Indian Institute of Technology Roorkee</h3>
+                    <!-- <img src="static/images/interiit tech filler.jpg" alt=""> -->
+                    <h6 class="center-align">more updates coming soon...</h6>
                 </div>
-                <div id="socult" class="col s12">
-                    <h2>Social and Cultural</h2>
-                    <img src="static/images/interiit socult filler.jpg" alt="">
+                <div id="socult" class="col s4">
+                    <!-- <h2>Social and Cultural</h2> -->
+
+                    <h3 class="center-align"> To Be Held at Indian Institute of Technology Bombay</h3>
+                    <!-- <img src="static/images/interiit socult filler.jpg" alt=""> -->
+                    <h6 class="center-align">more updates coming soon...</h6>
                 </div>
-                <div id="yesteryear" class="col s12">
-                    <h2>Last year's Point Tally</h2>
-                    <a class="waves-effect waves-light btn" href="https://docs.google.com/spreadsheets/d/1uWW-CS3e6o9UNgkmmlKyUbaAVWsOSfEiOJfV7ELvQX0/edit?usp=drivesdk">INTER IIT POINT'S TALLY</a><br>
-                    <div class="flex-container">
-                    <img class="interiit-img materialboxed" src="static/images/interiit socult.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit tech.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit sports.jpg">
-                    <img class="interiit-img materialboxed" src="static/images/interiit sports individual.jpg">
-                    </div>
-                </div>
+               
                 </div>
 
                 <!-- <div class="carrousel">
