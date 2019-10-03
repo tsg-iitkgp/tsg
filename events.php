@@ -1,6 +1,28 @@
+<?php include 'database.php'; ?>
+<?php
+   $query = $conn->query("select * from tsg_events");
+
+       $dyn_table = '<table border="1"cellpadding="10">';
+    while($row = mysqli_fetch_assoc($query)){
+      $organisation=$row['organisation'];
+      $description=$row['description'];
+      $link_event=$row['link_event'];
+      $time_event=$row['time_event'];
+      $venue_event=$row['venue_event'];
+
+        $dyn_table .= '<tr><td width="304px" height="150px">'.$organisation.'</td>';
+       $dyn_table .= '<td width="304px">'.$description.'</td>';
+      $dyn_table .= '<td width="304px"><a href="$link_event">'.$link_event.'</td>';
+      $dyn_table .= '<td width="304px">'.$time_event.'</td>';
+      $dyn_table .= '<td width="304px">'.$venue_event.'</td>';
+
+  }
+    $dyn_table .= '</tr></table>';
+?>
+ 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
+<html>
+<head>
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -10,17 +32,33 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
-
-
-        <link rel="stylesheet" href="css/style.css">
-
-        <link rel="icon" type="image/png" href="favicon.png">
-
-        <title>TSG</title>
-    </head>
-
-    <body class="homepage">
-        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/events.css">
+		<link rel="icon" type="image/png" href="favicon.png">
+		<title>TSG</title>
+    <style type="text/css">
+      
+      table{
+        width: 100%;
+      }
+      th{
+        text-align: center;
+      }
+      tr{
+        text-align: center;
+        background-color: rgba(242,59,36,0.7);
+        font-size: 1.5em;
+      }
+      td:hover {background-color: #f5f5f5;}
+      table, th, td{
+        border:10px solid white;
+      }
+      a{
+        color: blue;
+      }
+    </style>
+</head>
+<body>
+   <script type="text/javascript" src="js/index.js"></script>
         <div class="container page z-depth-5">
             <nav class="navigation">
                 <div class="nav-wrapper">
@@ -53,49 +91,10 @@
             
             
             <div class="content">
-                <div class="header row valign-wrapper">
-                    <div class="col s12 m3 center">
-                        <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
-                    </div>
-                    <div class="col m9 s12">
-                        <h1>Technology Students' Gymkhana</h1>
-                        <h2>Indian Institute of Technology Kharagpur</h2>
-                    </div>
-                </div>
-    
-                <div class="intro center">
-                    <img src="static/TSG.svg" alt="Gymkhana main Image" class="responsive-img">
-    
-                </div>
-                <div class="row">
-                    <div class="about col s12 m8 offset-m2" id = "about">
-                        <h1>About</h1>
-                        <p>
-                            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
-                        </p>
+                
+                <h2 align="center">Events_Records</h2>
+                <?php echo $dyn_table; ?>
 
-                        <blockquote cite="http://">
-                            "Yogah Karmasu Kausalam"
-                        </blockquote>
-
-                        <p>
-                            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
-                        </p>
-
-                        <a href="https://wiki.metakgp.org/images/4/4d/Gymkhana_Constitution.pdf" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
-                        <a href="blog/" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
-                    </div>
-
-                </div>
-
-                <!-- <div class="carrousel">
-
-                </div> -->
-
-                <div class="tsg-graph row">
-                    <h1 class="col m8 offset-m2">G C Standings - 2017</h1>
-                    <div class="infogram-embed s12" data-id="bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" data-type="interactive" data-title="GC Sports"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-                </div>
 
             </div>
         </div>
@@ -184,6 +183,7 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-    </body>
 
+ 
+</body>
 </html>

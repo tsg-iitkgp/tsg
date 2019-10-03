@@ -1,26 +1,18 @@
+<?php include 'database.php'; ?>
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-        <meta name="theme-color" content="#D02451" />
-
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
-
-
-        <link rel="stylesheet" href="css/style.css">
-
-        <link rel="icon" type="image/png" href="favicon.png">
-
-        <title>TSG</title>
-    </head>
-
-    <body class="homepage">
-        <script type="text/javascript" src="js/index.js"></script>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="#D02451" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>TSG</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<script type="text/javascript" src="js/index.js"></script>
         <div class="container page z-depth-5">
             <nav class="navigation">
                 <div class="nav-wrapper">
@@ -53,49 +45,20 @@
             
             
             <div class="content">
-                <div class="header row valign-wrapper">
-                    <div class="col s12 m3 center">
-                        <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="IIT Icon" class="responsive-img">
-                    </div>
-                    <div class="col m9 s12">
-                        <h1>Technology Students' Gymkhana</h1>
-                        <h2>Indian Institute of Technology Kharagpur</h2>
-                    </div>
-                </div>
-    
-                <div class="intro center">
-                    <img src="static/TSG.svg" alt="Gymkhana main Image" class="responsive-img">
-    
-                </div>
-                <div class="row">
-                    <div class="about col s12 m8 offset-m2" id = "about">
-                        <h1>About</h1>
-                        <p>
-                            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students, under the guidance and active participation of the faculty and staff members.
-                        </p>
-
-                        <blockquote cite="http://">
-                            "Yogah Karmasu Kausalam"
-                        </blockquote>
-
-                        <p>
-                            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their extra-curricular talents.
-                        </p>
-
-                        <a href="https://wiki.metakgp.org/images/4/4d/Gymkhana_Constitution.pdf" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
-                        <a href="blog/" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
-                    </div>
-
-                </div>
-
-                <!-- <div class="carrousel">
-
-                </div> -->
-
-                <div class="tsg-graph row">
-                    <h1 class="col m8 offset-m2">G C Standings - 2017</h1>
-                    <div class="infogram-embed s12" data-id="bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" data-type="interactive" data-title="GC Sports"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/bd3d106e-d4a2-4a0f-92a4-bdf0500182d3" style="color:#989898!important;text-decoration:none!important;" target="_blank">GC Sports</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-                </div>
+                
+              <div class="login-page">
+    <div class="form">
+      <form class="login-form" method="POST">
+        <input type="text" name="org_name" placeholder="Name of organisation"/>
+        <input type="password" name="security" placeholder="Security code"/>
+        <input type="text" name="description" placeholder="Description of the event">
+        <input type="text" name="fbpage" placeholder="Link to Facebook Page">
+        <input type="text" name="time" placeholder="Time of the event">
+        <input type="text" name="venue" placeholder="Venue of the event">
+        <button>SUBMIT</button>
+      </form>
+    </div>
+  </div>
 
             </div>
         </div>
@@ -184,6 +147,107 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-    </body>
 
+
+
+
+
+
+
+
+
+
+
+  
+</body>
 </html>
+<?php
+  $myfile=fopen("pass.txt","r");
+  $pass=fread($myfile,filesize("pass.txt"));
+  fclose($myfile);
+  function test_input($data)
+  {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+  }
+  $orgname = $user_pass = $desc = $link = $time_event = $venue = "";
+  if ($_SERVER["REQUEST_METHOD"] == "POST") 
+  {
+    if(empty($_POST["org_name"]))
+    {
+      $message = "Please enter the name of organisation";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+      die();
+    }
+    else  
+      $orgname = test_input($_POST["org_name"]);
+    if(empty($_POST["security"]))
+    {
+      $message = "Please enter the security code provided";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else
+      $user_pass= test_input($_POST["security"]);
+    if(empty($_POST["description"]))
+    {
+      $message = "Please enter description of the event";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else
+      $desc = test_input($_POST["description"]);
+    if(empty($_POST["fbpage"]))
+    {
+      $message = "Please enter the link for the event";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else   
+       $link= test_input($_POST["fbpage"]);
+    if(empty($_POST["time"]))
+    {
+      $message = "Please enter the time of the event";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else
+      $time_event = test_input($_POST["time"]);
+    if(empty($_POST["venue"]))
+    {
+      $message = "Please enter the venue of the event";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else
+      $venue_event = test_input($_POST["venue"]);
+
+
+    if($pass==$user_pass)
+  {
+    if(!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$link))
+    {
+      $message = "Please enter a valid url";
+      echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else
+    {
+      //insert into database
+      $query = "INSERT INTO tsg_events(organisation, description, link_event, time_event, venue_event) VALUES('$orgname', '$desc', '$link', '$time_event', '$venue_event')";
+      if ($conn->query($query) === TRUE) 
+      {
+        $message = "Thank You";
+      	echo "<script type='text/javascript'>alert('$message');</script>";
+      }
+      else 
+      {
+        echo "Error: " . $query . "<br>" . $conn->error;
+      }
+      $conn->close();
+    }    
+  }
+  else
+  {
+    $message = "Please enter the correct security code";
+    echo "<script type='text/javascript'>alert('$message');</script>";
+  }
+  }
+  
+?>
