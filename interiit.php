@@ -24,7 +24,7 @@
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
                         <!-- CSS :after inserts the Appropriate text -->
                         <li class="active"><a href="interiit.php" class="waves-effect waves-light">Inter IIT</a></li>
-                        <li><a href="events.php" class="waves-effect">Notices</a></li>
+                        <li><a href="notices.php" class="waves-effect">Notices</a></li>
                         <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
