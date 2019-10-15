@@ -2,25 +2,15 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
         <meta name="theme-color" content="#D02451" />
-
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
-
         <link rel="stylesheet" href="fontello/css/fontello.css">
-
-
         <link rel="stylesheet" href="css/style.css">
-
         <link rel="icon" type="image/png" href="favicon.png">
-
         <title>TSG</title>
     </head>
-
     <body class="interiit">
         <div class="container page z-depth-5">
             <nav class="navigation">
@@ -33,6 +23,7 @@
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
                         <!-- CSS :after inserts the Appropriate text -->
+                        <li><a href="notices.php" class="waves-effect">Notices</a></li>                        
                         <li class="active"><a href="interiit.php" class="waves-effect waves-light">Inter IIT</a></li>
                         <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
@@ -42,11 +33,8 @@
                     </ul>
                 </div>
             </nav>
-
             <div class="content">
                 <h1>Inter IIT</h1>
-
-
                 
                 <div class="row">
                 <div class="col s12 tab-container">
@@ -76,7 +64,6 @@
                             <li>Barsa Majmder</li>
                         </ul>
                     </div>
-
                     <div class="col m6 s12">
                         <h4>Men's contingent</h4>
                         <ul class="bullet">
@@ -95,7 +82,6 @@
                             <li>Shubham Pandey</li>
                         </ul>
                     </div> -->
-
                 </div>
                 <div id="sports" class="col s4">
                     <!-- <h2>Sports</!-->
@@ -106,7 +92,6 @@
                 </div>
                 <div id="tech" class="col s4">
                     <!-- <h2>Technology</h2> -->
-
                     <h3 class="center-align"> To Be Held at Indian Institute of Technology Roorkee</h3>
                     <!-- <img src="static/images/interiit tech filler.jpg" alt=""> -->
                     <iframe src="http://www.interiittech.org/" frameborder="0" allowfullscreen
@@ -114,7 +99,6 @@
                 </div>
                 <div id="socult" class="col s4">
                     <!-- <h2>Social and Cultural</h2> -->
-
                     <h3 class="center-align"> To Be Held at Indian Institute of Technology Bombay</h3>
                     <!-- <img src="static/images/interiit socult filler.jpg" alt=""> -->
                     <iframe src="https://www.metakgp.org/w/Inter_IIT_Cultural_Meet" frameborder="0" allowfullscreen
@@ -122,14 +106,10 @@
                 </div>
                
                 </div>
-
                 <!-- <div class="carrousel">
                 </div> -->
-
-
             </div>
         </div>
-
         <div class="links container z-depth-3">
             <div class="container white-text">
                 <div class="row">
@@ -200,17 +180,14 @@
            <li><a href="blog/">Blog</a></li>
           
        </ul>
-
         <div class="footer center">
             <div class="footer-copyright">
             © 2019 TSG IIT Kharagpur
             </div>
         </div>
-
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
         <script type="text/javascript">
-
             $(document).ready(function(){
                 $('.sidenav').sidenav();                
                 $('.tabs').tabs({
@@ -218,8 +195,6 @@
                 });
                 $('.materialboxed').materialbox();
             });
-
         </script>
     </body>
-
 </html>
