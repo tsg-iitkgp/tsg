@@ -101,21 +101,24 @@
                     <!-- <h2>Sports</!-->
                     <h3 class="center-align"> To Be Held at Indian Institute of Technology Kharagpur</h3>
                     <!-- <img src="static/images/interiit sports filler.jpg" alt=""> -->
-                    <h6 class="center-align">more updates coming soon...</h6>
+                    <iframe src="https://www.interiit.com/" frameborder="0" allowfullscreen
+    style="width:100%;height:80em;"></iframe>
                 </div>
                 <div id="tech" class="col s4">
                     <!-- <h2>Technology</h2> -->
 
                     <h3 class="center-align"> To Be Held at Indian Institute of Technology Roorkee</h3>
                     <!-- <img src="static/images/interiit tech filler.jpg" alt=""> -->
-                    <h6 class="center-align">more updates coming soon...</h6>
+                    <iframe src="http://www.interiittech.org/" frameborder="0" allowfullscreen
+    style="width:100%;height:80em;"></iframe>
                 </div>
                 <div id="socult" class="col s4">
                     <!-- <h2>Social and Cultural</h2> -->
 
                     <h3 class="center-align"> To Be Held at Indian Institute of Technology Bombay</h3>
                     <!-- <img src="static/images/interiit socult filler.jpg" alt=""> -->
-                    <h6 class="center-align">more updates coming soon...</h6>
+                    <iframe src="https://www.metakgp.org/w/Inter_IIT_Cultural_Meet" frameborder="0" allowfullscreen
+    style="width:100%;height:80em;"></iframe>
                 </div>
                
                 </div>
