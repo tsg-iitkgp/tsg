@@ -32,6 +32,10 @@ git remote add origin <new_repo_url>
 
 This will ensure that all the changes that you have pushed are now deployed. There is no delay in the deployment and the website is updated immediately.
 
+## Updating Information
+
+The dynamic information on the website is gathered from google sheets using the `Gymkhana-BackServer` which runs on node.js and uses sheets API to gather the information. Creation of a new page is as simple as using the existing `fetchData.js` with the right endpoint (which needs to be created separately on the backend). Once this is done, a new page can be created to display the called data. 
+
 ## Updating blogs
 
 To update blog, visit "http://www.gymkhana.iitkgp.ac.in/blog/wp-admin" and enter the credentials provided in the credentials sheet.
