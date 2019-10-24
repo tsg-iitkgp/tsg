@@ -48,8 +48,8 @@
                     </ul>
                 </div>
             </nav>
-
-        <h3 style="text-align: center">Events</h3>
+        <br/><br/>
+        <h3 style="text-align: center">Notice Board</h3>
         <br>
         <br>
         <p id="testing">
@@ -59,47 +59,54 @@
 
         <table id="event" class="table table-responsive table-bordered table-fixed">
 
-            <tr>
+            <tr>                
+                <th> Event </th>
+                <th> Organiser </th>
                 <th> Date </th>
-                <th> Event Name </th>
-                <th> Event Cup </th>
-                <th> Winner </th>
-                <th> Runners Up </th>
-                <th> Second Runners Up </th>
+                <th> Time </th>
+                <th> Venue </th>
+                <th> Reg Link </th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="eventBody">
 
         <script type='text/javascript'>
         function fetchEventsData() {
-            let policy = {
-             mode: 'no-cors'
-             };
-             let output;
-            fetch('http://gymk-back.herokuapp.com/events', policy)
-                .then( async res => {
-                    let events = await res.data;
-                      if(events == []) {
-                        document.getElementsByTagName('tbody').innerHTML = `<h1>To be Updated</h1>`;
+            let output = "";
+            fetch('http://gymk-back.herokuapp.com/events')
+                .then (response => response.json())
+                .then( events => {
+                    if(events == []) {
+                        document.getElementById('eventBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
                         return;
                     }
+                    events = JSON.parse(events);
                     events.map(row => {
                         let indiv_row = `
                         <tr>
-                            <td>${row['Date']}</td>
-                            <td>${row['Event name']}</td>
-                            <td>${row['Event cup']}</td>
-                            <td>${row['Winner']}</td>
-                            <td>${row['Runners Up']}</td>
-                            <td>${row['Second Runners Up']}</td>
+                            <td>${row['nameoftheevent']}</td>
+                            <td>${row['organiser']}</td>
+                            <td>${row['date']}</td>
+                            <td>${row['time']}</td>
+                            <td>${row['venue']}</td>
+                            <td>${row['registrationlinkfbpost']}</td>
                         </tr>
                         `
-                        output += indiv_row;
-
-                    })
+                        if (indiv_row != undefined)
+                        {
+                            output += indiv_row;
+                        }
+                    });
                 })
-                document.getElementsByTagName('tbody').innerHTML = output;
-
+                .then(() => {
+                    console.log(output);
+                    console.log("here");
+                    document.getElementById('eventBody').innerHTML = output;
+                })
+                .catch(() => {
+                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                    return;
+                });
         }
 
         fetchEventsData()

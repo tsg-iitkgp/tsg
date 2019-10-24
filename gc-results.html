@@ -49,7 +49,8 @@
                 </div>
             </nav>
 
-        <h3 style="text-align: center">Events</h3>
+        <br/><br/>
+        <h3 style="text-align: center">General Championship 2019-2020 Results</h3>
         <br>
         <br>
         <p id="testing">
@@ -66,40 +67,49 @@
                 <th> Winner </th>
                 <th> Runners Up </th>
                 <th> Second Runners Up </th>
+                <th> Event Domain </th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="gcBody">
 
         <script type='text/javascript'>
         function fetchEventsData() {
-            let policy = {
-             mode: 'no-cors'
-             };
-             let output;
-            fetch('http://gymk-back.herokuapp.com/events', policy)
-                .then(async res => {
-                    let events = await res.data;
-                      if(events == []) {
-                        document.getElementsByTagName('tbody').innerHTML = `<h1>To be Updated</h1>`;
+            let output = "";
+            fetch('http://gymk-back.herokuapp.com/gc')
+                .then (response => response.json())
+                .then( events => {
+                    if(events == []) {
+                        document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
                         return;
                     }
+                    events = JSON.parse(events);
                     events.map(row => {
+                        console.log(row);
                         let indiv_row = `
                         <tr>
-                            <td>${row['Event Name']}</td>
-                            <td>${row['Event Cup']}</td>
-                            <td>${row['Event Points']}</td>
-                            <td>${row['Winner']}</td>
-                            <td>${row['Runners Up']}</td>
-                            <td>${row['Second Runners Up']}</td>
+                            <td>${row['eventname']}</td>
+                            <td>${row['eventcup']}</td>
+                            <td>${row['eventpoints']}</td>
+                            <td>${row['winner']}</td>
+                            <td>${row['runnersup']}</td>
+                            <td>${row['secondrunnersup']}</td>
+                            <td>${row['domaintechsocultsports']}</td>
                         </tr>
                         `
-                        output += indiv_row;
-
-                    })
+                        
+                        if (indiv_row != undefined)
+                        {
+                            output += indiv_row;
+                        }
+                    });
                 })
-                document.getElementsByTagName('tbody').innerHTML = output;
-
+                .then(() => {
+                    document.getElementById('gcBody').innerHTML = output;
+                })
+                .catch(() => {
+                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                    return;
+                });
         }
 
         fetchEventsData()

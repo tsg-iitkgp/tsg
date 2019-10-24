@@ -48,8 +48,8 @@
                     </ul>
                 </div>
             </nav>
-
-        <h3 style="text-align: center">Events</h3>
+        <br/><br/>
+        <h3 style="text-align: center">Open IIT Results</h3>
         <br>
         <br>
         <p id="testing">
@@ -61,46 +61,50 @@
 
             <tr>
                 <th> Date </th>
-                <th> Event Name </th>
-                <th> Event Cup </th>
+                <th> Event</th>
                 <th> Winner </th>
                 <th> Runners Up </th>
                 <th> Second Runners Up </th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="openiitBody">
 
         <script type='text/javascript'>
         function fetchEventsData() {
-            let policy = {
-             mode: 'no-cors'
-             };
-             let output;
-            fetch('http://gymk-back.herokuapp.com/openiit', policy)
-                .then(async res => {
-                    let events = await res.data;
+            let output = "";
+            fetch('http://gymk-back.herokuapp.com/openiit')
+                .then (response => response.json())
+                .then( events => {
                     if(events == []) {
-                        document.getElementsByTagName('tbody').innerHTML = `<h1>To be Updated</h1>`;
+                        document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
                         return;
                     }
-
+                    events = JSON.parse(events);
                     events.map(row => {
+                        console.log(row);
                         let indiv_row = `
                         <tr>
-                            <td>${row['Date']}</td>
-                            <td>${row['Event name']}</td>
-                            <td>${row['Event cup']}</td>
-                            <td>${row['Winner']}</td>
-                            <td>${row['Runners Up']}</td>
-                            <td>${row['Second Runners Up']}</td>
+                            <td>${row['date']}</td>
+                            <td>${row['eventname']}</td>
+                            <td>${row['winner']}</td>
+                            <td>${row['runnersup']}</td>
+                            <td>${row['secondrunnersup']}</td>
                         </tr>
                         `
-                        output += indiv_row;
-
-                    })
+                        
+                        if (indiv_row != undefined)
+                        {
+                            output += indiv_row;
+                        }
+                    });
                 })
-                document.getElementsByTagName('tbody').innerHTML = output;
-
+                .then(() => {
+                    document.getElementById('openiitBody').innerHTML = output;
+                })
+                .catch(() => {
+                    document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                    return;
+                });
         }
 
         fetchEventsData()
