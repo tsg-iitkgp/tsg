@@ -77,8 +77,8 @@
              };
              let output;
             fetch('http://gymk-back.herokuapp.com/openiit', policy)
-                .then(res => {
-                    let events = res.data;
+                .then(async res => {
+                    let events = await res.data;
                     if(events == []) {
                         document.getElementsByTagName('tbody').innerHTML = `<h1>To be Updated</h1>`;
                         return;
