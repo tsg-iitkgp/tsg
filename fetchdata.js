@@ -36,50 +36,58 @@ getJSON(setQuery(),
         }
 });
 
-function getHeadings(httpGet(site)){
-    let headings = [] // for gc, open iit, events
-    headings = ;[...Object.keys(result[0])] // headers in the table
+function constructTable() {
+            var data = JSON.stringify('json file here')
 
-    var table = document.getElementById('#event');
-    table.innerHTML += "<tr>";
-    for(var i = 0; i < headings.length; i++){
-    table.innerHTML += '<th>' + headings[i] + '<th/>';
-    }
-    table.innerHTML += '<tr/>';
-}
+            /* sample format of JSON file [
+                {
+                    "Book ID": "1",
+                    "Book Name": "Computer Architecture",
+                    "Category": "Computers",
+                    "Price": "125.60"
+                },
+                {
+                    "Book ID": "2",
+                    "Book Name": "Asp.Net 4 Blue Book",
+                    "Category": "Programming",
+                    "Price": "56.00"
+                },
+                {
+                    "Book ID": "3",
+                    "Book Name": "Popular Science",
+                    "Category": "Science",
+                    "Price": "210.40"
+                }
+            ] */ //JSON.stringify('json file here');
 
-var txt = httpGet(site);
-var obj = JSON.parse(txt);
-function constructTable(tableid){
-    var cols = Headers(obj, tableid);
+            var heads = []
 
-    for(var i = 0; i < obj.length; i++){
-        var row = $('<tr/>');
-        for ( var colIndex = 0; colIndex < cols.length; colIndex++){
-            var val = obj[i][cols[colIndex]];
-
-            if (val == null) val = "";
-            row.append($('<td/>').html(val));
-        }
-        $(tableid).append(row);
-    }
-}
-
-function Headers(obj, tableid){
-    var columns = [];
-    var header = $('<tr/>');
-
-    for(var i = 0;i < obj.length; i++){
-        var row = obj[i];
-
-        for(var k in row){
-            if($.inArray(k, columns) == -1 ){
-                columns.push(k);
-                header.append($('<th/>').html(k));
+            for(let i = 0; i < data.length; i++){  // get headings
+                for(var key in data[i]){
+                    if(heads.indexOf(key) === -1){
+                        heads.push(key);
+                    }
+                }
             }
-        }
-        $(tableid).append(header);
-        return columns;
-    }
+            var table = document.getElementById('event');   // change id accordingly
 
-}
+            var tr = table.insertRow(-1);
+
+            for(let i = 0; i < heads.length; i++){
+                var th = document.createElement('th');
+                th.innerHTML = heads[i];
+                tr.appendChild(th);
+            }
+
+            for(let i = 0; i < data.length; i++){
+                tr = table.insertRow(-1);
+                for(let j = 0; j < heads.length; j++){
+
+                    var tabcell = tr.insertCell(-1);
+                    tabcell.innerHTML = data[i][heads[j]];
+                }
+            }
+
+        }
+
+
