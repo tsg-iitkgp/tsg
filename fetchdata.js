@@ -1,5 +1,5 @@
-function setQuery() {
-    const site = "http://gymk-back.herokuapp.com" + window.location.pathname;
+function setQuery() {      // to process the url to be sent to the server
+    const site = "http://gymk-back.herokuapp.com" + window.location.pathname;   
     let temp = site.split('/');
     let final = "http://gymk-back.herokuapp.com/" + temp[temp.length - 1];
     return final;
