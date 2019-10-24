@@ -1,3 +1,4 @@
+window.onload = getJSON;
 function setQuery() {      // to process the url to be sent to the server
     const site = "http://gymk-back.herokuapp.com" + window.location.pathname;   
     let temp = site.split('/');
@@ -5,12 +6,13 @@ function setQuery() {      // to process the url to be sent to the server
     return final;
 }
 
-function getJSON() {
+async function getJSON() {
     let policy = {
         mode: 'no-cors'
     }
-    fetch('http://gymk-back.herokuapp.com/openiit.html', policy).then(function (response) {   // url in place of the link after testing
-        return response.json();
+    fetch('http://gymk-back.herokuapp.com/events', policy).then(function (response) {   // url in place of link later
+        console.log(response);
+
     }).then(function (data) {
         console.log(data);   // constructTable(data);
     }).catch(function (error) {
@@ -73,7 +75,24 @@ function constructTable() {
         }
 
 
-/*function getQuery(url) {
+/*
+function getJSON() {
+let policy = {
+    mode: 'no-cors'
+}
+const response = await fetch('http://gymk-back.herokuapp.com/events', policy);
+const myJson = await response.json();
+
+fetch('http://gymk-back.herokuapp.com/events', policy).then(function (response) {
+    return response.json();
+}).then(function (data) {
+    console.log(data);   // constructTable(data);
+}).catch(function (error) {
+    console.log(error);
+});
+}
+
+function getQuery(url) {
     const response = await fetch(url);
     const result = await response.json();
     // console.log(JSON.stringify(myJson));
