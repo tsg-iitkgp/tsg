@@ -11,7 +11,7 @@
 
   gtag('config', 'UA-150093374-1');
 </script>
-        
+
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -42,8 +42,11 @@
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li class="active"><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
-                        <li><a href="notices.php" class="waves-effect">Notices</a></li>                        
+                        <li><a href="notices.php" class="waves-effect">Notices</a></li>
                         <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                         <li ><a href='events.html' class="waves-effect">Events</a></li>
+                        <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                        <li><a href="gc-results.html" class="waves-effect">GC 19</a></li>
                         <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
@@ -55,11 +58,11 @@
 
 
 
-            
-            
-            
-            
-            
+
+
+
+
+
             <div class="content">
                 <div class="header row valign-wrapper">
                     <div class="col s12 m3 center">
@@ -70,10 +73,10 @@
                         <h2>Indian Institute of Technology Kharagpur</h2>
                     </div>
                 </div>
-    
+
                 <div class="intro center">
                     <img src="static/TSG.svg" alt="Gymkhana main Image" class="responsive-img">
-    
+
                 </div>
                 <div class="row">
                     <div class="about col s12 m8 offset-m2" id = "about">
@@ -242,7 +245,7 @@
             <li><a href="societies.html">Societies</a></li>
             <li><a href="contacts.html">Contacts</a></li>
             <li><a href="blog/">Blog</a></li>
-           
+
         </ul>
 
         <div class="footer center">

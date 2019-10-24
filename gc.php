@@ -11,7 +11,7 @@
 
   gtag('config', 'UA-150093374-1');
 </script>
-        
+
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -40,12 +40,15 @@
                     <a href="index.php" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
                         <!-- <span>Technology Students’ Gymkhana</span> -->
-                        <!-- CSS :after inserts the Appropriate text -->                        
+                        <!-- CSS :after inserts the Appropriate text -->
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
-                        <li><a href="notices.php" class="waves-effect">Notices</a></li>                        
+                        <li><a href="notices.php" class="waves-effect">Notices</a></li>
                         <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                         <li ><a href='events.html' class="waves-effect">Events</a></li>
+                        <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                        <li><a href="gc-results.html" class="waves-effect">GC 19</a></li>
                         <li class="active"><a href="gc.php" class="waves-effect waves-light">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
@@ -58,7 +61,7 @@
 
 
             <div class="content">
-                
+
                 <div class="row">
                 <div class="col s12 tab-container">
                     <ul class="tabs">
@@ -146,7 +149,7 @@
                 </div>
             </div>
         </div>
-        
+
         <ul class="sidenav" id="mobile-demo">
             <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
                <div class="col s5 m3 center">
@@ -164,7 +167,7 @@
            <li><a href="societies.html">Societies</a></li>
            <li><a href="contacts.html">Contacts</a></li>
            <li><a href="blog/">Blog</a></li>
-          
+
        </ul>
 
         <div class="footer center">
@@ -178,7 +181,7 @@
         <script type="text/javascript">
 
             $(document).ready(function(){
-                $('.sidenav').sidenav();                
+                $('.sidenav').sidenav();
                 $('.tabs').tabs({
                     swipeable: false
                 });

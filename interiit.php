@@ -11,7 +11,7 @@
 
   gtag('config', 'UA-150093374-1');
 </script>
-        
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="theme-color" content="#D02451" />
@@ -34,8 +34,11 @@
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
                         <!-- <li><a href="index.html" class="waves-effect waves-light">Home</a></li> -->
                         <!-- CSS :after inserts the Appropriate text -->
-                        <li><a href="notices.php" class="waves-effect">Notices</a></li>                        
+                        <li><a href="notices.php" class="waves-effect">Notices</a></li>
                         <li class="active"><a href="interiit.php" class="waves-effect waves-light">Inter IIT</a></li>
+                         <li ><a href='events.html' class="waves-effect">Events</a></li>
+                        <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                        <li><a href="gc-results.html" class="waves-effect">GC 19</a></li>
                         <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
@@ -46,7 +49,7 @@
             </nav>
             <div class="content">
                 <h1>Inter IIT</h1>
-                
+
                 <div class="row">
                 <div class="col s12 tab-container">
                     <ul class="tabs center-align">
@@ -54,7 +57,7 @@
                         <li class="tab col s4"><a class="active" href="#sports">Sports</a></li>
                         <li class="tab col s4"><a href="#tech">Technology</a></li>
                         <li class="tab col s4"><a href="#socult">SoCult</a></li>
-                   
+
                     </ul>
                 </div>
                 <!-- <div id="aquatics" class="col s12 row">
@@ -62,7 +65,7 @@
                         <h2>Aquatics 2018</h2>
                         <h4>Updates</h4>
                         <ul class="bullet"> -->
-                            
+
                        <!-- </ul>
                     </div>
                     <div class="col m6 s12">
@@ -115,7 +118,7 @@
                     <iframe src="https://www.metakgp.org/w/Inter_IIT_Cultural_Meet" frameborder="0" allowfullscreen
     style="width:100%;height:80em;"></iframe>
                 </div>
-               
+
                 </div>
                 <!-- <div class="carrousel">
                 </div> -->
@@ -171,7 +174,7 @@
                 </div>
             </div>
         </div>
-        
+
         <ul class="sidenav" id="mobile-demo">
             <div class="header-sidenav row valign-wrapper" style="position: relative; top: 1.5rem;">
                <div class="col s5 m3 center">
@@ -189,7 +192,7 @@
            <li><a href="societies.html">Societies</a></li>
            <li><a href="contacts.html">Contacts</a></li>
            <li><a href="blog/">Blog</a></li>
-          
+
        </ul>
         <div class="footer center">
             <div class="footer-copyright">
@@ -200,7 +203,7 @@
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $('.sidenav').sidenav();                
+                $('.sidenav').sidenav();
                 $('.tabs').tabs({
                     swipeable: false
                 });

@@ -18,26 +18,29 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="favicon.png">
-    
+
 </head>
 <body>
 
 
 
 
-    <div class="container page z-depth-5">     
-        
-        
+    <div class="container page z-depth-5">
+
+
         <nav class="navigation">
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <a href="index.php" class="brand-logo left valign-wrapper">
                         <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-                       
+
                     </a>
                     <ul id="nav-mobile" class="hide-on-med-and-down right">
-                        <li class="active"><a href="notices.php" class="waves-effect">Notices</a></li>  
+                        <li class="active"><a href="notices.php" class="waves-effect">Notices</a></li>
                         <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                         <li><a href='events.html' class="waves-effect">Events</a></li>
+                        <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                        <li><a href="gc-results.html" class="waves-effect">GC 19</a></li>
                         <li><a href="gc.php" class="waves-effect">GC</a></li>
                         <li><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
@@ -46,10 +49,10 @@
                     </ul>
                 </div>
             </nav>
-        
+
         <h3 style="text-align: center">Notice Board</h3>
 
-        
+
         <table class="table table-striped table-bordered">
             <thead>
             <tr>
@@ -61,11 +64,11 @@
             </tr>
             </thead>
             <tbody>
-                
+
             <?php
                class MyDB extends SQLite3 {
                   function __construct() {
-                     $this->open('notices.db');  
+                     $this->open('notices.db');
                         }
                     }
 
