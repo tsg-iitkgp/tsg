@@ -36,11 +36,6 @@ getJSON(setQuery(),
         }
 });
 
-
-
-
-
-
 function getHeadings(httpGet(site)){
     let headings = [] // for gc, open iit, events
     headings = ;[...Object.keys(result[0])] // headers in the table
@@ -88,9 +83,3 @@ function Headers(obj, tableid){
     }
 
 }
-
-
-
-
-
-
