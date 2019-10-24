@@ -79,6 +79,10 @@
             fetch('http://gymk-back.herokuapp.com/events', policy)
                 .then(res => {
                     let events = res.data;
+                      if(events == []) {
+                        document.getElementsByTagName('tbody').innerHTML = `<h1>To be Updated</h1>`;
+                        return;
+                    }
                     events.map(row => {
                         let indiv_row = `
                         <tr>
