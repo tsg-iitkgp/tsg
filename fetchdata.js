@@ -5,36 +5,18 @@ function setQuery() {      // to process the url to be sent to the server
     return final;
 }
 
-/*function getQuery(url) {
-    const response = await fetch(url);
-    const result = await response.json();
-    // console.log(JSON.stringify(myJson));
-    return result;
-}*/
-
-var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function() {
-        var status = xhr.status;
-        if (status === 200) {
-            callback(null, xhr.response);
-        } else {
-            callback(status, xhr.response);
-        }
-    };
-    xhr.send();
-};
-
-getJSON(setQuery(),
-    function(err, data) {
-        if (err !== null) {
-            alert('Something went wrong: ' + err);
-        } else {
-            alert('Your query count: ' + data.query.count);
-        }
-});
+function getJSON() {
+    let policy = {
+        mode: 'no-cors'
+    }
+    fetch('http://gymk-back.herokuapp.com/openiit.html', policy).then(function (response) {   // url in place of the link after testing
+        return response.json();
+    }).then(function (data) {
+        console.log(data);   // constructTable(data);
+    }).catch(function (error) {
+        console.log(error);
+    });
+}
 
 function constructTable() {
             var data = JSON.stringify('json file here')
@@ -91,3 +73,33 @@ function constructTable() {
         }
 
 
+/*function getQuery(url) {
+    const response = await fetch(url);
+    const result = await response.json();
+    // console.log(JSON.stringify(myJson));
+    return result;
+}
+
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+        var status = xhr.status;
+        if (status === 200) {
+            callback(null, xhr.response);
+        } else {
+            callback(status, xhr.response);
+        }
+    };
+    xhr.send();
+};
+
+getJSON(setQuery(),
+    function(err, data) {
+        if (err !== null) {
+            alert('Something went wrong: ' + err);
+        } else {
+            alert('Your query count: ' + data.query.count);
+        }
+}); */
