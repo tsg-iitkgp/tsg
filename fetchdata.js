@@ -59,7 +59,7 @@ function constructTable(fdata) {
       }
     }
   }
-  var table = document.getElementById('event'); // change id accordingly
+  var table = document.getElementById('tableid'); // change id accordingly
 
   var tr = table.insertRow(-1);
 
