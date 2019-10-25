@@ -47,7 +47,7 @@
                 </div>
             </nav>
         <br/><br/>
-        <h3 style="text-align: center">Open IIT Results</h3>
+        <h3 style="text-align: center"><strong><u>Open IIT Results</u></strong></h3>
         <br>
         <br>
         <p id="testing">
@@ -74,7 +74,7 @@
                 .then (response => response.json())
                 .then( events => {
                     if(events == []) {
-                        document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                        document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
                     events = JSON.parse(events);
@@ -100,7 +100,7 @@
                     document.getElementById('openiitBody').innerHTML = output;
                 })
                 .catch(() => {
-                    document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                    document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                     return;
                 });
         }

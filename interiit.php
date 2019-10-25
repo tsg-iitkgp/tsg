@@ -45,7 +45,7 @@
                 </div>
             </nav>
             <div class="content">
-                <h1>Inter IIT</h1>
+                <h1><strong><u>Inter IIT</strong><u></h1>
 
                 <div class="row">
                 <div class="col s12 tab-container">

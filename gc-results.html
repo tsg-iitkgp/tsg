@@ -48,7 +48,7 @@
             </nav>
 
         <br/><br/>
-        <h3 style="text-align: center">General Championship 2019-2020 Results</h3>
+        <h3 style="text-align: center"><strong><u>General Championship 2019-2020 Results</u></strong></h3>
         <br>
         <br>
         <p id="testing">
@@ -77,7 +77,7 @@
                 .then (response => response.json())
                 .then( events => {
                     if(events == []) {
-                        document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                        document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
                     events = JSON.parse(events);
@@ -105,7 +105,7 @@
                     document.getElementById('gcBody').innerHTML = output;
                 })
                 .catch(() => {
-                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
+                    document.getElementById('gcBody').innerHTML = '<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>';
                     return;
                 });
         }
