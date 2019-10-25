@@ -40,6 +40,13 @@ The dynamic information on the website is gathered from google sheets using the 
 
 To update blog, visit "http://www.gymkhana.iitkgp.ac.in/blog/wp-admin" and enter the credentials provided in the credentials sheet.
 
+## Adding A New HTML Page
+
+A new page can be added to the website by using `template.html` as the scaffold for the same. The section where the new page's body should go has been marked
+
+NOTE: This template file should be updated regularly if there are any changes in the site wide elements such as navbar and footer.
+
+
 ## How to generate 'css' files from edited 'sass'
 
 ### For the website
