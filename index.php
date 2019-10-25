@@ -237,12 +237,15 @@
                 </div>
             </div>
             <li class="active"><a href="index.php">Home</a></li>
+           <li><a href="blog/">Blog</a></li>
+            <li ><a href='events.html' >Notices</a></li>
+            <li ><a href='openiit.html'>Open IIT</a></li>
+            <li><a href="gc-results.html">GC 19-20</a></li>
+            <li><a href="gc.php">GC 18-19</a></li>
             <li><a href="interiit.php">Inter IIT</a></li>
-            <li><a href="gc.php">GC</a></li>
             <li><a href="fests.html">Fests</a></li>
             <li><a href="societies.html">Societies</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="blog/">Blog</a></li>
+            <li ><a href="contacts.html">Contacts</a></li>
 
         </ul>
 
