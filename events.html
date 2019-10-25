@@ -71,6 +71,7 @@
         <script type='text/javascript'>
         function fetchEventsData() {
             let output = "";
+            document.getElementById('eventBody').innerHTML = `<img src="gif/loader.gif">`;
             fetch('http://gymk-back.herokuapp.com/events')
                 .then (response => response.json())
                 .then( events => {

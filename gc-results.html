@@ -73,6 +73,7 @@
         <script type='text/javascript'>
         function fetchEventsData() {
             let output = "";
+             document.getElementById('gcBody').innerHTML = `<img src="gif/loader.gif">`;
             fetch('http://gymk-back.herokuapp.com/gc')
                 .then (response => response.json())
                 .then( events => {
