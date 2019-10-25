@@ -1,4 +1,4 @@
-// window.onload = getJSON;
+window.onload = getJSON;
 function setQuery() {
   // to process the url to be sent to the server
   const site = 'http://gymk-back.herokuapp.com' + events;
@@ -7,27 +7,28 @@ function setQuery() {
   return final;
 }
 
-async function getJSON() {
-  let policy = {
-    mode: 'no-cors'
-  };
-
-  fetch('http://gymk-back.herokuapp.com/events', policy)
-    .then(function(response) {
-      // url in place of link later
-      console.log(response);
-    })
-    .then(function(data) {
-      console.log(data); // constructTable(data);
-    })
-    .catch(function(error) {
-      console.log(error);
-    });
+function getJSON() {
+    /*
+    let policy = {
+        mode: 'no-cors'
+    }*/
+    fetch(setQuery())
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            let pdata = JSON.stringify(data);
+            pdata.replace("\\", '');
+            let fdata = JSON.parse(pdata);
+            constructTable(fdata);    // document.getElementById('testing').innerText = fdata;
+        })
+        .catch(err => {
+            console.log(err);
+        })
 }
-getJSON();
 
-function constructTable() {
-  var data = JSON.stringify('json file here'); //JSON.stringify('json file here');
+function constructTable(fdata) {
+  var data = fdata; //JSON.stringify('json file here');
 
   /* sample format of JSON file [
                 {
@@ -100,6 +101,24 @@ function getQuery(url) {
     // console.log(JSON.stringify(myJson));
     return result;
 }
+async function getJSON() {
+  let policy = {
+    mode: 'no-cors'
+  };
+
+  fetch('http://gymk-back.herokuapp.com/events', policy)
+    .then(function(response) {
+      // url in place of link later
+      console.log(response);
+    })
+    .then(function(data) {
+      console.log(data); // constructTable(data);
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+}
+getJSON();
 
 var getJSON = function(url, callback) {
     var xhr = new XMLHttpRequest();
