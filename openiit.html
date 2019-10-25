@@ -48,70 +48,20 @@
             </nav>
         <br/><br/>
         <h3 style="text-align: center">Open IIT Results</h3>
-        <br>
+        <!-- <br>
         <br>
         <p id="testing">
 
-        </p>
+        </p> --> 
 
 
-        <table id="event" class="table table-responsive table-bordered table-fixed">
+        <table id="tableid" class="table table-responsive table-bordered table-fixed">
 
-            <tr>
-                <th> Date </th>
-                <th> Event</th>
-                <th> Winner </th>
-                <th> Runners Up </th>
-                <th> Second Runners Up </th>
-            </tr>
-            </thead>
-            <tbody id="openiitBody">
-
-        <script type='text/javascript'>
-        function fetchEventsData() {
-            let output = "";
-            fetch('http://gymk-back.herokuapp.com/openiit')
-                .then (response => response.json())
-                .then( events => {
-                    if(events == []) {
-                        document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
-                        return;
-                    }
-                    events = JSON.parse(events);
-                    events.map(row => {
-                        console.log(row);
-                        let indiv_row = `
-                        <tr>
-                            <td>${row['date']}</td>
-                            <td>${row['eventname']}</td>
-                            <td>${row['winner']}</td>
-                            <td>${row['runnersup']}</td>
-                            <td>${row['secondrunnersup']}</td>
-                        </tr>
-                        `
-                        
-                        if (indiv_row != undefined)
-                        {
-                            output += indiv_row;
-                        }
-                    });
-                })
-                .then(() => {
-                    document.getElementById('openiitBody').innerHTML = output;
-                })
-                .catch(() => {
-                    document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1>To be Updated</h1></td></td>`;
-                    return;
-                });
-        }
-
-        fetchEventsData()
-        </script>
-        </tbody>
-
+            
         </table>
 
     </div>
+    <script src="fetchdata.js"></script>
 
     <!-- <script src="fetchdata.js"></script>
     <script>
