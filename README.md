@@ -1,6 +1,6 @@
 # What's here
 
-The repo contains the source code for GymKhana's official website written in PHP, HTML, CSS, SASS and JS.
+The repo contains the source code for GymKhana's official website written in PHP, HTML, CSS, SASS and JS. The website is linked to Google Analytics using the tech coordinator's GMail account for seeing the traffic statistics of the website.
 
 ## How To Run Locally
 
@@ -88,4 +88,4 @@ sshfs https://github.com/libfuse/sshfs can be installed using standard apt insta
 
 ## TODO
 
-- [ ] Add more details to readme.md
+- [ ] Add mess menu to the backend as well as merge frontend PR.
