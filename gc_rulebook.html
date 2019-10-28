@@ -85,7 +85,7 @@
             <th> Rules </th>
         </tr>
         </thead>
-        <tbody id="eventBody">
+        <tbody id="ruleBody">
             <tr>
                 <td> To Be Updated</td>
             </tr>
@@ -181,22 +181,23 @@
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-<!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
+<script type="text/javascript" src="js/blogpost.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('.modal').modal();
         $('.sidenav').sidenav();
     });
 </script>
-<!-- <script src="fetchdata.js"></script>
+<!--     <script src="fetchdata.js"></script>   -->
 <script type='text/javascript'>
             function fetchEventsData(setQuery()) {
                 let output = "";
-                fetch('')
+                document.getElementById('ruleBody').innerHTML = `<img src="gif/loader.gif">`;
+                fetch('')  // url here
                     .then (response => response.json())
                     .then( events => {
                         if(events == []) {
-                            document.getElementById('eventBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                            document.getElementById('ruleBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                             return;
                         }
                         events = JSON.parse(events);
@@ -218,15 +219,15 @@
                     .then(() => {
                         console.log(output);
                         console.log("here");
-                        document.getElementById('eventBody').innerHTML = output;
+                        document.getElementById('ruleBody').innerHTML = output;
                     })
                     .catch(() => {
-                        document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                        document.getElementById('ruleBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     });
             }
 
             fetchEventsData()
-        </script>   -->
+        </script>  
 </body>
 </html>
