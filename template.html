@@ -22,26 +22,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <style>
         .content{
-            border: solid red;
+           background: linear-gradient(135deg, #F44336, #673ab7);
+           border-radius: 10px;
             display: none;
             z-index: 2;
             position: absolute;
-            margin: 0;
+            
         }
         ul.content li{
             display: table-cell;
 
-            border-radius: 0;
-            background-color: white;
+            border-radius: 10px;
+           
         }
         li#drop1:hover ul.content#opts1{
             display: block;
+            max-width: 150px;
+            padding: 0px;
         }
         li#drop2:hover ul.content#opts2{
             display: block;
+            max-width: 150px;
+            padding: 0px;
         }
         li#drop3:hover ul.content#opts3{
             display: block;
+            padding: 0px;
+            max-width: 150px;
         }
     </style>
 
@@ -68,7 +75,7 @@
                 
                 <li id="drop1" class="dropdown"><a href="#" class="waves-effect">Information</a>
                     <ul id="opts1" class="content">
-                        <li ><a href='#' >Mess Menu &emsp;&emsp;&emsp;&emsp;&emsp;</a></li>
+                        <li ><a href='#' >Mess Menu</a></li>
                         <li><a href='#' >GC Rulebook</a></li>
                         <li><a href="#" >Open IIT Rulebook</a></li>
                     </ul>
@@ -77,16 +84,16 @@
                 <li id="drop2" class="dropdown"><a href="#" class="waves-effect">Notices</a>
                     <ul id="opts2" class="content">
                         <li ><a href='events.html' >Announcements</a></li>
-                        <li><a href='openiit.html' >Open IIT &emsp;&emsp;&emsp;</a></li>
-                        <li><a href="gc.php" >GC 18-19 &emsp;&emsp;&nbsp;&nbsp;</a></li>
-                        <li><a href="gc-results.html">GC 19-20 &emsp;&emsp;&nbsp;&nbsp;</a></li>
+                        <li><a href='openiit.html' >Open IIT</a></li>
+                        <li><a href="gc.php" >GC 18-19 </a></li>
+                        <li><a href="gc-results.html">GC 19-20</a></li>
                     </ul>
                 </li>
 
 
                 <li id="drop3" class="dropdown"><a href="#" class="waves-effect">SoCult</a>
                     <ul id="opts3" class="content">
-                        <li><a href="fests.html" >Fests &emsp;&nbsp;</a></li>
+                        <li><a href="fests.html" >Fests</a></li>
                         <li><a href="societies.html" >Societies</a></li>
                     </ul>
                 </li>
