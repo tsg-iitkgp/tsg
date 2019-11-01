@@ -86,7 +86,7 @@
             fetch('http://gymk-back.herokuapp.com/gc')
                 .then (response => response.json())
                 .then( events => {
-                    if(events == []) {
+                    if(events.error === 'no data') {
                         document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
@@ -104,7 +104,7 @@
                             <td>${row['domaintechsocultsports']}</td>
                         </tr>
                         `
-                        
+
                         if (indiv_row != undefined)
                         {
                             output += indiv_row;
@@ -114,8 +114,8 @@
                 .then(() => {
                     document.getElementById('gcBody').innerHTML = output;
                 })
-                .catch(() => {
-                    document.getElementById('gcBody').innerHTML = '<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>';
+                .catch(err => {
+                    console.log('Error is ',err);
                     return;
                 });
         }

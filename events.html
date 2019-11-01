@@ -66,7 +66,7 @@
 
         <table id="event" class="table table-responsive table-bordered table-fixed">
 
-            <tr>                
+            <tr>
                 <th> Event </th>
                 <th> Organiser </th>
                 <th> Date </th>
@@ -84,7 +84,7 @@
             fetch('http://gymk-back.herokuapp.com/events')
                 .then (response => response.json())
                 .then( events => {
-                    if(events == []) {
+                    if(events.error === 'no data') {
                         document.getElementById('eventBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
@@ -111,8 +111,8 @@
                     console.log("here");
                     document.getElementById('eventBody').innerHTML = output;
                 })
-                .catch(() => {
-                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                .catch(err => {
+                    console.log('Error is ',err);
                     return;
                 });
         }

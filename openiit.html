@@ -83,7 +83,7 @@
             fetch('http://gymk-back.herokuapp.com/openiit')
                 .then (response => response.json())
                 .then( events => {
-                    if(events == []) {
+                    if(events.error === 'no data') {
                         document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
@@ -99,7 +99,7 @@
                             <td>${row['secondrunnersup']}</td>
                         </tr>
                         `
-                        
+
                         if (indiv_row != undefined)
                         {
                             output += indiv_row;
@@ -109,8 +109,8 @@
                 .then(() => {
                     document.getElementById('openiitBody').innerHTML = output;
                 })
-                .catch(() => {
-                    document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                .catch(err => {
+                    console.log('Error is ', err);
                     return;
                 });
         }
