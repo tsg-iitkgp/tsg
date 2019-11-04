@@ -82,6 +82,11 @@
             let output = "";
             document.getElementById('eventBody').innerHTML = `<img src="gif/loader.gif">`;
             fetch('http://gymk-back.herokuapp.com/events')
+                .then(response => {
+                    if(!response.ok)
+                        throw Error(response.statusText)
+                    return response;
+                })
                 .then (response => response.json())
                 .then( events => {
                     if(events.error === 'no data') {
@@ -112,6 +117,7 @@
                     document.getElementById('eventBody').innerHTML = output;
                 })
                 .catch(err => {
+                    document.getElementById('eventBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                     console.log('Error is ',err);
                     return;
                 });

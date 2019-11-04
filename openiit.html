@@ -81,6 +81,11 @@
             let output = "";
             document.getElementById('openiitBody').innerHTML = `<img src="gif/loader.gif">`;
             fetch('http://gymk-back.herokuapp.com/openiit')
+                .then(response => {
+                        if(!response.ok)
+                            throw Error(response.statusText)
+                        return response;
+                    })
                 .then (response => response.json())
                 .then( events => {
                     if(events.error === 'no data') {
@@ -110,6 +115,7 @@
                     document.getElementById('openiitBody').innerHTML = output;
                 })
                 .catch(err => {
+                    document.getElementById('openiitBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                     console.log('Error is ', err);
                     return;
                 });
