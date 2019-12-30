@@ -30,7 +30,6 @@
         <meta property="twitter:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
         <meta property="twitter:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
         <meta property="twitter:image" content="favicon.png" />
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -83,7 +82,7 @@
 
         <table id="event" class="table table-responsive table-bordered table-fixed">
 
-            <tr>                
+            <tr>
                 <th> Event </th>
                 <th> Organiser </th>
                 <th> Date </th>
@@ -99,9 +98,14 @@
             let output = "";
             document.getElementById('eventBody').innerHTML = `<img src="gif/loader.gif">`;
             fetch('http://gymk-back.herokuapp.com/events')
+                .then(response => {
+                    if(!response.ok)
+                        throw Error(response.statusText)
+                    return response;
+                })
                 .then (response => response.json())
                 .then( events => {
-                    if(events == []) {
+                    if(events.error === 'no data') {
                         document.getElementById('eventBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
@@ -128,8 +132,9 @@
                     console.log("here");
                     document.getElementById('eventBody').innerHTML = output;
                 })
-                .catch(() => {
-                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                .catch(err => {
+                    document.getElementById('eventBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                    console.log('Error is ',err);
                     return;
                 });
         }
