@@ -101,9 +101,9 @@
                 <th> Event Name </th>
                 <th> Event Cup </th>
                 <th> Event Points </th>
-                <th> Winner </th>
-                <th> Runners Up </th>
-                <th> Second Runners Up </th>
+                <th> Gold </th>
+                <th> Silver </th>
+                <th> Bronze </th>
                 <th> Event Domain </th>
             </tr>
             </thead>
@@ -114,9 +114,14 @@
             let output = "";
              document.getElementById('gcBody').innerHTML = `<img src="gif/loader.gif">`;
             fetch('http://gymk-back.herokuapp.com/gc')
+             .then(response => {
+                    if(!response.ok)
+                        throw Error(response.statusText)
+                    return response;
+                })
                 .then (response => response.json())
                 .then( events => {
-                    if(events == []) {
+                    if(events.error === 'no data') {
                         document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
@@ -134,7 +139,7 @@
                             <td>${row['domaintechsocultsports']}</td>
                         </tr>
                         `
-                        
+
                         if (indiv_row != undefined)
                         {
                             output += indiv_row;
@@ -144,8 +149,9 @@
                 .then(() => {
                     document.getElementById('gcBody').innerHTML = output;
                 })
-                .catch(() => {
-                    document.getElementById('gcBody').innerHTML = '<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>';
+                .catch(err => {
+                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                    console.log('Error is ',err);
                     return;
                 });
         }
