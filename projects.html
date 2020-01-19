@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150093374-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-150093374-1');
+        </script>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+         <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+        });
+        </script> 
+
+
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#D02451" />
+
+    <meta name="description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gymkhana.iitkgp.ac.in" />
+        <meta property="og:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
+        <meta property="og:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
+        <meta property="og:image" content="favicon.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="website" />
+        <meta property="twitter:url" content="http://www.gymkhana.iitkgp.ac.in" />
+        <meta property="twitter:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
+        <meta property="twitter:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
+        <meta property="twitter:image" content="favicon.png" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        tr th{background-color: #6c7ae0;color: white;font-family: "Roboto Light";}
+        td{font-family: Roboto;}
+        table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
+
+    </style>
+
+</head>
+<body>
+
+
+
+
+    <div class="container page z-depth-5">
+
+
+        <nav class="navigation">
+                <div class="nav-wrapper">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="index.php" class="brand-logo left valign-wrapper">
+                        <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
+
+                    </a>
+                    <ul id="nav-mobile" class="hide-on-med-and-down right">
+                        <li><a href="blog/" class="waves-effect">Blog</a></li>
+                        <li ><a href='events.html' class="waves-effect">Notices</a></li>
+                        <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                        <li class="active"><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
+                        <li><a href="gc.php" class="waves-effect">GC 18-19</a></li>
+                        <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                        <li ><a href="fests.html" class="waves-effect">Fests</a></li>
+                        <li><a href="societies.html" class="waves-effect">Societies</a></li>
+                        <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        <br/><br/>
+        <h3 style="text-align: center"><strong><u>Projects under Technology Students Gymkhana</u></strong></h3>
+        <br>
+        <br>
+        <p id="testing">
+
+        </p>
+
+
+        <table id="event" class="table table-responsive table-bordered table-fixed">
+
+            <tr>
+                <th> Serial Number </th>
+                <th> Project Name </th>
+                <th> Link to Project Brief </th>
+                <th> Project Status </th>
+                <th> Application Link </th>
+            </tr>
+            </thead>
+            <tbody id="projectsBody">
+
+        <script type='text/javascript'>
+        function fetchEventsData() {
+            let output = "";
+             document.getElementById('projectsBody').innerHTML = `<img src="gif/loader.gif">`;
+            fetch('http://localhost:3000/projects')
+             .then(response => {
+                    if(!response.ok)
+                        throw Error(response.statusText)
+                    return response;
+                })
+                .then (response => response.json())
+                .then( events => {
+                    if(events.error === 'no data') {
+                        document.getElementById('projectsBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                        return;
+                    }
+                    events = JSON.parse(events);
+                    console.log(events)
+                    events.map((row, index) => {
+                        console.log(row);
+                        ` 
+                        <tr id="pro">
+                            <td>${index+1}</td>
+                            <td>${row['projectname']}</td>
+                            <td>${row['projectbrieflink']}</td>
+                            <td>${row['projectstatus']}</td>
+                            <td>${row['applicationurl']}</td>
+                        </tr>
+                        `
+                    });
+                })
+                .then(() => {
+                    document.getElementById('projectsBody').innerHTML = output;
+                })
+                .catch(err => {
+                    document.getElementById('projectsBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                    console.log('Error is ',err);
+                    return;
+                });
+        }
+
+        fetchEventsData()
+        </script>
+        </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- <script src="fetchdata.js"></script>
+    <script>
+        function setQuery() {
+            const site = "http://gymk-back.herokuapp.com" + window.location.pathname;
+            let temp = site.split('/');
+            let final = "http://gymk-back.herokuapp.com/" + temp[temp.length - 1];
+            return final;
+        }
+        // document.getElementById('testing').innerText = setQuery();
+        // for testing purpose
+
+    </script> -->
+
+    <div id="footer"></div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
+        <!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.modal').modal();
+                $('.sidenav').sidenav();
+            });
+        </script>
+
+</body>
+</html>
