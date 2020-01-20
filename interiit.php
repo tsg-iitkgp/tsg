@@ -19,6 +19,7 @@
 </script>
 <script> 
 $(function(){
+
   $("#header1").load("header1.html"); 
   $("#footer").load("footer.html"); 
 });
