@@ -1,0 +1,32 @@
+<nav class="navigation">
+    <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="index.php" class="brand-logo left valign-wrapper">
+            <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
+            <!-- <span>Technology Students’ Gymkhana</span> -->
+        </a>
+        <div id="tsg" >
+
+            <!--Script for adding the 'active' class to the opened tab-->
+        <script>
+            var name = window.location.pathname.split('/')[window.location.pathname.split('/').length - 1];
+            var element = document.getElementById(name);
+            element.classList.add("active");
+           
+        </script>
+            <ul id="nav-mobile" class="hide-on-med-and-down right">
+                <li ><a href="blog/" class="waves-effect">Blog</a></li>
+                <li id="events.html"><a href='events.html' class="waves-effect">Notices</a></li>
+                <li id="openiit.html"><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                <li id="gc-results.html"><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
+                <li id="gc.php"><a href="gc.php" class="waves-effect">GC 18-19</a></li>
+                <li id="interiit.php"><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                <li id="fests.html"><a href="fests.html" class="waves-effect">Fests</a></li>
+                <li id="societies.html"><a href="societies.html" class="waves-effect">Societies</a></li>
+                <li id="contacts.html"><a href="contacts.html" class="waves-effect">Contacts</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
