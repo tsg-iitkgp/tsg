@@ -24,7 +24,7 @@
 
 
     <meta charset="UTF-8">
-    <title>Events</title>
+    <title>Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#D02451" />
 
@@ -76,11 +76,11 @@
                         <li><a href="blog/" class="waves-effect">Blog</a></li>
                         <li ><a href='events.html' class="waves-effect">Notices</a></li>
                         <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
-                        <li class="active"><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
+                        <li><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
                         <li><a href="gc.php" class="waves-effect">GC 18-19</a></li>
                         <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
                         <li ><a href="fests.html" class="waves-effect">Fests</a></li>
-                        <li ><a href="projects.html" class="waves-effect">Projects</a></li>
+                        <li class="active" ><a href="projects.html" class="waves-effect">Projects</a></li>
                         <li><a href="societies.html" class="waves-effect">Societies</a></li>
                         <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
                     </ul>
@@ -88,7 +88,7 @@
             </nav>
 
         <br/><br/>
-        <h3 style="text-align: center"><strong><u>General Championship 2019-2020 Results</u></strong></h3>
+        <h3 style="text-align: center"><strong><u>Projects under Technology Students Gymkhana</u></strong></h3>
         <br>
         <br>
         <p id="testing">
@@ -99,22 +99,20 @@
         <table id="event" class="table table-responsive table-bordered table-fixed">
 
             <tr>
-                <th> Event Name </th>
-                <th> Event Cup </th>
-                <th> Event Points </th>
-                <th> Gold </th>
-                <th> Silver </th>
-                <th> Bronze </th>
-                <th> Event Domain </th>
+                <th> Serial Number </th>
+                <th> Project Name </th>
+                <th> Link to Project Brief </th>
+                <th> Project Status </th>
+                <th> Application Link </th>
             </tr>
             </thead>
-            <tbody id="gcBody">
+            <tbody id="projectsBody">
 
         <script type='text/javascript'>
         function fetchEventsData() {
             let output = "";
-             document.getElementById('gcBody').innerHTML = `<img src="gif/loader.gif">`;
-            fetch('http://gymk-back.herokuapp.com/gc')
+             document.getElementById('projectsBody').innerHTML = `<img src="gif/loader.gif">`;
+            fetch('https://gymk-back.herokuapp.com/projects')
              .then(response => {
                     if(!response.ok)
                         throw Error(response.statusText)
@@ -123,24 +121,32 @@
                 .then (response => response.json())
                 .then( events => {
                     if(events.error === 'no data') {
-                        document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                        document.getElementById('projectsBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                         return;
                     }
                     events = JSON.parse(events);
-                    events.map(row => {
+                    // console.log(events)
+                    events.map((row, index) => {
                         console.log(row);
-                        let indiv_row = `
-                        <tr>
-                            <td>${row['eventname']}</td>
-                            <td>${row['eventcup']}</td>
-                            <td>${row['eventpoints']}</td>
-                            <td>${row['winner']}</td>
-                            <td>${row['runnersup']}</td>
-                            <td>${row['secondrunnersup']}</td>
-                            <td>${row['domaintechsocultsports']}</td>
+                        let status = row['projectstatus'];
+                        let indiv_row = 
+                        ` 
+                            <td>${index+1}</td>
+                            <td>${row['projectname']}</td>
+                            <td>${row['projectstatus']}</td>
+                            <td><a href="http://${row['projectbrieflink']}">Project Brief</a></td>
+                            <td><a href="http://${row['applicationurl']}">Apply Here!</a ></td>
                         </tr>
                         `
-
+                        if(status == "completed"){
+                            indiv_row = "<tr style='background:#a8e4a0'>" + indiv_row;
+                        }
+                        else if (status == "open"){
+                            indiv_row = "<tr style='background:#CD5C5C'>" + indiv_row;
+                        }
+                        else{
+                            indiv_row = "<tr>" + indiv_row; 
+                        }
                         if (indiv_row != undefined)
                         {
                             output += indiv_row;
@@ -148,13 +154,14 @@
                     });
                 })
                 .then(() => {
-                    document.getElementById('gcBody').innerHTML = output;
+                    document.getElementById('projectsBody').innerHTML = output;
                 })
                 .catch(err => {
-                    document.getElementById('gcBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                    document.getElementById('projectsBody').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
                     console.log('Error is ',err);
                     return;
                 });
+
         }
 
         fetchEventsData()
