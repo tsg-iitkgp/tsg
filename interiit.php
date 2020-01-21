@@ -20,7 +20,7 @@
 <script> 
 $(function(){
 
-  $("#header1").load("header1.html"); 
+  $("#header").load("header.html"); 
   $("#footer").load("footer.html"); 
 });
 </script> 
@@ -57,7 +57,7 @@ $(function(){
     <body class="interiit">
         <div class="container page z-depth-5">
             
-        <div id="header1">     
+        <div id="header">     
         </div>
 
             <div class="content">
