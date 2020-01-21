@@ -2,29 +2,27 @@
 <html lang="en">
 <head>
 
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150093374-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-150093374-1');
-</script>
-
-<script
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150093374-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-150093374-1');
+    </script>
+    
+    <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
-</script>
-<script> 
-$(function(){
-
-  $("#header1").load("header1.html"); 
-
-  $("#footer").load("footer.html"); 
-});
-</script> 
+    </script>
+    <script> 
+    $(function(){
+    
+    $("#header1").load("header1.html"); 
+    $("#footer").load("footer.html"); 
+    });
+    </script> 
 
 
     <meta charset="UTF-8">
@@ -34,19 +32,21 @@ $(function(){
 
     <meta name="description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://www.gymkhana.iitkgp.ac.in" />
-        <meta property="og:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
-        <meta property="og:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
-        <meta property="og:image" content="favicon.png" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.gymkhana.iitkgp.ac.in" />
+    <meta property="og:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
+    <meta property="og:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
+    <meta property="og:image" content="favicon.png" />
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="website" />
-        <meta property="twitter:url" content="http://www.gymkhana.iitkgp.ac.in" />
-        <meta property="twitter:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
-        <meta property="twitter:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
-        <meta property="twitter:image" content="favicon.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="website" />
+    <meta property="twitter:url" content="http://www.gymkhana.iitkgp.ac.in" />
+    <meta property="twitter:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
+    <meta property="twitter:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
+    <meta property="twitter:image" content="favicon.png" />
+
+
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Playfair+Display|Roboto+Slab:400,700" rel="stylesheet">
@@ -54,45 +54,14 @@ $(function(){
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <style>
-        #halls{
-            display: block;
-            z-index: 100;
-            position: relative;
-            left: 50%;
-            width: 30%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            border: solid red;
+        #halls{display: block;z-index: 100;position: relative;left: 50%;width: 30%;margin-right: -50%;transform: translate(-50%, -50%);text-align: center;border: solid red; z-index: -3;
         }
-        #test{
-            font-size: larger;
-            text-align: center;
-            margin: 10px;
-        }
-        th:not(:first-of-type){
-            background-color:lightgray;
-            font-size: ;
-        }
-        th:first-child{
-            color: #1e7e34;
-            font-size: 2em;
-        }
-        td:not(:first-of-type){
-            width: 14.3%;
-            height: max-content;
-        }
-        td:first-child{
-            color: black;
-            font-family: "Roboto Light";
-            font-size: 1.2em;
-            background-color: #7abaff;
-
-        }
-        table{
-            overflow-x: scroll;
-        }
-
+        #test{font-size: larger;text-align: center;margin: 10px;}
+        th:not(:first-of-type){background-color:lightgray;font-size: ;}
+        th:first-child{direction:rtl; width: auto;color: #1e7e34;font-size: 2em;}
+        td:not(:first-of-type){width: 14.3%;height: max-content;}
+        td:first-child{color: black;font-family: "Roboto Light";font-size: 1.2em;background-color: #7abaff;}
+        table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
     </style>
 
 </head>
@@ -105,21 +74,22 @@ $(function(){
 
 
     <div id="header1"></div>
-    <br>
+    <br></br>
     <h3 style="text-align: center">Mess Menu </h3>
 
 
 
     <br>
-    <select id="halls">
+    <select id="halls" onChange="getHall(this);">
+        <option selected disabled> Choose hall</option>
 
     </select>
-
+    
 
     <table class="table table-bordered table-responsive table-hover">
     <thead>
     <tr>
-        <th> NHR </th>
+        <th id="hall_name"> Hall Name </th>
         <th> Monday  </th>
         <th> Tuesday </th>
         <th> Wednesday </th>
@@ -129,71 +99,32 @@ $(function(){
         <th> Sunday </th>
     </tr>
     </thead>
-    <tbody>
+    <tbody id="messtable">
     <tr>
         <td>Breakfast</td>
-        <td>Methi Paratha + Sabji</td>
-        <td>Masala Dosa</td>
-        <td>Sambhar</td>
-        <td>Idli </td>
-        <td>Upma</td>
-        <td>Puri + Sabji</td>
-        <td>Poha</td>
+        
     </tr>
     <tr>
         <td>Lunch</td>
-        <td>Methi Paratha + Sabji</td>
-        <td>Masala Dosa</td>
-        <td>Sambhar</td>
-        <td>Idli </td>
-        <td>Upma</td>
-        <td>Puri + Sabji</td>
-        <td>Poha</td>
+        
     </tr>
     <tr>
         <td>Snacks</td>
-        <td>Methi Paratha + Sabji</td>
-        <td>Masala Dosa</td>
-        <td>Sambhar</td>
-        <td>Idli </td>
-        <td>Upma</td>
-        <td>Puri + Sabji</td>
-        <td>Poha</td>
+        
     </tr>
     <tr>
         <td>Dinner</td>
-        <td>Methi Paratha + Sabji</td>
-        <td>Masala Dosa</td>
-        <td>Sambhar</td>
-        <td>Idli </td>
-        <td>Upma</td>
-        <td>Puri + Sabji</td>
-        <td>Poha</td>
+        
     </tr>
-
-
 
     </tbody>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
 
+<div id="footer"></div>
 
-    <div id="footer"></div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
@@ -204,7 +135,78 @@ $(function(){
         $('.sidenav').sidenav();
     });
 </script>
-<script src="messmenu.js"></script>
+<script type="text/javascript">
+        var hall = "";
+    const link = 'http://gymk-back.herokuapp.com/mess/';
+    var req = '';
+    
+    var hallnames = ["Azad", "BCRH", "BRH", "Gokhale", "HJB", "JCB", "Nehru", "LBS", "LLR", "MMM", "MS", "MT", "SNVH", "Patel", "Patel", "RK", "RLB", "RP", "SAM", "SNIG", "VS"];
+    
+    window.onload = fillHalls;
+
+    function fillHalls() {
+        var sel = document.getElementById("halls");
+
+        for (let i = 0; i < hallnames.length; i++){
+            var opt = document.createElement("option");
+            opt.appendChild(document.createTextNode(hallnames[i]));
+            let val = i + 1;
+            opt.value = val;
+            sel.appendChild(opt);
+        }
+    }
+
+    function getHall(sel){
+        var hallname = sel.options[sel.selectedIndex].text;
+        document.getElementById('hall_name').innerHTML = hallname;
+        hall = hallname;
+        req = link + hall.toLowerCase();     // hallwise link here 
+        fetchMenuData(req); 
+    }
+    
+    function fetchMenuData(link) {    // changed name of the function
+            let output = "";
+            document.getElementById('messtable').innerHTML = `<img src="gif/loader.gif">`;   // id changed to messtable
+            fetch(link)
+                .then (response => response.json())
+                .then( menu => {
+                    if(menu == []) {
+                        document.getElementById('messtable').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                        return;
+                    }
+                    menu = JSON.parse(menu);
+                    menu.map(row => {
+                        let indiv_row = `
+                        <tr>
+                            <td>${row['time']}</td>
+                            <td>${row['monday']}</td>
+                            <td>${row['tuesday']}</td>
+                            <td>${row['wednesday']}</td>
+                            <td>${row['thursday']}</td>
+                            <td>${row['friday']}</td>
+                            <td>${row['saturday']}</td>
+                            <td>${row['sunday']}</td>
+                        </tr>
+                        `
+                        if (indiv_row != undefined)
+                        {
+                            output += indiv_row;
+                        }
+                    });
+                })
+                .then(() => {
+                    console.log(output);
+                    console.log("here");
+                    document.getElementById('messtable').innerHTML = output;
+                })
+                .catch(() => {
+                    document.getElementById('messtable').innerHTML = `<tr><td colspan=7><h1 style="text-align:center;">To Be Updated</h1></td></td>`;
+                    return;
+                });
+        }  
+    
+    
+</script>
 
 </body>
 </html>
