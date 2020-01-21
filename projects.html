@@ -117,11 +117,12 @@
                             <td><a href="http://${row['applicationurl']}">Apply Here!</a ></td>
                         </tr>
                         `
-                        if(status == "completed"){
-                            indiv_row = "<tr style='background:#a8e4a0'>" + indiv_row;
-                        }
-                        else if (status == "open"){
+                        status = status.toLowerCase();
+                        if(status == "completed" || status == "complete" || status == "finished" || status=="finish" || status =="closed" || status=="close"){
                             indiv_row = "<tr style='background:#CD5C5C'>" + indiv_row;
+                        }
+                        else if (status == "open" || status == "accepting" || status == "accept" || status == "accepting"){
+                            indiv_row = "<tr style='background:#a8e4a0'>" + indiv_row;
                         }
                         else{
                             indiv_row = "<tr>" + indiv_row; 
