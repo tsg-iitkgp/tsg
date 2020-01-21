@@ -18,24 +18,22 @@
             }
             ul.dropdown_content li{
                 display: table-cell;
-    
                 border-radius: 10px;
-                
             }
             li#drop1:hover ul.dropdown_content#opts1{
                 display: block;
-                max-width: 150px;
+                max-width: 100px;
                 padding: 0px;
             }
             li#drop2:hover ul.dropdown_content#opts2{
                 display: block;
-                max-width: 150px;
+                max-width: 120px;
                 padding: 0px;
             }
             li#drop3:hover ul.dropdown_content#opts3{
                 display: block;
                 padding: 0px;
-                max-width: 150px;
+                max-width: 100px;
             }
         </style>
 
@@ -55,7 +53,7 @@
             var element = document.getElementById(name);
             element.classList.add("active");
             var element = document.getElementsByClassName(name);
-            element.classList.add("active");
+            element[0].classList.add("active");
         </script>
             <ul id="nav-mobile" class="hide-on-med-and-down right">
                 <li ><a href="blog/" class="waves-effect">Blog</a></li>
@@ -68,7 +66,7 @@
                 </li>
                 <li id="drop2" class="dropdown gc.php messmenu.html interiit.php"><a href="#" class="waves-effect">Info</a>
                     <ul id="opts2" class="dropdown_content">
-                        <li id="messmenu.html"><a href='messmenu.html' class="waves-effect">Messmenu &emsp;&emsp;&emsp;&emsp;&emsp;</a></li>
+                        <li id="messmenu.html"><a href='messmenu.html' class="waves-effect">Messmenu</a></li>
                         <li id="rulebook.html"><a href='gc_rulebook.html' class="waves-effect">Rulebook</a></li>
                         <li id="gc.php"><a href="gc.php" class="waves-effect">GC 18-19</a></li>
                         <li id="interiit.php"><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
@@ -76,7 +74,7 @@
                 </li>
                 <li id="drop3" class="dropdown fests.html societies.html"><a href="#" class="waves-effect">SoCult</a>
                     <ul id="opts3" class="dropdown_content">
-                        <li id="fests.html"><a href="fests.html" class="waves-effect">Fests&emsp;&nbsp;</a></li>
+                        <li id="fests.html"><a href="fests.html" class="waves-effect">Fests</a></li>
                         <li id="societies.html"><a href="societies.html" class="waves-effect">Societies</a></li>
                     </ul>
                 </li>
