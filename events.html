@@ -86,7 +86,7 @@ $("#footer").load("footer.html");
                 <th> Date </th>
                 <th> Time </th>
                 <th> Venue </th>
-                <th> Reg Link </th>
+                <th> Attachment </th>
             </tr>
             </thead>
             <tbody id="eventBody">
@@ -111,7 +111,7 @@ $("#footer").load("footer.html");
                             <td>${row['date']}</td>
                             <td>${row['time']}</td>
                             <td>${row['venue']}</td>
-                            <td>${row['registrationlinkfbpost']}</td>
+                            <td><a href="${row['registrationlinkfbpost']}" target="_blank">Link</a></td>
                         </tr>
                         `
                         if (indiv_row != undefined)
