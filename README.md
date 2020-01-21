@@ -26,9 +26,7 @@ git remote rm origin
 git remote add origin <new_repo_url>
 ```
 
-3. Run `git fetch origin`
-4. On your local system, run `git diff <commit hash before your changes> <commit hash of head>`. Use `git log` to get commit hashes.
-5. For every new file or folder, do `git checkout origin/master -- path/to/file/or/folder`. The path here should be relative to root of the repository.
+3. Run `git pull origin master`
 
 This will ensure that all the changes that you have pushed are now deployed. There is no delay in the deployment and the website is updated immediately.
 
