@@ -19,7 +19,9 @@
 </script>
 <script> 
 $(function(){
-  $("#header").load("header.html"); 
+
+  $("#header1").load("header1.html"); 
+
   $("#footer").load("footer.html"); 
 });
 </script> 
@@ -63,28 +65,7 @@ $(function(){
 
     <body class="gc">
         <div class="container page z-depth-5">
-            <nav class="navigation">
-                <div class="nav-wrapper">
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="index.php" class="brand-logo left valign-wrapper">
-                        <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-                        <!-- <span>Technology Students’ Gymkhana</span> -->
-                        <!-- CSS :after inserts the Appropriate text -->
-                    </a>
-                    <ul id="nav-mobile" class="hide-on-med-and-down right">
-                        <li><a href="blog/" class="waves-effect">Blog</a></li>
-                        <li ><a href='events.html' class="waves-effect">Notices</a></li>
-                        <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
-                        <li><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
-                        <li class="active"><a href="gc.php" class="waves-effect">GC 18-19</a></li>
-                        <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
-                        <li ><a href="fests.html" class="waves-effect">Fests</a></li>
-                        <li ><a href="projects.html" class="waves-effect">Projects</a></li>
-                        <li><a href="societies.html" class="waves-effect">Societies</a></li>
-                        <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <div id="header1"></div>
 
 
 
