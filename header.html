@@ -3,18 +3,88 @@
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <a href="index.php" class="brand-logo left valign-wrapper">
             <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-            <span>Technology Students’ Gymkhana</span>
+            <!-- <span id="tsg-banner">Technology Students’ Gymkhana</span> -->
         </a>
-        <ul id="nav-mobile" class="hide-on-med-and-down right">
-            <li><a href="blog/" class="waves-effect">Blog</a></li>
-            <li ><a href='events.html' class="waves-effect">Notices</a></li>
-            <li ><a href='openiit.html' class="waves-effect">Open IIT</a></li>
-            <li><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
-            <li><a href="gc.php" class="waves-effect">GC 18-19</a></li>
-            <li><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
-            <li ><a href="fests.html" class="waves-effect">Fests</a></li>
-            <li><a href="societies.html" class="waves-effect">Societies</a></li>
-            <li><a href="contacts.html" class="waves-effect">Contacts</a></li>
-        </ul>
+        <div id="tsg" >
+
+        <style>
+            .dropdown_content{
+                background: linear-gradient(135deg, #F44336, #673ab7);
+                border-radius: 10px;
+                display: none;
+                z-index: 2;
+                position: absolute;
+                
+            }
+            ul.dropdown_content li{
+                display: table-cell;
+    
+                border-radius: 10px;
+                
+            }
+            li#drop1:hover ul.dropdown_content#opts1{
+                display: block;
+                max-width: 150px;
+                padding: 0px;
+            }
+            li#drop2:hover ul.dropdown_content#opts2{
+                display: block;
+                max-width: 150px;
+                padding: 0px;
+            }
+            li#drop3:hover ul.dropdown_content#opts3{
+                display: block;
+                padding: 0px;
+                max-width: 150px;
+            }
+        </style>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
+        <!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.modal').modal();
+                $('.sidenav').sidenav();
+            });
+        </script>
+
+            <!--Script for adding the 'active' class to the opened tab-->
+        <script>
+            var name = window.location.pathname.split('/')[window.location.pathname.split('/').length - 1];
+            var element = document.getElementById(name);
+            element.classList.add("active");
+            var element = document.getElementsByClassName(name);
+            element.classList.add("active");
+        </script>
+            <ul id="nav-mobile" class="hide-on-med-and-down right">
+                <li ><a href="blog/" class="waves-effect">Blog</a></li>
+                <li id="events.html"><a href='events.html' class="waves-effect">Notices</a></li>
+                <li id="drop1" class="dropdown gc-results.html openiit.html"><a href="#" class="waves-effect">Updates</a>
+                    <ul id="opts1" class="dropdown_content">
+                        <li id="openiit.html"><a href='openiit.html' class="waves-effect">Open IIT</a></li>
+                        <li id="gc-results.html"><a href="gc-results.html" class="waves-effect">GC 19-20</a></li>
+                    </ul>
+                </li>
+                <li id="drop2" class="dropdown gc.php messmenu.html interiit.php"><a href="#" class="waves-effect">Info</a>
+                    <ul id="opts2" class="dropdown_content">
+                        <li id="messmenu.html"><a href='messmenu.html' class="waves-effect">Messmenu &emsp;&emsp;&emsp;&emsp;&emsp;</a></li>
+                        <li id="gc_rulebook.html"><a href='gc_rulebook.html' class="waves-effect">GC Rulebook</a></li>
+                        <li id="openiit_rulebook.html"><a href='openiit_rulebook.html' class="waves-effect">OpenIIT Rulebook</a></li>
+                        <li id="gc.php"><a href="gc.php" class="waves-effect">GC 18-19</a></li>
+                        <li id="interiit.php"><a href="interiit.php" class="waves-effect">Inter IIT</a></li>
+                    </ul>
+                </li>
+                <li id="drop3" class="dropdown fests.html societies.html"><a href="#" class="waves-effect">SoCult</a>
+                    <ul id="opts3" class="dropdown_content">
+                        <li id="fests.html"><a href="fests.html" class="waves-effect">Fests&emsp;&nbsp;</a></li>
+                        <li id="societies.html"><a href="societies.html" class="waves-effect">Societies</a></li>
+                    </ul>
+                </li>
+                <li id="projects.html"><a href="projects.html" class="waves-effect">Projects</a></li>
+                <li id="contacts.html"><a href="contacts.html" class="waves-effect">Contacts</a></li>
+            </ul>
+        </div>
+        
     </div>
 </nav>
