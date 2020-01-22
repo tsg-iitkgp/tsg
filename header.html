@@ -1,3 +1,4 @@
+
 <nav class="navigation">
     <div class="nav-wrapper">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -51,9 +52,11 @@
         <script>
             var name = window.location.pathname.split('/')[window.location.pathname.split('/').length - 1];
             var element = document.getElementById(name);
-            element.classList.add("active");
+            if(element !== null)
+                element.classList.add("active");
             var element = document.getElementsByClassName(name);
-            element[0].classList.add("active");
+            if(element[0] !== null)
+                element[0].classList.add("active");
         </script>
             <ul id="nav-mobile" class="hide-on-med-and-down right">
                 <li ><a href="blog/" class="waves-effect">Blog</a></li>
@@ -85,3 +88,12 @@
         
     </div>
 </nav>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
