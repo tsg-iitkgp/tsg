@@ -58,11 +58,12 @@
     <br>
     <div id='mrf-container'>
         <h3 style="text-align: center">Mess Relief Form </h3>
-        <input class="erpinput" type="text" placeholder="ERP Roll Number">
-        <button type="submit">Get Security Question</button>
-        <p class="question"></p>
-        <input class="erpinput" type="text" placeholder="Security Question's Answer">
-        <input class="erpinput" type="password" placeholder="ERP Password">
+        <input class="erpinput" id="rollinput" type="text" placeholder="ERP Roll Number">
+        <button onclick="getQue()" type="submit">Get Security Question</button>
+        <p id="question"></p>
+        <input class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
+        <input class="erpinput" id="pass" type="password" placeholder="ERP Password">
+        <button onclick="onSubmit()" type="submit">SUBMIT!</button>
 
     
     </div>    
@@ -261,6 +262,44 @@
                     return;
                 });
         }
+    
+    function getQue(){
+        var roll_no = document.getElementById("rollinput").value;
+        (async () => {
+              const rawResponse = await fetch('https://afd04240.ngrok.io/que', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({"roll_no": roll_no})
+              });
+              const content = await rawResponse.json();
+            
+            document.getElementById("question").innerHTML = content['que'];
+            })();
+    }
+    
+    function onSubmit(){
+        var roll_no = document.getElementById("rollinput").value;
+     var pwd = document.getElementById("pass").value;
+    var ans = document.getElementById("ansinput").value;
+    
+    (async () => {
+              const rawResponse = await fetch('https://afd04240.ngrok.io/check', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({"roll_no": roll_no, "password": pwd,  "answer":ans})
+              });
+              const content = await rawResponse.json();
+
+              console.log(content);
+            })();
+        
+    }
 
     
     
