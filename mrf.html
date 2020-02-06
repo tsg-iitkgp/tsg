@@ -61,8 +61,8 @@
         <input class="erpinput" id="rollinput" type="text" placeholder="ERP Roll Number">
         <button onclick="getQue()" type="submit">Get Security Question</button>
         <p id="question"></p>
-        <input class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
-        <input class="erpinput" id="pass" type="password" placeholder="ERP Password">
+        <input disabled class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
+        <input disabled class="erpinput" id="pass" type="password" placeholder="ERP Password">
         <button onclick="onSubmit()" type="submit">SUBMIT!</button>
 
     
@@ -263,10 +263,13 @@
                 });
         }
     
+        
+        const URL =  'http://d8a8c134.ngrok.io';
+    
     function getQue(){
         var roll_no = document.getElementById("rollinput").value;
         (async () => {
-              const rawResponse = await fetch('https://afd04240.ngrok.io/que', {
+              const rawResponse = await fetch(URL + '/que', {
                 method: 'POST',
                 headers: {
                   'Accept': 'application/json',
@@ -276,7 +279,13 @@
               });
               const content = await rawResponse.json();
             
-            document.getElementById("question").innerHTML = content['que'];
+            if (content['que'] === 'Invalid Roll Number'){
+                        alert('Roll number is incorrect!');
+                        return;
+                    }
+                document.getElementById("question").innerHTML = content['que'];
+                document.getElementById("pass").disabled = false;
+                document.getElementById("ansinput").disabled = false;  
             })();
     }
     
@@ -286,7 +295,7 @@
     var ans = document.getElementById("ansinput").value;
     
     (async () => {
-              const rawResponse = await fetch('https://afd04240.ngrok.io/check', {
+              const rawResponse = await fetch(URL + '/check', {
                 method: 'POST',
                 headers: {
                   'Accept': 'application/json',
@@ -298,6 +307,12 @@
 
               console.log(content);
             })();
+            document.getElementById("rollinput").value = '';    // clear form after submit
+            document.getElementById("pass").value = '';
+            document.getElementById("ansinput").value = '';  
+            document.getElementById("question").innerHTML = '';
+            document.getElementById("pass").disabled = true;
+            document.getElementById("ansinput").disabled = true;      
         
     }
 
