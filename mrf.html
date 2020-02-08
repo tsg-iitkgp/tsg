@@ -22,6 +22,7 @@
         #mrf-container{margin: 30px 0; border: dotted red;}
         div#days{margin: 10px 5px;border: solid 1px rebeccapurple;}
         label.container{font-size: medium;}
+        #ansinput, #pass, #days, #submit{display: none;}
     </style>
 
 </head>
@@ -64,9 +65,6 @@
         <p id="question"></p>
         <input disabled class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
         <input disabled class="erpinput" id="pass" type="password" placeholder="ERP Password">
-        <button id="sub" onclick="onSubmit()" type="submit">SUBMIT!</button><br>
-        <button id="getd" onclick="getDays()">Get Days</button>
-        <p id="demo"></p>
         <div id="days">
             <!-- <label class="container">text here
                 <input type="checkbox">
@@ -74,8 +72,7 @@
             </label> -->
            
         </div>
-
-    
+        <button id="submit" onclick="onSubmit()" type="submit">SUBMIT!</button><br>    
     </div>    
     <h3 style="text-align: center">Mess Menu </h3><br>
     <select id="halls" onChange="getHall(this);">
@@ -293,16 +290,30 @@
                         alert('Roll number is incorrect!');
                         return;
                     }
-                document.getElementById("question").innerHTML = content['que'];
-                document.getElementById("pass").disabled = false;
-                document.getElementById("ansinput").disabled = false;  
+                document.getElementById("question").innerHTML = content['que']; 
             })();
+            document.getElementById("ansinput").style.display = "block";
+            document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
+            document.getElementById("days").style.display = "block";
+            document.getElementById("submit").style.display = "block";
+            
+            getDays();  
     }
     
     function onSubmit(){
         var roll_no = document.getElementById("rollinput").value;
      var pwd = document.getElementById("pass").value;
     var ans = document.getElementById("ansinput").value;
+        
+        var days = document.getElementsByTagName('input');
+            var selectdays = [];  // values of checked days
+            for (let i = 0; i < days.length; i++) {
+                if (days[i].type == 'checkbox' && days[i].checked == true)
+                    selectdays.push(days[i].value);
+            }
+            if (selectdays.length >= 1) {
+                // backend here
+            }
     
     (async () => {
               const rawResponse = await fetch(URL + '/check', {
@@ -317,12 +328,12 @@
 
               console.log(content);
             })();
-            document.getElementById("rollinput").value = '';    // clear form after submit
+            /* document.getElementById("rollinput").value = '';    // clear form after submit
             document.getElementById("pass").value = '';
             document.getElementById("ansinput").value = '';  
             document.getElementById("question").innerHTML = '';
             document.getElementById("pass").disabled = true;
-            document.getElementById("ansinput").disabled = true;      
+            document.getElementById("ansinput").disabled = true;  */    
         
     }
     
@@ -341,9 +352,9 @@
 
             for(let i = 0; i < result.length; i++){
                 var dt = result[i].getDate() + '-' + (result[i].getMonth() + 1) + '-' + result[i].getFullYear() + ' (' + weekday[result[i].getDay()] + ')';
-                document.getElementById('days').innerHTML += '<label class=\"container\">' + dt + '<input type=\"checkbox\" value=\"' + result[i].getDay() + '\">' + '<span class=\"checkmark\"></span></label>';
-            }
-            document.getElementById("getd").disabled = true;
+                document.getElementById('days').innerHTML += '<label class=\"container\">' + dt + '<input type=\"checkbox\" value=\"' + 
+                    ((result[i].getDay() + 6) %7 ) + '\">' +  '<span class=\"checkmark\"></span></label>';  // 0 - Monday -- 6 Sunday
+            }   
     
     }
 
