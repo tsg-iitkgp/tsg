@@ -20,7 +20,8 @@
         td:first-child{color: black;font-family: "Roboto Light";font-size: 1.2em;background-color: #7abaff;}
         table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
         #mrf-container{margin: 30px 0; border: dotted red;}
-        .erpinput{}
+        div#days{margin: 10px 5px;border: solid 1px rebeccapurple;}
+        label.container{font-size: medium;}
     </style>
 
 </head>
@@ -63,7 +64,16 @@
         <p id="question"></p>
         <input disabled class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
         <input disabled class="erpinput" id="pass" type="password" placeholder="ERP Password">
-        <button onclick="onSubmit()" type="submit">SUBMIT!</button>
+        <button id="sub" onclick="onSubmit()" type="submit">SUBMIT!</button><br>
+        <button id="getd" onclick="getDays()">Get Days</button>
+        <p id="demo"></p>
+        <div id="days">
+            <!-- <label class="container">text here
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label> -->
+           
+        </div>
 
     
     </div>    
@@ -314,6 +324,27 @@
             document.getElementById("pass").disabled = true;
             document.getElementById("ansinput").disabled = true;      
         
+    }
+    
+    function getDays(){        
+            var result = [];   // dates go here 
+            for (var i = 1; i <= 7; i++) {     // January 0 - December 11
+                var d = new Date();             // Sunday 0 - Saturday 6
+                d.setDate(d.getDate() + i);
+                result.push(d)    
+            }
+            /* <label class="container">Two
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            </label> */ 
+            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");  // index is value of checkbox
+
+            for(let i = 0; i < result.length; i++){
+                var dt = result[i].getDate() + '-' + (result[i].getMonth() + 1) + '-' + result[i].getFullYear() + ' (' + weekday[result[i].getDay()] + ')';
+                document.getElementById('days').innerHTML += '<label class=\"container\">' + dt + '<input type=\"checkbox\" value=\"' + result[i].getDay() + '\">' + '<span class=\"checkmark\"></span></label>';
+            }
+            document.getElementById("getd").disabled = true;
+    
     }
 
     
