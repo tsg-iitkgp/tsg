@@ -11,25 +11,23 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <style>
-        #halls{display: block;z-index: 100;position: relative;left: 50%;width: 30%;margin-right: -50%;transform: translate(-50%, -50%);text-align: center;border: solid red; z-index: -3;
-        }
+        #halls{display: block;z-index: 100;position: relative;left: 50%;width: 30%;margin-right: -50%;transform: translate(-50%, -50%);text-align: center;border: solid red; z-index: -3;}
         #test{font-size: larger;text-align: center;margin: 10px;}
         th:not(:first-of-type){background-color:lightgray;font-size: ;}
         th:first-child{direction:rtl; width: auto;color: #1e7e34;font-size: 2em;}
         td:not(:first-of-type){width: 14.3%;height: max-content;}
         td:first-child{color: black;font-family: "Roboto Light";font-size: 1.2em;background-color: #7abaff;}
         table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
-        #mrf-container{margin: 30px 0; border: dotted red;}
+        #mrf-container{border: dotted red;align-self: center;margin: 5% auto;}
         div#days{margin: 10px 5px;border: solid 1px rebeccapurple;}
         label.container{font-size: medium;}
-        #ansinput, #pass, #days, #submit{display: none;}
+        #ansinput, #pass, #days, #submit2{display: none;}
+        button{padding: 1%; font-size: larger; color: black;background-color: #dd8f8f;}
+        button:nth-child(2){color: black;background-color: #dd8f8f;}
     </style>
 
 </head>
 <body>
-
-
-
 
 <div class="container page z-depth-5">
 
@@ -61,10 +59,10 @@
     <div id='mrf-container'>
         <h3 style="text-align: center">Mess Relief Form </h3>
         <input class="erpinput" id="rollinput" type="text" placeholder="ERP Roll Number">
-        <button onclick="getQue()" type="submit">Get Security Question</button>
+        <button id="submit1" onclick="getQue()" type="submit">Get Security Question</button>
         <p id="question"></p>
-        <input disabled class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
-        <input disabled class="erpinput" id="pass" type="password" placeholder="ERP Password">
+        <input class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
+        <input class="erpinput" id="pass" type="password" placeholder="ERP Password">
         <div id="days">
             <!-- <label class="container">text here
                 <input type="checkbox">
@@ -72,7 +70,9 @@
             </label> -->
            
         </div>
-        <button id="submit" onclick="onSubmit()" type="submit">SUBMIT!</button><br>    
+        <button id="submit2" onclick="onSubmit()" type="submit">SUBMIT!</button><br>
+
+    
     </div>    
     <h3 style="text-align: center">Mess Menu </h3><br>
     <select id="halls" onChange="getHall(this);">
@@ -109,8 +109,6 @@
     </tbody>
 </table>
 </div>
-
-
 
 <div class="links container z-depth-3">
     <div class="container white-text">
@@ -228,8 +226,7 @@
         fetchMenuData(req);        
     }    
     
-    
-     function fetchMenuData(link) {    // changed name of the function
+    function fetchMenuData(link) {    // changed name of the function
             let output = "";
             document.getElementById('messtable').innerHTML = `<img src="gif/loader.gif">`;   // id changed to messtable
             fetch(link)
@@ -270,11 +267,16 @@
                 });
         }
     
-        
-        const URL =  'http://d8a8c134.ngrok.io';
+        const URL =  'http://a627222f.ngrok.io';
     
     function getQue(){
         var roll_no = document.getElementById("rollinput").value;
+
+        if (roll_no === ''){
+            alert("Roll number is empty");
+            return;
+        }
+        
         (async () => {
               const rawResponse = await fetch(URL + '/que', {
                 method: 'POST',
@@ -290,65 +292,67 @@
                         alert('Roll number is incorrect!');
                         return;
                     }
-                document.getElementById("question").innerHTML = content['que']; 
-            })();
-            document.getElementById("ansinput").style.display = "block";
-            document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
-            document.getElementById("days").style.display = "block";
-            document.getElementById("submit").style.display = "block";
+                document.getElementById("question").innerHTML = content['que'];
+
+                document.getElementById("ansinput").style.display = "block";        
+                document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
+                document.getElementById("days").style.display = "block";
+                document.getElementById("submit2").style.display = "block";
+
+                getDays(); 
             
-            getDays();  
+            })();
+            document.getElementById("submit1").disabled = true;           
     }
     
     function onSubmit(){
-        var roll_no = document.getElementById("rollinput").value;
-     var pwd = document.getElementById("pass").value;
-    var ans = document.getElementById("ansinput").value;
-        
-        var days = document.getElementsByTagName('input');
+          var roll_no = document.getElementById("rollinput").value;
+            var pwd = document.getElementById("pass").value;
+            var ans = document.getElementById("ansinput").value;
+
+            var days = document.getElementsByTagName('input');
             var selectdays = [];  // values of checked days
             for (let i = 0; i < days.length; i++) {
                 if (days[i].type == 'checkbox' && days[i].checked == true)
                     selectdays.push(days[i].value);
             }
-            if (selectdays.length >= 1) {
-                // backend here
-            }
+            if (selectdays.length >= 1) {        
     
-    (async () => {
-              const rawResponse = await fetch(URL + '/check', {
-                method: 'POST',
-                headers: {
-                  'Accept': 'application/json',
-                  'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({"roll_no": roll_no, "password": pwd,  "answer":ans})
-              });
-              const content = await rawResponse.json();
+                    (async () => {
+                const rawResponse = await fetch(URL + '/check', {
+                    method: 'POST',
+                    headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({"roll_no": roll_no, "password": pwd,  "answer":ans, "days": selectdays})
+                });
+                const content = await rawResponse.json();
 
-              console.log(content);
-            })();
+                console.log(content);
+            })(); 
+        }
+            
             /* document.getElementById("rollinput").value = '';    // clear form after submit
             document.getElementById("pass").value = '';
             document.getElementById("ansinput").value = '';  
             document.getElementById("question").innerHTML = '';
             document.getElementById("pass").disabled = true;
-            document.getElementById("ansinput").disabled = true;  */    
-        
+            document.getElementById("ansinput").disabled = true;   */               
+            
     }
-    
+
     function getDays(){        
             var result = [];   // dates go here 
-            for (var i = 1; i <= 7; i++) {     // January 0 - December 11
+            var next = new Date();
+            next.setDate(next.getDate() + (7 - next.getDay()) % 7 + 1);   // next Monday
+            for (var i = 1; i <= 7; i++){     // January 0 - December 11
                 var d = new Date();             // Sunday 0 - Saturday 6
-                d.setDate(d.getDate() + i);
+                d.setDate(next.getDate() + i - 1);
                 result.push(d)    
             }
-            /* <label class="container">Two
-            <input type="checkbox">
-            <span class="checkmark"></span>
-            </label> */ 
-            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");  // index is value of checkbox
+
+            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
             for(let i = 0; i < result.length; i++){
                 var dt = result[i].getDate() + '-' + (result[i].getMonth() + 1) + '-' + result[i].getFullYear() + ' (' + weekday[result[i].getDay()] + ')';
@@ -358,9 +362,8 @@
     
     }
 
-    
-    
 </script>
 
 </body>
 </html>
+
