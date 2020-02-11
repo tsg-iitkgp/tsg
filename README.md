@@ -32,10 +32,11 @@ This will ensure that all the changes that you have pushed are now deployed. The
 
 ### Creating a backup on the server
 
-The backups are stored in `/home/gymkhana/backups` in a datewise fashion and it is the backup of all the existing elements in that folder.
+The backups are stored in `/home/gymkhana/backups` in a datewise fashion and it is the backup of all the existing elements in that folder in compressed format.
 
 0. Go to the root folder, `/home/gymkhana`
-0. Run `rsync -av --progress ./ ./backups/11_Feb_2020/ --exclude backups`.
+0. Run `tar -zcvf 11_Feb_2020.tar.gz --exclude="backups" --exclude=".git" ./` Change the date to current date.
+0. Move the new backup to `backups` folder.
 
 ## Updating Information
 
