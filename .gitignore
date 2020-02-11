@@ -60,5 +60,24 @@ typings/
 # next.js build output
 .next
 
+# gymkhana specifics
+.Xauthority
+.bash_history
+.cache/
+.config/
+.dbus/
+.gitconfig
+.htaccess
+.local/
+.mozilla/
+.mysql_history
+.python_history
+.ssh/
 .sass-cache
-gymkhana_backup.tar.gz
+blog/
+backups/
+forum/
+static/images/cult.jpg
+static/images/sports.jpg
+static/images/tech.jpg
+
