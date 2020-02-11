@@ -30,6 +30,13 @@ git remote add origin <new_repo_url>
 
 This will ensure that all the changes that you have pushed are now deployed. There is no delay in the deployment and the website is updated immediately.
 
+### Creating a backup on the server
+
+The backups are stored in `/home/gymkhana/backups` in a datewise fashion and it is the backup of all the existing elements in that folder.
+
+0. Go to the root folder, `/home/gymkhana`
+0. Run `rsync -av --progress ./ ./backups/11_Feb_2020/ --exclude backups`.
+
 ## Updating Information
 
 The dynamic information on the website is gathered from google sheets using the `Gymkhana-BackServer` which runs on node.js and uses sheets API to gather the information. Creation of a new page is as simple as using the existing `fetchData.js` with the right endpoint (which needs to be created separately on the backend). Once this is done, a new page can be created to display the called data. 
