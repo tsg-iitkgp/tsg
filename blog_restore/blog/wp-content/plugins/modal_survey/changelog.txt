@@ -1,0 +1,433 @@
+1.9.8.8
+- fixed minor issue with next and back buttons
+- added option to display specified number of questions, like display="2,3,4"
+
+1.9.8.7
+- minor improvements on the survey edit screen
+
+1.9.8.6
+- added traditional checkbox and radio button style to the Hover Effects
+- minor improvements
+
+1.9.8.5
+- fixed tooltip bug
+- fixed allow continue bug in rare cases
+- additional minor CSS/JS improvements
+
+1.9.8.4.2
+- minor improvements on frontend
+
+1.9.8.4
+- added option to set the align of the image in answers and questions
+- fixed Facebook share to display specific image based on the results
+- added sample surveys
+
+1.9.8.3
+- added ability to set the image position in the questions and answers
+- reworked Conditions on admin (added edit mode)
+- added option to filter the individual result to a specified answer only by clicking on the answer under the Saved Surveys page
+
+1.9.8.2
+- minor improvements
+
+1.9.8.1
+- fixed Safari bug with open text answers
+- fixed IE11 issue with multiple answers
+- added option to display individual average category scores on charts: [survey_answers id="12345" style="barchart" data="average-score" uid="true" session="last"]
+
+1.9.8
+- minor bugfixes and improvements
+
+1.9.7.9
+- changed Auto-Complete option to disabled by default
+- fixed minor bugs in conditional shortcodes and plain text shortcodes to display the category scores based on the latest completion from the same user
+- improved user selections on the Participants Page
+- added action hooks and filters
+- added option to divide questions to sections in embed mode with display="question number in section", like [modalsurvey id="12345" style="flat" display="2"]
+- added progression circle to display plain percentages (final score, category score)
+
+1.9.7.8
+- several minor bugfixes and improvements
+
+1.9.7.7
+- added custom fields to survey_records shortcodes, eg.: [survey_records id="12345" data="company"]
+- scores, charts are now supports negative values
+- open text field accepts pressing enter to go to the next question
+- additional user selection improvements with open text answers
+- added option to delete incomplete results on the Participants Page
+
+1.9.7.6
+- added option to set the Global Survey default status in the new surveys
+- minor CSS improvements on the Participants Form
+
+1.9.7.5
+- minor improvements on rating questions
+
+1.9.7.4
+- added checkbox and HTML box options to the Participant Form
+- fixed conflicts with some specific Visual Editors on the admin
+
+1.9.7.3
+- minor improvements and bugfixes
+
+1.9.7.2
+- added option to use advanced conditions with shortcodes including AND OR parameters, eg: [survey_conditions id="12345" advanced="finalscore > 1 AND questionanswer_1 = 3"]Display content when final score higher than 1 and the 3rd answer has been selected for question 1[/survey_conditions]
+- added fade animation
+- improved charts
+- added option to display category percentage by adding max parameter to the shortcode:
+[survey_answers id="12345" style="plain" data="score" qid="test1" uid="true" max="30"]
+- added custom fields feature to the Participants Form, updated exports, admin email and the participants page with the custom fields values
+- added Hide Label option to Answer Options, that allows to hide the answer in case of using image instead of text answer (answer will be displayed in results and doesn't displayed in the survey)
+- added option to enable Subscription Confirmation checkbox in the Campaigns
+- browser now scroll to the missed answer instead of the top in case all questions has been displayed (display="all" in the shortcode)
+- removed freesans font style from the available PDF export font styles
+
+1.9.7.1
+- added option to show user percentage of total scores when the max parameter has been specified, eg.:
+[survey_answers id="12345" data="score" style="plain" uid="true" max="500" session="last"]
+- fixed duplicate survey issue
+- fixed import JSON issue
+
+1.9.7
+- several redesign and enhancements on the admin user interface
+- added option to add multiple admin email address (comma separated list) in the Send Results to field on the survey edit screen
+- added email and IP to the participant list view, that allows bulk export of the participants name, email and IP address
+- added quiz timer, that can be used as question timer as well
+- added condition in case the time is up
+- added total score and required time to the export files
+- added individiual records shortcode, that help you to get each detail from the individual result
+- added specific classes to the question elements, that allows apply different custom CSS codes for even each questions
+- added option to add comma separated category list right after the answer text in brackets
+
+1.9.6.2
+- minor improvements & bugfixes
+- fixed conditions issue in auto response message
+- added option to add condition based on the answer in a specific question (condition="questionanswer")
+
+1.9.6.1
+- minor improvements & bugfixes
+
+1.9.6
+- admin UI improvements
+- minor bugfixes
+- reconstructed Answer & Question Options
+- added option to continue interrupted surveys
+- added option to enable Back Button, that can go back one step
+- updated MailChimp API to V3
+- added Aweber API
+- added option to customize the individual PDF export
+
+1.9.5
+- minor CSS improvements
+- fixed missing participants votes
+- improved update process
+
+1.9.4
+- added option to display multilines textarea for open text answers instead of single text input
+- added 6 rating question styles (numbers 1, numbers 2, trophy, soccer, smiley, coffee)
+- added optional tooltip to display description for questions and answers
+- minor improvements on the survey edit screen
+- added individual views on the participants page to display each completion individually from the same person on the same survey
+- added legend for pie chart, doughnut chart and polar chart (enable with legend="true" in the shortcode)
+
+1.9.3
+- improved admin email notification
+- increased open text answer character limit from 100 to 600
+- fixed minor bugs
+- placed new question button at the bottom
+- added duplicate question function
+- added missing translation texts
+- added option to export the participant list to Excel, CSV, PDF, Print or Copy to the clipboard
+
+1.9.2
+- minor CSS improvements
+- fixed minor bugs
+
+1.9.1
+- added option to disable remember the users from the same computer via cookie
+- added option to display top results for score based charts (eg.: top="3")
+- minor bugfixes
+
+1.9
+- minor improvements
+- fixed redirection issue with display="all" shortcode
+- added custom answer to individual export PDF
+
+1.8.9
+- fixed next button style doesn't applied issue
+- fixed condition doesn't work in some rare cases issue
+
+1.8.8
+- added Auto Responder feature to send message for the users who filled out the survey (custom shortcodes eg.: conditions, total score, correct answers, attachment)
+- display category score in plain text format (specify the category name in the qid parameter like qid="activity")
+- disable displaying aggregated results instead of the personal results in case of personal results doesn't exists with alternativedatas="false" in the survey result shortcode (solution for uid="true" type of shortcode)
+- prevents members to vote again (using database validation)
+- diplay once per filled out for each posts (add unique="true" to the survey shortcode)
+- display scores and the total score in individual export CSV, XLS files and on the participants page
+- hide answer on admin (eye icon) and exclude answers from the results
+- option to display percentage values instead of votes or score (add percentage="true" to the result shortcode )
+- option to add any text after the value displayed on the charts with after parameter, like after=" points"
+- added option to select next button position (top or bottom)
+- added option to always display next button (not for multiple answers only)
+
+
+1.8.7
+- added option to display all questions in embed mode
+- fixed End Delay admin saving bug
+- added social title, social description and social image conditions to allow dynamic social sharing content for Facebook, Twitter, Pinterest and LinkedIn
+- added score to PDF export
+- added option to disable email validation
+
+1.8.6
+- added init="true" option to shortcode to force initialization
+- fixed minor MailPoet issue
+- added export to participant page( CSV, JSON, PDF, XML, XLS, TXT )
+- added option to display cumulated results on the individual chart with compare="true" parameter
+- added End Content accordion to admin, that provides the option to display chart directly at the end of the survey
+- added option to create categories by answer for score based surveys (add category name in brackets after the answer)
+- added option to specify number-number (between) definition in conditions, just select equal with, then specify the numbers separated by minus sign
+- added option to set the number of answers per row
+- added option to set the close icon style and size
+- added option to set cookie expiration time
+- added option to send individual participant result to a specified email address
+
+1.8.5
+- option to disable end message with empty value
+- removed jQuery UI CSS from frontend
+- added Display Timer to set display time for the survey
+- added ability to use Custom CSS
+
+1.8.4
+- limited Participants page to 10 000 results by default to keep performance
+- added score queries to the plain style shortcode, eg.: get total, average, personal score and rating via text format
+- added option to set conditions for highest and lowest category scores ( set highest or lowest as a category score value with equal condition )
+- fixed background color issue for charts
+
+1.8.3.1
+- fixed frontend spinning issue
+
+1.8.3
+- added option to disable auto-close with adding [noclose] to the end content (thank you message or condition text)
+- added option to set conditions by category scores
+- fixed participants form auto-closing issue
+
+1.8.2
+- added bbPress Support ( add survey to individual topics or add survey to all topics )
+- added option to filter results in the shortcode by post / page ( postid="123" )
+- added charts to posts / pages to show results by URL
+- added average-score chart (data="average-score")
+- fixed participant's personal answer to display multiple answers correctly on admin
+- fixed dashboard charts visibility issue
+- fixed progress bar visibility issue in FireFox
+- improved and optimized voting process
+
+1.8.1
+- fixed Conditions issue with HTML code
+- added WPML Support
+- added ability to specify the chart colors via shortcode
+- added option to display individual chart with uid parameter
+
+1.8
+- added ability to display the results in ascending or descending order based on the votes
+- reconstructed admin UI
+- added 11 preloaders
+- added 9 hover effects
+- added box-shadow property with horizontal, vertical, blur and spread parameters
+- added title attribute to results shortcode to allow custom header for questions
+- fixed minor bugs
+- minor improvements with design
+- updated documentation
+
+1.7.9.1
+- added ability to exclude question from the chart with adding minus sign in brackets right after the question text, eg: [-]
+- fixed Shortcode Manager issue with non-saved surveys
+
+1.7.9
+- reconstructed and improved the entire documentation
+- added ability to specify the maximum value for line chart, bar chart and radar chart
+
+1.7.8
+- minor visual improvements
+- added Votes by Surveys and Votes by Day Dashboard Chart
+- added Participants page with charts and stats
+- added option to ask name and email address of the users
+- added interactive tutorial to the survey settings page
+- added Active Campaign
+- added Benchmark
+- added Campaign Monitor
+- added Campayn
+- added Constant Contact
+- added Freshmail
+- added GetResponse
+- added MadMimi
+- added MailChimp
+- added MailPoet
+- added MyMail
+- added SimplyCast
+- added YMLP
+- updated documentation
+
+1.7.7
+- minor improvements with social buttons
+- added option to summarize more questions with the same group (specified with brackets) on the individual chart
+
+1.7.6.2
+- fixed Live Preview issue on admin
+
+1.7.6.1
+- added option to specify the social sharing buttons position with parameter in the shortcode
+- added option to specify the social sharing buttons style with parameter in the shortcode
+- added option to specify 'enddelay' as a shortcode parameter
+- updated documentation
+
+1.7.6
+- added Social Share buttons ( Facebook, Google Plus, Twitter, Pinterest, LinkedIn )
+- different mode, style and position for Social Share buttons
+- added individual chart to display at the end of the survey based on the correct answers, ratings or scores
+- added option to display all questions' cumulated results on one chart based on the ratings or the scores
+- fixed center horizontal alignment issue with flat style when the width less than 100%
+- added 'End Delay' slider to the survey form options to set or disable the delay timer at the end of the survey
+- added new conditions based on the user's score with the individual questions
+- updated documentation
+
+1.7.5.1
+- fixed open question and answer options issue in FireFox
+
+1.7.5
+- fixed align center with included shortcode in modal mode when the width smaller than 100%
+- added option to delete the second answer
+- added option to choose PDF Font Family, that allows to display special characters correctly (Chinese, Turkish, etc.)
+- added Localization file
+- fixed delete survey issue in rare cases
+
+1.7.4
+- fixed progress bar result shortcode issue
+- fixed chart visibility conflict on frontend
+
+1.7.3
+- minor bugfixes and improvements
+
+1.7.2
+- use it as rating system
+- classic list layout
+- added optional score to answers
+- added option to mark answers as correct
+- added TXT export type for survey export
+- added conditional system to display message or redirect the browser depends on the score and correct answers
+- added optional progress bar
+- ability to upload image to the question
+- ability to upload image to the answers
+- minor improvements on the survey admin area
+- updated documentation
+
+1.7.1
+- support WordPress Multisites
+- added option to set the plugin initialization hook
+
+Version 1.7
+- added open text answer option with autocomplete
+- minor improvements on style
+- added option to redirect the browser after the user complete the survey
+
+Version 1.6.9
+- fixed display message for users those already filled the survey
+
+Version 1.6.8
+- added option to automatically embed surveys at the start / bottom of all pages / posts
+- show questionnaire for logged in users only
+
+Version 1.6.7
+- improved animations
+- fixed minor SQL bug
+- fixed shortcode issue with modal style
+- fixed lock screen with shortcode
+
+Version 1.6.5
+- multiple instances to show surveys and the results on the same page
+- option to use minified JavaScript files on frontend
+- included text-align option
+
+Version 1.6.3
+- display survey and survey results in sidebar widget
+- include any number of survey results to the same page
+- fixed display once and general options saving issues
+
+Version 1.6.2
+- reconstructed and improved the entire admin panel
+- added list view of saved survey with the ability of duplicate, edit, reset and delete
+- added option to import survey from JSON
+- added manual updater from ZIP
+- updated documentation
+
+Version 1.6.1
+- fixed saving issue with multiple selection option on admin
+- added option to customize the PDF Header text
+
+Version 1.6
+- added option to make the survey instantly visible in embed mode
+- reset button now allows all users to vote again
+- added option to set possible number of answers
+- added option to set required number of answers
+
+Version 1.5.8
+- added Line Bar to the results shortcodes
+- added Pie Chart to the results shortcodes
+- added Bar Chart to the results shortcodes
+- added Doughnut Chart to the results shortcodes
+- added Line Chart to the results shortcodes
+- added Polar Chart to the results shortcodes
+- added Radar Chart to the results shortcodes
+- fixed minor compatibility issue on admin with AJAX process
+- added option to set on/off displaying the same survey for the users who already filled out
+- added shortcode option to display the survey only on pages/posts (shortcode parameter: filtered="true")
+- added option in embed mode to display message for users, who already filled out the survey
+
+Version 1.5.7
+- added PDF export
+- added CSV export
+- added XLS export
+- added JSON export
+- added XML export
+
+Version 1.5.5
+- added hide question text option to result shortcodes
+- added shortcode manager to the posts/pages editor
+- minor improvements on admin
+- fixed minor admin visibility issue in FireFox
+
+Version 1.5.3
+- fixed display_once issue with shortcodes
+- fixed bug when answers and survey included on the same page with shortcode
+
+Version 1.5.2
+- minor improvements on admin design
+- added support to link answers to questions (jump to a specified question)
+- updated documentation
+
+Version 1.5.1
+- improved the display of the longer surveys on mobile devices
+
+Version 1.5
+- improved performance on admin and on the frontend
+- added option to keep settings after deletion (provides quick update to the new version)
+- added option to display the same surveys only once per user even filled out or not
+- added screen preloader on admin
+- restyled buttons, titles for better organized display
+- updated documentation
+
+Version 1.4
+- fixed Google Fonts issue on bold texts
+- fixed database collations issue
+
+Version 1.3
+- fixed character encoding issue
+- minor compatibility fix with WordPress 3.9
+
+Version 1.2
+- added option to reset survey answers' counts on admin
+
+Version 1.1
+- added align (left and right) and width (in percentages) parameters to the shortcode
+
+Version 1.01
+- fixed minor bug (returning user lock screen issue fixed)

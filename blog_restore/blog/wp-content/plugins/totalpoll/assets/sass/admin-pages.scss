@@ -1,0 +1,420 @@
+@import "shared";
+
+.totalpoll-upload.upload-plugin {
+  display: block!important;
+}
+
+#totalpoll-store {
+  .extensions {
+    margin: 1rem -1rem;
+  }
+
+  .extension {
+    &-card {
+      margin: 0 1rem 2rem;
+      float: left;
+      max-width: 380px;
+      border: 1px solid $gray;
+      background: white;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+
+      &-header {
+        position: relative;
+        overflow: hidden;
+
+        .extension-price-label {
+          position: absolute;
+          top: 20px;
+          right: -35px;
+          width: 140px;
+          padding: 0.5rem 0;
+          line-height: 1;
+          text-align: center;
+          background-color: $complimentary;
+          border: 2px solid white;
+          color: white;
+          font-weight: bold;
+          text-transform: uppercase;
+
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+
+          -webkit-transform-origin: center;
+          -moz-transform-origin: center;
+          -ms-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+        }
+        img {
+          max-width: 100%;
+          vertical-align: middle;
+        }
+      }
+
+      &-content {
+        border-top: 1px solid $gray;
+        padding: 1rem;
+      }
+
+      &-footer {
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+        line-height: 2;
+        border-top: 1px solid $gray;
+        background: $lightgray;
+      }
+    }
+
+    &-name {
+      margin: 0 0 0.5rem;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    &-meta {
+      margin: 0 0 1rem;
+      color: $darkergray;
+
+      strong {
+        color: $complimentary;
+      }
+    }
+
+    &-description {
+      margin-bottom: 0;
+    }
+  }
+
+  .nav-tab-wrapper a {
+    text-decoration: none;
+  }
+
+
+}
+
+.totalpoll-page {
+  margin-top: 4rem;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: inherit;
+  }
+
+  & &-container {
+    padding: 2rem;
+    border: 1px solid $gray;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  & svg {
+    fill: $gray;
+  }
+
+  & &-title {
+    margin: 1rem 0 3rem;
+    padding: 0;
+  }
+
+  p {
+    margin: 0 0 0.5rem;
+    font-size: 16px;
+  }
+
+  .links-cards {
+    margin: 3rem -1.5% 0;
+
+    + .links-cards {
+      margin-top: 3%;
+    }
+  }
+
+  .link-card {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid $gray;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    background: white;
+    cursor: pointer;
+    color: $primary;
+
+    text-decoration: none;
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 14px;
+    }
+
+    &:hover, &:focus, &:active {
+      background-color: $primary;
+      border-color: $primary;
+      color: white;
+
+      svg {
+        fill: white;
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      display: inline-block;
+      float: left;
+      width: 30.33%;
+      margin: 0 1.5%;
+    }
+  }
+
+}
+
+#totalpoll-activation {
+
+  form {
+
+    h1 {
+      margin: 1rem 0 3rem;
+      padding: 0;
+    }
+
+    p {
+      margin: 0 0 0.5rem;
+      font-size: 16px;
+    }
+
+    .input-key {
+      display: block;
+      width: 100%;
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 1.25rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      margin: 1rem 0 0;
+      padding: 1rem;
+      line-height: normal;
+      font-size: 16px;
+      vertical-align: middle;
+      height: auto;
+    }
+
+    .invalid-key {
+      color: red;
+      padding: 1rem;
+      margin: 0;
+    }
+
+  }
+
+}
+
+#totalpoll-support {
+
+  .input-search {
+    padding: 1rem;
+    margin: 1rem 0;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    border-radius: 4rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  pre {
+    display: block;
+    padding: 1rem;
+    border: 1px solid $gray;
+    background: $lightgray;
+    font-family: Consolas, Monaco, monospace;
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    text-align: left;
+  }
+
+}
+
+#totalpoll-tools {
+
+}
+
+#totalpoll-about {
+  box-sizing: border-box;
+
+  .boxes {
+    margin: 2rem -2rem 0;
+
+    &-row {
+      display: table;
+      width: 100%;
+      border-spacing: 2rem 0;
+      border-collapse: separate;
+      table-layout: fixed;
+      margin-bottom: 2rem;
+    }
+
+    &-cell {
+      display: table-cell;
+      width: 50%;
+      background: white;
+      padding: 2rem;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      border: 1px solid $gray;
+
+      img {
+        float: left;
+        width: 100px;
+        margin-right: 2rem;
+        border: 0;
+      }
+
+      h4 {
+        margin-top: 0;
+      }
+
+      h3 {
+        margin-top: 0;
+        color: $primary;
+      }
+
+      p {
+        margin-bottom: 0;
+        overflow: hidden;
+      }
+
+    }
+  }
+
+  [class$=col] .col {
+    float: left;
+    position: relative;
+  }
+  .two-col .col {
+    margin-right: 4.799999999%;
+    width: 47.6%;
+  }
+  .feature-section.two-col .col {
+    display: inline-block;
+    float: none;
+    margin-right: 4.799999999%;
+    width: calc(47.6% - 4px);
+    vertical-align: top;
+  }
+
+  .three-col .col {
+    margin-right: 4.999999999%;
+    width: 29.95%;
+  }
+
+  .two-col .col:nth-of-type(2n),
+  .three-col .col:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .feature-section:not(.under-the-hood) .col {
+    margin-top: 40px;
+  }
+
+  .totalpoll-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    display: inline-block;
+    padding: 1.25rem 2.25rem;
+    color: lighten($primary, 55%);
+    background-color: lighten($primary, 20%);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+    svg {
+      fill: white;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .testimonials-section, .feature-section {
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  .testimonials-section {
+    overflow: hidden;
+  }
+
+  .testimonials-content, .feature-content {
+
+    img {
+      float: left;
+      width: 100px;
+      margin-right: 2rem;
+    }
+
+    h4 {
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: $primary;
+    }
+
+    p {
+      margin-bottom: 0;
+      overflow: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .totalpoll-badge {
+      display: none;
+    }
+
+    .about-text, h1 {
+      margin-right: 0;
+    }
+
+    .boxes {
+      margin: 2rem 0;
+    }
+
+    .boxes-row {
+      display: block;
+      margin: 0;
+    }
+    .boxes-cell {
+      display: block;
+      width: auto;
+      table-layout: auto;
+      float: none;
+      margin-bottom: 1rem;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .boxes-cell {
+      text-align: center !important;
+
+      img {
+        display: block !important;
+        float: none !important;
+        margin: 0 auto 1em !important;
+      }
+    }
+  }
+}

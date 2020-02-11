@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-05-26 20:18+0100\n"
+"PO-Revision-Date: 2015-05-26 20:18+0100\n"
+"Last-Translator: MeksHQ <support@mekshq.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class-author-widget.php:12
+msgid "Use this widget to display author/user profile info"
+msgstr ""
+
+#: ../inc/class-author-widget.php:14
+msgid "Meks Smart Author"
+msgstr ""
+
+#: ../inc/class-author-widget.php:21
+msgid "About Author"
+msgstr ""
+
+#: ../inc/class-author-widget.php:32
+msgid "View all posts"
+msgstr ""
+
+#: ../inc/class-author-widget.php:146
+msgid "Title"
+msgstr ""
+
+#: ../inc/class-author-widget.php:155
+msgid "Choose author/user"
+msgstr ""
+
+#: ../inc/class-author-widget.php:164
+msgid "Enter author/user ID"
+msgstr ""
+
+#: ../inc/class-author-widget.php:173
+msgid "Automatically detect author"
+msgstr ""
+
+#: ../inc/class-author-widget.php:174
+msgid ""
+"Use this option to automatically detect author if this sidebar is used on "
+"single post template or author template"
+msgstr ""
+
+#: ../inc/class-author-widget.php:176
+msgid "Display Options"
+msgstr ""
+
+#: ../inc/class-author-widget.php:180
+msgid "Display author avatar"
+msgstr ""
+
+#: ../inc/class-author-widget.php:183
+msgid "Avatar size:"
+msgstr ""
+
+#: ../inc/class-author-widget.php:191
+msgid "Display author name"
+msgstr ""
+
+#: ../inc/class-author-widget.php:195
+msgid "Overwrite widget title with author name"
+msgstr ""
+
+#: ../inc/class-author-widget.php:202
+msgid "Display author description"
+msgstr ""
+
+#: ../inc/class-author-widget.php:209
+msgid "Display author \"all posts\" archive link"
+msgstr ""
+
+#: ../inc/class-author-widget.php:213
+msgid "Link author name"
+msgstr ""
+
+#: ../inc/class-author-widget.php:217
+msgid "Link author avatar"
+msgstr ""
+
+#: ../inc/class-author-widget.php:220
+msgid "Link text:"
+msgstr ""
+
+#: ../inc/class-author-widget.php:222
+msgid "Specify text for \"all posts\" link if you want to show separate link"
+msgstr ""
+
+#: ../inc/class-author-widget.php:225
+msgid "Override author link URL:"
+msgstr ""
+
+#: ../inc/class-author-widget.php:227
+msgid "Specify custom URL if you want to override default author archive link"
+msgstr ""

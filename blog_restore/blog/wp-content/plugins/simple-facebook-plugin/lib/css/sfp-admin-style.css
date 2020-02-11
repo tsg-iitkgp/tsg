@@ -1,0 +1,51 @@
+.sfp-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	padding: 0 5px 0 0;
+	margin-bottom: -4px;
+	background: url('../img/help_icon.png') no-repeat;
+}
+.sfp-tooltip-wrap {
+	display: none;
+	width: 250px;
+	position: absolute;
+	bottom: 0;
+	left: -110px;
+	font-size: 12px;
+	z-index: 999;
+}
+.sfp-tooltip {
+	display: block;
+	position: relative;
+	margin-bottom: 23px;
+	padding: 14px;
+	background: #f1f1f1;
+	font-size: 13px;
+	line-height: 18px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.sfp-tooltip:after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: none;
+    border-top: 6px solid #f1f1f1;
+    height: 0;
+    width: 0;
+    bottom: -6px;
+    content: "";
+    left: 112px;
+    position: absolute;
+}
+.sfp-tooltip .sfp-buttons {
+	display: block;
+	margin-top: 5px;
+	font-size: 13px;
+	line-height: 26px;
+}
+.sfp-icon:hover .sfp-tooltip-wrap,
+.sfp-icon .sfp-tooltip-wrap:hover {
+	display: block;
+}

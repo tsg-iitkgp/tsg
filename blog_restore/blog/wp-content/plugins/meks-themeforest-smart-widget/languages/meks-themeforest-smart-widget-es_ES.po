@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-02-20 15:42+0100\n"
+"PO-Revision-Date: 2015-02-20 15:43+0100\n"
+"Last-Translator: MeksHQ <support@mekshq.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class-themeforest-widget.php:13
+msgid "Display ThemeForest items with this widget"
+msgstr "Ver elementos de ThemeForest con este widget"
+
+#: ../inc/class-themeforest-widget.php:15
+msgid "Meks ThemeForest Smart Widget"
+msgstr "Meks ThemeForest Smart Widget"
+
+#: ../inc/class-themeforest-widget.php:46
+#: ../inc/class-themeforest-widget.php:109
+msgid "View more"
+msgstr "Ver más"
+
+#: ../inc/class-themeforest-widget.php:141
+msgid "Title"
+msgstr "Título"
+
+#: ../inc/class-themeforest-widget.php:146
+msgid "Description"
+msgstr "Descripción"
+
+#: ../inc/class-themeforest-widget.php:151
+msgid "Item categories to show"
+msgstr "Categorías de elemento a mostrar"
+
+#: ../inc/class-themeforest-widget.php:158
+msgid "Select items from"
+msgstr "Seleccionar elemento desde"
+
+#: ../inc/class-themeforest-widget.php:159
+msgid "Popular Items (WordPress Only)"
+msgstr "Elementos populares (solo WordPress)"
+
+#: ../inc/class-themeforest-widget.php:160
+msgid "Latest Items"
+msgstr "Últimos Elementos "
+
+#: ../inc/class-themeforest-widget.php:161
+msgid "Specific User(s)"
+msgstr "Usuario(s) Específicos"
+
+#: ../inc/class-themeforest-widget.php:165
+msgid "ThemeForest username(s)"
+msgstr "Username(s) de ThemeForest "
+
+#: ../inc/class-themeforest-widget.php:167
+msgid "For multiple users, separate by comma: i.e. user1,user2,user3"
+msgstr ""
+"Para usuarios múltiple , separar por comas: e.j. usuario1, usuario2, usuario3"
+
+#: ../inc/class-themeforest-widget.php:172
+msgid "Number of items to show"
+msgstr "Número de elementos a mostrar"
+
+#: ../inc/class-themeforest-widget.php:177
+msgid "Order by"
+msgstr "Ordenado por"
+
+#: ../inc/class-themeforest-widget.php:179
+msgid "Upload date"
+msgstr "Fecha de actualización"
+
+#: ../inc/class-themeforest-widget.php:180
+msgid "Last update"
+msgstr "Última actualización"
+
+#: ../inc/class-themeforest-widget.php:181
+msgid "Number of sales"
+msgstr "Número de ventas"
+
+#: ../inc/class-themeforest-widget.php:182
+msgid "Price"
+msgstr "Precio"
+
+#: ../inc/class-themeforest-widget.php:183
+msgid "Random"
+msgstr "Aleatorio"
+
+#: ../inc/class-themeforest-widget.php:188
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: ../inc/class-themeforest-widget.php:189
+msgid "Descending"
+msgstr "Descendente"
+
+#: ../inc/class-themeforest-widget.php:193
+msgid "Exclude item(s)"
+msgstr ""
+
+#: ../inc/class-themeforest-widget.php:195
+msgid ""
+"Specify item ID to exclude specific item (separate by comma for multiple "
+"items): i.e. 8134834,7184572"
+msgstr ""
+
+#: ../inc/class-themeforest-widget.php:199
+#, fuzzy
+msgid "Referral user"
+msgstr "Usuario Referido"
+
+#: ../inc/class-themeforest-widget.php:201
+msgid ""
+"Specify username if you want to use items as ThemeForest affiliate links"
+msgstr ""
+"Especificar username si desea utilizar elementos de ThemeForest como enlaces "
+"de afiliados"
+
+#: ../inc/class-themeforest-widget.php:205
+msgid "More link URL"
+msgstr "URL de más enlaces "
+
+#: ../inc/class-themeforest-widget.php:207
+msgid "Specify URL if you want to show \"more\" link under the items list"
+msgstr ""
+"Especifique la URL si desea mostrar \"more\"  debajo de la lista de "
+"elementos "
+
+#: ../inc/class-themeforest-widget.php:211
+#, fuzzy
+msgid "More link text"
+msgstr "URL de más enlaces "
+
+#: ../inc/class-themeforest-widget.php:216
+msgid "Open items in"
+msgstr "Abrir elementos en"
+
+#: ../inc/class-themeforest-widget.php:218
+msgid "New Window"
+msgstr "Nueva Ventana"
+
+#: ../inc/class-themeforest-widget.php:219
+msgid "Same Window"
+msgstr "Misma Ventana"

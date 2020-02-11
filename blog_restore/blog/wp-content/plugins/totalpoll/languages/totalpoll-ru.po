@@ -1,0 +1,2243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-13 12:40+0100\n"
+"PO-Revision-Date: 2016-04-13 12:50+0100\n"
+"Last-Translator: misqtech <misqtech@gmail.com>\n"
+"Language-Team: MisqTech <contact@misqtech.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: templates\n"
+
+#: includes/admin/ajax.php:44 includes/admin/ajax.php:53
+#: includes/admin/ajax.php:78 includes/admin/ajax.php:87
+msgid "Invalid argument passed"
+msgstr "Представлен недопустимый аргумент"
+
+#: includes/admin/bootstrap.php:103 includes/admin/bootstrap.php:325
+msgid "Title"
+msgstr "Название"
+
+#: includes/admin/bootstrap.php:104 includes/admin/bootstrap.php:442
+#: includes/admin/editor/actions.php:6
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/admin/bootstrap.php:105
+msgid "Results Shortcode"
+msgstr "Итоговый Шорткод"
+
+#: includes/admin/bootstrap.php:106
+msgid "Total votes"
+msgstr "Общее число голосов"
+
+#: includes/admin/bootstrap.php:107
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/settings/choices.php:82
+#: includes/admin/editor/settings/results.php:52
+msgid "Date"
+msgstr "Дата"
+
+#: includes/admin/bootstrap.php:143
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your Envato license key</a> in order to "
+"update TotalPoll."
+msgstr ""
+"Вам нужно <a href=\"%s\"> ввести ваш лицензионный ключ Envato</a>, чтобы "
+"обновить Результаты Опроса."
+
+#: includes/admin/bootstrap.php:237
+msgid "TotalPoll Extensions"
+msgstr "Расширения TotalPoll"
+
+#: includes/admin/bootstrap.php:237 includes/admin/bootstrap.php:292
+#: includes/admin/pages/about.php:77 includes/admin/pages/about.php:99
+#: includes/admin/pages/extensions.php:59 includes/admin/pages/store.php:30
+msgid "Extensions"
+msgstr "Расширения"
+
+#: includes/admin/bootstrap.php:238
+msgid "TotalPoll Templates"
+msgstr "Шаблоны TotalPoll"
+
+#: includes/admin/bootstrap.php:238 includes/admin/bootstrap.php:297
+#: includes/admin/pages/about.php:72 includes/admin/pages/about.php:95
+#: includes/admin/pages/store.php:27 includes/admin/pages/templates.php:59
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: includes/admin/bootstrap.php:239
+msgid "TotalPoll Store"
+msgstr "Магазин TotalPoll"
+
+#: includes/admin/bootstrap.php:239 includes/admin/bootstrap.php:302
+#: includes/admin/pages/store.php:23
+msgid "Store"
+msgstr "Магазин"
+
+#: includes/admin/bootstrap.php:240
+msgid "TotalPoll Tools"
+msgstr "Инструменты TotalPoll"
+
+#: includes/admin/bootstrap.php:240 includes/admin/bootstrap.php:307
+#: includes/admin/pages/tools.php:44
+msgid "Tools"
+msgstr "Инструменты"
+
+#: includes/admin/bootstrap.php:241
+msgid "TotalPoll About"
+msgstr "Про TotalPoll"
+
+#: includes/admin/bootstrap.php:241
+msgid "About"
+msgstr "Про"
+
+#: includes/admin/bootstrap.php:242
+msgid "TotalPoll Update"
+msgstr "Обновление TotalPoll"
+
+#: includes/admin/bootstrap.php:242 includes/admin/bootstrap.php:312
+msgid "Update"
+msgstr "Обновление"
+
+#: includes/admin/bootstrap.php:243
+msgid "TotalPoll Support Center"
+msgstr "Центр Поддержки TotalPoll"
+
+#: includes/admin/bootstrap.php:243 includes/admin/bootstrap.php:317
+msgid "Support / Help"
+msgstr "Поддержка/Помощь"
+
+#: includes/admin/bootstrap.php:272 includes/admin/editor/browse/logs.php:111
+#: includes/admin/editor/browse/submissions.php:84
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: includes/admin/bootstrap.php:273 includes/admin/editor/browse/logs.php:114
+#: includes/admin/editor/browse/submissions.php:87
+msgid "Next"
+msgstr "Следующий"
+
+#: includes/admin/bootstrap.php:274
+msgid "Done"
+msgstr "Готово"
+
+#: includes/admin/bootstrap.php:282
+msgid "Welcome!"
+msgstr "Добро Пожаловать!"
+
+#: includes/admin/bootstrap.php:283
+msgid "You can access to your polls and TotalPoll features from this menu."
+msgstr ""
+"Вы можете получить доступ к вашим опросам и особенностям TotalPoll из этого "
+"меню."
+
+#: includes/admin/bootstrap.php:287
+msgid "New poll"
+msgstr "Новый опрос"
+
+#: includes/admin/bootstrap.php:288
+msgid "You can create your first poll from this page."
+msgstr "Вы можете создать ваш первый опрос на этой странице."
+
+#: includes/admin/bootstrap.php:293
+msgid "From this page you can manage TotalPoll extensions."
+msgstr "С этой страницы вы можете управлять расширениями TotalPoll."
+
+#: includes/admin/bootstrap.php:298
+msgid "From this page you can manage manage TotalPoll templates."
+msgstr "С этой страницы вы можете управлять шаблонами TotalPoll."
+
+#: includes/admin/bootstrap.php:303
+msgid ""
+"Extend TotalPoll functionality and appearance with premium extensions and "
+"templates."
+msgstr ""
+"Расширьте функциональность TotalPoll и внешний вид  платными расширениями и "
+"шаблонами."
+
+#: includes/admin/bootstrap.php:308
+msgid "Tools for importing, exporting and migrating polls."
+msgstr "Инструменты для импорта, экспорта и переноса опросов."
+
+#: includes/admin/bootstrap.php:313
+msgid "Receive updates by activating TotalPoll via Envato license key."
+msgstr ""
+"Получайте обновления,  активировав TotalPoll при помощи лицензионного ключа "
+"Envanto."
+
+#: includes/admin/bootstrap.php:318
+msgid "Visit this page if you need any help with TotalPoll."
+msgstr "Посетите эту страницу, если вам нужна любая помощь с TotalPoll."
+
+#: includes/admin/bootstrap.php:326
+msgid "First things first, let's give the poll a title i.e. Favorite colors."
+msgstr "Во-первых, давайте дадим название опросу, т.е. Любимые цвета."
+
+#: includes/admin/bootstrap.php:334 includes/admin/editor/question.php:7
+#: includes/admin/editor/question.php:8
+msgid "Question"
+msgstr "Вопрос"
+
+#: includes/admin/bootstrap.php:335
+msgid "And of course a question i.e. What is your favorite colors."
+msgstr "И, конечно, вопрос, т.е. Какой ваш любимый цвет."
+
+#: includes/admin/bootstrap.php:343 includes/admin/bootstrap.php:379
+#: includes/admin/editor.php:264 includes/admin/editor/browse/logs.php:34
+#: includes/admin/editor/browse/logs.php:59
+#: includes/admin/editor/browse/logs.php:94
+#: includes/admin/editor/browse/statistics-cards.php:59
+#: includes/admin/editor/choices.php:7 includes/admin/editor/settings.php:65
+#: includes/admin/pages/about.php:62
+msgid "Choices"
+msgstr "Варианты"
+
+#: includes/admin/bootstrap.php:344
+msgid "Now let's introduce poll choices i.e. Red, green and blue."
+msgstr ""
+"Теперь, давайте предоставим варианты опроса, т. е. красный, зеленый и синий."
+
+#: includes/admin/bootstrap.php:352 includes/admin/editor/choices.php:33
+msgid "Bulk insertion"
+msgstr "Массовая вставка"
+
+#: includes/admin/bootstrap.php:353
+msgid "Protip: Use bulk insertion when you have already a list of choices."
+msgstr ""
+"Подсказка: используйте массовую вставку, когда у вас уже есть список "
+"вариантов."
+
+#: includes/admin/bootstrap.php:361 includes/admin/editor/settings.php:55
+msgid "Limitations"
+msgstr "Ограничения"
+
+#: includes/admin/bootstrap.php:362
+msgid "Set limitations to match your needs."
+msgstr "Установите ограничения в соответствии с вашими потребностями."
+
+#: includes/admin/bootstrap.php:370 includes/admin/editor/settings.php:60
+#: includes/classes/template.php:493
+msgid "Results"
+msgstr "Результаты"
+
+#: includes/admin/bootstrap.php:371
+msgid "Change results settings to match your needs."
+msgstr "Измените настройки результатов в соответствии с вашими потребностями."
+
+#: includes/admin/bootstrap.php:380
+msgid "Change choices settings to match your needs."
+msgstr "Измените настройки вариантов в соответствии с вашими потребностями."
+
+#: includes/admin/bootstrap.php:388 includes/admin/editor/settings.php:70
+#: includes/admin/pages/about.php:27
+msgid "Custom fields"
+msgstr "Пользовательские поля"
+
+#: includes/admin/bootstrap.php:389
+msgid "You can manage custom fields from this tab."
+msgstr "Вы можете управлять пользовательскими полями с этой вкладки."
+
+#: includes/admin/bootstrap.php:397 includes/admin/editor/settings.php:75
+msgid "Design"
+msgstr "Дизайн"
+
+#: includes/admin/bootstrap.php:398
+msgid "And polish poll's appearance from this one."
+msgstr "И улучшите внешний вид  на этой вкладке."
+
+#: includes/admin/bootstrap.php:406 includes/admin/editor/settings.php:80
+msgid "Screens"
+msgstr "Экраны"
+
+#: includes/admin/bootstrap.php:407
+msgid "Set a \"thank you\" or \"welcome\" message from this tab."
+msgstr "Настройте благодарность или приветствие на этой вкладке."
+
+#: includes/admin/bootstrap.php:415 includes/admin/editor/browse.php:16
+#: includes/admin/editor/custom-fields/tabs.php:10
+#: includes/admin/pages/about.php:32
+msgid "Statistics"
+msgstr "Статистика"
+
+#: includes/admin/bootstrap.php:416
+msgid "Browse the statistics from this tab."
+msgstr "Просматривайте статистику на этой вкладке."
+
+#: includes/admin/bootstrap.php:424 includes/admin/editor/browse.php:21
+#: includes/admin/editor/settings.php:85 includes/admin/pages/about.php:67
+msgid "Logs"
+msgstr "Журналы"
+
+#: includes/admin/bootstrap.php:425
+msgid "You can also browse the logs from this tab."
+msgstr "Вы можете также управлять журналами на этой вкладке."
+
+#: includes/admin/bootstrap.php:433 includes/admin/editor/browse.php:26
+msgid "Submissions"
+msgstr "Представления"
+
+#: includes/admin/bootstrap.php:434
+msgid "Lastly, the submissions from this one."
+msgstr "И, наконец, представления на этой вкладке."
+
+#: includes/admin/bootstrap.php:443
+msgid "Paste this shortcode anywhere to embed the poll."
+msgstr "Вставьте этот шорткод в любом месте для размещения опроса."
+
+#: includes/admin/bootstrap.php:451
+msgid "Publish"
+msgstr "Опубливовать"
+
+#: includes/admin/bootstrap.php:452
+msgid "You are almost done! Now It's time to publish the poll."
+msgstr "Вы почти все сделали! Осталось только опубликовать опрос."
+
+#: includes/admin/bootstrap.php:460 includes/admin/editor/choices.php:35
+msgid "Reset votes"
+msgstr "Сбросить голоса"
+
+#: includes/admin/bootstrap.php:461
+msgid ""
+"You can use this button to reset choices votes to 0. You can also set votes "
+"manually from \"votes\" field underneath."
+msgstr ""
+"Вы можете использовать эту кнопку для обнуления результатов опросов. Вы "
+"также можете задать голоса вручную в поле \"голоса\" внизу."
+
+#: includes/admin/bootstrap.php:469 includes/admin/pages/update.php:22
+msgid "Thank you!"
+msgstr "Спасибо"
+
+#: includes/admin/bootstrap.php:471
+#, php-format
+msgid ""
+"By now you are familiar with the basics of TotalPoll. Thank you for your "
+"time! If you need any help, please don't hesitate to visit our <a href=\"%s"
+"\">support center</a>."
+msgstr ""
+"Теперь вы знакомы с основами TotalPoll. Спасибо за ваше время! Если вам "
+"нужна помощь, пожалуйста, не стесняйтесь, посетите наш <a href=\"%s\">центр "
+"поддержки</а>."
+
+#: includes/admin/editor.php:129
+msgid "Are you sure?!"
+msgstr "Вы уверены?!"
+
+#: includes/admin/editor.php:130
+msgid ""
+"Changing the current template requires a page reload. All changes will be "
+"saved now. Are you sure?"
+msgstr ""
+"Изменение текущего шаблона требует перезагрузки страницы. Все изменения "
+"будут сохранены сейчас. Вы уверены?"
+
+#: includes/admin/editor.php:258 includes/admin/editor/browse/logs.php:18
+#: includes/admin/editor/browse/logs.php:55
+#: includes/admin/editor/browse/logs.php:90
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:72
+msgid "Status"
+msgstr "Статус"
+
+#: includes/admin/editor.php:259 includes/admin/editor/browse/logs.php:22
+#: includes/admin/editor/browse/logs.php:56
+#: includes/admin/editor/browse/logs.php:91
+msgid "Time"
+msgstr "Время"
+
+#: includes/admin/editor.php:260 includes/admin/editor/browse/logs.php:26
+#: includes/admin/editor/browse/logs.php:57
+#: includes/admin/editor/browse/logs.php:92
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/editor.php:261
+msgid "Platform"
+msgstr "Платформа"
+
+#: includes/admin/editor.php:262 includes/admin/editor/browse/logs.php:30
+#: includes/admin/editor/browse/logs.php:58
+#: includes/admin/editor/browse/logs.php:93
+#: includes/admin/editor/browse/statistics-cards.php:38
+msgid "Browser"
+msgstr "Браузер"
+
+#: includes/admin/editor.php:263 includes/admin/pages/extensions.php:178
+#: includes/admin/pages/templates.php:182
+msgid "Version"
+msgstr "Версия"
+
+#: includes/admin/editor.php:265 includes/admin/editor/browse/logs.php:39
+#: includes/admin/editor/browse/logs.php:66
+#: includes/admin/editor/browse/logs.php:101
+msgid "Details"
+msgstr "Детали"
+
+#: includes/admin/editor.php:266
+msgid "User agent"
+msgstr "Пользовательский агент"
+
+#: includes/admin/editor.php:275 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:20
+msgid "Accepted"
+msgstr "Принятый"
+
+#: includes/admin/editor.php:275 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:25
+msgid "Denied"
+msgstr "Отклоненный"
+
+#: includes/admin/editor.php:303 includes/admin/editor/browse/logs-item.php:28
+#: includes/admin/editor/browse/logs-item.php:41
+#: includes/admin/editor/browse/submissions-item.php:14
+#: includes/admin/statistics.php:25 includes/classes/helpers.php:147
+msgid "N/A"
+msgstr "Н/Д"
+
+#: includes/admin/editor/browse.php:7 includes/admin/pages/extensions.php:63
+#: includes/admin/pages/templates.php:63
+msgid "Browse"
+msgstr "Просматривать"
+
+#: includes/admin/editor/browse/logs.php:77
+msgid "There are no logs."
+msgstr "Нет журналов."
+
+#: includes/admin/editor/browse/logs.php:109
+#: includes/admin/editor/browse/submissions.php:82
+msgid "First"
+msgstr "Первый"
+
+#: includes/admin/editor/browse/logs.php:116
+#: includes/admin/editor/browse/submissions.php:89
+msgid "Last"
+msgstr "Последний"
+
+#: includes/admin/editor/browse/logs.php:122
+#, php-format
+msgid "One log"
+msgid_plural "%s logs"
+msgstr[0] "Один журнал"
+msgstr[1] "%s журнала(ов)"
+msgstr[2] "%s журнала(ов)"
+
+#: includes/admin/editor/browse/logs.php:125
+#: includes/admin/editor/browse/statistics.php:36
+#: includes/admin/editor/browse/submissions.php:99
+#: includes/admin/pages/support.php:63
+msgid "Download"
+msgstr "Загружка"
+
+#: includes/admin/editor/browse/logs.php:127
+#: includes/admin/editor/browse/submissions.php:101
+msgid "CSV"
+msgstr "CSV формат"
+
+#: includes/admin/editor/browse/logs.php:129
+#: includes/admin/editor/browse/submissions.php:103
+#: includes/admin/editor/custom-fields/tabs.php:9
+#: includes/admin/pages/about.php:107
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/editor/browse/logs.php:131
+#: includes/admin/editor/browse/submissions.php:105
+msgid "or"
+msgstr "или"
+
+#: includes/admin/editor/browse/logs.php:133
+#: includes/admin/editor/browse/submissions.php:107
+msgid "Reset"
+msgstr "Сброс"
+
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/browse/statistics-cards.php:33
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:50
+#: includes/admin/editor/browse/statistics-cards.php:55
+#: includes/admin/editor/choices/handle.php:10
+#: includes/admin/editor/choices/handle.php:13
+#: includes/admin/editor/print.php:22 includes/admin/editor/print.php:30
+#: includes/admin/editor/settings/choices.php:76
+#: includes/admin/editor/settings/results.php:46
+#: includes/admin/editor/settings/results.php:134
+msgid "Votes"
+msgstr "Голоса"
+
+#: includes/admin/editor/browse/statistics-cards.php:32
+msgid "Month"
+msgstr "Месяц"
+
+#: includes/admin/editor/browse/statistics-cards.php:33
+msgid "Year"
+msgstr "Год"
+
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:170
+msgid "Platforms"
+msgstr "Платформы"
+
+#: includes/admin/editor/browse/statistics-cards.php:55
+#: includes/admin/editor/print.php:21 includes/admin/editor/print.php:30
+msgid "Choice"
+msgstr "Выбор, вариант"
+
+#: includes/admin/editor/browse/statistics-cards.php:64
+#: includes/admin/editor/browse/statistics-cards.php:77
+#: includes/admin/editor/browse/statistics-cards.php:92
+#: includes/admin/editor/browse/statistics-cards.php:130
+#: includes/admin/editor/browse/statistics-cards.php:144
+#: includes/admin/editor/browse/statistics-cards.php:161
+#: includes/admin/editor/browse/statistics-cards.php:175
+#: includes/admin/editor/browse/statistics.php:16
+msgid "Insufficient data to analyze."
+msgstr "Недостаточно данных для анализа."
+
+#: includes/admin/editor/browse/statistics-cards.php:87
+msgid "Votes over the last 30 days of activity"
+msgstr "Голоса за последние 30 дней активности"
+
+#: includes/admin/editor/browse/statistics-cards.php:103
+msgid "Votes casted"
+msgstr "Количество проголосовавших"
+
+#: includes/admin/editor/browse/statistics-cards.php:108
+msgid "Votes casted today"
+msgstr "Количество проголосовавших сегодня"
+
+#: includes/admin/editor/browse/statistics-cards.php:113
+msgid "Votes casted this week"
+msgstr "Количество проголосовавших за эту неделю"
+
+#: includes/admin/editor/browse/statistics-cards.php:118
+msgid "Votes casted this month"
+msgstr "Количество проголосовавших за этот месяц"
+
+#: includes/admin/editor/browse/statistics-cards.php:125
+msgid "Votes over months"
+msgstr "Голосов в течение месяцев"
+
+#: includes/admin/editor/browse/statistics-cards.php:139
+msgid "Votes over years"
+msgstr "Голосов в течение лет"
+
+#: includes/admin/editor/browse/statistics-cards.php:156
+msgid "Browsers"
+msgstr "Браузеры"
+
+#: includes/admin/editor/browse/statistics.php:34
+msgid "Print"
+msgstr "Печатать"
+
+#: includes/admin/editor/browse/submissions.php:42
+msgid ""
+"There are stored submissions, but custom fields must be present to browse "
+"them."
+msgstr ""
+"Есть сохраненные предоставленные данные, но пользовательские поля должны "
+"присутствовать для просмотра."
+
+#: includes/admin/editor/browse/submissions.php:44
+#: includes/admin/editor/browse/submissions.php:54
+msgid "There are no submissions."
+msgstr "Нет предоставленных данных."
+
+#: includes/admin/editor/browse/submissions.php:96
+#, php-format
+msgid "One submission"
+msgid_plural "%s submissions"
+msgstr[0] "Одно представление"
+msgstr[1] "%s Представлений"
+msgstr[2] "%s Представлений"
+
+#: includes/admin/editor/choices.php:13
+msgid ""
+"TotalPoll will synchronize votes between translations automatically. "
+"Therefore, choices must be in the exact order across all translations."
+msgstr ""
+"TotalPoll синхронизирует  голоса между переводами автоматически. Поэтому "
+"варианты должны быть в том же порядке во всех переводах"
+
+#: includes/admin/editor/choices.php:17
+#: includes/admin/editor/choices/text.php:10
+#: includes/admin/editor/custom-fields/text.php:10
+#: includes/admin/editor/settings/custom-fields.php:12
+msgid "Text"
+msgstr "Текст"
+
+#: includes/admin/editor/choices.php:20
+#: includes/admin/editor/choices/image.php:10
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/admin/editor/choices.php:23
+#: includes/admin/editor/choices/video.php:10
+msgid "Video"
+msgstr "Видео"
+
+#: includes/admin/editor/choices.php:26
+#: includes/admin/editor/choices/audio.php:10
+msgid "Audio"
+msgstr "Аудио"
+
+#: includes/admin/editor/choices.php:29
+#: includes/admin/editor/choices/html.php:10
+msgid "Rich"
+msgstr "Богатый"
+
+#: includes/admin/editor/choices.php:39
+msgid ""
+"One choice per line.\n"
+"Red\n"
+"Green\n"
+"Blue"
+msgstr ""
+"Выбор один в строке.\n"
+"Красный\n"
+"зеленый\n"
+"синий"
+
+#: includes/admin/editor/choices.php:40
+msgid "Import"
+msgstr "Импортировать"
+
+#: includes/admin/editor/choices/audio.php:32
+#: includes/admin/editor/choices/html.php:19
+#: includes/admin/editor/choices/image.php:27
+#: includes/admin/editor/choices/text.php:19
+#: includes/admin/editor/choices/video.php:32
+#: includes/admin/editor/custom-fields/checkbox.php:51
+#: includes/admin/editor/custom-fields/radio.php:49
+#: includes/admin/editor/custom-fields/select.php:49
+#: includes/admin/editor/custom-fields/text.php:49
+#: includes/admin/editor/custom-fields/textarea.php:49
+#: includes/admin/editor/settings/choices.php:79
+#: includes/admin/editor/settings/results.php:49
+msgid "Label"
+msgstr "Метка"
+
+#: includes/admin/editor/choices/audio.php:37
+#: includes/admin/editor/choices/image.php:32
+#: includes/admin/editor/choices/video.php:37
+msgid "Choice label"
+msgstr "Метка варианта"
+
+#: includes/admin/editor/choices/audio.php:46
+msgid "Full audio url"
+msgstr "Полный url-адрес аудио"
+
+#: includes/admin/editor/choices/audio.php:54
+msgid "Choice full audio url"
+msgstr "Url-алрес варианта полного аудио"
+
+#: includes/admin/editor/choices/audio.php:69
+#: includes/admin/editor/choices/audio.php:124
+#: includes/admin/editor/choices/image.php:64
+#: includes/admin/editor/choices/video.php:69
+#: includes/admin/editor/choices/video.php:124
+#: includes/admin/pages/extensions.php:61 includes/admin/pages/templates.php:61
+msgid "Upload"
+msgstr "Загрузить"
+
+#: includes/admin/editor/choices/audio.php:76
+msgid "Thumbnail audio url"
+msgstr "Превью url-адреса аудио"
+
+#: includes/admin/editor/choices/audio.php:81
+msgid "Choice thumbnail audio url"
+msgstr "Выбрать превью url-адреса аудио"
+
+#: includes/admin/editor/choices/audio.php:88
+#: includes/admin/editor/choices/image.php:85
+#: includes/admin/editor/choices/video.php:88
+msgid "Available sizes"
+msgstr "Доступные размеры"
+
+#: includes/admin/editor/choices/audio.php:99
+#: includes/admin/editor/choices/image.php:96
+#: includes/admin/editor/choices/video.php:99
+msgid "Upload image first"
+msgstr "Загрузить сначала изображение"
+
+#: includes/admin/editor/choices/handle.php:8
+#: includes/admin/editor/custom-fields/handle.php:8
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/admin/editor/choices/handle.php:21
+msgid "Choice visibility"
+msgstr "Выбор видимость"
+
+#: includes/admin/editor/choices/html.php:24
+#: includes/admin/editor/choices/text.php:24
+msgid "Choice content"
+msgstr "Выбрать контент"
+
+#: includes/admin/editor/choices/image.php:40
+msgid "Full image url"
+msgstr "Url-адрес полного изображения"
+
+#: includes/admin/editor/choices/image.php:48
+msgid "Choice full image url"
+msgstr "Выбрать url-адрес полного изображения"
+
+#: includes/admin/editor/choices/image.php:72
+msgid "Thumbnail image url"
+msgstr "URL-адрес миниатюры изображения"
+
+#: includes/admin/editor/choices/image.php:77
+msgid "Choice thumbnail image url"
+msgstr "Выбрать URL-адрес миниатюры изображения"
+
+#: includes/admin/editor/choices/video.php:46
+msgid "Full video url"
+msgstr "url-адрес полного видео"
+
+#: includes/admin/editor/choices/video.php:54
+msgid "Choice full video url"
+msgstr "Выбрать url-адрес полного видео"
+
+#: includes/admin/editor/choices/video.php:76
+msgid "Thumbnail video url"
+msgstr "url-адрес миниатюры видео"
+
+#: includes/admin/editor/choices/video.php:81
+msgid "Choice thumbnail video url"
+msgstr "Выбрать url-адрес миниатюры видео"
+
+#: includes/admin/editor/custom-fields/checkbox.php:10
+#: includes/admin/editor/settings/custom-fields.php:21
+msgid "Checkbox"
+msgstr "Галочка"
+
+#: includes/admin/editor/custom-fields/checkbox.php:31
+#: includes/admin/editor/custom-fields/radio.php:29
+#: includes/admin/editor/custom-fields/select.php:29
+#: includes/admin/editor/custom-fields/text.php:29
+#: includes/admin/editor/custom-fields/textarea.php:29
+msgid "Name"
+msgstr "Имя"
+
+#: includes/admin/editor/custom-fields/checkbox.php:36
+#: includes/admin/editor/custom-fields/radio.php:34
+#: includes/admin/editor/custom-fields/select.php:34
+#: includes/admin/editor/custom-fields/text.php:34
+#: includes/admin/editor/custom-fields/textarea.php:34
+msgid "Field name"
+msgstr "Название поля"
+
+#: includes/admin/editor/custom-fields/checkbox.php:56
+#: includes/admin/editor/custom-fields/radio.php:54
+#: includes/admin/editor/custom-fields/select.php:54
+#: includes/admin/editor/custom-fields/text.php:54
+#: includes/admin/editor/custom-fields/textarea.php:54
+msgid "Field label"
+msgstr "Метка поля"
+
+#: includes/admin/editor/custom-fields/checkbox.php:70
+#: includes/admin/editor/custom-fields/radio.php:68
+#: includes/admin/editor/custom-fields/select.php:68
+msgid "Options"
+msgstr "Варианты"
+
+#: includes/admin/editor/custom-fields/checkbox.php:74
+#: includes/admin/editor/custom-fields/radio.php:72
+#: includes/admin/editor/custom-fields/select.php:73
+msgid "option_key : Option label"
+msgstr "option_key : Метка варианта"
+
+#: includes/admin/editor/custom-fields/checkbox.php:80
+#: includes/admin/editor/custom-fields/radio.php:78
+#: includes/admin/editor/custom-fields/select.php:79
+msgid "Option per line."
+msgstr "Один вариант в строке."
+
+#: includes/admin/editor/custom-fields/checkbox.php:90
+#: includes/admin/editor/custom-fields/radio.php:88
+#: includes/admin/editor/custom-fields/select.php:89
+msgid "Default values"
+msgstr "Значения по умолчанию"
+
+#: includes/admin/editor/custom-fields/checkbox.php:94
+#: includes/admin/editor/custom-fields/radio.php:93
+#: includes/admin/editor/custom-fields/select.php:94
+msgid "option_key"
+msgstr "option_key"
+
+#: includes/admin/editor/custom-fields/checkbox.php:100
+#: includes/admin/editor/custom-fields/select.php:100
+msgid "Default value per line."
+msgstr "По умолчанию одно значение в строке."
+
+#: includes/admin/editor/custom-fields/checkbox.php:126
+#: includes/admin/editor/custom-fields/radio.php:123
+#: includes/admin/editor/custom-fields/select.php:140
+#: includes/admin/editor/custom-fields/text.php:96
+#: includes/admin/editor/custom-fields/textarea.php:117
+msgid "Filled (required)"
+msgstr "Должно быть заполнено ( обязательно)"
+
+#: includes/admin/editor/custom-fields/html-fields.php:12
+msgid "Field CSS classes"
+msgstr "Классы CSS поля"
+
+#: includes/admin/editor/custom-fields/html-fields.php:17
+msgid "Field classes"
+msgstr "Классы поля"
+
+#: includes/admin/editor/custom-fields/html-fields.php:30
+msgid "Label CSS classes"
+msgstr "Классы CSS метки"
+
+#: includes/admin/editor/custom-fields/html-fields.php:35
+msgid "Label classes"
+msgstr "Классы метки"
+
+#: includes/admin/editor/custom-fields/html-fields.php:49
+#: includes/admin/editor/settings/design.php:14
+#: includes/admin/pages/templates.php:106
+#: includes/admin/pages/templates.php:117
+msgid "Template"
+msgstr "Шаблон"
+
+#: includes/admin/editor/custom-fields/html-fields.php:54
+msgid "Field template"
+msgstr "Шаблон поля"
+
+#: includes/admin/editor/custom-fields/html-fields.php:60
+msgid "%label% for field label."
+msgstr "%field% для шаблона  поля."
+
+#: includes/admin/editor/custom-fields/html-fields.php:62
+#, php-format
+msgid "%field% for field input."
+msgstr "%field% для ввода поля."
+
+#: includes/admin/editor/custom-fields/radio.php:10
+#: includes/admin/editor/settings/custom-fields.php:24
+msgid "Radio"
+msgstr "Радио"
+
+#: includes/admin/editor/custom-fields/select.php:10
+#: includes/admin/editor/settings/custom-fields.php:18
+msgid "Select"
+msgstr "Выбирать"
+
+#: includes/admin/editor/custom-fields/select.php:112
+msgid "Allow multiple values"
+msgstr "Разрешить множественные значения"
+
+#: includes/admin/editor/custom-fields/statistics-fields.php:18
+msgid "Include in statistics"
+msgstr "Включить в статистику"
+
+#: includes/admin/editor/custom-fields/tabs.php:7
+msgid "Basic"
+msgstr "Основной"
+
+#: includes/admin/editor/custom-fields/tabs.php:8
+msgid "Validations"
+msgstr "Подтверждения"
+
+#: includes/admin/editor/custom-fields/text.php:68
+#: includes/admin/editor/custom-fields/textarea.php:68
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: includes/admin/editor/custom-fields/text.php:73
+#: includes/admin/editor/custom-fields/textarea.php:73
+msgid "Field default"
+msgstr "Поле по умолчанию"
+
+#: includes/admin/editor/custom-fields/text.php:112
+msgid "Email"
+msgstr "Алрес эл.почты"
+
+#: includes/admin/editor/custom-fields/text.php:128
+msgid "Unique"
+msgstr "Уникальный"
+
+#: includes/admin/editor/custom-fields/text.php:129
+msgid "This field value must be unique in submissions table."
+msgstr "Значение этого поля должно быть уникальным в таблице представления."
+
+#: includes/admin/editor/custom-fields/text.php:146
+#: includes/admin/editor/custom-fields/textarea.php:134
+msgid "Filter by list"
+msgstr "Фильтр по списку"
+
+#: includes/admin/editor/custom-fields/text.php:156
+#: includes/admin/editor/custom-fields/textarea.php:144
+msgid "List"
+msgstr "Список"
+
+#: includes/admin/editor/custom-fields/text.php:157
+#: includes/admin/editor/custom-fields/textarea.php:145
+msgid "Run user input against the following list."
+msgstr ""
+
+#: includes/admin/editor/custom-fields/text.php:166
+#: includes/admin/editor/custom-fields/textarea.php:154
+msgid "Word per line."
+msgstr "Слово на строку."
+
+#: includes/admin/editor/custom-fields/text.php:168
+#: includes/admin/editor/custom-fields/textarea.php:156
+msgid "\"+\" before word means white-listed."
+msgstr "\"+\" перед словом, означает слово из белого списка."
+
+#: includes/admin/editor/custom-fields/text.php:170
+#: includes/admin/editor/custom-fields/textarea.php:158
+msgid "\"-\" before word means black-listed."
+msgstr "\"-\" перед словом означает, что слово из черного списка."
+
+#: includes/admin/editor/custom-fields/text.php:172
+#: includes/admin/editor/custom-fields/textarea.php:160
+msgid "\"*\" means wildcard."
+msgstr "\"*\"  означает символ подстановки."
+
+#: includes/admin/editor/custom-fields/text.php:188
+#: includes/admin/editor/custom-fields/textarea.php:176
+msgid "Regex"
+msgstr "Регулярное выражение"
+
+#: includes/admin/editor/custom-fields/text.php:198
+#: includes/admin/editor/custom-fields/textarea.php:186
+msgid "Regular expression"
+msgstr "Регулярное выражение"
+
+#: includes/admin/editor/custom-fields/text.php:199
+#: includes/admin/editor/custom-fields/textarea.php:187
+msgid "Run user input against a regular expression."
+msgstr ""
+
+#: includes/admin/editor/custom-fields/text.php:210
+#: includes/admin/editor/custom-fields/textarea.php:198
+msgid "Must be a valid regular expression."
+msgstr "Должно быть допустимым регулярным выражением."
+
+#: includes/admin/editor/custom-fields/text.php:215
+#: includes/admin/editor/custom-fields/textarea.php:203
+msgid "Comparison"
+msgstr "Сравнение"
+
+#: includes/admin/editor/custom-fields/text.php:226
+#: includes/admin/editor/custom-fields/textarea.php:214
+msgid "Must match"
+msgstr "Должны совпадать"
+
+#: includes/admin/editor/custom-fields/text.php:237
+#: includes/admin/editor/custom-fields/textarea.php:225
+msgid "Must not match"
+msgstr "Не должны совпадать"
+
+#: includes/admin/editor/custom-fields/textarea.php:10
+#: includes/admin/editor/settings/custom-fields.php:15
+msgid "Text area"
+msgstr "Область текста"
+
+#: includes/admin/editor/custom-fields/textarea.php:87
+msgid "Rows"
+msgstr "Строки"
+
+#: includes/admin/editor/custom-fields/textarea.php:92
+msgid "Field rows"
+msgstr "Строки поля"
+
+#: includes/admin/editor/header.php:9
+#, php-format
+msgid ""
+"This poll was created with prior version of TotalPoll. Please <a href=\"%s"
+"\">migrate your polls</a>."
+msgstr ""
+"Этот опрос был создан с предыдущей версии TotalPoll. Пожалуйста, <a href=\"%s"
+"\">перенести ваши опросы</a>."
+
+#: includes/admin/editor/print.php:10 includes/admin/pages/about.php:111
+#: includes/classes/post-types.php:35 includes/widgets/base.php:74
+#: includes/widgets/base.php:84 includes/widgets/latest.php:77
+#: includes/widgets/random.php:75
+msgid "Poll"
+msgstr "Опрос"
+
+#: includes/admin/editor/settings.php:7
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/editor/settings/choices.php:14
+msgid "Minimum selection"
+msgstr "Минимальный выбор"
+
+#: includes/admin/editor/settings/choices.php:15
+msgid "The minimum number of choices to be sent."
+msgstr "Минимальное количество вариантов для отправки."
+
+#: includes/admin/editor/settings/choices.php:24
+msgid "Maximum selection"
+msgstr "Максимальный выбор"
+
+#: includes/admin/editor/settings/choices.php:25
+msgid "The maximum number of choices to be sent."
+msgstr "Максимальное количество вариантов, чтобы быть отправлены."
+
+#: includes/admin/editor/settings/choices.php:29
+#: includes/admin/editor/settings/choices.php:45
+msgid "0 means unlimited."
+msgstr "0 означает неограниченный."
+
+#: includes/admin/editor/settings/choices.php:40
+#: includes/admin/editor/settings/choices.php:41
+msgid "Choices per page"
+msgstr "Вариантов на страницу"
+
+#: includes/admin/editor/settings/choices.php:57
+msgid "Order choices"
+msgstr "Варианты последовательности"
+
+#: includes/admin/editor/settings/choices.php:60
+#: includes/admin/editor/settings/results.php:30
+msgid ""
+"Heads up! Enabling this along with pagination can cause performance issues."
+msgstr ""
+"Будьте осторожны! Включение этого вместе с нумерацией страниц может вызвать "
+"проблемы с производительностью."
+
+#: includes/admin/editor/settings/choices.php:71
+#: includes/admin/editor/settings/results.php:41
+msgid "Order by"
+msgstr "Последовательность по"
+
+#: includes/admin/editor/settings/choices.php:72
+msgid "The choices will be ordered by the following criteria."
+msgstr ""
+
+#: includes/admin/editor/settings/choices.php:85
+#: includes/admin/editor/settings/results.php:55
+msgid "Random"
+msgstr "Случайный"
+
+#: includes/admin/editor/settings/choices.php:92
+#: includes/admin/editor/settings/results.php:62
+msgid "Order direction"
+msgstr "Направление последовательности"
+
+#: includes/admin/editor/settings/choices.php:93
+#: includes/admin/editor/settings/results.php:63
+msgid "The order direction (ascending or descending)."
+msgstr ""
+
+#: includes/admin/editor/settings/choices.php:98
+#: includes/admin/editor/settings/results.php:68
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: includes/admin/editor/settings/choices.php:103
+#: includes/admin/editor/settings/results.php:73
+msgid "Descending"
+msgstr "По убыванию"
+
+#: includes/admin/editor/settings/choices.php:116
+msgid "Allow user submissions"
+msgstr "Разрешить пользовательские материалы"
+
+#: includes/admin/editor/settings/choices.php:128
+msgid "Hide new submissions for moderation"
+msgstr "Скрыть новые материалы на модерацию"
+
+#: includes/admin/editor/settings/design.php:15
+msgid "Select which template will be used to display this poll."
+msgstr ""
+
+#: includes/admin/editor/settings/design.php:26
+msgid "(Not Activated)"
+msgstr "Не Активировано"
+
+#: includes/admin/editor/settings/design.php:27
+msgid "(Not Compatible)"
+msgstr "Не Совместимо"
+
+#: includes/admin/editor/settings/design.php:38
+msgid "Set current settings as defaults"
+msgstr "Установить текущие настройки настройками по умолчанию"
+
+#: includes/admin/editor/settings/design.php:46
+msgid "Reset settings to defaults"
+msgstr "Сброс параметров на параметры по умолчанию"
+
+#: includes/admin/editor/settings/limitations.php:14
+msgid "Block re-vote by Cookies"
+msgstr "Заблокировать повторное голосование по Cookies"
+
+#: includes/admin/editor/settings/limitations.php:18
+#: includes/admin/editor/settings/limitations.php:50
+msgid "Advanced"
+msgstr "Продвинутый"
+
+#: includes/admin/editor/settings/limitations.php:29
+msgid "Cookies timeout (minutes)"
+msgstr "Тайм-аут по Cookies ( в минутах)"
+
+#: includes/admin/editor/settings/limitations.php:30
+msgid ""
+"The minimum required time to clear the cookies from the voter's browser."
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:34
+#: includes/admin/editor/settings/limitations.php:66
+msgid "0 means permanent."
+msgstr "0 означает постоянно."
+
+#: includes/admin/editor/settings/limitations.php:46
+msgid "Block re-vote by IP"
+msgstr "Заблокировать повторное голосование по IP"
+
+#: includes/admin/editor/settings/limitations.php:61
+msgid "IP timeout (minutes)"
+msgstr "Тайм-аут по IP ( в минутах)"
+
+#: includes/admin/editor/settings/limitations.php:62
+msgid "The minimum required time to clear the IP from the database."
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:71
+msgid "Filter list"
+msgstr "Список фильтров"
+
+#: includes/admin/editor/settings/limitations.php:72
+msgid "Filter IPs by the following list."
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:76
+msgid "IP Per line."
+msgstr "IP на строку."
+
+#: includes/admin/editor/settings/limitations.php:78
+msgid ""
+"\"+\" before IP means white-listed / \"-\" means black-listed / \"*\" means "
+"wildcard"
+msgstr ""
+"\"+\" перед  IP означает белый список / \"-\" означает черный список / \"*\" "
+"означает символ подстановки"
+
+#: includes/admin/editor/settings/limitations.php:90
+msgid "Require membership"
+msgstr "Требуется стать участников"
+
+#: includes/admin/editor/settings/limitations.php:102
+msgid "Membership type"
+msgstr "Тип участия"
+
+#: includes/admin/editor/settings/limitations.php:103
+msgid "The membership type that can vote."
+msgstr "Тип членства, могут голосовать."
+
+#: includes/admin/editor/settings/limitations.php:111
+msgid "Hold Control/Command for multiple selection."
+msgstr "Удерживать Контроль/Команда для множественного выбора."
+
+#: includes/admin/editor/settings/limitations.php:123
+msgid "Require reCaptcha"
+msgstr "Требуется повторить ввод капчи"
+
+#: includes/admin/editor/settings/limitations.php:135
+msgid "Site Key"
+msgstr "Ключ сайта"
+
+#: includes/admin/editor/settings/limitations.php:143
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#: includes/admin/editor/settings/limitations.php:158
+msgid "Limit by quota"
+msgstr "Ограничение по квоте"
+
+#: includes/admin/editor/settings/limitations.php:169
+msgid "Quota (votes)"
+msgstr "Квота (количество голосов)"
+
+#: includes/admin/editor/settings/limitations.php:170
+msgid "The maximum number of votes that can be received in this poll."
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:184
+msgid "Limit by date"
+msgstr "Ограничение по дате"
+
+#: includes/admin/editor/settings/limitations.php:195
+msgid "Start date"
+msgstr "Дата начала"
+
+#: includes/admin/editor/settings/limitations.php:196
+msgid "The date users will be able to vote."
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:203
+#: includes/admin/editor/settings/results.php:109
+msgid "End date"
+msgstr "Дата окончания"
+
+#: includes/admin/editor/settings/limitations.php:204
+msgid "The date users won't be able to vote."
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:219
+msgid "Regenerate poll unique ID"
+msgstr "Восстановить уникальный ID опроса"
+
+#: includes/admin/editor/settings/limitations.php:221
+msgid "Current:"
+msgstr "Текущий:"
+
+#: includes/admin/editor/settings/limitations.php:222
+msgid "Useful when you want to reset voting."
+msgstr ""
+
+#: includes/admin/editor/settings/logs.php:15
+msgid "Enable logs"
+msgstr "Включить журналы"
+
+#: includes/admin/editor/settings/logs.php:18
+msgid "Heads up! Statistics are based on logs."
+msgstr "Будьте внимательны! Статистика основана на журналах."
+
+#: includes/admin/editor/settings/results.php:15
+msgid "Require vote"
+msgstr "Требуется голосование"
+
+#: includes/admin/editor/settings/results.php:16
+msgid "Results are visible only for voters."
+msgstr ""
+
+#: includes/admin/editor/settings/results.php:27
+msgid "Order results"
+msgstr "Упорядочить результаты"
+
+#: includes/admin/editor/settings/results.php:42
+msgid "The results will be ordered by the following criteria."
+msgstr ""
+
+#: includes/admin/editor/settings/results.php:86
+msgid "Hide results"
+msgstr "Скрыть результаты"
+
+#: includes/admin/editor/settings/results.php:98
+msgid "Until reaching"
+msgstr "До достижения"
+
+#: includes/admin/editor/settings/results.php:99
+msgid "The results will be hidden until the following criteria are reached."
+msgstr ""
+
+#: includes/admin/editor/settings/results.php:104
+msgid "Quota"
+msgstr "Квота"
+
+#: includes/admin/editor/settings/results.php:115
+msgid "Results content"
+msgstr "Содержание результатов"
+
+#: includes/admin/editor/settings/results.php:116
+msgid "The following content will be shown instead of results."
+msgstr "Следующее содержимое будет показан вместо результатов."
+
+#: includes/admin/editor/settings/results.php:129
+msgid "Results fragments"
+msgstr "Фрагменты результатов"
+
+#: includes/admin/editor/settings/results.php:130
+msgid ""
+"Which fragments (votes, percentage or both) will be visible to the visitor."
+msgstr ""
+"Какие фрагменты (голосов, процент или оба) будут видны для посетителей."
+
+#: includes/admin/editor/settings/results.php:139
+msgid "Percentages"
+msgstr "Проценты"
+
+#: includes/admin/editor/settings/screens.php:15
+msgid "Before voting"
+msgstr "До голосования"
+
+#: includes/admin/editor/settings/screens.php:38
+msgid "After voting"
+msgstr "После голосования"
+
+#: includes/admin/extensions.php:163 includes/admin/templates.php:159
+msgid "Could not access filesystem."
+msgstr "Не удалось получить доступ к файловой системе."
+
+#: includes/admin/extensions.php:167 includes/admin/templates.php:163
+msgid "Filesystem error."
+msgstr "Ошибка файловой системы."
+
+#: includes/admin/extensions.php:191
+#, php-format
+msgid "Could not fully remove the extension(s) %s."
+msgstr "Не удалось полностью удалить расширение(я) %s."
+
+#: includes/admin/installer.php:59
+msgid "Upload package"
+msgstr "Загрузить пакет"
+
+#: includes/admin/installer.php:83
+msgid "The package is at the latest version."
+msgstr "Пакет последней версии."
+
+#: includes/admin/installer.php:84
+msgid "Update package not available."
+msgstr "Обновление пакета не доступно."
+
+#: includes/admin/installer.php:85
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузка обновления из <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:86
+msgid "Unpacking the update&#8230;"
+msgstr "Распаковка обновления&#8230;"
+
+#: includes/admin/installer.php:87
+msgid "Removing the old version of the package&#8230;"
+msgstr "Удаление старой версии пакета&#8230;"
+
+#: includes/admin/installer.php:88
+msgid "Could not remove the old package."
+msgstr "Не удалось удалить старый пакет."
+
+#: includes/admin/installer.php:89
+msgid "Packages updated successfully."
+msgstr "Пакеты обновлены успешно."
+
+#: includes/admin/installer.php:99
+msgid "Install package not available."
+msgstr "Установка пакета недоступна."
+
+#: includes/admin/installer.php:100
+msgid "Unpacking the package&#8230;"
+msgstr "Распаковка пакета&#8230;"
+
+#: includes/admin/installer.php:101
+msgid "Installing the package&#8230;"
+msgstr "Установка пакета&#8230;"
+
+#: includes/admin/installer.php:102
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузка установки пакета из <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:103
+msgid "The package contains no files."
+msgstr "Пакет не содержит файлов."
+
+#: includes/admin/installer.php:104
+msgid "Package install failed."
+msgstr "Не удалось установить пакет."
+
+#: includes/admin/installer.php:105
+msgid "Package installed successfully."
+msgstr "Пакет установлен успешно."
+
+#: includes/admin/installer.php:106
+#, php-format
+msgid "Successfully installed the package <strong>%1$s %2$s</strong>."
+msgstr "Успешно установлен пакет <strong>%1$s %2$s</strong>."
+
+#: includes/admin/installer.php:107
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Подготовка к установке <strong>%1$s %2$s</strong>&#8230;"
+
+#: includes/admin/installer.php:178
+msgid "The template is missing the <code>template.php</code> stylesheet."
+msgstr "В шаблоне отсутствует таблица стилей <code>template.php</code>."
+
+#: includes/admin/installer.php:185
+msgid "The <code>template.php</code> doesn't contain a valid template header."
+msgstr "<code>template.php</code> не содержит правильный заголовок шаблона."
+
+#: includes/admin/installer.php:192
+#, php-format
+msgid "The template is missing the <code>%s</code> file."
+msgstr "В шаблоне отсутствует <code>%s</code> файл."
+
+#: includes/admin/installer.php:198
+msgid ""
+"The <code>template.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"Файл <code>template.php</code> не содержит минимальной необходимой версии."
+
+#: includes/admin/installer.php:203
+#, php-format
+msgid "This template requires TotalPoll version %s or higher"
+msgstr "Этот шаблон требует версию TotalPoll %s или выше"
+
+#: includes/admin/installer.php:211
+msgid "The extension is missing the <code>extension.php</code> essential file."
+msgstr "В расширении отсутствует необходимый файл <code>extension.php</code>."
+
+#: includes/admin/installer.php:218
+msgid ""
+"The <code>extension.php</code> file doesn't contain a valid extension header."
+msgstr ""
+"<code>extension.php</code> файл не содержит минимальной необходимой версии."
+
+#: includes/admin/installer.php:223
+msgid ""
+"The <code>extension.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"<code>extension.php</code> файл не содержит минимальной требуемой версии."
+
+#: includes/admin/installer.php:228
+#, php-format
+msgid "This extension requires TotalPoll version %s or higher"
+msgstr "Это расширение требует версию TotalPoll %s или выше"
+
+#: includes/admin/installer.php:263
+msgid "Return to Templates"
+msgstr "Вернуться к Шаблонам"
+
+#: includes/admin/installer.php:266
+msgid "Return to extensions"
+msgstr "Вернуться к расширениям"
+
+#: includes/admin/pages/about.php:12
+msgid "User friendly"
+msgstr "Удобный для пользователя"
+
+#: includes/admin/pages/about.php:13
+msgid ""
+"With TotalPoll, you can now create polls within 60 seconds! Its user "
+"friendly interface was expertly designed to make poll creation hassle-free."
+msgstr ""
+"С TotalPoll теперь вы можете создавать опросы в течение 60 секунд! Его "
+"дружественный пользовательский интерфейс был специально разработан, чтобы "
+"сделать беспроблемным создание опроса."
+
+#: includes/admin/pages/about.php:17
+msgid "Overall performance"
+msgstr "Общая производительность"
+
+#: includes/admin/pages/about.php:18
+msgid ""
+"TotalPoll was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+"TotalPoll был разработан с учетом производительности! Он функционирует без "
+"сбоев  WordPress."
+
+#: includes/admin/pages/about.php:22
+msgid "Customization"
+msgstr "Настройки"
+
+#: includes/admin/pages/about.php:23
+msgid ""
+"Do you need “Welcome message” or “Thank you message”? We have got your back! "
+"With over 5 customization settings, you definitely have the total control."
+msgstr ""
+"Нужно “приветствие” или “сообщение с благодарностью”? Все это у нас есть! С "
+"более чем 5-ю параметрами настройки, вы определенно имеете полный контроль."
+
+#: includes/admin/pages/about.php:28
+msgid ""
+"Collecting additional information from voters has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"Сбор дополнительной информации от голосующих еще никогда не был таким "
+"простым. С нашими уникальными 5-ю различными типами полей Вы можете собрать "
+"абсолютно все."
+
+#: includes/admin/pages/about.php:33
+msgid ""
+"Regular vote tracking has been made easy. You can now track votes daily, "
+"weekly and monthly. Even, you can track custom field values with votes."
+msgstr ""
+"Регулярно отслеживать голоса стало легко. Теперь вы можете отслеживать "
+"голоса ежедневно, еженедельно и ежемесячно. Даже можно отслеживать значения "
+"настраиваемых полей с голосами."
+
+#: includes/admin/pages/about.php:37
+msgid "Extensible"
+msgstr "Расширяемый"
+
+#: includes/admin/pages/about.php:38
+msgid ""
+"The extensibility of TotalPoll makes such extensions and templates possible. "
+"Developers can certainly make TotalPoll a step further to suit your needs."
+msgstr ""
+"Расширяемость TotalPoll делает такие расширения и шаблоны возможноыми. "
+"Разработчики, безусловно, могут развивать TotalPoll и дальше, чтобы "
+"удовлетворить ваши потребности."
+
+#: includes/admin/pages/about.php:42
+msgid "SEO Friendly"
+msgstr "SEO дружественный"
+
+#: includes/admin/pages/about.php:43
+msgid ""
+"Search Engine Optimization is a very key factor for every website. Thus, "
+"TotalPoll makes polls more search-engine friendly in order to get more "
+"search traffic."
+msgstr ""
+"Поисковая оптимизация-это ключевой фактор для любого сайта. Таким образом, "
+"TotalPoll делает опросы более дружественными для поисковых систем, чтобы "
+"получить больше поискового трафика."
+
+#: includes/admin/pages/about.php:47
+msgid "Mobile-first"
+msgstr "Технология \"Сначала-мобильные\""
+
+#: includes/admin/pages/about.php:48
+msgid ""
+"With Totalpoll, you gain more engagement with an optimal viewing experience "
+"for your visitors. And your polls will always look amazing whether in a "
+"laptop, tablet or a smartphone."
+msgstr ""
+"С Totalpoll вы получаете большее внимание посетителей при оптимальном "
+"количестве просмотров. И ваши опросы всегда будут выглядеть потрясающе, будь "
+"то на ноутбуке, планшете или смартфоне."
+
+#: includes/admin/pages/about.php:52
+msgid "Voting limitations"
+msgstr "Ограничения голосования"
+
+#: includes/admin/pages/about.php:53
+msgid ""
+"The ability of Totalpoll to reduce votes and results makes it easy for you "
+"to specify conditions under which visitors can vote in a poll or see its "
+"results."
+msgstr ""
+"Способность Totalpoll снижать количество голосов и результатов позволяет "
+"легко указать условия, при которых посетители могут голосовать в опросе или "
+"посмотреть результаты."
+
+#: includes/admin/pages/about.php:57
+msgid "Polls import"
+msgstr "Импорт опросов"
+
+#: includes/admin/pages/about.php:58
+msgid ""
+"Are you planning to switch? You can migrate from WP-Polls and YOP polls "
+"easily (and many more plugins are coming)."
+msgstr ""
+"Вы планируете перейти? Можно перенести с  WP-Polls и YOP polls легко (вскоре "
+"ожидаются и другие плагины)."
+
+#: includes/admin/pages/about.php:63
+msgid ""
+"Give your polls more attraction with Text, Image, Video, Audio, Short code "
+"or even HTML."
+msgstr ""
+"Привлеките к вашим опросам больше внимания при помощи текста, изображения, "
+"видео, аудио, короткого кода или даже HTML."
+
+#: includes/admin/pages/about.php:68
+msgid ""
+"Trace back every vote, with an informative log to identify any cheating "
+"attempts."
+msgstr ""
+"Отследите каждый голос с помощью информативного журнала для выявления "
+"попыток накрутки."
+
+#: includes/admin/pages/about.php:73
+msgid ""
+"Make your polls look compelling with customized templates from our store."
+msgstr ""
+"Сделайте ваши опросы выглядящими убедительно при помощи пользовательских "
+"шаблонов из нашего магазина."
+
+#: includes/admin/pages/about.php:78
+msgid ""
+"Take TotalPoll’s functionality a step further with powerful extensions from "
+"our store."
+msgstr ""
+"Сделайте в функциональности TotalPoll шаг вперед при помощи мощных "
+"расширений из нашего магазина."
+
+#: includes/admin/pages/about.php:82
+msgid "Integration"
+msgstr "Интеграция"
+
+#: includes/admin/pages/about.php:83
+msgid ""
+"Totalpoll integrates your polls everywhere like with a short code, widget or "
+"even a direct link."
+msgstr ""
+"Totalpoll интегрирует опросы с шорткодами, виджетами или прямыми ссылками."
+
+#: includes/admin/pages/about.php:87
+msgid "3rd-party Compatibility"
+msgstr "Совместимость с третьей стороной"
+
+#: includes/admin/pages/about.php:88
+msgid ""
+"TotalPoll is compatible with other plugins like WPML, ACF, WP SUPER CACHE "
+"and Others."
+msgstr ""
+"TotalPoll совместим с такими плагинами, как WPML, ACF, WP SUPER CACHE и "
+"другими."
+
+#: includes/admin/pages/about.php:96
+msgid "<code>TP_Template</code> can be used now as a prototype for templates."
+msgstr ""
+"<code>TP_Template</code> может быть сейчас использован как прототип для  "
+"шаблонов."
+
+#: includes/admin/pages/about.php:100
+msgid ""
+"<code>TP_Extension</code> can be used now as a prototype for extensions."
+msgstr ""
+"<code>TP_Extension</code> может сейчас быть использован как прототип для "
+"расширений."
+
+#: includes/admin/pages/about.php:103
+msgid "Fields"
+msgstr "Поля"
+
+#: includes/admin/pages/about.php:104
+msgid "<code>TP_Field</code> can be used now as a prototype for custom fields."
+msgstr ""
+"<code>TP_Field</code> может сейчас использоваться как прототип для "
+"пользовательских полей."
+
+#: includes/admin/pages/about.php:108
+msgid "<code>TP_HTML</code> is used for HTML manipulation and generation."
+msgstr "<code>TP_HTML</code> используется для HTML манипуляций и интеграции."
+
+#: includes/admin/pages/about.php:112
+msgid ""
+"<code>TP_Poll</code> is the main class for poll manipulation and rendering."
+msgstr ""
+"<code>TP_Poll</code> является основным классом для манипуляций и отрисовки "
+"опроса."
+
+#: includes/admin/pages/about.php:115
+msgid "Request"
+msgstr "Запрос"
+
+#: includes/admin/pages/about.php:116
+msgid "<code>TP_Request</code> is used to handle TotalPoll requests."
+msgstr ""
+"<code>TP_Request</code> используется для управления TotalPoll запросами."
+
+#: includes/admin/pages/about.php:146
+msgid "Welcome to"
+msgstr "Добро пожаловать в"
+
+#: includes/admin/pages/about.php:148
+msgid ""
+"Thank you for using TotalPoll! This update brings several improvements and "
+"new features along with fixes of known bugs."
+msgstr ""
+"Спасибо за использование TotalPoll! Это обновление принесет несколько "
+"улучшений и новых возможностей вместе с исправлениями известных ошибок."
+
+#: includes/admin/pages/about.php:168 includes/admin/pages/store.php:61
+#, php-format
+msgid "Version %s"
+msgstr "Версия %s"
+
+#: includes/admin/pages/about.php:172
+msgid "What’s New"
+msgstr "Что Нового"
+
+#: includes/admin/pages/about.php:195
+msgid "Under the Hood"
+msgstr "Под Колпаком"
+
+#: includes/admin/pages/about.php:217
+msgid "Credits"
+msgstr "Кредиты"
+
+#: includes/admin/pages/about.php:242
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: includes/admin/pages/about.php:269
+msgid "Go to Polls"
+msgstr "Перейти к Опросам"
+
+#: includes/admin/pages/extensions.php:84
+#: includes/admin/pages/extensions.php:204
+#: includes/admin/pages/templates.php:84 includes/admin/pages/templates.php:208
+msgid "Select bulk action"
+msgstr "Выбрать массовые действия"
+
+#: includes/admin/pages/extensions.php:86
+#: includes/admin/pages/extensions.php:206
+#: includes/admin/pages/templates.php:86 includes/admin/pages/templates.php:210
+msgid "Bulk Actions"
+msgstr "Массовые Действия"
+
+#: includes/admin/pages/extensions.php:87
+#: includes/admin/pages/extensions.php:152
+#: includes/admin/pages/extensions.php:207
+#: includes/admin/pages/templates.php:87 includes/admin/pages/templates.php:155
+#: includes/admin/pages/templates.php:211
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/admin/pages/extensions.php:88
+#: includes/admin/pages/extensions.php:146
+#: includes/admin/pages/extensions.php:208
+#: includes/admin/pages/templates.php:88 includes/admin/pages/templates.php:148
+#: includes/admin/pages/templates.php:212
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: includes/admin/pages/extensions.php:89
+#: includes/admin/pages/extensions.php:168
+#: includes/admin/pages/extensions.php:209
+#: includes/admin/pages/templates.php:89 includes/admin/pages/templates.php:172
+#: includes/admin/pages/templates.php:213
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/admin/pages/extensions.php:91
+#: includes/admin/pages/extensions.php:211
+#: includes/admin/pages/templates.php:91 includes/admin/pages/templates.php:215
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/admin/pages/extensions.php:103
+#: includes/admin/pages/extensions.php:114
+#: includes/admin/pages/templates.php:103
+#: includes/admin/pages/templates.php:114
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: includes/admin/pages/extensions.php:106
+#: includes/admin/pages/extensions.php:117
+msgid "Extension"
+msgstr "Расширение"
+
+#: includes/admin/pages/extensions.php:107
+#: includes/admin/pages/extensions.php:118
+#: includes/admin/pages/templates.php:107
+#: includes/admin/pages/templates.php:118
+msgid "Description"
+msgstr "Описание"
+
+#: includes/admin/pages/extensions.php:157
+#: includes/admin/pages/templates.php:161
+msgid "Open this file in the Plugin Editor"
+msgstr "Открыть этот файл в Plugin Editor"
+
+#: includes/admin/pages/extensions.php:159
+#: includes/admin/pages/templates.php:163
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/admin/pages/extensions.php:181
+#: includes/admin/pages/templates.php:185
+msgid "Requires"
+msgstr "Требуется"
+
+#: includes/admin/pages/extensions.php:184
+#: includes/admin/pages/templates.php:188
+msgid "By"
+msgstr "От"
+
+#: includes/admin/pages/extensions.php:188
+msgid "Extension page"
+msgstr "Страница расширения"
+
+#: includes/admin/pages/extensions.php:196
+#, php-format
+msgid "No extensions. Browse the <a href=\"%s\">store</a>."
+msgstr "Нет расширений. Просмотрите <a href=\"%s\">магазин</a>."
+
+#: includes/admin/pages/extensions.php:222
+msgid ""
+"If you have an extension in a .zip format, you may install it by uploading "
+"it here."
+msgstr ""
+"Если у вас есть расширение в формате .zip, вы можете установить его, "
+"загрузив здесь."
+
+#: includes/admin/pages/extensions.php:227
+#: includes/admin/pages/templates.php:231
+msgid "Install Now"
+msgstr "Установить сейчас"
+
+#: includes/admin/pages/store.php:33
+msgid "Refresh (new purchases)"
+msgstr "Обновить ( новые покупки)"
+
+#: includes/admin/pages/store.php:44
+msgid "Free!"
+msgstr "Бесплатно!"
+
+#: includes/admin/pages/store.php:53
+#, php-format
+msgid "%s Downloads"
+msgstr "%s Загрузок"
+
+#: includes/admin/pages/store.php:67
+#, php-format
+msgid "Update to %s"
+msgstr "Обновить до %s"
+
+#: includes/admin/pages/store.php:69
+msgid "Installed"
+msgstr "Установлено"
+
+#: includes/admin/pages/store.php:73
+msgid "Install"
+msgstr "Установить"
+
+#: includes/admin/pages/store.php:75
+#, php-format
+msgid "Requires %s"
+msgstr "Требуется %s"
+
+#: includes/admin/pages/store.php:78
+msgid "Get it"
+msgstr "Получить"
+
+#: includes/admin/pages/store.php:78
+msgid "Buy now"
+msgstr "Купить сейчас"
+
+#: includes/admin/pages/support.php:23
+msgid "Support Center"
+msgstr "Центр Поддержки"
+
+#: includes/admin/pages/support.php:29
+msgid "What can we help you with?"
+msgstr "Чем мы можем вам помочь?"
+
+#: includes/admin/pages/support.php:32
+msgid "Use common keywords for best results."
+msgstr "Используйте общие ключевые слова для лучших результатов."
+
+#: includes/admin/pages/support.php:40
+msgid "Check our knowledge base."
+msgstr "Проверить нашу базу знаний."
+
+#: includes/admin/pages/support.php:49
+msgid "Have a question? Read the FAQs."
+msgstr "Есть вопросы? Прочтите ЧаВо."
+
+#: includes/admin/pages/support.php:55
+msgid "Open a support ticket."
+msgstr "Открыть запрос в службу поддержки."
+
+#: includes/admin/pages/support.php:60
+msgid "Please attach the following information when you open a new ticket."
+msgstr ""
+"Пожалуйста, приложите следующую информацию, когда вы создаете новый запрос."
+
+#: includes/admin/pages/templates.php:192
+msgid "Template page"
+msgstr "Страница шаблона"
+
+#: includes/admin/pages/templates.php:200
+#, php-format
+msgid "No templates. Browse the <a href=\"%s\">store</a>."
+msgstr "Шаблоны отсутствуют. Посетите <a href=\"%s\">магазин</a>."
+
+#: includes/admin/pages/templates.php:226
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"Если у вас есть шаблон в формате .zip, вы можете установить его, скачав "
+"здесь."
+
+#: includes/admin/pages/tools.php:19
+msgid "Polls have been migrated successfully."
+msgstr "Опросы были успешно перенесены."
+
+#: includes/admin/pages/tools.php:29
+msgid "The cache has been purged."
+msgstr "Кэш был очищен."
+
+#: includes/admin/pages/tools.php:52
+#, php-format
+msgid "%d Polls to migrate from YOP-Polls"
+msgstr "%d Опросов для переноса из YOP-Опросов"
+
+#: includes/admin/pages/tools.php:58
+#, php-format
+msgid "%d Polls to migrate from WP-Polls"
+msgstr "%d Опросов для переноса из WP-опросов"
+
+#: includes/admin/pages/tools.php:64
+#, php-format
+msgid "%d Polls to migrate from TotalPoll"
+msgstr "%d Опросов для переноса из TotalPoll"
+
+#: includes/admin/pages/tools.php:73
+msgid "Purge cache"
+msgstr "Очистить кэш"
+
+#: includes/admin/pages/tools.php:81
+#, php-format
+msgid "%d Polls to export"
+msgstr "%d Опросов на экспорт"
+
+#: includes/admin/pages/tools.php:88
+msgid "Import polls"
+msgstr "Импортировать опросы"
+
+#: includes/admin/pages/update.php:24
+msgid "You are currently receiving updates!"
+msgstr "Теперь вы получаете обновления!"
+
+#: includes/admin/pages/update.php:25
+msgid "Thank you for activating TotalPoll."
+msgstr "Спасибо за активацию TotalPoll."
+
+#: includes/admin/pages/update.php:31
+msgid "Updates"
+msgstr "Обновления"
+
+#: includes/admin/pages/update.php:33
+msgid "Do you want to receive updates when released?"
+msgstr "Вы хотите получать обновления, когда они выходят?"
+
+#: includes/admin/pages/update.php:35
+msgid "Please enter your Envato license key."
+msgstr "Пожалуйста, введите лицензионный код Envato."
+
+#: includes/admin/pages/update.php:40
+msgid "The submitted license key isn't valid. Please check it."
+msgstr ""
+"Введенный лицензионный ключ недействителен. Пожалуйста, проверьте его "
+"правильность."
+
+#: includes/admin/pages/update.php:43
+msgid "Activate now!"
+msgstr "Активируйте сейчас!"
+
+#: includes/admin/partials/welcome.php:133
+msgid "Newsletter"
+msgstr "Новостные рассылки"
+
+#: includes/admin/partials/welcome.php:137
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "Советы, уроки и полезные ресурсы WordPress."
+
+#: includes/admin/partials/welcome.php:138
+#, php-format
+msgid ""
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
+msgstr ""
+"Спасибо за установку TotalPoll Pro! Мы рады поделиться с вами советами и "
+"учебные пособиями, чтобы TotalPoll смог принести вам максимум пользы. "
+"Подпишитесь сейчас и вы будете получать подсказки каждый день в течение "
+"недели плюс 20%-ый дисконтный ваучер для использования в нашем магазине."
+
+#: includes/admin/partials/welcome.php:139
+msgid "Enter your email here."
+msgstr "Введите ваш E-mail адрес"
+
+#: includes/admin/partials/welcome.php:144
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr ""
+"Включите меня в <a href=\"%s\" target=\"_blank\">ежедневную рассылку "
+"новостей</a>."
+
+#: includes/admin/partials/welcome.php:147
+msgid "No, thank you"
+msgstr "Нет, спасибо"
+
+#: includes/admin/partials/welcome.php:149
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: includes/admin/partials/welcome.php:155
+msgid "Keep in touch with us!"
+msgstr "Поддерживать связь с нами!"
+
+#: includes/admin/templates.php:82
+msgid "All"
+msgstr "Все"
+
+#: includes/admin/templates.php:189
+#, php-format
+msgid "Could not fully remove the template(s) %s."
+msgstr "Не удалось полностью удалить шаблон(ы) %s."
+
+#: includes/classes/limitations.php:124 includes/classes/limitations.php:161
+msgid "You cannot vote again in this poll."
+msgstr "Вы не можете голосовать еще раз в этом опросе."
+
+#: includes/classes/limitations.php:188
+#, php-format
+msgid "You have to vote for at least one choice."
+msgid_plural "You have to vote for at least %d choices."
+msgstr[0] "Вы должны проголосовать  по меньшей мере за один вариант."
+msgstr[1] "Вы должны проголосовать  по меньшей мере за %d  варианта/вариантов."
+msgstr[2] "Вы должны проголосовать  по меньшей мере за %d  варианта/вариантов."
+
+#: includes/classes/limitations.php:200
+#, php-format
+msgid "You cannot vote for more than one choice."
+msgid_plural "You cannot vote for more than %d choices."
+msgstr[0] "Вы не можете голосовать больше, чем за один вариант."
+msgstr[1] "Вы не можете голосовать больше, чем за %d варианта/ вариантов."
+msgstr[2] "Вы не можете голосовать больше, чем за %d варианта/ вариантов."
+
+#: includes/classes/limitations.php:240
+msgid "You have entered an invalid captcha code."
+msgstr "Вы ввели неверный код капчи."
+
+#: includes/classes/limitations.php:264
+msgid "You cannot vote because the quota has been exceeded."
+msgstr "Вы не можете голосовать, потому что превышена квота."
+
+#: includes/classes/limitations.php:289
+msgid "You cannot see results before voting."
+msgstr "Вы не можете видеть результат перед голосованием."
+
+#: includes/classes/limitations.php:315
+msgid "You cannot vote because this poll has not started yet."
+msgstr "Вы не можете голосовать, потому что опрос еще не начат."
+
+#: includes/classes/limitations.php:324
+msgid "You cannot vote because this poll has been completed."
+msgstr "Вы не можете голосовать, потому что опрос уже завершен."
+
+#: includes/classes/limitations.php:368
+msgid "You cannot vote because this poll is not available in your region."
+msgstr ""
+"Вы не можете голосовать, потому что этот опрос недоступен в вашем регионе."
+
+#: includes/classes/limitations.php:404
+msgid "You cannot vote because you have insufficient rights."
+msgstr "Вы не можете голосовать, потому что у Вас недостаточно прав."
+
+#: includes/classes/limitations.php:415
+#, php-format
+msgid ""
+"You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> "
+"or <a href=\"%s\">register</a>."
+msgstr ""
+"Вы не можете голосовать, потому что вы гость. Пожалуйста, <a href=\"%s"
+"\">войдите в учетную запись</a> или <a href=\"%s\">зарегистрируйтесь</a>."
+
+#: includes/classes/poll.php:274
+msgid "Other"
+msgstr "Другое"
+
+#: includes/classes/post-types.php:34 includes/classes/post-types.php:46
+msgid "Polls"
+msgstr "Опросы"
+
+#: includes/classes/post-types.php:36
+msgid "Add New"
+msgstr "Добавить Новый"
+
+#: includes/classes/post-types.php:37
+msgid "Add New Poll"
+msgstr "Добавить Новый Опрос"
+
+#: includes/classes/post-types.php:38
+msgid "Edit Poll"
+msgstr "Редактировать Опрос"
+
+#: includes/classes/post-types.php:39
+msgid "New Poll"
+msgstr "Новый Опрос"
+
+#: includes/classes/post-types.php:40
+msgid "All Polls"
+msgstr "Все Опросы"
+
+#: includes/classes/post-types.php:41
+msgid "View Poll"
+msgstr "Просмотреть Опрос"
+
+#: includes/classes/post-types.php:42
+msgid "Search Polls"
+msgstr "Искать Опрос"
+
+#: includes/classes/post-types.php:43
+msgid "No polls found"
+msgstr "Опросов не найдено"
+
+#: includes/classes/post-types.php:44
+msgid "No polls found in Trash"
+msgstr "В Корзине не найдено опросов"
+
+#: includes/classes/post-types.php:56
+msgctxt "slug"
+msgid "poll"
+msgstr "опрос"
+
+#: includes/classes/post-types.php:58
+msgctxt "slug"
+msgid "polls"
+msgstr "опросы"
+
+#: includes/classes/post-types.php:88
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "Опрос обновлен. <a href=\"%s\">Просмотреть опрос</a>"
+
+#: includes/classes/post-types.php:89
+msgid "Custom field updated."
+msgstr "Пользовательское поле обновлено."
+
+#: includes/classes/post-types.php:90
+msgid "Custom field deleted."
+msgstr "Пользовательское поле удалено."
+
+#: includes/classes/post-types.php:91
+msgid "Poll updated."
+msgstr "Опрос обновлен."
+
+#: includes/classes/post-types.php:92
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "Опрос восстановлен в редакции из %s"
+
+#: includes/classes/post-types.php:93
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "Опрос опубликован. <a href=\"%s\">Просмотреть опрос</a>"
+
+#: includes/classes/post-types.php:94
+msgid "Poll saved."
+msgstr "Опрос сохранен."
+
+#: includes/classes/post-types.php:95
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Опрос подтвержден.<a target=\"_blank\" href=\"%s\">Предпросмотр опроса</a>"
+
+#: includes/classes/post-types.php:97
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"Опрос создан для: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Просмотреть опрос</a>"
+
+#: includes/classes/post-types.php:98
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/classes/post-types.php:99
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Проект опроса обновлен. <a target=\"_blank\" href=\"%s\">Просмотрите опрос</"
+"a>"
+
+#: includes/classes/template.php:451
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: includes/classes/template.php:465
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: includes/classes/template.php:503
+msgid "Vote"
+msgstr "Голосовать"
+
+#: includes/classes/template.php:515
+msgid "Back"
+msgstr "Назад"
+
+#: includes/classes/template.php:526
+msgid "Proceed"
+msgstr "Продолжать"
+
+#: includes/classes/template.php:650
+#, php-format
+msgid "%s Vote"
+msgid_plural "%s Votes"
+msgstr[0] "%s Голос"
+msgstr[1] "%s Голоса(ов)"
+msgstr[2] "%s Голоса(ов)"
+
+#: includes/classes/validations.php:35
+msgid "%label% field does not contain a valid email."
+msgstr "%label% поле не содержит действительный адрес электронной почты."
+
+#: includes/classes/validations.php:66
+msgid "%label% field is required."
+msgstr "%label% поле является обязательным."
+
+#: includes/classes/validations.php:100
+msgid "%label% field does not contain a valid value."
+msgstr "%label% поле не содержит допустимое значение."
+
+#: includes/classes/validations.php:104
+msgid "%label% field does not support multiple values."
+msgstr "%label% поле не поддерживает несколько значений."
+
+#: includes/classes/validations.php:122
+msgid "%label% has been used before."
+msgstr "%label% уже было использовано ранее."
+
+#: includes/classes/validations.php:143
+msgid "%label% field is not valid."
+msgstr "%label% поле не является допустимым."
+
+#: includes/classes/validations.php:181
+#, php-format
+msgid "You cannot vote because %s field is not allowed."
+msgstr "Вы не можете голосовать, потому что %s поле не допускается."
+
+#: includes/widgets/base.php:24
+msgid "Poll - TotalPoll"
+msgstr "Опрос - TotalPoll"
+
+#: includes/widgets/base.php:25 includes/widgets/latest.php:25
+#: includes/widgets/random.php:25
+msgid "Poll widget"
+msgstr "Виджет опроса"
+
+#: includes/widgets/base.php:79 includes/widgets/latest.php:82
+#: includes/widgets/random.php:80
+msgid "Title:"
+msgstr "Название:"
+
+#: includes/widgets/latest.php:24
+msgid "Latest Poll - TotalPoll"
+msgstr "Последний Опрос - TotalPoll"
+
+#: includes/widgets/random.php:24
+msgid "Random Poll - TotalPoll"
+msgstr "Случайный Опрос - TotalPoll"
+
+#~ msgid "poll"
+#~ msgstr "опрос"
+
+#~ msgid "polls"
+#~ msgstr "опросы"
+
+#~ msgid "Coming soon"
+#~ msgstr "Ожидается вскоре"

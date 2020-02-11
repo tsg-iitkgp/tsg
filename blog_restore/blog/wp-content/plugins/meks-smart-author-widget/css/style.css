@@ -1,0 +1,12 @@
+.mks_author_widget img{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.mks_author_widget .mks_autor_link_wrap{ margin: 0; padding: 0;}
+.mks-co-authors-wrapper {
+	margin-bottom: 30px;
+}
+.mks-co-authors-wrapper:last-child {
+	margin-bottom: 0;
+}

@@ -1,0 +1,1192 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: USP 20171028\n"
+"Language: sl\n"
+
+#. Name of the plugin
+#: user-submitted-posts.php:44
+msgid "User Submitted Posts"
+msgstr "Uporabniška sporočila"
+
+#: user-submitted-posts.php:78
+msgid "requires WordPress "
+msgstr "zahteva WordPress"
+
+#: user-submitted-posts.php:79
+msgid " or higher, and has been deactivated! "
+msgstr " ali višje, in je bil deaktiviran!"
+
+#: user-submitted-posts.php:80
+msgid "Please return to the"
+msgstr "Prosim, vrnite se na"
+
+#: user-submitted-posts.php:81
+msgid "WordPress Admin Area"
+msgstr "Administracija območja WordPress"
+
+#: user-submitted-posts.php:82
+msgid "to upgrade WordPress and try again."
+msgstr "da nadgradite WordPress in poskusite znova."
+
+#: user-submitted-posts.php:124
+msgid "User Submitted Post"
+msgstr "Uporabniško poslana objava"
+
+#: user-submitted-posts.php:445
+msgid "User Submitted Post Info"
+msgstr "Uporabniško poslane informacije o objavi"
+
+#: user-submitted-posts.php:475
+msgid "Submitter Name: "
+msgstr "Ime pošiljatelja:"
+
+#: user-submitted-posts.php:476
+msgid "Submitter Email: "
+msgstr "Pošiljatelj e-pošta:"
+
+#: user-submitted-posts.php:477
+msgid "Submitter URL: "
+msgstr "URL pošiljatelja:"
+
+#: user-submitted-posts.php:478
+msgid "Submitter IP: "
+msgstr "Pošiljatelj IP:"
+
+#: user-submitted-posts.php:529
+msgid "Show USP Posts"
+msgstr "Pokaži USP objave"
+
+#: user-submitted-posts.php:530 library/plugin-settings.php:967
+msgid "USP"
+msgstr "USP"
+
+#: user-submitted-posts.php:1175
+msgid " files required"
+msgstr " zahtevane datoteke"
+
+#: user-submitted-posts.php:1176
+msgid " file required"
+msgstr " zahtevana datoteka"
+
+#: user-submitted-posts.php:1178
+msgid " files"
+msgstr " datoteke"
+
+#: user-submitted-posts.php:1179
+msgid " file"
+msgstr " mapa"
+
+#: user-submitted-posts.php:1181 user-submitted-posts.php:1182
+#: user-submitted-posts.php:1183 user-submitted-posts.php:1184
+msgid " pixels"
+msgstr " pikslov"
+
+#: user-submitted-posts.php:1186 library/plugin-settings.php:284
+#: library/plugin-settings.php:303 library/plugin-settings.php:690
+#: library/plugin-settings.php:1176
+msgid "Custom Field"
+msgstr "Polje po meri"
+
+#: user-submitted-posts.php:1189
+msgid "An error occurred. Please go back and try again."
+msgstr "Pojavila se je napaka. Prosimo, pojdite nazaj in poskusite znova."
+
+#: user-submitted-posts.php:1199
+msgid "User login required"
+msgstr "Potrebna je prijava uporabnika"
+
+#: user-submitted-posts.php:1200
+msgid "User name required"
+msgstr "Potrebno uporabniško ime"
+
+#: user-submitted-posts.php:1201
+msgid "Post title required"
+msgstr "Naslov zahtevanega naslova"
+
+#: user-submitted-posts.php:1202
+msgid "User URL required"
+msgstr "Potreben uporabniški URL"
+
+#: user-submitted-posts.php:1203
+msgid "Post tags required"
+msgstr "Zahteve po oznakah"
+
+#: user-submitted-posts.php:1204
+msgid "Post category required"
+msgstr "Zahtevana kategorija pošte"
+
+#: user-submitted-posts.php:1205
+msgid "Post content required"
+msgstr "Zahtevajte objavo vsebine"
+
+#: user-submitted-posts.php:1206 user-submitted-posts.php:1207
+msgid "Correct captcha required"
+msgstr "Zahtevana je pravilna captcha"
+
+#: user-submitted-posts.php:1208
+msgid "User email required"
+msgstr "Potreben uporabniški e-poštni naslov"
+
+#: user-submitted-posts.php:1209
+msgid "Please check your email and try again"
+msgstr "Preverite svoj e-poštni naslov in poskusite znova"
+
+#: user-submitted-posts.php:1210
+msgid "Non-empty value for hidden field"
+msgstr "Neprazna vrednost za skrito polje"
+
+#: user-submitted-posts.php:1211
+msgid "Minimum number of images not met"
+msgstr "Najmanjše število slik ni izpolnjeno"
+
+#: user-submitted-posts.php:1212
+msgid "Maximum number of images exceeded "
+msgstr "Največje število slik je preseglo"
+
+#: user-submitted-posts.php:1213
+msgid "Minimum image width not met"
+msgstr "Najmanjša širina slike ni izpolnjena"
+
+#: user-submitted-posts.php:1214
+msgid "Image width exceeds maximum"
+msgstr "Širina slike presega največ"
+
+#: user-submitted-posts.php:1215
+msgid "Minimum image height not met"
+msgstr "Najmanjša višina slike ni izpolnjena"
+
+#: user-submitted-posts.php:1216
+msgid "Image height exceeds maximum"
+msgstr "Višina slike presega največ"
+
+#: user-submitted-posts.php:1217
+msgid "File type not allowed (please upload images only)"
+msgstr "Vrsta datoteke ni dovoljena (prosimo, naložite samo slike)"
+
+#: user-submitted-posts.php:1218
+msgid " required"
+msgstr " zahtevano"
+
+#: user-submitted-posts.php:1222
+msgid "File not uploaded. Please check the file and try again."
+msgstr "Datoteka ni naložena. Preverite datoteko in poskusite znova."
+
+#: user-submitted-posts.php:1226
+msgid "The file(s) could not be uploaded"
+msgstr "Datoteke ni bilo mogoče naložiti"
+
+#: user-submitted-posts.php:1228
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "Objava ni bila ustvarjena. Za pomoč se obrnite na skrbnika spletnega mesta."
+
+#: user-submitted-posts.php:1229
+msgid "Duplicate post title. Please try again."
+msgstr "Podvojeni naslovni naslov. Prosim poskusite ponovno."
+
+#: user-submitted-posts.php:1239
+msgid "Error: "
+msgstr "Napaka:"
+
+#: user-submitted-posts.php:1265
+msgid "Return to form"
+msgstr "Vrni se v obrazec"
+
+#: user-submitted-posts.php:1293 library/plugin-settings.php:943
+msgid "Please"
+msgstr "Prosim"
+
+#: user-submitted-posts.php:1294
+msgid "log in"
+msgstr "Vpiši se"
+
+#: user-submitted-posts.php:1295
+msgid "to submit content!"
+msgstr "predloži vsebino!"
+
+#: views/submission-form.php:46 views/submission-form-alt.php:55
+msgid "Please complete the required fields."
+msgstr "Prosimo, izpolnite potrebna polja."
+
+#: views/submission-form.php:56 views/submission-form.php:57
+#: views/submission-form-alt.php:61 views/submission-form-alt.php:62
+msgid "Your Name"
+msgstr "Tvoje ime"
+
+#: views/submission-form.php:62 views/submission-form.php:63
+#: views/submission-form-alt.php:67 views/submission-form-alt.php:68
+msgid "Your URL"
+msgstr "Vaš URL"
+
+#: views/submission-form.php:68 views/submission-form.php:69
+#: views/submission-form-alt.php:73 views/submission-form-alt.php:74
+msgid "Your Email"
+msgstr "Vaš e-poštni naslov"
+
+#: views/submission-form.php:74 views/submission-form.php:75
+#: views/submission-form-alt.php:79 views/submission-form-alt.php:80
+#: library/plugin-settings.php:1004
+msgid "Post Title"
+msgstr "Naslov prispevka"
+
+#: views/submission-form.php:80 views/submission-form.php:81
+#: views/submission-form-alt.php:85 views/submission-form-alt.php:86
+#: library/plugin-settings.php:1005
+msgid "Post Tags"
+msgstr "Objavi oznake"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Antispam Question"
+msgstr "Antispam vprašanje"
+
+#: views/submission-form.php:98 views/submission-form-alt.php:103
+#: library/plugin-settings.php:1006
+msgid "Post Category"
+msgstr "Kategorija objave"
+
+#: views/submission-form.php:100 views/submission-form-alt.php:105
+msgid "Please select a category.."
+msgstr "Izberite kategorijo .."
+
+#: views/submission-form.php:135 views/submission-form.php:136
+#: views/submission-form-alt.php:140 views/submission-form-alt.php:141
+#: library/plugin-settings.php:1007
+msgid "Post Content"
+msgstr "Objava vsebine"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Verification"
+msgstr "Preverjanje"
+
+#: views/submission-form.php:149 views/submission-form-alt.php:154
+msgid "Upload an Image"
+msgstr "Naložite sliko"
+
+#: views/submission-form.php:158 views/submission-form-alt.php:163
+msgid "Add another image"
+msgstr "Dodaj novo sliko"
+
+#: views/submission-form.php:180 views/submission-form-alt.php:185
+msgid "Human verification: leave this field empty."
+msgstr "Človekovo preverjanje: pustite to polje prazno."
+
+#: views/submission-form.php:202 views/submission-form-alt.php:207
+msgid "Submit Post"
+msgstr "Pošlji sporočilo"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "Get USP Pro za neomejene oblike!"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "Postani profesionalec"
+
+#: library/plugin-settings.php:37
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: library/plugin-settings.php:55
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "Dajte USPu oceno s 5 zvezdicami na WordPress.org"
+
+#: library/plugin-settings.php:56
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "Oceni ta vtičnik & nbsp; & raquo;"
+
+#: library/plugin-settings.php:114
+msgid "WP Post (recommended)"
+msgstr "WP Post (priporočeno)"
+
+#: library/plugin-settings.php:118
+msgid "WP Page"
+msgstr "WP stran"
+
+#: library/plugin-settings.php:134
+msgid "HTML5 Form + Default CSS"
+msgstr "Obrazec HTML5 Form + Default CSS"
+
+#: library/plugin-settings.php:134
+msgid "(Recommended)"
+msgstr "(Priporočeno)"
+
+#: library/plugin-settings.php:138
+msgid "HTML5 Form + Disable CSS"
+msgstr "HTML5 obrazec + Onemogoči CSS"
+
+#: library/plugin-settings.php:138
+msgid "(Provide your own styles)"
+msgstr "(Navedite svoje lastne sloge)"
+
+#: library/plugin-settings.php:142
+msgid "Custom Form + Custom CSS"
+msgstr "Custom Form + Custom CSS"
+
+#: library/plugin-settings.php:142
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(Navedite svojo lastno predlogo in sloge)"
+
+#: library/plugin-settings.php:158 library/plugin-settings.php:182
+#: library/plugin-settings.php:205 library/plugin-settings.php:229
+msgid "Auto-display before post content"
+msgstr "Samodejno prikazovanje pred objavo po vsebini"
+
+#: library/plugin-settings.php:162 library/plugin-settings.php:186
+#: library/plugin-settings.php:209 library/plugin-settings.php:233
+msgid "Auto-display after post content"
+msgstr "Samodejno prikazovanje po objavljeni vsebini"
+
+#: library/plugin-settings.php:166
+msgid "Do not auto-display submitted images"
+msgstr "Ne pošiljajte samodejno prikazanih slik"
+
+#: library/plugin-settings.php:190
+msgid "Do not auto-display submitted email"
+msgstr "Ne pošiljajte samodejno prikazane e-pošte"
+
+#: library/plugin-settings.php:213
+msgid "Do not auto-display submitted URL"
+msgstr "Ne pošiljajte samodejno prikazanega URL-ja"
+
+#: library/plugin-settings.php:237
+msgid "Do not auto-display the Custom Field"
+msgstr "Ne samodejno prikaži polja po meri"
+
+#: library/plugin-settings.php:265 library/plugin-settings.php:297
+#: library/plugin-settings.php:330 library/plugin-settings.php:362
+msgid "Display and require"
+msgstr "Prikazati in zahtevati"
+
+#: library/plugin-settings.php:266 library/plugin-settings.php:298
+msgid "Display but do not require"
+msgstr "Prikaz, vendar ne zahtevajo"
+
+#: library/plugin-settings.php:267 library/plugin-settings.php:299
+#: library/plugin-settings.php:331 library/plugin-settings.php:363
+msgid "Disable this field"
+msgstr "Onemogoči to polje"
+
+#: library/plugin-settings.php:302 library/plugin-settings.php:334
+#: library/plugin-settings.php:366 library/plugin-settings.php:398
+msgid "(Visit"
+msgstr "(Obiščite"
+
+#: library/plugin-settings.php:303 library/plugin-settings.php:335
+#: library/plugin-settings.php:367 library/plugin-settings.php:399
+msgid "to configure options)"
+msgstr "konfiguriranje možnosti)"
+
+#: library/plugin-settings.php:318 library/plugin-settings.php:335
+#: library/plugin-settings.php:1194 library/plugin-settings.php:1199
+msgid "Challenge Question"
+msgstr "Izziv vprašanje"
+
+#: library/plugin-settings.php:350 library/plugin-settings.php:367
+#: library/plugin-settings.php:1216
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:382
+msgid "Post Images"
+msgstr "Objavi slike"
+
+#: library/plugin-settings.php:394
+msgid "Display"
+msgstr "Zaslon"
+
+#: library/plugin-settings.php:395
+msgid "Disable"
+msgstr "Onemogoči"
+
+#: library/plugin-settings.php:399 library/plugin-settings.php:1277
+msgid "Image Uploads"
+msgstr "Nalaganje slik"
+
+#: library/plugin-settings.php:479
+msgid "Draft"
+msgstr "Osnutek"
+
+#: library/plugin-settings.php:480
+msgid "Pending (default)"
+msgstr "Na čakanju (privzeto)"
+
+#: library/plugin-settings.php:481
+msgid "Publish immediately"
+msgstr "Objavite takoj"
+
+#: library/plugin-settings.php:482
+msgid "Publish after 1 approved post"
+msgstr "Objavite po 1 odobreni objavi"
+
+#: library/plugin-settings.php:483
+msgid "Publish after "
+msgstr "Objavite po"
+
+#: library/plugin-settings.php:483
+msgid " approved posts"
+msgstr " odobrena delovna mesta"
+
+#: library/plugin-settings.php:635
+msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
+msgstr "Prišlo je do napake. Prepričajte se, da ste dodali naslov, nekaj vsebine in da ste naložili samo slike."
+
+#: library/plugin-settings.php:649
+msgid "Please select your image(s) to upload."
+msgstr "Prosimo, izberite svoje slike, ki jih želite naložiti."
+
+#: library/plugin-settings.php:655
+msgid "Success! Thank you for your submission."
+msgstr "Uspeh! Hvala za vašo oddajo."
+
+#: library/plugin-settings.php:681
+msgid "Email"
+msgstr "E-naslov"
+
+#: library/plugin-settings.php:682
+msgid "URL"
+msgstr "URL"
+
+#: library/plugin-settings.php:721
+msgid "Sorry, you are not allowed to modify settings."
+msgstr "Žal vam ni dovoljeno spreminjati nastavitev."
+
+#: library/plugin-settings.php:930
+msgid "Toggle all panels"
+msgstr "Preklopite vse plošče"
+
+#: library/plugin-settings.php:939
+msgid "We need your support!"
+msgstr "Potrebujemo vašo podporo!"
+
+#: library/plugin-settings.php:943
+msgid "Make a donation via PayPal"
+msgstr "Naročite donacijo preko PayPal"
+
+#: library/plugin-settings.php:943
+msgid "make a donation"
+msgstr "darovati"
+
+#: library/plugin-settings.php:943
+msgid "and/or"
+msgstr "in / ali"
+
+#: library/plugin-settings.php:944
+msgid "Rate and review at the Plugin Directory"
+msgstr "Ocenite in pregledajte v imeniku Plugin"
+
+#: library/plugin-settings.php:945
+msgid "give this plugin a 5-star rating"
+msgstr "dajte tej vtičnici oceno 5 zvezdic"
+
+#: library/plugin-settings.php:949
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "Vaša velikodušna podpora omogoča nadaljnji razvoj tega brezplačnega vtičnika. Hvala vam!"
+
+#: library/plugin-settings.php:954
+msgid "Check this box if you have shown support"
+msgstr "Označite to polje, če ste pokazali podporo"
+
+#: library/plugin-settings.php:963
+msgid "Overview"
+msgstr "Pregled"
+
+#: library/plugin-settings.php:967
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "omogoča obiskovalcem, da pošiljajo objave in naložijo slike s sprednje strani vašega spletnega mesta."
+
+#: library/plugin-settings.php:968
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "Za napredne funkcionalnosti in neomejene oblike, si oglejte"
+
+#: library/plugin-settings.php:968 library/plugin-settings.php:1335
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-settings.php:969
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "& mdash; končna rešitev za vsebine, ki jih ustvarijo uporabniki."
+
+#: library/plugin-settings.php:973 library/plugin-settings.php:990
+msgid "Plugin Settings"
+msgstr "Nastavitve vtičnika"
+
+#: library/plugin-settings.php:974
+msgid "Display the form"
+msgstr "Prikažite obrazec"
+
+#: library/plugin-settings.php:975 library/plugin-settings.php:1482
+msgid "Plugin Homepage"
+msgstr "Spletna stran vtičnika"
+
+#: library/plugin-settings.php:978
+msgid "If you like this plugin, please"
+msgstr "Če vam je všeč ta vtičnik, prosim"
+
+#: library/plugin-settings.php:979
+msgid "THANK YOU for your support!"
+msgstr "Hvala za tvojo podporo!"
+
+#: library/plugin-settings.php:979
+msgid "give it a 5-star rating"
+msgstr "dajte ji oceno s 5 zvezdicami"
+
+#: library/plugin-settings.php:983
+msgid "Unlimited front-end forms"
+msgstr "Neomejene oblike spredaj"
+
+#: library/plugin-settings.php:983
+msgid "Get USP Pro"
+msgstr "Get USP Pro"
+
+#: library/plugin-settings.php:993
+msgid "Configure your settings for User Submitted Posts."
+msgstr "Konfigurirajte nastavitve za uporabniško poslane objave."
+
+#: library/plugin-settings.php:995
+msgid "Form Fields"
+msgstr "Območja obrazca"
+
+#: library/plugin-settings.php:1001
+msgid "User Name"
+msgstr "Uporabniško ime"
+
+#: library/plugin-settings.php:1002
+msgid "User Email"
+msgstr "Uporabniška e-pošta"
+
+#: library/plugin-settings.php:1003
+msgid "User URL"
+msgstr "Uporabniški URL"
+
+#: library/plugin-settings.php:1018
+msgid "General Settings"
+msgstr "Splošne nastavitve"
+
+#: library/plugin-settings.php:1023
+msgid "Form Style"
+msgstr "Slog obrazca"
+
+#: library/plugin-settings.php:1028
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "S to možnostjo lahko kopirate privzete predloge vtičnika:"
+
+#: library/plugin-settings.php:1033
+msgid "..and upload them into a directory named"
+msgstr ".. in jih naložite v imenik imenovan"
+
+#: library/plugin-settings.php:1033
+msgid "in your theme:"
+msgstr "na svojo temo:"
+
+#: library/plugin-settings.php:1039
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "To vam bo omogočilo, da prilagodite obliko in sloge po želji. Za več informacij si oglejte razdelek »Obrazec za predložitev«"
+
+#: library/plugin-settings.php:1040
+msgid "Installation Docs"
+msgstr "Namestitveni dokumenti"
+
+#: library/plugin-settings.php:1041
+msgid "FYI: here is a"
+msgstr "FYI: tukaj je"
+
+#: library/plugin-settings.php:1041
+msgid "list of USP CSS selectors"
+msgstr "seznam selektorjev USP CSS"
+
+#: library/plugin-settings.php:1047
+msgid "Include JavaScript"
+msgstr "Vključi JavaScript"
+
+#: library/plugin-settings.php:1049
+msgid "Check this box if you want to include the external JavaScript files (recommended)."
+msgstr "Označite to polje, če želite vključiti zunanje datoteke JavaScript (priporočeno)."
+
+#: library/plugin-settings.php:1052
+msgid "Targeted Loading"
+msgstr "Ciljno nakladanje"
+
+#: library/plugin-settings.php:1054
+msgid "By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages."
+msgstr "Privzeto je zunanji CSS & amp; Datoteke JavaScript so naložene na vsaki strani. Tukaj lahko določite URL obrazca USP, da naložite vire samo na tej strani. Opomba: pustite prazno, da naložite vse strani."
+
+#: library/plugin-settings.php:1057
+msgid "Post Type"
+msgstr "Vrsta objave"
+
+#: library/plugin-settings.php:1060
+msgid "Submit posts as WP Posts or Pages"
+msgstr "Pošljite objavo kot delovna mesta ali strani WP"
+
+#: library/plugin-settings.php:1064
+msgid "Post Status"
+msgstr "Post Status"
+
+#: library/plugin-settings.php:1067
+msgid "Post Status for submitted posts"
+msgstr "Status objave za predložene objave"
+
+#: library/plugin-settings.php:1071
+msgid "Redirect URL"
+msgstr "URL za preusmeritev"
+
+#: library/plugin-settings.php:1073
+msgid "Specify a URL to redirect the user after post-submission. Leave blank to redirect back to current page."
+msgstr "Določite URL, ki ga bo uporabnik preusmeril po pojavi. Pustite prazno, da se preusmeri nazaj na trenutno stran."
+
+#: library/plugin-settings.php:1076
+msgid "Success Message"
+msgstr "Sporočilo o uspehu"
+
+#: library/plugin-settings.php:1078
+msgid "Success message that is displayed if post-submission is successful. Basic markup is allowed."
+msgstr "Sporočilo o uspehu, ki se prikaže, če je uspešno predvajanje. Osnovna oznaka je dovoljena."
+
+#: library/plugin-settings.php:1081
+msgid "Error Message"
+msgstr "Obvestilo o napaki"
+
+#: library/plugin-settings.php:1083
+msgid "General error message that is displayed if post-submission fails. Basic markup is allowed."
+msgstr "Splošno sporočilo o napaki, ki je prikazano, če ne uspe ponovitev. Osnovna oznaka je dovoljena."
+
+#: library/plugin-settings.php:1086
+msgid "Custom Content"
+msgstr "Vsebina po meri"
+
+#: library/plugin-settings.php:1088
+msgid "Custom text/markup to be included before the submission form. Leave blank to disable."
+msgstr "Besedilo / oznaka po meri mora biti vključena pred obrazcem za predložitev. Pustite prazno, da ga onemogočite."
+
+#: library/plugin-settings.php:1091
+msgid "Rich Text Editor"
+msgstr "Obogaten urejevalnik besedil"
+
+#: library/plugin-settings.php:1093
+msgid "Check this box if you want to enable WP rich text editing for submitted posts."
+msgstr "Označite to polje, če želite omogočiti obogateno urejanje besedila WP za predložene objave."
+
+#: library/plugin-settings.php:1096
+msgid "Unique Titles"
+msgstr "Edinstveni naslovi"
+
+#: library/plugin-settings.php:1098
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)."
+msgstr "Zahtevajte, da so predloženi objavni naslovi edinstveni (koristni za preprečevanje večkratnih / podvojenih objav)."
+
+#: library/plugin-settings.php:1101
+msgid "Disable Required"
+msgstr "Onemogoči obvezno"
+
+#: library/plugin-settings.php:1103
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)."
+msgstr "Onemogočite vse zahtevane atribute na privzetih obrazcih (uporabni so za odpravljanje napak pri sporočilih o napakah)."
+
+#: library/plugin-settings.php:1106
+msgid "Disable IP Tracking"
+msgstr "Onemogočanje sledenja IP-jem"
+
+#: library/plugin-settings.php:1108
+msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
+msgstr "Privzeto USP zabeleži naslov IP z vsako oddano objavo. Označite to polje, da onemogočite vse sledenje IP-jem."
+
+#: library/plugin-settings.php:1111
+msgid "Enable Shortcodes"
+msgstr "Omogoči kratke kode"
+
+#: library/plugin-settings.php:1113
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "Omogočite kratke kode v pripomočkih. WordPress privzeto ne omogoča kratkih kode v pripomočkih."
+
+#: library/plugin-settings.php:1114
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "Ta nastavitev omogoča vse / vse kratke kode v pripomočkih (tudi kratke kode iz drugih vtičnikov)."
+
+#: library/plugin-settings.php:1119 library/plugin-settings.php:1124
+msgid "Categories"
+msgstr "Kategorije"
+
+#: library/plugin-settings.php:1127
+msgid "Select which categories may be assigned to submitted posts (click to toggle)"
+msgstr "Izberite, katere kategorije se lahko dodelijo za poslane objave (kliknite, da preklopite)"
+
+#: library/plugin-settings.php:1135
+msgid "Hidden/Default Category"
+msgstr "Skrita / privzeta kategorija"
+
+#: library/plugin-settings.php:1137
+msgid "Use a hidden field for the post category. This may be used to specify a default category when the category field is disabled."
+msgstr "Za kategorijo objav uporabite skrito polje. To se lahko uporabi za določitev privzete kategorije, če je polje kategorije onemogočeno."
+
+#: library/plugin-settings.php:1140
+msgid "Category ID for Hidden Field"
+msgstr "ID kategorije za skrito polje"
+
+#: library/plugin-settings.php:1142
+msgid "Specify the ID of the category to use for the &ldquo;Hidden/Default Category&rdquo; option."
+msgstr "Določite ID kategorije, ki jo želite uporabiti za kategorijo »Skrita / privzeto« & rdquo; možnost."
+
+#: library/plugin-settings.php:1147
+msgid "Users"
+msgstr "Uporabniki"
+
+#: library/plugin-settings.php:1152
+msgid "Assigned Author"
+msgstr "Dodeljeni avtor"
+
+#: library/plugin-settings.php:1155
+msgid "Specify the user that should be assigned as author for submitted posts."
+msgstr "Navedite uporabnika, ki ga je treba dodeliti kot avtor za predložene objave."
+
+#: library/plugin-settings.php:1159
+msgid "Registered Username"
+msgstr "Registrirano uporabniško ime"
+
+#: library/plugin-settings.php:1161
+msgid "Use registered username as post author. Valid when the person submitting the form is logged in to WordPress."
+msgstr "Uporabite registrirano uporabniško ime kot objavo. Velja, ko je prijavitelj obrazca prijavljen v WordPress."
+
+#: library/plugin-settings.php:1164
+msgid "User Profile URL"
+msgstr "URL profila uporabnika"
+
+#: library/plugin-settings.php:1166
+msgid "Use registered user&rsquo;s Profile URL as the value of the URL field. Valid when the person submitting the form is logged in to WordPress."
+msgstr "Uporabite registrirani uporabniški profil & rsquo; s s URL-ja kot vrednost polja URL. Velja, ko je prijavitelj obrazca prijavljen v WordPress."
+
+#: library/plugin-settings.php:1169
+msgid "Require User Login"
+msgstr "Zahtevajte uporabniško prijavo"
+
+#: library/plugin-settings.php:1171
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "Zahtevajte, da se uporabniki prijavijo v WordPress, če si želite ogledati / oddati obrazec"
+
+#: library/plugin-settings.php:1177
+msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
+msgstr "Tukaj lahko spremenite ime in oznako, ki jo uporablja polje po meri. To polje lahko omogočite prek nastavitve Form Fields, zgoraj."
+
+#: library/plugin-settings.php:1182
+msgid "Custom Field Name"
+msgstr "Ime polja po meri"
+
+#: library/plugin-settings.php:1184
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "Uporabljajte samo alfanumerične, podčrtaje in pomišljaje. Če niste prepričani, uporabite privzeto ime:"
+
+#: library/plugin-settings.php:1187
+msgid "Custom Field Label"
+msgstr "Oznaka polja po meri"
+
+#: library/plugin-settings.php:1189
+msgid "This will be displayed as the field label on the form. Default: Custom Field"
+msgstr "To bo prikazano kot oznaka polja na obrazcu. Privzeto: polje po meri"
+
+#: library/plugin-settings.php:1201
+msgid "To prevent spam, enter a question that users must answer before submitting the form."
+msgstr "Če želite preprečiti vsiljeno pošto, vnesite vprašanje, na katerega morajo uporabniki odgovoriti, preden pošljejo obrazec."
+
+#: library/plugin-settings.php:1204
+msgid "Challenge Response"
+msgstr "Odgovor na izziv"
+
+#: library/plugin-settings.php:1206
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "Vnesite * samo * pravilen odgovor na izzivno vprašanje."
+
+#: library/plugin-settings.php:1209
+msgid "Case-sensitivity"
+msgstr "Čustvena občutljivost"
+
+#: library/plugin-settings.php:1211
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr "Označite to polje, če želite, da je odgovor na izziv občutljiv na velike in male črke."
+
+#: library/plugin-settings.php:1217
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr "Če želite omogočiti Google reCAPTCHA, vnesite javne in zasebne ključe."
+
+#: library/plugin-settings.php:1222
+msgid "Public Key"
+msgstr "Javni ključ"
+
+#: library/plugin-settings.php:1224
+msgid "Enter your Public Key"
+msgstr "Vnesite javni ključ"
+
+#: library/plugin-settings.php:1227
+msgid "Private Key"
+msgstr "Zasebni ključ"
+
+#: library/plugin-settings.php:1229
+msgid "Enter your Private Key"
+msgstr "Vnesite svoj zasebni ključ"
+
+#: library/plugin-settings.php:1234
+msgid "Email Alerts"
+msgstr "Opozorila e-pošte"
+
+#: library/plugin-settings.php:1239
+msgid "Receive Email Alert"
+msgstr "Prejmite e-poštno opozorilo"
+
+#: library/plugin-settings.php:1241
+msgid "Check this box if you want to be notified via email for new post submissions."
+msgstr "Označite to polje, če želite biti obveščeni po e-pošti za nove prispevke."
+
+#: library/plugin-settings.php:1244
+msgid "Enable HTML Format"
+msgstr "Omogoči format HTML"
+
+#: library/plugin-settings.php:1246
+msgid "Check this box to enable HTML format for email alerts."
+msgstr "Označite to polje, da omogočite format HTML za e-poštna opozorila."
+
+#: library/plugin-settings.php:1249
+msgid "Email Address for Alerts"
+msgstr "E-poštni naslov za opozorila"
+
+#: library/plugin-settings.php:1251
+msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
+msgstr "Če ste označili polje za prejemanje e-poštnih opozoril, tu navedite naslove, na katere je treba poslati e-poštna sporočila."
+
+#: library/plugin-settings.php:1252
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "Več prejemnikov je mogoče vključiti z vejico, tako:"
+
+#: library/plugin-settings.php:1255
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "E-pošta & ldquo; Od & rdquo; Naslov"
+
+#: library/plugin-settings.php:1257
+msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
+msgstr "Tukaj lahko prilagodite naslove, ki se uporabljajo za & ldquo; From & rdquo; glava (glej pogosta vprašanja o vtičnicah za informacije)."
+
+#: library/plugin-settings.php:1258
+msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
+msgstr "Če so v prejšnji nastavitvi določene več naslovov, vključite enako število & ldquo; Od & rdquo; naslove za to nastavitev (v istem vrstnem redu)."
+
+#: library/plugin-settings.php:1261
+msgid "Email Alert Subject"
+msgstr "Naslov za opozorilo o e-pošti"
+
+#: library/plugin-settings.php:1263
+msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
+msgstr "Vrstica za e-poštna opozorila. Pustite prazno, da uporabite privzeto vrstico. Opomba: lahko uporabite naslednje spremenljivke:"
+
+#: library/plugin-settings.php:1268
+msgid "Email Alert Message"
+msgstr "Sporočilo o e-pošti"
+
+#: library/plugin-settings.php:1270
+msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
+msgstr "Sporočilo za opozorila po e-pošti. Pustite prazno, da uporabite privzeto sporočilo. Opomba: lahko uporabite naslednje spremenljivke:"
+
+#: library/plugin-settings.php:1282
+msgid "Featured Image"
+msgstr "Predstavljena slika"
+
+#: library/plugin-settings.php:1284
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)."
+msgstr "Nastavite poslane slike kot priljubljene slike. Zahteva tematsko podporo za predstavljene slike (slikovna sporočila po e-pošti)."
+
+#: library/plugin-settings.php:1287
+msgid "Upload Message"
+msgstr "Naloži sporočilo"
+
+#: library/plugin-settings.php:1289
+msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
+msgstr "Sporočilo, ki se prikaže poleg polja za nalaganje. Uporabno za navedbo vaših smernic / politike za nalaganje / itd. Dovoljena je osnovna oznaka."
+
+#: library/plugin-settings.php:1292
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "& ldquo; Dodaj drugo sliko & rdquo; povezavo"
+
+#: library/plugin-settings.php:1294
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "Oznaka po meri za & ldquo; Dodaj drugo sliko & rdquo; povezavo. Pustite prazno, da uporabite privzeto oznako (priporočeno)."
+
+#: library/plugin-settings.php:1297
+msgid "Minimum number of images"
+msgstr "Najmanjše število slik"
+
+#: library/plugin-settings.php:1300
+msgid "Specify the minimum number of images."
+msgstr "Določite najmanjše število slik."
+
+#: library/plugin-settings.php:1304
+msgid "Maximum number of images"
+msgstr "Največje število slik"
+
+#: library/plugin-settings.php:1307
+msgid "Specify the maximum number of images."
+msgstr "Določite največje število slik."
+
+#: library/plugin-settings.php:1311
+msgid "Minimum image width"
+msgstr "Najmanjša širina slike"
+
+#: library/plugin-settings.php:1313
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "Določite najmanjšo širino (v slikovnih pikah) za naložene slike."
+
+#: library/plugin-settings.php:1316
+msgid "Minimum image height"
+msgstr "Najmanjša višina slike"
+
+#: library/plugin-settings.php:1318
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "Določite najmanjšo višino (v slikovnih pikah) za naložene slike."
+
+#: library/plugin-settings.php:1321
+msgid "Maximum image width"
+msgstr "Največja širina slike"
+
+#: library/plugin-settings.php:1323
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "Določite največjo širino (v slikovnih pikah) za naložene slike."
+
+#: library/plugin-settings.php:1326
+msgid "Maximum image height"
+msgstr "Najvišja višina slike"
+
+#: library/plugin-settings.php:1328
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "Določite največjo višino (v slikovnih pikah) za naložene slike."
+
+#: library/plugin-settings.php:1331
+msgid "More Options"
+msgstr "Več možnosti"
+
+#: library/plugin-settings.php:1334
+msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "Za več možnosti, kot je možnost nalaganja drugih vrst datotek (npr. PDF, Word, Zip, videoposnetki in drugo), odjavite se"
+
+#: library/plugin-settings.php:1335
+msgid "Go Pro!"
+msgstr "Postani profesionalec!"
+
+#: library/plugin-settings.php:1342
+msgid "Auto-Display Content"
+msgstr "Samodejno prikazovanje vsebine"
+
+#: library/plugin-settings.php:1347
+msgid "Images Auto-Display"
+msgstr "Samodejno prikazovanje slik"
+
+#: library/plugin-settings.php:1349
+msgid "Auto-display user-submitted images:"
+msgstr "Samodejno prikazovanje uporabniških slik:"
+
+#: library/plugin-settings.php:1354
+msgid "Image Markup"
+msgstr "Označevanje slike"
+
+#: library/plugin-settings.php:1356
+msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
+msgstr "Oznaka, ki jo želite uporabiti za vsako poslano sliko (kadar je omogočen samodejni prikaz). Lahko uporabi"
+
+#: library/plugin-settings.php:1358 library/plugin-settings.php:1371
+#: library/plugin-settings.php:1384 library/plugin-settings.php:1397
+msgid "and"
+msgstr "in"
+
+#: library/plugin-settings.php:1361
+msgid "Email Auto-Display"
+msgstr "E-poštni samodejni prikaz"
+
+#: library/plugin-settings.php:1363
+msgid "Auto-display user-submitted email:"
+msgstr "Samodejno prikaži e-pošto, ki jo pošlje uporabnik:"
+
+#: library/plugin-settings.php:1368
+msgid "Email Markup"
+msgstr "Oznaka e-pošte"
+
+#: library/plugin-settings.php:1370
+msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
+msgstr "Oznaka, ki jo želite uporabiti za predloženi e-poštni naslov (ko je omogočen samodejni prikaz). Lahko uporabi"
+
+#: library/plugin-settings.php:1374
+msgid "URL Auto-Display"
+msgstr "Samodejni prikaz URL-ja"
+
+#: library/plugin-settings.php:1376
+msgid "Auto-display user-submitted URL:"
+msgstr "Samodejno prikazovanje URL-ja, ki ga pošlje uporabnik:"
+
+#: library/plugin-settings.php:1381
+msgid "URL Markup"
+msgstr "Označevanje URL-jev"
+
+#: library/plugin-settings.php:1383
+msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr "Oznaka, ki jo želite uporabiti za predloženi URL (ko je omogočen samodejni prikaz). Lahko uporabi"
+
+#: library/plugin-settings.php:1387
+msgid "Custom Field Auto-Display"
+msgstr "Samodejni prikaz po meri"
+
+#: library/plugin-settings.php:1389
+msgid "Auto-display user-submitted Custom Field:"
+msgstr "Samodejno prikazovanje uporabniškega polja po meri:"
+
+#: library/plugin-settings.php:1394
+msgid "Custom Field Markup"
+msgstr "Označevanje po meri"
+
+#: library/plugin-settings.php:1396
+msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
+msgstr "Oznaka, ki jo želite uporabiti za poslano polje po meri (ko je omogočen samodejni prikaz). Lahko uporabi"
+
+#: library/plugin-settings.php:1402 library/plugin-settings.php:1468
+msgid "Save Settings"
+msgstr "Shrani nastavitve"
+
+#: library/plugin-settings.php:1407
+msgid "Display the Form"
+msgstr "Prikažite obrazec"
+
+#: library/plugin-settings.php:1410
+msgid "Post-Submit Form"
+msgstr "Obrazec po predložitvi"
+
+#: library/plugin-settings.php:1411
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "USP vam omogoča prikaz obrazca po predložitvi kjerkoli na vašem spletnem mestu."
+
+#: library/plugin-settings.php:1412 library/plugin-settings.php:1419
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "Uporabite kratko številko za prikaz obrazca na kateri koli WP objavi ali strani:"
+
+#: library/plugin-settings.php:1414 library/plugin-settings.php:1421
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "Ali pa z oznako predloge prikažite obrazec kjerkoli v predlogi teme:"
+
+#: library/plugin-settings.php:1417
+msgid "Login/Register Form"
+msgstr "Prijava / registracija obrazca"
+
+#: library/plugin-settings.php:1418
+msgid "You also can display a form that enables users to log in, register, or reset their password."
+msgstr "Prav tako lahko prikažete obrazec, ki uporabnikom omogoča prijavo, registracijo ali ponastavitev gesla."
+
+#: library/plugin-settings.php:1424
+msgid "Display Submitted Posts"
+msgstr "Prikaži predložene objave"
+
+#: library/plugin-settings.php:1425
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "Uporabite to kratko številko, da prikažete seznam predloženih objav na kateri koli WP objavi ali stran:"
+
+#: library/plugin-settings.php:1427
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "Ali pa uporabite oznako predloge, da prikažete seznam predloženih objav kjerkoli v predlogi teme:"
+
+#: library/plugin-settings.php:1429
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "Tukaj je nekaj primerov, ki prikazujejo, kako konfigurirati to kratko kodo:"
+
+#: library/plugin-settings.php:1436
+msgid "Access Control"
+msgstr "Nadzor dostopa"
+
+#: library/plugin-settings.php:1437
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "USP ponuja tri kratke kode za nadzor dostopa in omejitev vsebine."
+
+#: library/plugin-settings.php:1438
+msgid "Display content only to users with a specific capability:"
+msgstr "Prikaz vsebine samo uporabnikom z določeno zmožnostjo:"
+
+#: library/plugin-settings.php:1440
+msgid "Display content to logged-in users:"
+msgstr "Prikaz vsebine prijavljenim uporabnikom:"
+
+#: library/plugin-settings.php:1442
+msgid "Display content to visitors only:"
+msgstr "Prikazovanje vsebine samo obiskovalcem:"
+
+#: library/plugin-settings.php:1444
+msgid "Tip:"
+msgstr "Nasvet:"
+
+#: library/plugin-settings.php:1444
+msgid "to include markup in the deny message, you can use"
+msgstr "lahko vključite označevanje v sporočilo o zavrnitvi, ki ga lahko uporabite"
+
+#: library/plugin-settings.php:1444
+msgid "to output"
+msgstr "za izhod"
+
+#: library/plugin-settings.php:1446
+msgid "Example"
+msgstr "Primer"
+
+#: library/plugin-settings.php:1447
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "Če je uporabnik prijavljen, prikažite obrazec po predložitvi; ali če uporabnik ni prijavljen, prikažite prijavni obrazec:"
+
+#: library/plugin-settings.php:1459
+msgid "Restore Defaults"
+msgstr "Obnoviti privzete nastavitve"
+
+#: library/plugin-settings.php:1462
+msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "To možnost onemogočite, če želite zapomniti svoje nastavitve. Ali, da nadaljujete in obnovite privzete možnosti vtičnika: potrdite polje, shranite nastavitve in nato deaktivirajte / ponovno aktivirajte vtičnik."
+
+#: library/plugin-settings.php:1466
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr "Obnovitev privzetih možnosti ob deaktivaciji / ponovnem vklopu vtičnika."
+
+#: library/plugin-settings.php:1473
+msgid "Show Support"
+msgstr "Pokaži podporo"
+
+#: library/plugin-settings.php:1482
+msgid "by"
+msgstr "z"
+
+#: library/plugin-settings.php:1483
+msgid "Jeff Starr on Twitter"
+msgstr "Jeff Starr na Twitterju"
+
+#: library/plugin-settings.php:1484
+msgid "Obsessive Web Design &amp; Development"
+msgstr "Obsessive Web Design & amp; Razvoj"
+
+#: library/plugin-settings.php:1495
+msgid "Save Preference"
+msgstr "Shrani prednost"
+
+#: library/plugin-settings.php:1502
+msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
+msgstr "Ali ste prepričani, da želite obnoviti vse privzete možnosti? (tega dejanja ni mogoče razveljaviti)"
+
+#: library/template-tags.php:214
+msgid "View full post"
+msgstr "Prikaži celotno objavo"
+
+#. Description of the plugin
+#: 
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "Omogoča obiskovalcem, da pošiljajo objave in slike od koder koli na vašem spletnem mestu."
+
+#. URI of the plugin
+#: 
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+#: 
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#. Author URI of the plugin
+#: 
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+

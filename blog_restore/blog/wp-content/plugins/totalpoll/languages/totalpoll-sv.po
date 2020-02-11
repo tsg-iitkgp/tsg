@@ -1,0 +1,2052 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll 3\n"
+"POT-Creation-Date: 2016-04-02 20:28+0100\n"
+"PO-Revision-Date: 2016-04-24 17:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: MisqTech <contact@misqtech.com>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: templates\n"
+
+#: includes/admin/ajax.php:44 includes/admin/ajax.php:53
+#: includes/admin/ajax.php:78 includes/admin/ajax.php:87
+msgid "Invalid argument passed"
+msgstr "Ogiltigt argument"
+
+#: includes/admin/bootstrap.php:103 includes/admin/bootstrap.php:325
+msgid "Title"
+msgstr "Rubrik"
+
+#: includes/admin/bootstrap.php:104 includes/admin/bootstrap.php:442
+#: includes/admin/editor/actions.php:6
+msgid "Shortcode"
+msgstr "Snabbkod"
+
+#: includes/admin/bootstrap.php:105
+msgid "Results Shortcode"
+msgstr "Resultat Snabbkod"
+
+#: includes/admin/bootstrap.php:106
+msgid "Total votes"
+msgstr "Antal röster"
+
+#: includes/admin/bootstrap.php:107
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/settings/choices.php:82
+#: includes/admin/editor/settings/results.php:52
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/bootstrap.php:143
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your Envato license key</a> in order to "
+"update TotalPoll."
+msgstr ""
+"Du måste <a href=\"%s\">ange din Envato licensnyckel</a> för att uppdatera "
+"TotalPoll."
+
+#: includes/admin/bootstrap.php:237
+msgid "TotalPoll Extensions"
+msgstr "TotalPoll tillägg"
+
+#: includes/admin/bootstrap.php:237 includes/admin/bootstrap.php:292
+#: includes/admin/pages/about.php:77 includes/admin/pages/about.php:99
+#: includes/admin/pages/extensions.php:59 includes/admin/pages/store.php:30
+msgid "Extensions"
+msgstr "Tillägg"
+
+#: includes/admin/bootstrap.php:238
+msgid "TotalPoll Templates"
+msgstr "TotalPoll mallar"
+
+#: includes/admin/bootstrap.php:238 includes/admin/bootstrap.php:297
+#: includes/admin/pages/about.php:72 includes/admin/pages/about.php:95
+#: includes/admin/pages/store.php:27 includes/admin/pages/templates.php:59
+msgid "Templates"
+msgstr "Mallar"
+
+#: includes/admin/bootstrap.php:239
+msgid "TotalPoll Store"
+msgstr "TotalPoll butik"
+
+#: includes/admin/bootstrap.php:239 includes/admin/bootstrap.php:302
+#: includes/admin/pages/store.php:23
+msgid "Store"
+msgstr "Butik"
+
+#: includes/admin/bootstrap.php:240
+msgid "TotalPoll Tools"
+msgstr "TotalPoll verktyg"
+
+#: includes/admin/bootstrap.php:240 includes/admin/bootstrap.php:307
+#: includes/admin/pages/tools.php:44
+msgid "Tools"
+msgstr "Verktyg"
+
+#: includes/admin/bootstrap.php:241
+msgid "TotalPoll About"
+msgstr "TotalPoll Om"
+
+#: includes/admin/bootstrap.php:241
+msgid "About"
+msgstr "Om"
+
+#: includes/admin/bootstrap.php:242
+msgid "TotalPoll Update"
+msgstr "TotalPoll uppdatering"
+
+#: includes/admin/bootstrap.php:242 includes/admin/bootstrap.php:312
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/admin/bootstrap.php:243
+msgid "TotalPoll Support Center"
+msgstr "TotalPoll supportcenter"
+
+#: includes/admin/bootstrap.php:243 includes/admin/bootstrap.php:317
+msgid "Support / Help"
+msgstr "Support / hjälp"
+
+#: includes/admin/bootstrap.php:272 includes/admin/editor/browse/logs.php:111
+#: includes/admin/editor/browse/submissions.php:84
+msgid "Previous"
+msgstr "Föregående"
+
+#: includes/admin/bootstrap.php:273 includes/admin/editor/browse/logs.php:114
+#: includes/admin/editor/browse/submissions.php:87
+msgid "Next"
+msgstr "Nästa"
+
+#: includes/admin/bootstrap.php:274
+msgid "Done"
+msgstr "Klar"
+
+#: includes/admin/bootstrap.php:282
+msgid "Welcome!"
+msgstr "Välkommen!"
+
+#: includes/admin/bootstrap.php:283
+msgid "You can access to your polls and TotalPoll features from this menu."
+msgstr ""
+"Från den här menyn får du tillgång till din omröstningar och TotalPoll "
+"funktioner."
+
+#: includes/admin/bootstrap.php:287
+msgid "New poll"
+msgstr "Ny omröstning"
+
+#: includes/admin/bootstrap.php:288
+msgid "You can create your first poll from this page."
+msgstr "Du kan skapa din första omröstning från denna sida."
+
+#: includes/admin/bootstrap.php:293
+msgid "From this page you can manage TotalPoll extensions."
+msgstr "Från denna sida kan du hantera TotalPoll tillägg."
+
+#: includes/admin/bootstrap.php:298
+msgid "From this page you can manage manage TotalPoll templates."
+msgstr "Från denna sida kan du hantera hantera TotalPoll mallar."
+
+#: includes/admin/bootstrap.php:303
+msgid ""
+"Extend TotalPoll functionality and appearance with premium extensions and "
+"templates."
+msgstr ""
+"Utöka TotalPoll funktionalitet och utseende med premium-tillägg och mallar."
+
+#: includes/admin/bootstrap.php:308
+msgid "Tools for importing, exporting and migrating polls."
+msgstr "Verktyg för att importera, exportera och migrera omröstningar."
+
+#: includes/admin/bootstrap.php:313
+msgid "Receive updates by activating TotalPoll via Envato license key."
+msgstr "Få uppdateringar genom att aktivera TotalPoll mha Envato licensnyckel."
+
+#: includes/admin/bootstrap.php:318
+msgid "Visit this page if you need any help with TotalPoll."
+msgstr "Besök den här sidan om du behöver hjälp med TotalPoll."
+
+#: includes/admin/bootstrap.php:326
+msgid "First things first, let's give the poll a title i.e. Favorite colors."
+msgstr ""
+"Det viktigaste först, låt oss sätta en rubrik för omröstningen, t.ex. "
+"Favoritfärger."
+
+#: includes/admin/bootstrap.php:334 includes/admin/editor/question.php:7
+msgid "Question"
+msgstr "Fråga"
+
+#: includes/admin/bootstrap.php:335
+msgid "And of course a question i.e. What is your favorite colors."
+msgstr "Och naturligtvis en fråga t.ex. Vilka är din favoritfärger."
+
+#: includes/admin/bootstrap.php:343 includes/admin/bootstrap.php:379
+#: includes/admin/editor.php:241 includes/admin/editor/browse/logs.php:34
+#: includes/admin/editor/browse/logs.php:59
+#: includes/admin/editor/browse/logs.php:94
+#: includes/admin/editor/browse/statistics-cards.php:60
+#: includes/admin/editor/choices.php:7 includes/admin/editor/settings.php:65
+#: includes/admin/pages/about.php:62
+msgid "Choices"
+msgstr "Val"
+
+#: includes/admin/bootstrap.php:344
+msgid "Now let's introduce poll choices i.e. Red, green and blue."
+msgstr "Låt oss nu införa svarsalternativen, t.ex. Röd, grön och blå."
+
+#: includes/admin/bootstrap.php:352 includes/admin/editor/choices.php:31
+msgid "Bulk insertion"
+msgstr "Massinsättning"
+
+#: includes/admin/bootstrap.php:353
+msgid "Protip: Use bulk insertion when you have already a list of choices."
+msgstr ""
+"Tips: Använd massinsättning när du redan har en färdig lista över alternativ."
+
+#: includes/admin/bootstrap.php:361 includes/admin/editor/settings.php:55
+msgid "Limitations"
+msgstr "Begränsningar"
+
+#: includes/admin/bootstrap.php:362
+msgid "Set limitations to match your needs."
+msgstr "Ställ in begränsningar som matchar dina behov."
+
+#: includes/admin/bootstrap.php:370 includes/admin/editor/settings.php:60
+#: includes/classes/template.php:493
+msgid "Results"
+msgstr "Resultat"
+
+#: includes/admin/bootstrap.php:371
+msgid "Change results settings to match your needs."
+msgstr "Ändra inställningar för resultat att passa dina behov."
+
+#: includes/admin/bootstrap.php:380
+msgid "Change choices settings to match your needs."
+msgstr "Ändra inställningar för svarsalternativ som passar dina behov."
+
+#: includes/admin/bootstrap.php:388 includes/admin/editor/settings.php:70
+#: includes/admin/pages/about.php:27
+msgid "Custom fields"
+msgstr "Anpassade fält"
+
+#: includes/admin/bootstrap.php:389
+msgid "You can manage custom fields from this tab."
+msgstr "Från den här fliken kan du hantera anpassade fält."
+
+#: includes/admin/bootstrap.php:397 includes/admin/editor/settings.php:75
+msgid "Design"
+msgstr "Design"
+
+#: includes/admin/bootstrap.php:398
+msgid "And polish poll's appearance from this one."
+msgstr "Och snygga till omröstningarnas utseende från den här."
+
+#: includes/admin/bootstrap.php:406 includes/admin/editor/settings.php:80
+msgid "Screens"
+msgstr "Skärmar"
+
+#: includes/admin/bootstrap.php:407
+msgid "Set a \"thank you\" or \"welcome\" message from this tab."
+msgstr ""
+"Ställ in ett \"tack\" eller \"välkommen\" meddelande från den här fliken."
+
+#: includes/admin/bootstrap.php:415 includes/admin/editor/browse.php:16
+#: includes/admin/editor/custom-fields/tabs.php:10
+#: includes/admin/pages/about.php:32
+msgid "Statistics"
+msgstr "Statistik"
+
+#: includes/admin/bootstrap.php:416
+msgid "Browse the statistics from this tab."
+msgstr "Bläddra i statistiken från den här fliken."
+
+#: includes/admin/bootstrap.php:424 includes/admin/editor/browse.php:21
+#: includes/admin/editor/settings.php:85 includes/admin/pages/about.php:67
+msgid "Logs"
+msgstr "Loggar"
+
+#: includes/admin/bootstrap.php:425
+msgid "You can also browse the logs from this tab."
+msgstr "Du kan också bläddra igenom loggarna från den här fliken."
+
+#: includes/admin/bootstrap.php:433 includes/admin/editor/browse.php:26
+msgid "Submissions"
+msgstr "Inlägg"
+
+#: includes/admin/bootstrap.php:434
+msgid "Lastly, the submissions from this one."
+msgstr "Slutligen, inläggen från denna."
+
+#: includes/admin/bootstrap.php:443
+msgid "Paste this shortcode anywhere to embed the poll."
+msgstr "Klistra in denna snabbkod där du vill bädda in omröstningen."
+
+#: includes/admin/bootstrap.php:451
+msgid "Publish"
+msgstr "Publicera"
+
+#: includes/admin/bootstrap.php:452
+msgid "You are almost done! Now It's time to publish the poll."
+msgstr "Du är nästan klar! Nu är det dags att publicera omröstningen."
+
+#: includes/admin/bootstrap.php:460 includes/admin/editor/choices.php:33
+msgid "Reset votes"
+msgstr "Återställ röster"
+
+#: includes/admin/bootstrap.php:461
+msgid ""
+"You can use this button to reset choices votes to 0. You can also set votes "
+"manually from \"votes\" field underneath."
+msgstr ""
+"Den här knappen kan du använda för att återställa rösterna till 0. Du kan "
+"även ange röster manuellt från \"röster\" fältet nedanför."
+
+#: includes/admin/bootstrap.php:469 includes/admin/pages/update.php:22
+msgid "Thank you!"
+msgstr "Tack!"
+
+#: includes/admin/bootstrap.php:471
+#, php-format
+msgid ""
+"By now you are familiar with the basics of TotalPoll. Thank you for your "
+"time! If you need any help, please don't hesitate to visit our <a href=\"%s"
+"\">support center</a>."
+msgstr ""
+"Nu är du bekant med grunderna i TotalPoll. Tack för din tid! Om du behöver "
+"hjälp, tveka inte att besöka vårt <a href=\"%s\">supportcenter</a>."
+
+#: includes/admin/editor.php:107
+msgid "Are you sure?!"
+msgstr "Är du säker?!"
+
+#: includes/admin/editor.php:108
+msgid ""
+"Changing the current template requires a page reload. All changes will be "
+"saved now. Are you sure?"
+msgstr ""
+"Ändringar av nuvarande mall kräver omladdning av sidan. Alla ändringar kommer "
+"nu att sparas. Är du säker?"
+
+#: includes/admin/editor.php:235 includes/admin/editor/browse/logs.php:18
+#: includes/admin/editor/browse/logs.php:55
+#: includes/admin/editor/browse/logs.php:90
+#: includes/admin/editor/browse/statistics-cards.php:30
+#: includes/admin/editor/browse/statistics-cards.php:67
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/editor.php:236 includes/admin/editor/browse/logs.php:22
+#: includes/admin/editor/browse/logs.php:56
+#: includes/admin/editor/browse/logs.php:91
+msgid "Time"
+msgstr "Tid"
+
+#: includes/admin/editor.php:237 includes/admin/editor/browse/logs.php:26
+#: includes/admin/editor/browse/logs.php:57
+#: includes/admin/editor/browse/logs.php:92
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/editor.php:238
+msgid "Platform"
+msgstr "Plattform"
+
+#: includes/admin/editor.php:239 includes/admin/editor/browse/logs.php:30
+#: includes/admin/editor/browse/logs.php:58
+#: includes/admin/editor/browse/logs.php:93
+#: includes/admin/editor/browse/statistics-cards.php:39
+msgid "Browser"
+msgstr "Webbläsare"
+
+#: includes/admin/editor.php:240 includes/admin/pages/extensions.php:178
+#: includes/admin/pages/templates.php:182
+msgid "Version"
+msgstr "Version"
+
+#: includes/admin/editor.php:242 includes/admin/editor/browse/logs.php:39
+#: includes/admin/editor/browse/logs.php:66
+#: includes/admin/editor/browse/logs.php:101
+msgid "Details"
+msgstr "Detaljer"
+
+#: includes/admin/editor.php:243
+msgid "User agent"
+msgstr "Användaragent"
+
+#: includes/admin/editor.php:252 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:21
+msgid "Accepted"
+msgstr "Accepterad"
+
+#: includes/admin/editor.php:252 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:26
+msgid "Denied"
+msgstr "Nekad"
+
+#: includes/admin/editor.php:280 includes/admin/editor/browse/logs-item.php:28
+#: includes/admin/editor/browse/logs-item.php:41
+#: includes/admin/editor/browse/submissions-item.php:14
+#: includes/admin/statistics.php:25 includes/classes/helpers.php:147
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/editor/browse.php:7 includes/admin/pages/extensions.php:63
+#: includes/admin/pages/templates.php:63
+msgid "Browse"
+msgstr "Bläddra"
+
+#: includes/admin/editor/browse/logs.php:77
+msgid "There are no logs."
+msgstr "Det finns inga loggar."
+
+#: includes/admin/editor/browse/logs.php:109
+#: includes/admin/editor/browse/submissions.php:82
+msgid "First"
+msgstr "Första"
+
+#: includes/admin/editor/browse/logs.php:116
+#: includes/admin/editor/browse/submissions.php:89
+msgid "Last"
+msgstr "Sista"
+
+#: includes/admin/editor/browse/logs.php:122
+#, php-format
+msgid "One log"
+msgid_plural "%s logs"
+msgstr[0] "En log"
+msgstr[1] "%s loggar"
+
+#: includes/admin/editor/browse/logs.php:125
+#: includes/admin/editor/browse/statistics.php:35
+#: includes/admin/editor/browse/submissions.php:99
+#: includes/admin/pages/support.php:63
+msgid "Download"
+msgstr "Ladda ner"
+
+#: includes/admin/editor/browse/logs.php:127
+#: includes/admin/editor/browse/submissions.php:101
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/admin/editor/browse/logs.php:129
+#: includes/admin/editor/browse/submissions.php:103
+#: includes/admin/editor/custom-fields/tabs.php:9
+#: includes/admin/pages/about.php:107
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/editor/browse/logs.php:131
+#: includes/admin/editor/browse/submissions.php:105
+msgid "or"
+msgstr "eller"
+
+#: includes/admin/editor/browse/logs.php:133
+#: includes/admin/editor/browse/submissions.php:107
+msgid "Reset"
+msgstr "Återställ"
+
+#: includes/admin/editor/browse/statistics-cards.php:30
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/browse/statistics-cards.php:33
+#: includes/admin/editor/browse/statistics-cards.php:34
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:40
+#: includes/admin/editor/browse/statistics-cards.php:51
+#: includes/admin/editor/browse/statistics-cards.php:56
+#: includes/admin/editor/choices/handle.php:10
+#: includes/admin/editor/choices/handle.php:13
+#: includes/admin/editor/settings/choices.php:76
+#: includes/admin/editor/settings/results.php:46
+#: includes/admin/editor/settings/results.php:134
+msgid "Votes"
+msgstr "Röster"
+
+#: includes/admin/editor/browse/statistics-cards.php:33
+msgid "Month"
+msgstr "Månad"
+
+#: includes/admin/editor/browse/statistics-cards.php:34
+msgid "Year"
+msgstr "År"
+
+#: includes/admin/editor/browse/statistics-cards.php:40
+#: includes/admin/editor/browse/statistics-cards.php:135
+msgid "Platforms"
+msgstr "Plattformar"
+
+#: includes/admin/editor/browse/statistics-cards.php:56
+msgid "Choice"
+msgstr "Alternativ"
+
+#: includes/admin/editor/browse/statistics-cards.php:76
+msgid "Votes over the last 30 days of activity"
+msgstr "Röster under de senaste 30 dagarnas aktivitet"
+
+#: includes/admin/editor/browse/statistics-cards.php:86
+msgid "Votes casted"
+msgstr "Avgivna röster"
+
+#: includes/admin/editor/browse/statistics-cards.php:91
+msgid "Votes casted today"
+msgstr "Avgivna röster idag"
+
+#: includes/admin/editor/browse/statistics-cards.php:96
+msgid "Votes casted this week"
+msgstr "Avgivna röster denna vecka"
+
+#: includes/admin/editor/browse/statistics-cards.php:101
+msgid "Votes casted this month"
+msgstr "Avgivna röster denna månad"
+
+#: includes/admin/editor/browse/statistics-cards.php:108
+msgid "Votes over months"
+msgstr "Röster under månader"
+
+#: includes/admin/editor/browse/statistics-cards.php:116
+msgid "Votes over years"
+msgstr "Röster under år"
+
+#: includes/admin/editor/browse/statistics-cards.php:127
+msgid "Browsers"
+msgstr "Webbläsare"
+
+#: includes/admin/editor/browse/statistics.php:15
+msgid "Insufficient data to analyze."
+msgstr "Otillräckliga data för att analysera."
+
+#: includes/admin/editor/browse/statistics.php:33
+msgid "Print"
+msgstr "Skriv ut"
+
+#: includes/admin/editor/browse/statistics.php:35
+msgid "Coming soon"
+msgstr "Kommer snart"
+
+#: includes/admin/editor/browse/submissions.php:42
+msgid ""
+"There are stored submissions, but custom fields must be present to browse "
+"them."
+msgstr ""
+"Det finns lagrade inlägg men anpassade fält måste finnas för att se dem."
+
+#: includes/admin/editor/browse/submissions.php:44
+#: includes/admin/editor/browse/submissions.php:54
+msgid "There are no submissions."
+msgstr "Det finns inga inlägg."
+
+#: includes/admin/editor/browse/submissions.php:96
+#, php-format
+msgid "One submission"
+msgid_plural "%s submissions"
+msgstr[0] "Ett inlägg"
+msgstr[1] "%s inlägg"
+
+#: includes/admin/editor/choices.php:11
+msgid ""
+"TotalPoll will synchronize votes between translations automatically. "
+"Therefore, choices must be in the exact order across all translations."
+msgstr ""
+"TotalPoll synkroniserar automatiskt röster mellan översättningar. "
+"Svarsalternativen måste därför vara i exakt samma ordning i alla "
+"översättningar."
+
+#: includes/admin/editor/choices.php:15
+#: includes/admin/editor/choices/text.php:10
+#: includes/admin/editor/custom-fields/text.php:10
+#: includes/admin/editor/settings/custom-fields.php:12
+msgid "Text"
+msgstr "Text"
+
+#: includes/admin/editor/choices.php:18
+#: includes/admin/editor/choices/image.php:10
+msgid "Image"
+msgstr "Bild"
+
+#: includes/admin/editor/choices.php:21
+#: includes/admin/editor/choices/video.php:10
+msgid "Video"
+msgstr "Video"
+
+#: includes/admin/editor/choices.php:24
+#: includes/admin/editor/choices/audio.php:10
+msgid "Audio"
+msgstr "Ljud"
+
+#: includes/admin/editor/choices.php:27
+#: includes/admin/editor/choices/html.php:10
+msgid "Rich"
+msgstr "Rik"
+
+#: includes/admin/editor/choices.php:38
+msgid "Import"
+msgstr "Importera"
+
+#: includes/admin/editor/choices/audio.php:32
+#: includes/admin/editor/choices/html.php:19
+#: includes/admin/editor/choices/image.php:27
+#: includes/admin/editor/choices/text.php:19
+#: includes/admin/editor/choices/video.php:32
+#: includes/admin/editor/custom-fields/checkbox.php:51
+#: includes/admin/editor/custom-fields/radio.php:49
+#: includes/admin/editor/custom-fields/select.php:49
+#: includes/admin/editor/custom-fields/text.php:49
+#: includes/admin/editor/custom-fields/textarea.php:49
+#: includes/admin/editor/settings/choices.php:79
+#: includes/admin/editor/settings/results.php:49
+msgid "Label"
+msgstr "Etikett"
+
+#: includes/admin/editor/choices/audio.php:37
+#: includes/admin/editor/choices/image.php:32
+#: includes/admin/editor/choices/video.php:37
+msgid "Choice label"
+msgstr "Ange etikett"
+
+#: includes/admin/editor/choices/audio.php:46
+msgid "Full audio url"
+msgstr "Ljud URL"
+
+#: includes/admin/editor/choices/audio.php:54
+msgid "Choice full audio url"
+msgstr "Ange URL för ljudfil"
+
+#: includes/admin/editor/choices/audio.php:69
+#: includes/admin/editor/choices/audio.php:124
+#: includes/admin/editor/choices/image.php:64
+#: includes/admin/editor/choices/video.php:69
+#: includes/admin/editor/choices/video.php:124
+#: includes/admin/pages/extensions.php:61 includes/admin/pages/templates.php:61
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: includes/admin/editor/choices/audio.php:76
+msgid "Thumbnail audio url"
+msgstr "Miniatyr ljud URL"
+
+#: includes/admin/editor/choices/audio.php:81
+msgid "Choice thumbnail audio url"
+msgstr "Ange URL för miniatyr ljud"
+
+#: includes/admin/editor/choices/audio.php:88
+#: includes/admin/editor/choices/image.php:85
+#: includes/admin/editor/choices/video.php:88
+msgid "Available sizes"
+msgstr "Tillgängliga storlekar"
+
+#: includes/admin/editor/choices/audio.php:99
+#: includes/admin/editor/choices/image.php:96
+#: includes/admin/editor/choices/video.php:99
+msgid "Upload image first"
+msgstr "Ladda först upp bild"
+
+#: includes/admin/editor/choices/handle.php:8
+#: includes/admin/editor/custom-fields/handle.php:8
+msgid "Remove"
+msgstr "Ta bort"
+
+#: includes/admin/editor/choices/html.php:24
+#: includes/admin/editor/choices/text.php:24
+msgid "Choice content"
+msgstr "Ange innehåll"
+
+#: includes/admin/editor/choices/image.php:40
+msgid "Full image url"
+msgstr "Bild URL"
+
+#: includes/admin/editor/choices/image.php:48
+msgid "Choice full image url"
+msgstr "Ange URL för bild"
+
+#: includes/admin/editor/choices/image.php:72
+msgid "Thumbnail image url"
+msgstr "Miniatyrbild URL"
+
+#: includes/admin/editor/choices/image.php:77
+msgid "Choice thumbnail image url"
+msgstr "Ange URL för miniatyrbild"
+
+#: includes/admin/editor/choices/video.php:46
+msgid "Full video url"
+msgstr "Video URL"
+
+#: includes/admin/editor/choices/video.php:54
+msgid "Choice full video url"
+msgstr "Ange URL för video"
+
+#: includes/admin/editor/choices/video.php:76
+msgid "Thumbnail video url"
+msgstr "Miniatyr video URL"
+
+#: includes/admin/editor/choices/video.php:81
+msgid "Choice thumbnail video url"
+msgstr "Ange URL för miniatyr video"
+
+#: includes/admin/editor/custom-fields/checkbox.php:10
+#: includes/admin/editor/settings/custom-fields.php:21
+msgid "Checkbox"
+msgstr "Kryssruta"
+
+#: includes/admin/editor/custom-fields/checkbox.php:31
+#: includes/admin/editor/custom-fields/radio.php:29
+#: includes/admin/editor/custom-fields/select.php:29
+#: includes/admin/editor/custom-fields/text.php:29
+#: includes/admin/editor/custom-fields/textarea.php:29
+msgid "Name"
+msgstr "Namn"
+
+#: includes/admin/editor/custom-fields/checkbox.php:36
+#: includes/admin/editor/custom-fields/radio.php:34
+#: includes/admin/editor/custom-fields/select.php:34
+#: includes/admin/editor/custom-fields/text.php:34
+#: includes/admin/editor/custom-fields/textarea.php:34
+msgid "Field name"
+msgstr "Fältnamn"
+
+#: includes/admin/editor/custom-fields/checkbox.php:56
+#: includes/admin/editor/custom-fields/radio.php:54
+#: includes/admin/editor/custom-fields/select.php:54
+#: includes/admin/editor/custom-fields/text.php:54
+#: includes/admin/editor/custom-fields/textarea.php:54
+msgid "Field label"
+msgstr "Fältetikett"
+
+#: includes/admin/editor/custom-fields/checkbox.php:70
+#: includes/admin/editor/custom-fields/radio.php:68
+#: includes/admin/editor/custom-fields/select.php:68
+msgid "Options"
+msgstr "Alternativ"
+
+#: includes/admin/editor/custom-fields/checkbox.php:74
+#: includes/admin/editor/custom-fields/radio.php:72
+#: includes/admin/editor/custom-fields/select.php:73
+msgid "option_key : Option label"
+msgstr "option_key: Alternativsetikett"
+
+#: includes/admin/editor/custom-fields/checkbox.php:80
+#: includes/admin/editor/custom-fields/radio.php:78
+#: includes/admin/editor/custom-fields/select.php:79
+msgid "Option per line."
+msgstr "Alternativ per rad."
+
+#: includes/admin/editor/custom-fields/checkbox.php:90
+#: includes/admin/editor/custom-fields/radio.php:88
+#: includes/admin/editor/custom-fields/select.php:89
+msgid "Default values"
+msgstr "Standardvärden"
+
+#: includes/admin/editor/custom-fields/checkbox.php:94
+#: includes/admin/editor/custom-fields/radio.php:93
+#: includes/admin/editor/custom-fields/select.php:94
+msgid "option_key"
+msgstr "option_key"
+
+#: includes/admin/editor/custom-fields/checkbox.php:100
+#: includes/admin/editor/custom-fields/select.php:100
+msgid "Default value per line."
+msgstr "Standardvärde per rad."
+
+#: includes/admin/editor/custom-fields/checkbox.php:126
+#: includes/admin/editor/custom-fields/radio.php:123
+#: includes/admin/editor/custom-fields/select.php:140
+#: includes/admin/editor/custom-fields/text.php:96
+#: includes/admin/editor/custom-fields/textarea.php:117
+msgid "Filled (required)"
+msgstr "Fylld (obligatoriskt)"
+
+#: includes/admin/editor/custom-fields/html-fields.php:12
+msgid "Field CSS classes"
+msgstr "Fältets CSS-klasser"
+
+#: includes/admin/editor/custom-fields/html-fields.php:17
+msgid "Field classes"
+msgstr "Fältets klasser"
+
+#: includes/admin/editor/custom-fields/html-fields.php:30
+msgid "Label CSS classes"
+msgstr "Etikettens CSS-klasser"
+
+#: includes/admin/editor/custom-fields/html-fields.php:35
+msgid "Label classes"
+msgstr "Etikettens klasser (label)"
+
+#: includes/admin/editor/custom-fields/html-fields.php:49
+#: includes/admin/editor/settings/design.php:14
+#: includes/admin/pages/templates.php:106 includes/admin/pages/templates.php:117
+msgid "Template"
+msgstr "Mall"
+
+#: includes/admin/editor/custom-fields/html-fields.php:54
+msgid "Field template"
+msgstr "Fältmall"
+
+#: includes/admin/editor/custom-fields/html-fields.php:60
+msgid "%label% for field label."
+msgstr "%label% = fältetikett."
+
+#: includes/admin/editor/custom-fields/html-fields.php:62
+#, php-format
+msgid "%field% for field input."
+msgstr "%field% = fältinmatning."
+
+#: includes/admin/editor/custom-fields/radio.php:10
+#: includes/admin/editor/settings/custom-fields.php:24
+msgid "Radio"
+msgstr "Radioknappar"
+
+#: includes/admin/editor/custom-fields/select.php:10
+#: includes/admin/editor/settings/custom-fields.php:18
+msgid "Select"
+msgstr "Rullgardinsval"
+
+#: includes/admin/editor/custom-fields/select.php:112
+msgid "Allow multiple values"
+msgstr "Tillåt flera värden"
+
+#: includes/admin/editor/custom-fields/statistics-fields.php:18
+msgid "Include in statistics"
+msgstr "Inkludera i statistik"
+
+#: includes/admin/editor/custom-fields/tabs.php:7
+msgid "Basic"
+msgstr "Grundläggande"
+
+#: includes/admin/editor/custom-fields/tabs.php:8
+msgid "Validations"
+msgstr "Valideringar"
+
+#: includes/admin/editor/custom-fields/text.php:68
+#: includes/admin/editor/custom-fields/textarea.php:68
+msgid "Default value"
+msgstr "Standardvärde"
+
+#: includes/admin/editor/custom-fields/text.php:73
+#: includes/admin/editor/custom-fields/textarea.php:73
+msgid "Field default"
+msgstr "Standardfält"
+
+#: includes/admin/editor/custom-fields/text.php:112
+msgid "Email"
+msgstr "E-post"
+
+#: includes/admin/editor/custom-fields/text.php:128
+msgid "Unique"
+msgstr "Unik"
+
+#: includes/admin/editor/custom-fields/text.php:146
+#: includes/admin/editor/custom-fields/textarea.php:134
+msgid "Filter by list"
+msgstr "Filtrera efter lista"
+
+#: includes/admin/editor/custom-fields/text.php:156
+#: includes/admin/editor/custom-fields/textarea.php:144
+msgid "List"
+msgstr "Lista"
+
+#: includes/admin/editor/custom-fields/text.php:166
+#: includes/admin/editor/custom-fields/textarea.php:154
+msgid "Word per line."
+msgstr "Ord per rad."
+
+#: includes/admin/editor/custom-fields/text.php:168
+#: includes/admin/editor/custom-fields/textarea.php:156
+msgid "\"+\" before word means white-listed."
+msgstr "\"+\" innan ordet betyder vitlistad."
+
+#: includes/admin/editor/custom-fields/text.php:170
+#: includes/admin/editor/custom-fields/textarea.php:158
+msgid "\"-\" before word means black-listed."
+msgstr "\"-\" innan ordet betyder svartlistad."
+
+#: includes/admin/editor/custom-fields/text.php:172
+#: includes/admin/editor/custom-fields/textarea.php:160
+msgid "\"*\" means wildcard."
+msgstr "\"*\" betyder wildcard."
+
+#: includes/admin/editor/custom-fields/text.php:188
+#: includes/admin/editor/custom-fields/textarea.php:176
+msgid "Regex"
+msgstr "Regex"
+
+#: includes/admin/editor/custom-fields/text.php:198
+#: includes/admin/editor/custom-fields/textarea.php:186
+msgid "Regular expression"
+msgstr "Regular expression"
+
+#: includes/admin/editor/custom-fields/text.php:210
+#: includes/admin/editor/custom-fields/textarea.php:198
+msgid "Must be a valid regular expression."
+msgstr "Måste vara ett giltigt Regular expression"
+
+#: includes/admin/editor/custom-fields/text.php:215
+#: includes/admin/editor/custom-fields/textarea.php:203
+msgid "Comparison"
+msgstr "Jämförelse"
+
+#: includes/admin/editor/custom-fields/text.php:226
+#: includes/admin/editor/custom-fields/textarea.php:214
+msgid "Must match"
+msgstr "Måste matcha"
+
+#: includes/admin/editor/custom-fields/text.php:237
+#: includes/admin/editor/custom-fields/textarea.php:225
+msgid "Must not match"
+msgstr "Får inte matcha"
+
+#: includes/admin/editor/custom-fields/textarea.php:10
+#: includes/admin/editor/settings/custom-fields.php:15
+msgid "Text area"
+msgstr "Textarea"
+
+#: includes/admin/editor/custom-fields/textarea.php:87
+msgid "Rows"
+msgstr "Rader"
+
+#: includes/admin/editor/custom-fields/textarea.php:92
+msgid "Field rows"
+msgstr "Fältrader"
+
+#: includes/admin/editor/settings.php:7
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/admin/editor/settings/choices.php:14
+msgid "Minimum selection"
+msgstr "Minsta urval"
+
+#: includes/admin/editor/settings/choices.php:24
+msgid "Maximum selection"
+msgstr "Maximalt urval"
+
+#: includes/admin/editor/settings/choices.php:29
+#: includes/admin/editor/settings/choices.php:45
+msgid "0 means unlimited."
+msgstr "0 betyder obegränsad."
+
+#: includes/admin/editor/settings/choices.php:40
+msgid "Choices per page"
+msgstr "Val per sida"
+
+#: includes/admin/editor/settings/choices.php:57
+msgid "Order choices"
+msgstr "Sortera svarsalternativ"
+
+#: includes/admin/editor/settings/choices.php:60
+#: includes/admin/editor/settings/results.php:30
+msgid ""
+"Heads up! Enabling this along with pagination can cause performance issues."
+msgstr ""
+"Se upp! Aktivering av detta tillsammans med sidnumrering kan orsaka "
+"prestandaproblem."
+
+#: includes/admin/editor/settings/choices.php:71
+#: includes/admin/editor/settings/results.php:41
+msgid "Order by"
+msgstr "Sortera efter"
+
+#: includes/admin/editor/settings/choices.php:85
+#: includes/admin/editor/settings/results.php:55
+msgid "Random"
+msgstr "Slumpmässig"
+
+#: includes/admin/editor/settings/choices.php:92
+#: includes/admin/editor/settings/results.php:62
+msgid "Order direction"
+msgstr "Sorteringsriktning"
+
+#: includes/admin/editor/settings/choices.php:98
+#: includes/admin/editor/settings/results.php:68
+msgid "Ascending"
+msgstr "Stigande"
+
+#: includes/admin/editor/settings/choices.php:103
+#: includes/admin/editor/settings/results.php:73
+msgid "Descending"
+msgstr "Fallande"
+
+#: includes/admin/editor/settings/choices.php:116
+msgid "Allow user submissions"
+msgstr "Tillåt användares inlägg"
+
+#: includes/admin/editor/settings/choices.php:128
+msgid "Hide new submissions for moderation"
+msgstr "Dölj nya inlägg för moderering"
+
+#: includes/admin/editor/settings/design.php:26
+msgid "(Not Activated)"
+msgstr "(Inte aktiverad)"
+
+#: includes/admin/editor/settings/design.php:27
+msgid "(Not Compatible)"
+msgstr "(Inte kompatibel)"
+
+#: includes/admin/editor/settings/design.php:38
+msgid "Set current settings as defaults"
+msgstr "Ange de aktuella inställningarna som standardvärden"
+
+#: includes/admin/editor/settings/design.php:46
+msgid "Reset settings to defaults"
+msgstr "Återställ inställningar till standardvärden"
+
+#: includes/admin/editor/settings/limitations.php:14
+msgid "Block re-vote by Cookies"
+msgstr "Förhindra omröster med Cookies"
+
+#: includes/admin/editor/settings/limitations.php:18
+#: includes/admin/editor/settings/limitations.php:50
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: includes/admin/editor/settings/limitations.php:29
+msgid "Cookies timeout (minutes)"
+msgstr "Cookies timeout (minuter)"
+
+#: includes/admin/editor/settings/limitations.php:34
+#: includes/admin/editor/settings/limitations.php:66
+msgid "0 means permanent."
+msgstr "0 betyder permanent."
+
+#: includes/admin/editor/settings/limitations.php:46
+msgid "Block re-vote by IP"
+msgstr "Förhindra omröster med IP"
+
+#: includes/admin/editor/settings/limitations.php:61
+msgid "IP timeout (minutes)"
+msgstr "IP-timeout (minuter)"
+
+#: includes/admin/editor/settings/limitations.php:71
+msgid "Filter list"
+msgstr "Filterlista"
+
+#: includes/admin/editor/settings/limitations.php:76
+msgid "IP Per line."
+msgstr "IP per rad."
+
+#: includes/admin/editor/settings/limitations.php:78
+msgid ""
+"\"+\" before IP means white-listed / \"-\" means black-listed / \"*\" means "
+"wildcard"
+msgstr ""
+"\"+\" innan IP betyder vitlistad / \"-\" betyder svartlistad / \"*\" betyder "
+"wildcard"
+
+#: includes/admin/editor/settings/limitations.php:90
+msgid "Require membership"
+msgstr "Kräv medlemskap"
+
+#: includes/admin/editor/settings/limitations.php:102
+msgid "Membership type"
+msgstr "Medlemstyp"
+
+#: includes/admin/editor/settings/limitations.php:111
+msgid "Hold Control/Command for multiple selection."
+msgstr "Håll nere Ctrl/Cmd-knappen för att välja flera."
+
+#: includes/admin/editor/settings/limitations.php:123
+msgid "Require reCaptcha"
+msgstr "Kräv anti-spam (recaptcha)"
+
+#: includes/admin/editor/settings/limitations.php:135
+msgid "Site Key"
+msgstr "Site Key"
+
+#: includes/admin/editor/settings/limitations.php:143
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: includes/admin/editor/settings/limitations.php:158
+msgid "Limit by quota"
+msgstr "Begränsa med kvot"
+
+#: includes/admin/editor/settings/limitations.php:169
+msgid "Quota (votes)"
+msgstr "Kvot (röster)"
+
+#: includes/admin/editor/settings/limitations.php:184
+msgid "Limit by date"
+msgstr "Begränsa med datum"
+
+#: includes/admin/editor/settings/limitations.php:195
+msgid "Start date"
+msgstr "Startdatum"
+
+#: includes/admin/editor/settings/limitations.php:203
+#: includes/admin/editor/settings/results.php:109
+msgid "End date"
+msgstr "Slutdatum"
+
+#: includes/admin/editor/settings/limitations.php:219
+msgid "Regenerate poll unique ID"
+msgstr "Generera nytt unikt omröstnings-id"
+
+#: includes/admin/editor/settings/limitations.php:221
+msgid "Current:"
+msgstr "Nuvarande:"
+
+#: includes/admin/editor/settings/logs.php:15
+msgid "Enable logs"
+msgstr "Aktivera loggning"
+
+#: includes/admin/editor/settings/logs.php:18
+msgid "Heads up! Statistics are based on logs."
+msgstr "Se upp! Statistiken bygger på loggar."
+
+#: includes/admin/editor/settings/results.php:15
+msgid "Require vote"
+msgstr "Kräv röst"
+
+#: includes/admin/editor/settings/results.php:27
+msgid "Order results"
+msgstr "Sortera resultat"
+
+#: includes/admin/editor/settings/results.php:86
+msgid "Hide results"
+msgstr "Dölj resultat"
+
+#: includes/admin/editor/settings/results.php:98
+msgid "Until reaching"
+msgstr "Tills de når"
+
+#: includes/admin/editor/settings/results.php:104
+msgid "Quota"
+msgstr "Kvota"
+
+#: includes/admin/editor/settings/results.php:115
+msgid "Results content"
+msgstr "Resultat innehåll"
+
+#: includes/admin/editor/settings/results.php:129
+msgid "Results fragments"
+msgstr "Resultatfragment"
+
+#: includes/admin/editor/settings/results.php:139
+msgid "Percentages"
+msgstr "Procentsatser"
+
+#: includes/admin/editor/settings/screens.php:15
+msgid "Before voting"
+msgstr "Före röstning"
+
+#: includes/admin/editor/settings/screens.php:38
+msgid "After voting"
+msgstr "Efter röstning"
+
+#: includes/admin/extensions.php:163 includes/admin/templates.php:159
+msgid "Could not access filesystem."
+msgstr "Kunde inte komma åt filsystemet."
+
+#: includes/admin/extensions.php:167 includes/admin/templates.php:163
+msgid "Filesystem error."
+msgstr "Filsystem-fel."
+
+#: includes/admin/extensions.php:191
+#, php-format
+msgid "Could not fully remove the extension(s) %s."
+msgstr "Kunde inte ta bort tillägg(en) %s."
+
+#: includes/admin/installer.php:59
+msgid "Upload package"
+msgstr "Ladda upp paket"
+
+#: includes/admin/installer.php:83
+msgid "The package is at the latest version."
+msgstr "Paktetet är av senaste version."
+
+#: includes/admin/installer.php:84
+msgid "Update package not available."
+msgstr "Uppdaterat paket är inte tillgängligt."
+
+#: includes/admin/installer.php:85
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "Hämtar uppdatering från <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:86
+msgid "Unpacking the update&#8230;"
+msgstr "Packar upp uppdateringen&#8230;"
+
+#: includes/admin/installer.php:87
+msgid "Removing the old version of the package&#8230;"
+msgstr "Tar bort den gamla versionen av paketet&#8230;"
+
+#: includes/admin/installer.php:88
+msgid "Could not remove the old package."
+msgstr "Det gick inte att ta bort det gamla paketet."
+
+#: includes/admin/installer.php:89
+msgid "Packages updated successfully."
+msgstr "Paketen har uppdaterats."
+
+#: includes/admin/installer.php:99
+msgid "Install package not available."
+msgstr "Installationspaket saknas."
+
+#: includes/admin/installer.php:100
+msgid "Unpacking the package&#8230;"
+msgstr "Packar upp paketet&#8230;"
+
+#: includes/admin/installer.php:101
+msgid "Installing the package&#8230;"
+msgstr "Installera paketet&#8230;"
+
+#: includes/admin/installer.php:102
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Laddar ner installationspaketet från <span class=”code”>%s</span>&#8230;"
+
+#: includes/admin/installer.php:103
+msgid "The package contains no files."
+msgstr "Paketet innehåller inga filer."
+
+#: includes/admin/installer.php:104
+msgid "Package install failed."
+msgstr "Paketetinstallationen misslyckades."
+
+#: includes/admin/installer.php:105
+msgid "Package installed successfully."
+msgstr "Paketet har installerats."
+
+#: includes/admin/installer.php:106
+#, php-format
+msgid "Successfully installed the package <strong>%1$s %2$s</strong>."
+msgstr "Installerade paketet <strong>%1$s %2$s</strong>."
+
+#: includes/admin/installer.php:107
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Förbereder att installera <strong>%1$s %2$s</strong>&#8230;"
+
+#: includes/admin/installer.php:178
+msgid "The template is missing the <code>template.php</code> stylesheet."
+msgstr "Mallen saknar <code>template.php</code> stilmallen."
+
+#: includes/admin/installer.php:185
+msgid "The <code>template.php</code> doesn't contain a valid template header."
+msgstr "<code>template.php</code> innehåller inte ett giltigt mallhuvud."
+
+#: includes/admin/installer.php:192
+#, php-format
+msgid "The template is missing the <code>%s</code> file."
+msgstr "Mallen saknar filen <code>%s</code>."
+
+#: includes/admin/installer.php:198
+msgid ""
+"The <code>template.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"<code>template.php</code> filen innehåller inte den minsta versionen som "
+"krävs."
+
+#: includes/admin/installer.php:203
+#, php-format
+msgid "This template requires TotalPoll version %s or higher"
+msgstr "Den här mallen kräver TotalPoll version %s eller senare"
+
+#: includes/admin/installer.php:211
+msgid "The extension is missing the <code>extension.php</code> essential file."
+msgstr "Tillägget saknar den viktiga filen <code>extension.php</code>."
+
+#: includes/admin/installer.php:218
+msgid ""
+"The <code>extension.php</code> file doesn't contain a valid extension header."
+msgstr "Filen <code>extension.php</code> innehåller inte ett giltigt huvud."
+
+#: includes/admin/installer.php:223
+msgid ""
+"The <code>extension.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"Filen <code>extension.php</code> innehåller inte den minsta versionen som "
+"krävs."
+
+#: includes/admin/installer.php:228
+#, php-format
+msgid "This extension requires TotalPoll version %s or higher"
+msgstr "Detta tillägg kräver TotalPoll version %s eller senare"
+
+#: includes/admin/installer.php:263
+msgid "Return to Templates"
+msgstr "Återgå till mallar"
+
+#: includes/admin/installer.php:266
+msgid "Return to extensions"
+msgstr "Återgå till tillägg"
+
+#: includes/admin/pages/about.php:12
+msgid "User friendly"
+msgstr "Användarvänlig"
+
+#: includes/admin/pages/about.php:13
+msgid ""
+"With TotalPoll, you can now create polls within 60 seconds! Its user friendly "
+"interface was expertly designed to make poll creation hassle-free."
+msgstr ""
+"Med TotalPoll kan du nu skapa omröstningar på bara 60 sekunder! Dess "
+"användarvänliga gränssnitt är designat att skapa omröstningar utan krångel."
+
+#: includes/admin/pages/about.php:17
+msgid "Overall performance"
+msgstr "Totala prestanda"
+
+#: includes/admin/pages/about.php:18
+msgid ""
+"TotalPoll was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+"TotalPoll utvecklades med prestanda i åtanke! Det fungerar utan problem med "
+"WordPress."
+
+#: includes/admin/pages/about.php:22
+msgid "Customization"
+msgstr "Anpassning"
+
+#: includes/admin/pages/about.php:23
+msgid ""
+"Do you need “Welcome message” or “Thank you message”? We have got your back! "
+"With over 5 customization settings, you definitely have the total control."
+msgstr ""
+"Behöver du \"Välkommen\" eller \"tack\" meddelanden? Oroa dig inte! Med fler "
+"än 5 anpassningsinställningar har du definitivt kontrollen du behöver."
+
+#: includes/admin/pages/about.php:28
+msgid ""
+"Collecting additional information from voters has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"Aldrig tidigare har det varit så lätt att samla in ytterligare information "
+"från de som röstar. Med våra fem unika olika fälttyper kan du samla in "
+"allting."
+
+#: includes/admin/pages/about.php:33
+msgid ""
+"Regular vote tracking has been made easy. You can now track votes daily, "
+"weekly and monthly. Even, you can track custom field values with votes."
+msgstr ""
+"Vanlig omröstnings-spårning har blivit lätt. Nu kan du spåra röster dagligen, "
+"veckovis och månadsvis. Du kan till och med spåra anpassade fältvärden med "
+"röster."
+
+#: includes/admin/pages/about.php:37
+msgid "Extensible"
+msgstr "Utökningar"
+
+#: includes/admin/pages/about.php:38
+msgid ""
+"The extensibility of TotalPoll makes such extensions and templates possible. "
+"Developers can certainly make TotalPoll a step further to suit your needs."
+msgstr ""
+"Utökningmöjligheterna för TotalPoll möjliggör tillägg och mallar. Utvecklare "
+"kan definitivt ta TotalPoll ett steg närmare för att passa dina behov."
+
+#: includes/admin/pages/about.php:42
+msgid "SEO Friendly"
+msgstr "SEO vänlig"
+
+#: includes/admin/pages/about.php:43
+msgid ""
+"Search Engine Optimization is a very key factor for every website. Thus, "
+"TotalPoll makes polls more search-engine friendly in order to get more search "
+"traffic."
+msgstr ""
+"Sökmotoroptimering är en mycket viktig faktor för alla webbplatser. TotalPoll "
+"gör omröstningar mer sökmotorvänliga för att få mer trafik."
+
+#: includes/admin/pages/about.php:47
+msgid "Mobile-first"
+msgstr "Mobile First"
+
+#: includes/admin/pages/about.php:48
+msgid ""
+"With Totalpoll, you gain more engagement with an optimal viewing experience "
+"for your visitors. And your polls will always look amazing whether in a "
+"laptop, tablet or a smartphone."
+msgstr ""
+"Med TotalPoll får du mer engagemang med en optimal visningsupplevelse för "
+"dina besökare. Och dina omröstningar kommer alltid att se fantastiska ut "
+"antingen i en bärbar dator, surfplatta eller en smartphone."
+
+#: includes/admin/pages/about.php:52
+msgid "Voting limitations"
+msgstr "Röstnings-begränsningar"
+
+#: includes/admin/pages/about.php:53
+msgid ""
+"The ability of Totalpoll to reduce votes and results makes it easy for you to "
+"specify conditions under which visitors can vote in a poll or see its results."
+msgstr ""
+"TotalPolls förmåga att begränsa röster och resultat gör det enkelt för dig "
+"att ange villkoren för vilka besökare som kan rösta i en omröstning eller se "
+"sitt resultat."
+
+#: includes/admin/pages/about.php:57
+msgid "Polls import"
+msgstr "Import av omröstningar"
+
+#: includes/admin/pages/about.php:58
+msgid ""
+"Are you planning to switch? You can migrate from WP-Polls and YOP polls "
+"easily (and many more plugins are coming)."
+msgstr ""
+"Planerar du att byta? Du kan enkelt migrera från WP-Polls och YOP polls (fler "
+"plugins kommer framöver)."
+
+#: includes/admin/pages/about.php:63
+msgid ""
+"Give your polls more attraction with Text, Image, Video, Audio, Short code or "
+"even HTML."
+msgstr ""
+"Ge din omröstningar mer attraktion med text, bild, video, ljud, snabbkod "
+"eller till och med HTML."
+
+#: includes/admin/pages/about.php:68
+msgid ""
+"Trace back every vote, with an informative log to identify any cheating "
+"attempts."
+msgstr ""
+"Spåra varje röst med en informativ log för att identifiera alla fuskförsök."
+
+#: includes/admin/pages/about.php:73
+msgid ""
+"Make your polls look compelling with customized templates from our store."
+msgstr ""
+"Gör att din omröstningar ser övertygande ut med anpassade mallar från vår "
+"butik."
+
+#: includes/admin/pages/about.php:78
+msgid ""
+"Take TotalPoll’s functionality a step further with powerful extensions from "
+"our store."
+msgstr ""
+"Ta TotalPolls funktioner ett steg längre med kraftfulla tillägg från vår "
+"butik."
+
+#: includes/admin/pages/about.php:82
+msgid "Integration"
+msgstr "Integration"
+
+#: includes/admin/pages/about.php:83
+msgid ""
+"Totalpoll integrates your polls everywhere like with a short code, widget or "
+"even a direct link."
+msgstr ""
+"TotalPoll integrerar dina omröstningar överallt du vill med snabbkod, widget "
+"eller till och med en direktlänk."
+
+#: includes/admin/pages/about.php:87
+msgid "3rd-party Compatibility"
+msgstr "Tredjeparts-kompatibilitet"
+
+#: includes/admin/pages/about.php:88
+msgid ""
+"TotalPoll is compatible with other plugins like WPML, ACF, WP SUPER CACHE and "
+"Others."
+msgstr ""
+"TotalPoll är kompatibel med andra plugins som WPML, ACF, WP SUPER CACHE och "
+"andra."
+
+#: includes/admin/pages/about.php:96
+msgid "<code>TP_Template</code> can be used now as a prototype for templates."
+msgstr "<code>TP_Template</code>kan nu användas som en prototyp för mallar."
+
+#: includes/admin/pages/about.php:100
+msgid "<code>TP_Extension</code> can be used now as a prototype for extensions."
+msgstr "<code>TP_Extension</code>kan nu användas som en prototyp för tillägg."
+
+#: includes/admin/pages/about.php:103
+msgid "Fields"
+msgstr "Fält"
+
+#: includes/admin/pages/about.php:104
+msgid "<code>TP_Field</code> can be used now as a prototype for custom fields."
+msgstr ""
+"<code>TP_Field</code>kan nu användas som en prototyp för anpassade fält."
+
+#: includes/admin/pages/about.php:108
+msgid "<code>TP_HTML</code> is used for HTML manipulation and generation."
+msgstr "<code>TP_HTML</code>används för HTML-manipulation och generering."
+
+#: includes/admin/pages/about.php:111 includes/classes/post-types.php:35
+#: includes/widgets/base.php:74 includes/widgets/base.php:84
+#: includes/widgets/latest.php:77 includes/widgets/random.php:75
+msgid "Poll"
+msgstr "Omröstning"
+
+#: includes/admin/pages/about.php:112
+msgid ""
+"<code>TP_Poll</code> is the main class for poll manipulation and rendering."
+msgstr ""
+"<code>TP_Poll</code>är huvudklassen för omröstnings-manipulation och "
+"rendering."
+
+#: includes/admin/pages/about.php:115
+msgid "Request"
+msgstr "Fråga"
+
+#: includes/admin/pages/about.php:116
+msgid "<code>TP_Request</code> is used to handle TotalPoll requests."
+msgstr "<code>TP_Request</code>används för att hantera TotalPoll frågor."
+
+#: includes/admin/pages/about.php:146
+msgid "Welcome to"
+msgstr "Välkommen till"
+
+#: includes/admin/pages/about.php:148
+msgid ""
+"Thank you for using TotalPoll! This update brings several improvements and "
+"new features along with fixes of known bugs."
+msgstr ""
+"Tack för att du använder TotalPoll! Denna uppdatering ger flera förbättringar "
+"och nya funktioner tillsammans med korrigeringar av kända fel."
+
+#: includes/admin/pages/about.php:168 includes/admin/pages/store.php:61
+#, php-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: includes/admin/pages/about.php:172
+msgid "What’s New"
+msgstr "Vad är nytt"
+
+#: includes/admin/pages/about.php:195
+msgid "Under the Hood"
+msgstr "Under huven"
+
+#: includes/admin/pages/about.php:217
+msgid "Credits"
+msgstr "Medverkande"
+
+#: includes/admin/pages/about.php:242
+msgid "Testimonials"
+msgstr "Referenser"
+
+#: includes/admin/pages/about.php:269
+msgid "Go to Polls"
+msgstr "Gå till omröstningarna"
+
+#: includes/admin/pages/extensions.php:84
+#: includes/admin/pages/extensions.php:204 includes/admin/pages/templates.php:84
+#: includes/admin/pages/templates.php:208
+msgid "Select bulk action"
+msgstr "Välj en massåtgärd"
+
+#: includes/admin/pages/extensions.php:86
+#: includes/admin/pages/extensions.php:206 includes/admin/pages/templates.php:86
+#: includes/admin/pages/templates.php:210
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: includes/admin/pages/extensions.php:87
+#: includes/admin/pages/extensions.php:152
+#: includes/admin/pages/extensions.php:207 includes/admin/pages/templates.php:87
+#: includes/admin/pages/templates.php:155 includes/admin/pages/templates.php:211
+msgid "Activate"
+msgstr "Aktivera"
+
+#: includes/admin/pages/extensions.php:88
+#: includes/admin/pages/extensions.php:146
+#: includes/admin/pages/extensions.php:208 includes/admin/pages/templates.php:88
+#: includes/admin/pages/templates.php:148 includes/admin/pages/templates.php:212
+msgid "Deactivate"
+msgstr "Avaktivera"
+
+#: includes/admin/pages/extensions.php:89
+#: includes/admin/pages/extensions.php:168
+#: includes/admin/pages/extensions.php:209 includes/admin/pages/templates.php:89
+#: includes/admin/pages/templates.php:172 includes/admin/pages/templates.php:213
+msgid "Delete"
+msgstr "Radera"
+
+#: includes/admin/pages/extensions.php:103
+#: includes/admin/pages/extensions.php:114
+#: includes/admin/pages/templates.php:103 includes/admin/pages/templates.php:114
+msgid "Select All"
+msgstr "Markera alla"
+
+#: includes/admin/pages/extensions.php:106
+#: includes/admin/pages/extensions.php:117
+msgid "Extension"
+msgstr "Tillägg"
+
+#: includes/admin/pages/extensions.php:107
+#: includes/admin/pages/extensions.php:118
+#: includes/admin/pages/templates.php:107 includes/admin/pages/templates.php:118
+msgid "Description"
+msgstr "Beskrivning"
+
+#: includes/admin/pages/extensions.php:157
+#: includes/admin/pages/templates.php:161
+msgid "Open this file in the Plugin Editor"
+msgstr "Öppna denna fil i Plugin-redigeraren"
+
+#: includes/admin/pages/extensions.php:159
+#: includes/admin/pages/templates.php:163
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/admin/pages/extensions.php:181
+#: includes/admin/pages/templates.php:185
+msgid "Requires"
+msgstr "Kräver"
+
+#: includes/admin/pages/extensions.php:184
+#: includes/admin/pages/templates.php:188
+msgid "By"
+msgstr "Av"
+
+#: includes/admin/pages/extensions.php:188
+msgid "Extension page"
+msgstr "Tillägssida"
+
+#: includes/admin/pages/extensions.php:196
+#, php-format
+msgid "No extensions. Browse the <a href=\"%s\">store</a>."
+msgstr "Inga tillägg. Bläddra i <a href=\"%s\">butiken</a>."
+
+#: includes/admin/pages/extensions.php:222
+msgid ""
+"If you have an extension in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"﻿Om du har ett tillägg i zip-format kan du installera det genom att ladda upp "
+"det här."
+
+#: includes/admin/pages/store.php:33
+msgid "Refresh (new purchases)"
+msgstr "Uppdatera (nya inköp)"
+
+#: includes/admin/pages/store.php:44
+msgid "Free!"
+msgstr "Gratis!"
+
+#: includes/admin/pages/store.php:53
+#, php-format
+msgid "%s Downloads"
+msgstr "%s nedladdningar"
+
+#: includes/admin/pages/store.php:67
+#, php-format
+msgid "Update to %s"
+msgstr "Uppdatera till %s"
+
+#: includes/admin/pages/store.php:69
+msgid "Installed"
+msgstr "Installerat"
+
+#: includes/admin/pages/store.php:73
+msgid "Install"
+msgstr "Installera"
+
+#: includes/admin/pages/store.php:75
+#, php-format
+msgid "Requires %s"
+msgstr "Kräver %s"
+
+#: includes/admin/pages/store.php:78
+msgid "Get it"
+msgstr "Hämta nu"
+
+#: includes/admin/pages/store.php:78
+msgid "Buy now"
+msgstr "Köp nu"
+
+#: includes/admin/pages/support.php:23
+msgid "Support Center"
+msgstr "Supportcenter"
+
+#: includes/admin/pages/support.php:32
+msgid "Use common keywords for best results."
+msgstr "Använda vanliga nyckelord för bästa resultat."
+
+#: includes/admin/pages/support.php:40
+msgid "Check our knowledge base."
+msgstr "Kolla vår kunskapsbas."
+
+#: includes/admin/pages/support.php:49
+msgid "Have a question? Read the FAQs."
+msgstr "Har du frågor? Läs vår FAQ."
+
+#: includes/admin/pages/support.php:55
+msgid "Open a support ticket."
+msgstr "Öppna ett supportärende."
+
+#: includes/admin/pages/support.php:60
+msgid "Please attach the following information when you open a new ticket."
+msgstr "Bifoga följande information när du öppnar ett nytt ärende."
+
+#: includes/admin/pages/templates.php:192
+msgid "Template page"
+msgstr "Mallsida"
+
+#: includes/admin/pages/templates.php:200
+#, php-format
+msgid "No templates. Browse the <a href=\"%s\">store</a>."
+msgstr "Inga mallar. Bläddra i <a href=\"%s\">butiken</a>."
+
+#: includes/admin/pages/templates.php:226
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"﻿Om du har en mall i zip-format kan du installera den genom att ladda upp den "
+"här."
+
+#: includes/admin/pages/tools.php:19
+msgid "Polls have been migrated successfully."
+msgstr "Omröstningarnas migrering har lyckats."
+
+#: includes/admin/pages/tools.php:29
+msgid "The cache has been purged."
+msgstr "Cachen har rensats."
+
+#: includes/admin/pages/tools.php:52
+#, php-format
+msgid "%d Polls to migrate from YOP-Polls"
+msgstr "%d omröstningar att migrera från YOP-Polls"
+
+#: includes/admin/pages/tools.php:58
+#, php-format
+msgid "%d Polls to migrate from WP-Polls"
+msgstr "%d omröstningar att migrera från WP-Polls"
+
+#: includes/admin/pages/tools.php:64
+#, php-format
+msgid "%d Polls to migrate from TotalPoll"
+msgstr "%d omröstningar att migrera från TotalPoll"
+
+#: includes/admin/pages/tools.php:73
+msgid "Purge cache"
+msgstr "Rensa cache"
+
+#: includes/admin/pages/tools.php:81
+#, php-format
+msgid "%d Polls to export"
+msgstr "%d omröstningar att exportera"
+
+#: includes/admin/pages/tools.php:88
+msgid "Import polls"
+msgstr "Importera omröstningar"
+
+#: includes/admin/pages/update.php:24
+msgid "You are currently receiving updates!"
+msgstr "Du tar för närvarande emot uppdateringar!"
+
+#: includes/admin/pages/update.php:25
+msgid "Thank you for activating TotalPoll."
+msgstr "Tack för att du aktiverade TotalPoll."
+
+#: includes/admin/pages/update.php:31
+msgid "Updates"
+msgstr "Uppdateringar"
+
+#: includes/admin/pages/update.php:33
+msgid "Do you want to receive updates when released?"
+msgstr "Vill du få uppdateringar när de släpps?"
+
+#: includes/admin/pages/update.php:35
+msgid "Please enter your Envato license key."
+msgstr "Vänligen ange din Envato-licensnyckel."
+
+#: includes/admin/pages/update.php:40
+msgid "The submitted license key isn't valid. Please check it."
+msgstr "Den inskickade licensnyckeln är ogiltig. Kontrollera den."
+
+#: includes/admin/pages/update.php:43
+msgid "Activate now!"
+msgstr "Aktivera nu!"
+
+#: includes/admin/partials/welcome.php:15
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
+
+#: includes/admin/partials/welcome.php:19
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "Tips, handledningar och användbara WordPress resurser."
+
+#: includes/admin/partials/welcome.php:20
+#, php-format
+msgid ""
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
+msgstr ""
+"Tack för att du installerade TotalPoll Pro! Vi är glada att få dela tips och "
+"handledningar med dig, så att du får det mesta ut av TotalPoll. Prenumerera "
+"och du får ett tips varje dag i en veckas tid, plus en 20% rabattkupong att "
+"använda i vår butik."
+
+#: includes/admin/partials/welcome.php:26
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr "Jag vill ha <a href=\"%s\" target=\"_blank\">veckonyhetsbrevet</a>."
+
+#: includes/admin/partials/welcome.php:29
+msgid "No, thank you"
+msgstr "Nej tack"
+
+#: includes/admin/partials/welcome.php:31
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: includes/admin/templates.php:82
+msgid "All"
+msgstr "Alla"
+
+#: includes/admin/templates.php:189
+#, php-format
+msgid "Could not fully remove the template(s) %s."
+msgstr "Kunde inte ta bort mall(arna) %s."
+
+#: includes/classes/limitations.php:124 includes/classes/limitations.php:161
+msgid "You cannot vote again in this poll."
+msgstr "Du kan inte rösta igen i denna omröstning."
+
+#: includes/classes/limitations.php:188
+#, php-format
+msgid "You have to vote for at least one choice."
+msgid_plural "You have to vote for at least %d choices."
+msgstr[0] "Du måste rösta på minst ett alternativ."
+msgstr[1] "Du måste rösta på minst %d alternativ."
+
+#: includes/classes/limitations.php:200
+#, php-format
+msgid "You cannot vote for more than one choice."
+msgid_plural "You cannot vote for more than %d choices."
+msgstr[0] "Du kan inte rösta på mer än ett alternativ."
+msgstr[1] "Du kan inte rösta på mer än %d alternativ."
+
+#: includes/classes/limitations.php:240
+msgid "You have entered an invalid captcha code."
+msgstr "Du har angett en ogiltig anti-spam kod."
+
+#: includes/classes/limitations.php:264
+msgid "You cannot vote because the quota has been exceeded."
+msgstr "Du kan inte rösta eftersom kvoten har överskridits."
+
+#: includes/classes/limitations.php:289
+msgid "You cannot see results before voting."
+msgstr "Du kan inte se resultat innan du röstat."
+
+#: includes/classes/limitations.php:315
+msgid "You cannot vote because this poll has not started yet."
+msgstr "Du kan inte rösta eftersom denna omröstning inte har börjat än."
+
+#: includes/classes/limitations.php:324
+msgid "You cannot vote because this poll has been completed."
+msgstr "Du kan inte rösta eftersom denna omröstning har avslutats."
+
+#: includes/classes/limitations.php:368
+msgid "You cannot vote because this poll is not available in your region."
+msgstr ""
+"Du kan inte rösta eftersom denna omröstning inte är tillgänglig i din region."
+
+#: includes/classes/limitations.php:404
+msgid "You cannot vote because you have insufficient rights."
+msgstr "Du kan inte rösta eftersom du har otillräckliga rättigheter."
+
+#: includes/classes/limitations.php:415
+#, php-format
+msgid ""
+"You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> or "
+"<a href=\"%s\">register</a>."
+msgstr ""
+"Du kan inte rösta eftersom du är anonym, vänligen <a href=\"%s\">logga in</a> "
+"eller <a href=\"%s\">registrera dig</a>."
+
+#: includes/classes/poll.php:274
+msgid "Other"
+msgstr "Annat"
+
+#: includes/classes/post-types.php:34 includes/classes/post-types.php:46
+msgid "Polls"
+msgstr "Omröstingar"
+
+#: includes/classes/post-types.php:36
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: includes/classes/post-types.php:37
+msgid "Add New Poll"
+msgstr "Lägg till ny omröstning"
+
+#: includes/classes/post-types.php:38
+msgid "Edit Poll"
+msgstr "Redigera omröstning"
+
+#: includes/classes/post-types.php:39
+msgid "New Poll"
+msgstr "Ny omröstning"
+
+#: includes/classes/post-types.php:40
+msgid "All Polls"
+msgstr "Alla omröstningar"
+
+#: includes/classes/post-types.php:41
+msgid "View Poll"
+msgstr "Visa omröstning"
+
+#: includes/classes/post-types.php:42
+msgid "Search Polls"
+msgstr "Sök omröstningar"
+
+#: includes/classes/post-types.php:43
+msgid "No polls found"
+msgstr "Inga omröstningar funna"
+
+#: includes/classes/post-types.php:44
+msgid "No polls found in Trash"
+msgstr "Inga omröstningar funna i papperskorgen"
+
+#: includes/classes/post-types.php:56
+msgid "poll"
+msgstr "omröstning"
+
+#: includes/classes/post-types.php:58
+msgid "polls"
+msgstr "omröstningar"
+
+#: includes/classes/post-types.php:88
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "Omröstning uppdaterad. <a href=\"%s\">Visa omröstning</a>"
+
+#: includes/classes/post-types.php:89
+msgid "Custom field updated."
+msgstr "Anpassat fält uppdaterat."
+
+#: includes/classes/post-types.php:90
+msgid "Custom field deleted."
+msgstr "Anpassat fält raderat."
+
+#: includes/classes/post-types.php:91
+msgid "Poll updated."
+msgstr "Omröstning uppdaterad."
+
+#: includes/classes/post-types.php:92
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "Omröstning återställd till revision från %s"
+
+#: includes/classes/post-types.php:93
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "Omröstning publicerad. <a href=\"%s\">Visa omröstning</a>"
+
+#: includes/classes/post-types.php:94
+msgid "Poll saved."
+msgstr "Omröstning sparad."
+
+#: includes/classes/post-types.php:95
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Omröstningen inskickad. <a target=\"_blank\" href=\"%s\">Förhandsgranska "
+"omröstning</a>"
+
+#: includes/classes/post-types.php:97
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"Omröstningen planerad till: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Förhandsgranska omröstning</a>"
+
+#: includes/classes/post-types.php:98
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ H:i"
+
+#: includes/classes/post-types.php:99
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Utkastet för omröstningen uppdaterades. <a target=\"_blank\" href=\"%s"
+"\">Förhandsgranska omröstning</a>"
+
+#: includes/classes/template.php:451
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: includes/classes/template.php:465
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: includes/classes/template.php:503
+msgid "Vote"
+msgstr "Rösta"
+
+#: includes/classes/template.php:515
+msgid "Back"
+msgstr "Tillbaka"
+
+#: includes/classes/template.php:526
+msgid "Proceed"
+msgstr "Fortsätt"
+
+#: includes/classes/template.php:650
+#, php-format
+msgid "%s Vote"
+msgid_plural "%s Votes"
+msgstr[0] "%s röst"
+msgstr[1] "%s röster"
+
+#: includes/classes/validations.php:35
+msgid "%label% field does not contain a valid email."
+msgstr "Fältet %label% innehåller inte en giltig e-postadress."
+
+#: includes/classes/validations.php:66
+msgid "%label% field is required."
+msgstr "Fältet %label% är tvingande."
+
+#: includes/classes/validations.php:100
+msgid "%label% field does not contain a valid value."
+msgstr "Fältet %label% innehåller inte ett giltigt värde."
+
+#: includes/classes/validations.php:104
+msgid "%label% field does not support multiple values."
+msgstr "Fältet %label% stöder inte flera värden."
+
+#: includes/classes/validations.php:122
+msgid "%label% has been used before."
+msgstr "%label% har använts tidigare."
+
+#: includes/classes/validations.php:143
+msgid "%label% field is not valid."
+msgstr "Fältet %label% är ogiltigt."
+
+#: includes/classes/validations.php:181
+#, php-format
+msgid "You cannot vote because %s field is not allowed."
+msgstr "Du kan inte rösta eftersom fältet %s inte tillåts."
+
+#: includes/widgets/base.php:24
+msgid "Poll - TotalPoll"
+msgstr "Omröstning - TotalPoll"
+
+#: includes/widgets/base.php:25 includes/widgets/latest.php:25
+#: includes/widgets/random.php:25
+msgid "Poll widget"
+msgstr "Omröstnings-widget"
+
+#: includes/widgets/base.php:79 includes/widgets/latest.php:82
+#: includes/widgets/random.php:80
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/latest.php:24
+msgid "Latest Poll - TotalPoll"
+msgstr "Senaste omröstning - TotalPoll"
+
+#: includes/widgets/random.php:24
+msgid "Random Poll - TotalPoll"
+msgstr "Slumpmässig omröstning - TotalPoll"

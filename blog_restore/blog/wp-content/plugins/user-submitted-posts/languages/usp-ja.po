@@ -1,0 +1,1192 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: USP 20171028\n"
+"Language: ja\n"
+
+#. Name of the plugin
+#: user-submitted-posts.php:44
+msgid "User Submitted Posts"
+msgstr "ユーザーが投稿した投稿"
+
+#: user-submitted-posts.php:78
+msgid "requires WordPress "
+msgstr "ワードプレスが必要"
+
+#: user-submitted-posts.php:79
+msgid " or higher, and has been deactivated! "
+msgstr " またはそれ以上であり、停止されている！"
+
+#: user-submitted-posts.php:80
+msgid "Please return to the"
+msgstr "あなたに戻ってください"
+
+#: user-submitted-posts.php:81
+msgid "WordPress Admin Area"
+msgstr "ワードプレス管理エリア"
+
+#: user-submitted-posts.php:82
+msgid "to upgrade WordPress and try again."
+msgstr "WordPressをアップグレードしてもう一度やり直してください。"
+
+#: user-submitted-posts.php:124
+msgid "User Submitted Post"
+msgstr "ユーザーが投稿した投稿"
+
+#: user-submitted-posts.php:445
+msgid "User Submitted Post Info"
+msgstr "ユーザーが投稿した投稿情報"
+
+#: user-submitted-posts.php:475
+msgid "Submitter Name: "
+msgstr "投稿者名："
+
+#: user-submitted-posts.php:476
+msgid "Submitter Email: "
+msgstr "投稿者メール："
+
+#: user-submitted-posts.php:477
+msgid "Submitter URL: "
+msgstr "投稿者URL："
+
+#: user-submitted-posts.php:478
+msgid "Submitter IP: "
+msgstr "提出者IP："
+
+#: user-submitted-posts.php:529
+msgid "Show USP Posts"
+msgstr "USPの投稿を表示"
+
+#: user-submitted-posts.php:530 library/plugin-settings.php:967
+msgid "USP"
+msgstr "USP"
+
+#: user-submitted-posts.php:1175
+msgid " files required"
+msgstr " 必要なファイル"
+
+#: user-submitted-posts.php:1176
+msgid " file required"
+msgstr " ファイルが必要です"
+
+#: user-submitted-posts.php:1178
+msgid " files"
+msgstr " ファイル"
+
+#: user-submitted-posts.php:1179
+msgid " file"
+msgstr " ファイル"
+
+#: user-submitted-posts.php:1181 user-submitted-posts.php:1182
+#: user-submitted-posts.php:1183 user-submitted-posts.php:1184
+msgid " pixels"
+msgstr " ピクセル"
+
+#: user-submitted-posts.php:1186 library/plugin-settings.php:284
+#: library/plugin-settings.php:303 library/plugin-settings.php:690
+#: library/plugin-settings.php:1176
+msgid "Custom Field"
+msgstr "カスタムフィールド"
+
+#: user-submitted-posts.php:1189
+msgid "An error occurred. Please go back and try again."
+msgstr "エラーが発生しました。戻ってもう一度やり直してください。"
+
+#: user-submitted-posts.php:1199
+msgid "User login required"
+msgstr "ユーザーログインが必要です"
+
+#: user-submitted-posts.php:1200
+msgid "User name required"
+msgstr "ユーザー名が必要です"
+
+#: user-submitted-posts.php:1201
+msgid "Post title required"
+msgstr "投稿のタイトルが必要です"
+
+#: user-submitted-posts.php:1202
+msgid "User URL required"
+msgstr "ユーザーのURLが必要です"
+
+#: user-submitted-posts.php:1203
+msgid "Post tags required"
+msgstr "投稿タグが必要です"
+
+#: user-submitted-posts.php:1204
+msgid "Post category required"
+msgstr "投稿カテゴリが必要です"
+
+#: user-submitted-posts.php:1205
+msgid "Post content required"
+msgstr "投稿内容が必要です"
+
+#: user-submitted-posts.php:1206 user-submitted-posts.php:1207
+msgid "Correct captcha required"
+msgstr "正しいキャプチャが必要です"
+
+#: user-submitted-posts.php:1208
+msgid "User email required"
+msgstr "ユーザーメールが必要です"
+
+#: user-submitted-posts.php:1209
+msgid "Please check your email and try again"
+msgstr "メールを確認してもう一度お試しください"
+
+#: user-submitted-posts.php:1210
+msgid "Non-empty value for hidden field"
+msgstr "隠しフィールドの空でない値"
+
+#: user-submitted-posts.php:1211
+msgid "Minimum number of images not met"
+msgstr "会わない画像の最小枚数"
+
+#: user-submitted-posts.php:1212
+msgid "Maximum number of images exceeded "
+msgstr "画像の最大枚数を超えました"
+
+#: user-submitted-posts.php:1213
+msgid "Minimum image width not met"
+msgstr "最小画像幅が満たされない"
+
+#: user-submitted-posts.php:1214
+msgid "Image width exceeds maximum"
+msgstr "画像の幅が最大値を超える"
+
+#: user-submitted-posts.php:1215
+msgid "Minimum image height not met"
+msgstr "最小画像の高さが満たされない"
+
+#: user-submitted-posts.php:1216
+msgid "Image height exceeds maximum"
+msgstr "画像の高さが最大値を超える"
+
+#: user-submitted-posts.php:1217
+msgid "File type not allowed (please upload images only)"
+msgstr "ファイルの種類は許可されていません（画像のみをアップロードしてください）"
+
+#: user-submitted-posts.php:1218
+msgid " required"
+msgstr " 必須"
+
+#: user-submitted-posts.php:1222
+msgid "File not uploaded. Please check the file and try again."
+msgstr "ファイルがアップロードされていません。ファイルを確認して、もう一度お試しください。"
+
+#: user-submitted-posts.php:1226
+msgid "The file(s) could not be uploaded"
+msgstr "ファイルをアップロードできませんでした"
+
+#: user-submitted-posts.php:1228
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "投稿は作成されません。ヘルプについては、サイト管理者にお問い合わせください。"
+
+#: user-submitted-posts.php:1229
+msgid "Duplicate post title. Please try again."
+msgstr "重複する投稿のタイトル。もう一度お試しください。"
+
+#: user-submitted-posts.php:1239
+msgid "Error: "
+msgstr "エラー："
+
+#: user-submitted-posts.php:1265
+msgid "Return to form"
+msgstr "フォームに戻る"
+
+#: user-submitted-posts.php:1293 library/plugin-settings.php:943
+msgid "Please"
+msgstr "お願いします"
+
+#: user-submitted-posts.php:1294
+msgid "log in"
+msgstr "ログイン"
+
+#: user-submitted-posts.php:1295
+msgid "to submit content!"
+msgstr "コンテンツを提出する！"
+
+#: views/submission-form.php:46 views/submission-form-alt.php:55
+msgid "Please complete the required fields."
+msgstr "必要なフィールドを入力してください。"
+
+#: views/submission-form.php:56 views/submission-form.php:57
+#: views/submission-form-alt.php:61 views/submission-form-alt.php:62
+msgid "Your Name"
+msgstr "あなたの名前"
+
+#: views/submission-form.php:62 views/submission-form.php:63
+#: views/submission-form-alt.php:67 views/submission-form-alt.php:68
+msgid "Your URL"
+msgstr "あなたのURL"
+
+#: views/submission-form.php:68 views/submission-form.php:69
+#: views/submission-form-alt.php:73 views/submission-form-alt.php:74
+msgid "Your Email"
+msgstr "あなたのメールアドレス"
+
+#: views/submission-form.php:74 views/submission-form.php:75
+#: views/submission-form-alt.php:79 views/submission-form-alt.php:80
+#: library/plugin-settings.php:1004
+msgid "Post Title"
+msgstr "投稿のタイトル"
+
+#: views/submission-form.php:80 views/submission-form.php:81
+#: views/submission-form-alt.php:85 views/submission-form-alt.php:86
+#: library/plugin-settings.php:1005
+msgid "Post Tags"
+msgstr "投稿タグ"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Antispam Question"
+msgstr "スパム対策の質問"
+
+#: views/submission-form.php:98 views/submission-form-alt.php:103
+#: library/plugin-settings.php:1006
+msgid "Post Category"
+msgstr "投稿カテゴリ"
+
+#: views/submission-form.php:100 views/submission-form-alt.php:105
+msgid "Please select a category.."
+msgstr "カテゴリを選択してください.."
+
+#: views/submission-form.php:135 views/submission-form.php:136
+#: views/submission-form-alt.php:140 views/submission-form-alt.php:141
+#: library/plugin-settings.php:1007
+msgid "Post Content"
+msgstr "投稿の内容"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Verification"
+msgstr "検証"
+
+#: views/submission-form.php:149 views/submission-form-alt.php:154
+msgid "Upload an Image"
+msgstr "画像をアップロードする"
+
+#: views/submission-form.php:158 views/submission-form-alt.php:163
+msgid "Add another image"
+msgstr "別のイメージを追加"
+
+#: views/submission-form.php:180 views/submission-form-alt.php:185
+msgid "Human verification: leave this field empty."
+msgstr "人間の検証：このフィールドは空白のままにします。"
+
+#: views/submission-form.php:202 views/submission-form-alt.php:207
+msgid "Submit Post"
+msgstr "投稿を投稿する"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "無制限のフォームでUSP Proを入手しよう！"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: library/plugin-settings.php:37
+msgid "Settings"
+msgstr "設定"
+
+#: library/plugin-settings.php:55
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "USPにWordPress.orgで5つ星の評価を与える"
+
+#: library/plugin-settings.php:56
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "このプラグインを評価する＆nbsp;＆raquo;"
+
+#: library/plugin-settings.php:114
+msgid "WP Post (recommended)"
+msgstr "WPポスト（推奨）"
+
+#: library/plugin-settings.php:118
+msgid "WP Page"
+msgstr "WPページ"
+
+#: library/plugin-settings.php:134
+msgid "HTML5 Form + Default CSS"
+msgstr "HTML5フォーム+デフォルトのCSS"
+
+#: library/plugin-settings.php:134
+msgid "(Recommended)"
+msgstr "（推奨）"
+
+#: library/plugin-settings.php:138
+msgid "HTML5 Form + Disable CSS"
+msgstr "HTML5フォーム+ CSSを無効にする"
+
+#: library/plugin-settings.php:138
+msgid "(Provide your own styles)"
+msgstr "（独自のスタイルを提供する）"
+
+#: library/plugin-settings.php:142
+msgid "Custom Form + Custom CSS"
+msgstr "カスタムフォーム+カスタムCSS"
+
+#: library/plugin-settings.php:142
+msgid "(Provide your own form template &amp; styles)"
+msgstr "（独自のフォームテンプレートとスタイルを提供する）"
+
+#: library/plugin-settings.php:158 library/plugin-settings.php:182
+#: library/plugin-settings.php:205 library/plugin-settings.php:229
+msgid "Auto-display before post content"
+msgstr "投稿後の自動表示"
+
+#: library/plugin-settings.php:162 library/plugin-settings.php:186
+#: library/plugin-settings.php:209 library/plugin-settings.php:233
+msgid "Auto-display after post content"
+msgstr "投稿後の自動表示"
+
+#: library/plugin-settings.php:166
+msgid "Do not auto-display submitted images"
+msgstr "送信された画像を自動表示しない"
+
+#: library/plugin-settings.php:190
+msgid "Do not auto-display submitted email"
+msgstr "送信された電子メールを自動表示しない"
+
+#: library/plugin-settings.php:213
+msgid "Do not auto-display submitted URL"
+msgstr "送信されたURLを自動表示しない"
+
+#: library/plugin-settings.php:237
+msgid "Do not auto-display the Custom Field"
+msgstr "カスタムフィールドを自動表示しない"
+
+#: library/plugin-settings.php:265 library/plugin-settings.php:297
+#: library/plugin-settings.php:330 library/plugin-settings.php:362
+msgid "Display and require"
+msgstr "表示と必要"
+
+#: library/plugin-settings.php:266 library/plugin-settings.php:298
+msgid "Display but do not require"
+msgstr "表示は必要ですが必要ありません"
+
+#: library/plugin-settings.php:267 library/plugin-settings.php:299
+#: library/plugin-settings.php:331 library/plugin-settings.php:363
+msgid "Disable this field"
+msgstr "このフィールドを無効にする"
+
+#: library/plugin-settings.php:302 library/plugin-settings.php:334
+#: library/plugin-settings.php:366 library/plugin-settings.php:398
+msgid "(Visit"
+msgstr "（訪問"
+
+#: library/plugin-settings.php:303 library/plugin-settings.php:335
+#: library/plugin-settings.php:367 library/plugin-settings.php:399
+msgid "to configure options)"
+msgstr "オプションを設定する）"
+
+#: library/plugin-settings.php:318 library/plugin-settings.php:335
+#: library/plugin-settings.php:1194 library/plugin-settings.php:1199
+msgid "Challenge Question"
+msgstr "チャレンジ質問"
+
+#: library/plugin-settings.php:350 library/plugin-settings.php:367
+#: library/plugin-settings.php:1216
+msgid "Google reCAPTCHA"
+msgstr "GoogleのreCAPTCHA"
+
+#: library/plugin-settings.php:382
+msgid "Post Images"
+msgstr "投稿画像"
+
+#: library/plugin-settings.php:394
+msgid "Display"
+msgstr "表示"
+
+#: library/plugin-settings.php:395
+msgid "Disable"
+msgstr "無効にする"
+
+#: library/plugin-settings.php:399 library/plugin-settings.php:1277
+msgid "Image Uploads"
+msgstr "画像のアップロード"
+
+#: library/plugin-settings.php:479
+msgid "Draft"
+msgstr "ドラフト"
+
+#: library/plugin-settings.php:480
+msgid "Pending (default)"
+msgstr "保留中（デフォルト）"
+
+#: library/plugin-settings.php:481
+msgid "Publish immediately"
+msgstr "すぐに公開する"
+
+#: library/plugin-settings.php:482
+msgid "Publish after 1 approved post"
+msgstr "承認済み投稿1件後に公開"
+
+#: library/plugin-settings.php:483
+msgid "Publish after "
+msgstr "後に公開する"
+
+#: library/plugin-settings.php:483
+msgid " approved posts"
+msgstr " 承認済みの投稿"
+
+#: library/plugin-settings.php:635
+msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
+msgstr "エラーが発生しました。タイトルとコンテンツを追加し、画像のみをアップロードしたことを確認してください。"
+
+#: library/plugin-settings.php:649
+msgid "Please select your image(s) to upload."
+msgstr "アップロードする画像を選択してください。"
+
+#: library/plugin-settings.php:655
+msgid "Success! Thank you for your submission."
+msgstr "成功！あなたの提出ありがとうございます。"
+
+#: library/plugin-settings.php:681
+msgid "Email"
+msgstr "Eメール"
+
+#: library/plugin-settings.php:682
+msgid "URL"
+msgstr "URL"
+
+#: library/plugin-settings.php:721
+msgid "Sorry, you are not allowed to modify settings."
+msgstr "設定を変更することはできません。"
+
+#: library/plugin-settings.php:930
+msgid "Toggle all panels"
+msgstr "すべてのパネルを切り替える"
+
+#: library/plugin-settings.php:939
+msgid "We need your support!"
+msgstr "あなたのサポートが必要です！"
+
+#: library/plugin-settings.php:943
+msgid "Make a donation via PayPal"
+msgstr "PayPalで寄付をする"
+
+#: library/plugin-settings.php:943
+msgid "make a donation"
+msgstr "寄付をします"
+
+#: library/plugin-settings.php:943
+msgid "and/or"
+msgstr "および/または"
+
+#: library/plugin-settings.php:944
+msgid "Rate and review at the Plugin Directory"
+msgstr "プラグインディレクトリの評価とレビュー"
+
+#: library/plugin-settings.php:945
+msgid "give this plugin a 5-star rating"
+msgstr "このプラグインに5つ星の評価を与える"
+
+#: library/plugin-settings.php:949
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "あなたの寛大なサポートは、この無料のプラグインの継続的な開発を可能にします。ありがとうございました！"
+
+#: library/plugin-settings.php:954
+msgid "Check this box if you have shown support"
+msgstr "サポートが表示されている場合は、このチェックボックスをオンにします"
+
+#: library/plugin-settings.php:963
+msgid "Overview"
+msgstr "概要"
+
+#: library/plugin-settings.php:967
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "訪問者はサイトのフロントエンドから投稿を送信して画像をアップロードすることができます。"
+
+#: library/plugin-settings.php:968
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "高度な機能と無制限のフォームについては、"
+
+#: library/plugin-settings.php:968 library/plugin-settings.php:1335
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-settings.php:969
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "＆mdash;ユーザーが作成したコンテンツの究極のソリューションです。"
+
+#: library/plugin-settings.php:973 library/plugin-settings.php:990
+msgid "Plugin Settings"
+msgstr "プラグインの設定"
+
+#: library/plugin-settings.php:974
+msgid "Display the form"
+msgstr "フォームを表示する"
+
+#: library/plugin-settings.php:975 library/plugin-settings.php:1482
+msgid "Plugin Homepage"
+msgstr "プラグインのホームページ"
+
+#: library/plugin-settings.php:978
+msgid "If you like this plugin, please"
+msgstr "このプラグインが好きなら、"
+
+#: library/plugin-settings.php:979
+msgid "THANK YOU for your support!"
+msgstr "ご協力ありがとうございます！"
+
+#: library/plugin-settings.php:979
+msgid "give it a 5-star rating"
+msgstr "それは5つ星の評価を与える"
+
+#: library/plugin-settings.php:983
+msgid "Unlimited front-end forms"
+msgstr "無制限のフロントエンドフォーム"
+
+#: library/plugin-settings.php:983
+msgid "Get USP Pro"
+msgstr "USP Proを入手"
+
+#: library/plugin-settings.php:993
+msgid "Configure your settings for User Submitted Posts."
+msgstr "ユーザーが投稿した投稿の設定を行います。"
+
+#: library/plugin-settings.php:995
+msgid "Form Fields"
+msgstr "フォームフィールド"
+
+#: library/plugin-settings.php:1001
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: library/plugin-settings.php:1002
+msgid "User Email"
+msgstr "ユーザーメール"
+
+#: library/plugin-settings.php:1003
+msgid "User URL"
+msgstr "ユーザーのURL"
+
+#: library/plugin-settings.php:1018
+msgid "General Settings"
+msgstr "一般設定"
+
+#: library/plugin-settings.php:1023
+msgid "Form Style"
+msgstr "フォームスタイル"
+
+#: library/plugin-settings.php:1028
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "このオプションを使用すると、プラグインのデフォルトのテンプレートをコピーできます。"
+
+#: library/plugin-settings.php:1033
+msgid "..and upload them into a directory named"
+msgstr "..そしてそれらをディレクトリにアップロードする"
+
+#: library/plugin-settings.php:1033
+msgid "in your theme:"
+msgstr "あなたのテーマ："
+
+#: library/plugin-settings.php:1039
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "これにより、必要に応じてフォームとスタイルをカスタマイズすることができます。詳細については、「カスタム送信フォーム」のセクションをご覧ください。"
+
+#: library/plugin-settings.php:1040
+msgid "Installation Docs"
+msgstr "インストール・ドキュメント"
+
+#: library/plugin-settings.php:1041
+msgid "FYI: here is a"
+msgstr "FYI：ここに"
+
+#: library/plugin-settings.php:1041
+msgid "list of USP CSS selectors"
+msgstr "USP CSSセレクタのリスト"
+
+#: library/plugin-settings.php:1047
+msgid "Include JavaScript"
+msgstr "JavaScriptを含める"
+
+#: library/plugin-settings.php:1049
+msgid "Check this box if you want to include the external JavaScript files (recommended)."
+msgstr "外部のJavaScriptファイルを含める場合は、このボックスをオンにします（推奨）。"
+
+#: library/plugin-settings.php:1052
+msgid "Targeted Loading"
+msgstr "ターゲットローディング"
+
+#: library/plugin-settings.php:1054
+msgid "By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages."
+msgstr "デフォルトでは、外部CSS＆amp; JavaScriptファイルはすべてのページに読み込まれます。ここでは、USPフォームのURLを指定して、そのページでのみリソースを読み込むことができます。注：空白のままにしておくと、すべてのページに読み込まれます。"
+
+#: library/plugin-settings.php:1057
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: library/plugin-settings.php:1060
+msgid "Submit posts as WP Posts or Pages"
+msgstr "投稿をWP投稿またはページとして送信する"
+
+#: library/plugin-settings.php:1064
+msgid "Post Status"
+msgstr "投稿ステータス"
+
+#: library/plugin-settings.php:1067
+msgid "Post Status for submitted posts"
+msgstr "投稿された投稿の投稿ステータス"
+
+#: library/plugin-settings.php:1071
+msgid "Redirect URL"
+msgstr "リダイレクトURL"
+
+#: library/plugin-settings.php:1073
+msgid "Specify a URL to redirect the user after post-submission. Leave blank to redirect back to current page."
+msgstr "投稿後にユーザーをリダイレクトするURLを指定します。空白のままにすると、現在のページにリダイレクトされます。"
+
+#: library/plugin-settings.php:1076
+msgid "Success Message"
+msgstr "成功のメッセージ"
+
+#: library/plugin-settings.php:1078
+msgid "Success message that is displayed if post-submission is successful. Basic markup is allowed."
+msgstr "投稿後に成功した場合に表示される成功メッセージ。基本的なマークアップは許可されています。"
+
+#: library/plugin-settings.php:1081
+msgid "Error Message"
+msgstr "エラーメッセージ"
+
+#: library/plugin-settings.php:1083
+msgid "General error message that is displayed if post-submission fails. Basic markup is allowed."
+msgstr "投稿後に失敗した場合に表示される一般的なエラーメッセージです。基本的なマークアップは許可されています。"
+
+#: library/plugin-settings.php:1086
+msgid "Custom Content"
+msgstr "カスタムコンテンツ"
+
+#: library/plugin-settings.php:1088
+msgid "Custom text/markup to be included before the submission form. Leave blank to disable."
+msgstr "提出フォームの前にカスタムテキスト/マークアップを含める。空白のままにすると無効になります。"
+
+#: library/plugin-settings.php:1091
+msgid "Rich Text Editor"
+msgstr "リッチテキストエディタ"
+
+#: library/plugin-settings.php:1093
+msgid "Check this box if you want to enable WP rich text editing for submitted posts."
+msgstr "提出された投稿に対してWPリッチテキスト編集を有効にする場合は、このチェックボックスをオンにします。"
+
+#: library/plugin-settings.php:1096
+msgid "Unique Titles"
+msgstr "ユニークなタイトル"
+
+#: library/plugin-settings.php:1098
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)."
+msgstr "提出された投稿のタイトルが一意であることを要求する（複数の/投稿された投稿を防止するのに便利）。"
+
+#: library/plugin-settings.php:1101
+msgid "Disable Required"
+msgstr "無効にする"
+
+#: library/plugin-settings.php:1103
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)."
+msgstr "既定のフォームフィールドで必要なすべての属性を無効にします（エラーメッセージのトラブルシューティングに役立ちます）。"
+
+#: library/plugin-settings.php:1106
+msgid "Disable IP Tracking"
+msgstr "IPトラッキングを無効にする"
+
+#: library/plugin-settings.php:1108
+msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
+msgstr "デフォルトでUSPは送信された投稿ごとにIPアドレスを記録します。すべてのIPトラッキングを無効にするには、このボックスをオンにします。"
+
+#: library/plugin-settings.php:1111
+msgid "Enable Shortcodes"
+msgstr "ショートコードを有効にする"
+
+#: library/plugin-settings.php:1113
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "ウィジェットでショートコードを有効にする。デフォルトでは、WordPressはウィジェットでショートコードを有効にしません。"
+
+#: library/plugin-settings.php:1114
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "この設定では、ウィジェット内の任意の/すべてのショートコード（他のプラグインのショートコードも可能です）を有効にします。"
+
+#: library/plugin-settings.php:1119 library/plugin-settings.php:1124
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: library/plugin-settings.php:1127
+msgid "Select which categories may be assigned to submitted posts (click to toggle)"
+msgstr "送信された投稿に割り当てられるカテゴリを選択します（クリックして切り替えます）"
+
+#: library/plugin-settings.php:1135
+msgid "Hidden/Default Category"
+msgstr "非表示/デフォルトカテゴリ"
+
+#: library/plugin-settings.php:1137
+msgid "Use a hidden field for the post category. This may be used to specify a default category when the category field is disabled."
+msgstr "投稿カテゴリには非表示フィールドを使用します。これは、カテゴリフィールドが無効のときにデフォルトカテゴリを指定するために使用されます。"
+
+#: library/plugin-settings.php:1140
+msgid "Category ID for Hidden Field"
+msgstr "非表示フィールドのカテゴリID"
+
+#: library/plugin-settings.php:1142
+msgid "Specify the ID of the category to use for the &ldquo;Hidden/Default Category&rdquo; option."
+msgstr "＆ldquo; Hidden / Defaultカテゴリ＆rdquo;に使用するカテゴリのIDを指定します。オプション。"
+
+#: library/plugin-settings.php:1147
+msgid "Users"
+msgstr "ユーザー"
+
+#: library/plugin-settings.php:1152
+msgid "Assigned Author"
+msgstr "割り当てられた著者"
+
+#: library/plugin-settings.php:1155
+msgid "Specify the user that should be assigned as author for submitted posts."
+msgstr "送信された投稿の作成者として割り当てるユーザーを指定します。"
+
+#: library/plugin-settings.php:1159
+msgid "Registered Username"
+msgstr "登録ユーザー名"
+
+#: library/plugin-settings.php:1161
+msgid "Use registered username as post author. Valid when the person submitting the form is logged in to WordPress."
+msgstr "投稿者として登録されたユーザー名を使用します。フォームを送信した人がWordPressにログインしている場合に有効です。"
+
+#: library/plugin-settings.php:1164
+msgid "User Profile URL"
+msgstr "ユーザプロファイルURL"
+
+#: library/plugin-settings.php:1166
+msgid "Use registered user&rsquo;s Profile URL as the value of the URL field. Valid when the person submitting the form is logged in to WordPress."
+msgstr "URLフィールドの値として、登録ユーザーの＆rsquo sのプロファイルURLを使用します。フォームを送信した人がWordPressにログインしている場合に有効です。"
+
+#: library/plugin-settings.php:1169
+msgid "Require User Login"
+msgstr "ユーザーログインが必要"
+
+#: library/plugin-settings.php:1171
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "フォームを表示/送信するには、WordPressにログインする必要があります"
+
+#: library/plugin-settings.php:1177
+msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
+msgstr "ここでは、カスタムフィールドで使用される名前とラベルを変更することができます。上記のフォームフィールド設定でこのフィールドを有効にすることができます。"
+
+#: library/plugin-settings.php:1182
+msgid "Custom Field Name"
+msgstr "カスタムフィールド名"
+
+#: library/plugin-settings.php:1184
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "英数字、アンダースコア、ダッシュのみを使用してください。不確かな場合は、デフォルトの名前を使用します。"
+
+#: library/plugin-settings.php:1187
+msgid "Custom Field Label"
+msgstr "カスタムフィールドラベル"
+
+#: library/plugin-settings.php:1189
+msgid "This will be displayed as the field label on the form. Default: Custom Field"
+msgstr "これはフォームのフィールドラベルとして表示されます。デフォルト：カスタムフィールド"
+
+#: library/plugin-settings.php:1201
+msgid "To prevent spam, enter a question that users must answer before submitting the form."
+msgstr "スパムを防ぐには、フォームを送信する前にユーザーが回答しなければならない質問を入力します。"
+
+#: library/plugin-settings.php:1204
+msgid "Challenge Response"
+msgstr "チャレンジレスポンス"
+
+#: library/plugin-settings.php:1206
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "チャレンジ質問への*正しい*答えを入力してください。"
+
+#: library/plugin-settings.php:1209
+msgid "Case-sensitivity"
+msgstr "大文字小文字の区別"
+
+#: library/plugin-settings.php:1211
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr "チャレンジレスポンスで大文字と小文字を区別する場合は、このチェックボックスをオンにします。"
+
+#: library/plugin-settings.php:1217
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr "GoogleのreCAPTCHAを有効にするには、公開鍵と非公開鍵を入力します。"
+
+#: library/plugin-settings.php:1222
+msgid "Public Key"
+msgstr "公開鍵"
+
+#: library/plugin-settings.php:1224
+msgid "Enter your Public Key"
+msgstr "あなたの公開鍵を入力してください"
+
+#: library/plugin-settings.php:1227
+msgid "Private Key"
+msgstr "秘密鍵"
+
+#: library/plugin-settings.php:1229
+msgid "Enter your Private Key"
+msgstr "あなたの秘密鍵を入力してください"
+
+#: library/plugin-settings.php:1234
+msgid "Email Alerts"
+msgstr "メールアラート"
+
+#: library/plugin-settings.php:1239
+msgid "Receive Email Alert"
+msgstr "電子メールアラートを受信する"
+
+#: library/plugin-settings.php:1241
+msgid "Check this box if you want to be notified via email for new post submissions."
+msgstr "新しい投稿投稿をメールで通知する場合は、このチェックボックスをオンにします。"
+
+#: library/plugin-settings.php:1244
+msgid "Enable HTML Format"
+msgstr "HTML形式を有効にする"
+
+#: library/plugin-settings.php:1246
+msgid "Check this box to enable HTML format for email alerts."
+msgstr "電子メールアラートのHTML形式を有効にするには、このチェックボックスをオンにします。"
+
+#: library/plugin-settings.php:1249
+msgid "Email Address for Alerts"
+msgstr "アラートの電子メールアドレス"
+
+#: library/plugin-settings.php:1251
+msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
+msgstr "電子メールアラートを受信するボックスにチェックをした場合は、電子メールを送信するアドレスをここに指定します。"
+
+#: library/plugin-settings.php:1252
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "カンマを使用して複数の受信者を含めることもできます。"
+
+#: library/plugin-settings.php:1255
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "メールアドレス（＆ldquo; From＆rdquo;住所"
+
+#: library/plugin-settings.php:1257
+msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
+msgstr "ここで＆ldquo; From＆rdquo;に使用されるアドレスをカスタマイズすることができます。ヘッダ（情報についてはプラグインのFAQを参照）。"
+
+#: library/plugin-settings.php:1258
+msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
+msgstr "以前の設定で複数のアドレスが指定されている場合は、＆ldquo; From＆rdquo;この設定のアドレス（同じ順序）。"
+
+#: library/plugin-settings.php:1261
+msgid "Email Alert Subject"
+msgstr "電子メールアラートの件名"
+
+#: library/plugin-settings.php:1263
+msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
+msgstr "電子メールアラートの件名。空白のままにすると、デフォルトの件名が使用されます。注：次の変数を使用できます。"
+
+#: library/plugin-settings.php:1268
+msgid "Email Alert Message"
+msgstr "電子メールアラートメッセージ"
+
+#: library/plugin-settings.php:1270
+msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
+msgstr "電子メールアラートのメッセージ。空白のままにすると、デフォルトのメッセージが使用されます。注：次の変数を使用できます。"
+
+#: library/plugin-settings.php:1282
+msgid "Featured Image"
+msgstr "注目の画像"
+
+#: library/plugin-settings.php:1284
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)."
+msgstr "投稿した画像をおすすめ画像として設定します。注目画像（別名投稿サムネイル）のテーマサポートが必要です。"
+
+#: library/plugin-settings.php:1287
+msgid "Upload Message"
+msgstr "メッセージをアップロードする"
+
+#: library/plugin-settings.php:1289
+msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
+msgstr "アップロードフィールドの横に表示されるメッセージ。あなたのアップロードのガイドライン/ポリシー/などを述べるのに便利です。基本マークアップが許可されています。"
+
+#: library/plugin-settings.php:1292
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "＆ldquo;別の画像を追加する＆rdquo;リンク"
+
+#: library/plugin-settings.php:1294
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "＆ldquo;別の画像を追加するためのカスタムマークアップ＆rdquo;リンク。空白のままにしておくと、デフォルトのマークアップが使用されます（推奨）。"
+
+#: library/plugin-settings.php:1297
+msgid "Minimum number of images"
+msgstr "画像の最小枚数"
+
+#: library/plugin-settings.php:1300
+msgid "Specify the minimum number of images."
+msgstr "画像の最小枚数を指定してください。"
+
+#: library/plugin-settings.php:1304
+msgid "Maximum number of images"
+msgstr "画像の最大数"
+
+#: library/plugin-settings.php:1307
+msgid "Specify the maximum number of images."
+msgstr "画像の最大枚数を指定してください。"
+
+#: library/plugin-settings.php:1311
+msgid "Minimum image width"
+msgstr "最小画像幅"
+
+#: library/plugin-settings.php:1313
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "アップロードされた画像の最小幅（ピクセル単位）を指定します。"
+
+#: library/plugin-settings.php:1316
+msgid "Minimum image height"
+msgstr "最小画像高さ"
+
+#: library/plugin-settings.php:1318
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "アップロードした画像の最小高さ（ピクセル単位）を指定します。"
+
+#: library/plugin-settings.php:1321
+msgid "Maximum image width"
+msgstr "最大画像幅"
+
+#: library/plugin-settings.php:1323
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "アップロードされた画像の最大幅（ピクセル単位）を指定します。"
+
+#: library/plugin-settings.php:1326
+msgid "Maximum image height"
+msgstr "最大像高"
+
+#: library/plugin-settings.php:1328
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "アップロードした画像の最大高さ（ピクセル単位）を指定します。"
+
+#: library/plugin-settings.php:1331
+msgid "More Options"
+msgstr "より多くのオプション"
+
+#: library/plugin-settings.php:1334
+msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "他のファイルタイプ（PDF、Word、Zip、ビデオなど）をアップロードする機能など、もっと多くのオプションを確認するには、チェックアウトしてください"
+
+#: library/plugin-settings.php:1335
+msgid "Go Pro!"
+msgstr "Go Pro！"
+
+#: library/plugin-settings.php:1342
+msgid "Auto-Display Content"
+msgstr "コンテンツの自動表示"
+
+#: library/plugin-settings.php:1347
+msgid "Images Auto-Display"
+msgstr "画像自動表示"
+
+#: library/plugin-settings.php:1349
+msgid "Auto-display user-submitted images:"
+msgstr "ユーザーが投稿した画像の自動表示："
+
+#: library/plugin-settings.php:1354
+msgid "Image Markup"
+msgstr "イメージマークアップ"
+
+#: library/plugin-settings.php:1356
+msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
+msgstr "送信された各画像に使用するマークアップ（自動表示が有効な場合）使える"
+
+#: library/plugin-settings.php:1358 library/plugin-settings.php:1371
+#: library/plugin-settings.php:1384 library/plugin-settings.php:1397
+msgid "and"
+msgstr "そして"
+
+#: library/plugin-settings.php:1361
+msgid "Email Auto-Display"
+msgstr "電子メール自動表示"
+
+#: library/plugin-settings.php:1363
+msgid "Auto-display user-submitted email:"
+msgstr "ユーザーが投稿したメールの自動表示："
+
+#: library/plugin-settings.php:1368
+msgid "Email Markup"
+msgstr "電子メールマークアップ"
+
+#: library/plugin-settings.php:1370
+msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
+msgstr "送信された電子メールアドレスに使用するマークアップ（自動表示が有効な場合）使える"
+
+#: library/plugin-settings.php:1374
+msgid "URL Auto-Display"
+msgstr "URL自動表示"
+
+#: library/plugin-settings.php:1376
+msgid "Auto-display user-submitted URL:"
+msgstr "ユーザーが投稿したURLの自動表示："
+
+#: library/plugin-settings.php:1381
+msgid "URL Markup"
+msgstr "URLマークアップ"
+
+#: library/plugin-settings.php:1383
+msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr "送信されたURLに使用するマークアップ（自動表示が有効な場合）使える"
+
+#: library/plugin-settings.php:1387
+msgid "Custom Field Auto-Display"
+msgstr "カスタムフィールド自動表示"
+
+#: library/plugin-settings.php:1389
+msgid "Auto-display user-submitted Custom Field:"
+msgstr "ユーザーが送信したカスタムフィールドの自動表示："
+
+#: library/plugin-settings.php:1394
+msgid "Custom Field Markup"
+msgstr "カスタムフィールドマークアップ"
+
+#: library/plugin-settings.php:1396
+msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
+msgstr "送信されたカスタムフィールドに使用するマークアップ（自動表示が有効な場合）使える"
+
+#: library/plugin-settings.php:1402 library/plugin-settings.php:1468
+msgid "Save Settings"
+msgstr "設定を保存する"
+
+#: library/plugin-settings.php:1407
+msgid "Display the Form"
+msgstr "フォームを表示する"
+
+#: library/plugin-settings.php:1410
+msgid "Post-Submit Form"
+msgstr "投稿後のフォーム"
+
+#: library/plugin-settings.php:1411
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "USPを使用すると、投稿したフォームをサイトのどこにでも表示することができます。"
+
+#: library/plugin-settings.php:1412 library/plugin-settings.php:1419
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "ショートコードを使用して、任意のWP投稿またはページにフォームを表示します。"
+
+#: library/plugin-settings.php:1414 library/plugin-settings.php:1421
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "または、テンプレートタグを使用して、テーマテンプレートの任意の場所にフォームを表示します。"
+
+#: library/plugin-settings.php:1417
+msgid "Login/Register Form"
+msgstr "ログイン/登録フォーム"
+
+#: library/plugin-settings.php:1418
+msgid "You also can display a form that enables users to log in, register, or reset their password."
+msgstr "また、ユーザーがログイン、登録、またはパスワードのリセットを可能にするフォームを表示することもできます。"
+
+#: library/plugin-settings.php:1424
+msgid "Display Submitted Posts"
+msgstr "提出された投稿を表示する"
+
+#: library/plugin-settings.php:1425
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "このショートコードを使用して、任意のWP投稿またはページに投稿された投稿のリストを表示します。"
+
+#: library/plugin-settings.php:1427
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "または、テンプレートタグを使用して、テーマテンプレートの任意の場所に投稿された投稿のリストを表示します。"
+
+#: library/plugin-settings.php:1429
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "このショートコードを設定する方法の例をいくつか示します："
+
+#: library/plugin-settings.php:1436
+msgid "Access Control"
+msgstr "アクセス制御"
+
+#: library/plugin-settings.php:1437
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "USPは、アクセスを制御し、コンテンツを制限するための3つのショートコードを提供します。"
+
+#: library/plugin-settings.php:1438
+msgid "Display content only to users with a specific capability:"
+msgstr "特定の機能を持つユーザーにのみコンテンツを表示する："
+
+#: library/plugin-settings.php:1440
+msgid "Display content to logged-in users:"
+msgstr "ログインしているユーザーにコンテンツを表示する："
+
+#: library/plugin-settings.php:1442
+msgid "Display content to visitors only:"
+msgstr "訪問者のみにコンテンツを表示する："
+
+#: library/plugin-settings.php:1444
+msgid "Tip:"
+msgstr "先端："
+
+#: library/plugin-settings.php:1444
+msgid "to include markup in the deny message, you can use"
+msgstr "拒否メッセージにマークアップを含めるには、"
+
+#: library/plugin-settings.php:1444
+msgid "to output"
+msgstr "出力する"
+
+#: library/plugin-settings.php:1446
+msgid "Example"
+msgstr "例"
+
+#: library/plugin-settings.php:1447
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "ユーザーがログインしている場合は、送信後のフォームを表示します。またはユーザーがログインしていない場合は、ログインフォームを表示します。"
+
+#: library/plugin-settings.php:1459
+msgid "Restore Defaults"
+msgstr "デフォルトに戻す"
+
+#: library/plugin-settings.php:1462
+msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "設定を記憶するには、このオプションを無効にしておいてください。または、デフォルトのプラグインオプションを復元するには、チェックボックスをオンにして設定を保存してから、プラグインを非アクティブ化または再アクティブ化します。"
+
+#: library/plugin-settings.php:1466
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr "プラグインの非アクティブ化/再アクティブ化時にデフォルトオプションを復元します。"
+
+#: library/plugin-settings.php:1473
+msgid "Show Support"
+msgstr "サポートを表示"
+
+#: library/plugin-settings.php:1482
+msgid "by"
+msgstr "〜によって"
+
+#: library/plugin-settings.php:1483
+msgid "Jeff Starr on Twitter"
+msgstr "Jeff Starr on Twitter"
+
+#: library/plugin-settings.php:1484
+msgid "Obsessive Web Design &amp; Development"
+msgstr "強迫観念のWebデザイン＆amp;開発"
+
+#: library/plugin-settings.php:1495
+msgid "Save Preference"
+msgstr "設定を保存"
+
+#: library/plugin-settings.php:1502
+msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
+msgstr "すべてのデフォルトオプションを復元してもよろしいですか？ （この操作は元に戻すことはできません）"
+
+#: library/template-tags.php:214
+msgid "View full post"
+msgstr "完全な投稿を表示"
+
+#. Description of the plugin
+#: 
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "訪問者があなたのサイトのどこからでも投稿と画像を投稿できるようにします。"
+
+#. URI of the plugin
+#: 
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+#: 
+msgid "Jeff Starr"
+msgstr "ジェフスター"
+
+#. Author URI of the plugin
+#: 
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+

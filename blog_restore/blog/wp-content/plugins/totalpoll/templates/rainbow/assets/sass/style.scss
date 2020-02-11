@@ -1,0 +1,579 @@
+// Extra small screen / phone
+$screen-xs: 480px !default;
+$screen-xs-min: $screen-xs !default;
+$screen-phone: $screen-xs-min !default;
+
+// Small screen / tablet
+$screen-sm: 768px !default;
+$screen-sm-min: $screen-sm !default;
+$screen-tablet: $screen-sm-min !default;
+
+// Medium screen / desktop
+$screen-md: 992px !default;
+$screen-md-min: $screen-md !default;
+$screen-desktop: $screen-md-min !default;
+
+// Large screen / wide desktop
+$screen-lg: 1200px !default;
+$screen-lg-min: $screen-lg !default;
+$screen-lg-desktop: $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@include keyframes(votes-bar) {
+  0% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  25% {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  85% {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@include keyframes(text-movement) {
+  from {
+    margin-right: -100px;
+    opacity: 0.1;
+  }
+
+  to {
+    margin: 0;
+    opacity: 1;
+  }
+}
+
+@include keyframes(text-movement-rtl) {
+  from {
+    margin-left: -100px;
+    opacity: 0.1;
+  }
+
+  to {
+    margin: 0;
+    opacity: 1;
+  }
+}
+
+/* VARIABLES */
+$border-radius: unquote("<?php echo $this->option('general', 'other', 'border-radius'); ?>");
+$animation-duration: unquote("<?php echo $this->option('general', 'other', 'animation'); ?>");
+
+___PREFIX___.totalpoll-poll-container {
+  line-height: unquote("<?php echo $this->option('typography', 'general', 'line-height'); ?>");
+  font-family: unquote("<?php echo $this->option('typography', 'general', 'font-family'); ?>");
+  font-size: unquote("<?php echo $this->option('typography', 'general', 'font-size'); ?>");
+
+  padding: unquote("<?php echo $this->option('general', 'container', 'padding'); ?>");
+
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  /* Reset */
+  & {
+    div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video {
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      line-height: 1;
+    }
+    article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote {
+      display: block;
+    }
+    ul, ol {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after, q:before, q:after {
+      content: none;
+    }
+    ins {
+      text-decoration: underline;
+    }
+    del {
+      text-decoration: line-through;
+    }
+    mark {
+      background: none;
+    }
+    abbr[title], dfn[title] {
+      border-bottom: 1px dotted #000;
+      cursor: help;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0;
+    }
+    input[type=submit], input[type=button], button {
+      margin: 0;
+      padding: 0;
+    }
+    input, select, img {
+      vertical-align: middle;
+    }
+    video, audio {
+      vertical-align: bottom;
+    }
+    img {
+      max-width: 100%;
+    }
+    li {
+      list-style: none inside
+    }
+    ul:before, li:before, ul:after, li:after {
+      display: none;
+      content: ""
+    }
+  }
+
+  .totalpoll-error-message {
+    padding: 1em;
+    margin-bottom: 1em;
+    color: unquote("<?php echo $this->option('general', 'messages', 'color'); ?>");
+    background-color: unquote("<?php echo $this->option('general', 'messages', 'background'); ?>");
+    border: 1px solid unquote("<?php echo $this->option('general', 'messages', 'border'); ?>");
+    border-radius: $border-radius;
+  }
+
+  .totalpoll-question {
+    text-align: center;
+    font-weight: bold;
+    font-size: unquote("<?php echo $this->option('general', 'question', 'font-size'); ?>");
+    margin-bottom: unquote("<?php echo $this->option('general', 'question', 'margin-bottom'); ?>");
+    border: 0;
+    padding: 0;
+  }
+
+  .totalpoll-choices {
+    margin: 2em 0;
+
+    .totalpoll-choice {
+      border-left: 1px solid unquote("<?php echo $this->option('choices', 'default', 'border'); ?>");
+      border-right: 1px solid unquote("<?php echo $this->option('choices', 'default', 'border'); ?>");
+
+      &:first-child {
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+        border-top: 1px solid unquote("<?php echo $this->option('choices', 'default', 'border'); ?>");
+      }
+
+      &:last-child {
+        border-bottom-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+        border-bottom: 1px solid unquote("<?php echo $this->option('choices', 'default', 'border'); ?>");
+      }
+
+      &:nth-child(2n + 1) {
+        background: unquote("<?php echo $this->option('choices', 'default', 'background-odd'); ?>");
+      }
+
+      &:nth-child(2n) {
+        background: unquote("<?php echo $this->option('choices', 'default', 'background-even'); ?>");
+      }
+    }
+  }
+
+  .totalpoll-view {
+
+    &-vote {
+      .totalpoll-choice {
+        &:hover {
+          background: unquote("<?php echo $this->option('choices', 'default', 'background:hover'); ?>");
+        }
+
+        label {
+          display: block;
+          cursor: pointer;
+        }
+
+        &-selected {
+          background: unquote("<?php echo $this->option('choices', 'checked', 'background:normal'); ?>");
+
+          &:hover {
+            background: unquote("<?php echo $this->option('choices', 'checked', 'background:hover'); ?>");
+          }
+
+          .totalpoll-choice-label {
+            color: unquote("<?php echo $this->option('choices', 'checked', 'color:normal'); ?>");
+            font-weight: 600;
+
+            &:hover {
+              color: unquote("<?php echo $this->option('choices', 'checked', 'color:hover'); ?>");
+            }
+          }
+        }
+
+        &-checkbox-container {
+          display: inline-block;
+          padding: 15px;
+          vertical-align: top !important;
+          line-height: 1em;
+          border-right: 1px solid unquote("<?php echo $this->option('choices', 'default', 'checkbox-border'); ?>");
+          margin: 0 !important;
+
+          .totalpoll-choice-checkbox:focus {
+            outline: none;
+          }
+        }
+
+        &-label {
+          line-height: 1em;
+          display: inline-block;
+          padding: 15px 10px;
+          color: unquote("<?php echo $this->option('choices', 'default', 'color:normal'); ?>");
+
+          &:hover {
+            color: unquote("<?php echo $this->option('choices', 'default', 'color:hover'); ?>");
+          }
+        }
+      }
+    }
+
+    &-results {
+      .totalpoll-choices {
+        text-align: center;
+
+        .totalpoll-choice {
+          text-align: center;
+          padding: 15px 0;
+          letter-spacing: -20px;
+
+          * {
+            letter-spacing: normal;
+          }
+
+          &-label {
+            display: inline-block;
+            width: 50%;
+            line-height: 1.5em;
+            text-align: right;
+            margin: 0;
+            padding: 0 1em;
+            vertical-align: top;
+            overflow: hidden;
+
+            &-text {
+              font-weight: 600;
+              -webkit-animation: text-movement #{$animation-duration}ms ease-out;
+              -o-animation: text-movement #{$animation-duration}ms ease-out;
+              animation: text-movement #{$animation-duration}ms ease-out;
+            }
+          }
+
+          &-result {
+            width: 50%;
+            height: 1.5em;
+            line-height: 1em;
+            display: inline-block;
+            margin: 0;
+            vertical-align: top;
+            padding-right: 1em;
+
+            .totalpoll-choice-progress {
+              height: 100%;
+              border-radius: 2px;
+
+              -webkit-animation-fill-mode: both;
+              -moz-animation-fill-mode: both;
+              -o-animation-fill-mode: both;
+              animation-fill-mode: both;
+
+              -webkit-transform-origin: left;
+              -moz-transform-origin: left;
+              -ms-transform-origin: left;
+              -o-transform-origin: left;
+              transform-origin: left;
+
+              -webkit-animation: votes-bar #{$animation-duration}ms ease-out;
+              -o-animation: votes-bar #{$animation-duration}ms ease-out;
+              animation: votes-bar #{$animation-duration}ms ease-out;
+
+              position: relative;
+
+              &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                z-index: 1;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                overflow: hidden;
+
+                -webkit-animation: bars-animation 3s linear infinite;
+                -o-animation: bars-animation 3s linear infinite;
+                animation: bars-animation 3s linear infinite;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .totalpoll-fields {
+    margin: 2em 0;
+
+    .totalpoll-field-wrapper {
+
+      label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      .totalpoll-fields-field {
+        border-radius: $border-radius;
+        margin-right: 5px;
+      }
+
+      .totalpoll-field-error {
+        margin: 0.5em 0 1em;
+        padding: 0.8em;
+        border: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+        color: unquote("<?php echo $this->option('general', 'messages', 'color'); ?>");
+        border-radius: $border-radius;
+      }
+
+      + .totalpoll-field-wrapper {
+        margin-top: 1.5em;
+      }
+
+    }
+
+    &-field {
+      width: 100%;
+
+      &[type=checkbox], &[type=radio] {
+        width: auto;
+      }
+    }
+
+  }
+
+  /** BUTTONS **/
+  .totalpoll-buttons {
+    text-align: unquote("<?php echo $this->option('buttons', 'general', 'align'); ?>");
+    margin: 2em 0;
+
+    .totalpoll-button {
+      display: inline-block;
+      padding: unquote("<?php echo $this->option('buttons', 'general', 'padding'); ?>");
+      min-width: 100px;
+      font-weight: unquote("<?php echo $this->option('buttons', 'general', 'font-weight'); ?>");
+      color: unquote("<?php echo $this->option('buttons', 'default', 'color:normal'); ?>");
+      background: unquote("<?php echo $this->option('buttons', 'default', 'background:normal'); ?>");
+      border: 1px solid unquote("<?php echo $this->option('buttons', 'default', 'border:normal'); ?>");
+      line-height: 1;
+      text-decoration: none;
+      margin: 0.5em;
+      border-radius: $border-radius;
+
+      &:hover, &:focus, &:active {
+        color: unquote("<?php echo $this->option('buttons', 'default', 'color:hover'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'default', 'background:hover'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'default', 'border:hover'); ?>");
+      }
+
+      &.totalpoll-button-primary {
+        color: unquote("<?php echo $this->option('buttons', 'primary', 'color:normal'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:normal'); ?>");
+        border: 1px solid unquote("<?php echo $this->option('buttons', 'primary', 'border:normal'); ?>");
+
+        &:hover, &:focus, &:active {
+          background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:hover'); ?>");
+          border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:hover'); ?>");
+          color: unquote("<?php echo $this->option('buttons', 'primary', 'color:hover'); ?>");
+        }
+      }
+
+      &.totalpoll-button-link {
+
+      }
+
+      &[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+
+    .totalpoll-buttons-pagination {
+      padding: 0.5em 1em;
+      margin: 1em;
+      border: 1px solid unquote("<?php echo $this->option('general', 'container', 'border-color'); ?>");
+      border-radius: $border-radius;
+      @include clearfix;
+    }
+  }
+
+  @media all and (max-width: $screen-sm-min) {
+    .totalpoll-button {
+      width: 100%;
+      margin: 0.5em 0!important;
+    }
+
+    .totalpoll-view-results .totalpoll-choice {
+
+      &-label {
+        display: block!important;
+        width: 100%!important;
+        text-align: left!important;
+        margin: 0!important;
+        padding: 0 1em!important;
+      }
+
+      &-result {
+        width: 100%!important;
+        display: block!important;
+        margin: 1em 0!important;
+        padding-left: 1em!important;
+      }
+    }
+  }
+}
+
+___PREFIX___.totalpoll-poll-container.totalpoll-rtl {
+  .totalpoll-view {
+
+    &-vote {
+      .totalpoll-choice {
+
+        &-checkbox-container {
+          border-right: none;
+          border-left: 1px solid unquote("<?php echo $this->option('choices', 'default', 'checkbox-border'); ?>");
+        }
+      }
+    }
+
+    &-results {
+      .totalpoll-choices {
+
+        .totalpoll-choice {
+
+          &-label {
+            text-align: left;
+
+            @media all and (max-width: $screen-sm-min) {
+              text-align: right!important;
+            }
+
+            &-text {
+              font-weight: 600;
+              -webkit-animation: text-movement-rtl #{$animation-duration}ms ease-out;
+              -o-animation: text-movement-rtl #{$animation-duration}ms ease-out;
+              animation: text-movement-rtl #{$animation-duration}ms ease-out;
+            }
+          }
+
+          &-result {
+            padding-left: 1em;
+
+            @media all and (min-width: $screen-sm-min) {
+              padding-right: 0;
+            }
+
+            .totalpoll-choice-progress {
+              -webkit-transform-origin: right;
+              -moz-transform-origin: right;
+              -ms-transform-origin: right;
+              -o-transform-origin: right;
+              transform-origin: right;
+
+              -webkit-animation: votes-bar #{$animation-duration}ms ease-out;
+              -o-animation: votes-bar #{$animation-duration}ms ease-out;
+              animation: votes-bar #{$animation-duration}ms ease-out;
+
+              &:after {
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+
+                -webkit-animation: bars-animation-rtl 3s linear infinite;
+                -o-animation: bars-animation-rtl 3s linear infinite;
+                animation: bars-animation-rtl 3s linear infinite;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .totalpoll-fields {
+    .totalpoll-field-wrapper {
+      .totalpoll-fields-field {
+        margin-right: 0;
+        margin-left: 5px;
+      }
+    }
+  }
+}

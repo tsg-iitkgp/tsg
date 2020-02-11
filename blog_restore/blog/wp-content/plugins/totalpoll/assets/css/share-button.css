@@ -1,0 +1,122 @@
+.totalpoll-poll-container share-button {
+  position: relative;
+  padding-left: 2em;
+  cursor: pointer;
+  white-space: nowrap; }
+  .totalpoll-poll-container share-button:before {
+    position: absolute;
+    line-height: 1em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2em;
+    content: ' ' !important;
+    background: url("../images/share-icons/export.svg") no-repeat; }
+  .totalpoll-poll-container share-button .sb-social {
+    position: absolute;
+    bottom: 150%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 10; }
+    .totalpoll-poll-container share-button .sb-social.active {
+      opacity: 1;
+      -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      visibility: visible; }
+    .totalpoll-poll-container share-button .sb-social.load {
+      -webkit-transition: none !important;
+      transition: none !important; }
+    .totalpoll-poll-container share-button .sb-social ul {
+      display: table;
+      table-layout: fixed;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 0; }
+      .totalpoll-poll-container share-button .sb-social ul li {
+        display: table-cell;
+        width: 1%;
+        text-align: center;
+        cursor: pointer;
+        z-index: 2; }
+        .totalpoll-poll-container share-button .sb-social ul li.disabled {
+          display: none; }
+        .totalpoll-poll-container share-button .sb-social ul li a {
+          display: block;
+          padding: 1.3em !important;
+          margin: auto;
+          text-decoration: none !important;
+          box-shadow: none !important;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 1.3em; }
+          .totalpoll-poll-container share-button .sb-social ul li a:hover, .totalpoll-poll-container share-button .sb-social ul li a:focus {
+            text-decoration: none !important;
+            box-shadow: none !important; }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='email'] {
+          background: #42c5b0 !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='email'] a {
+            background-image: url("../images/share-icons/email.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='facebook'] {
+          background: #3b5998 !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='facebook'] a {
+            background-image: url("../images/share-icons/facebook.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='googlePlus'] {
+          background: #dd4b39 !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='googlePlus'] a {
+            background-image: url("../images/share-icons/googlePlus.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='linkedin'] {
+          background: #0077b5 !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='linkedin'] a {
+            background-image: url("../images/share-icons/linkedin.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='pinterest'] {
+          background: #bd081c !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='pinterest'] a {
+            background-image: url("../images/share-icons/pinterest.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='reddit'] {
+          background: #5f99cf !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='reddit'] a {
+            background-image: url("../images/share-icons/reddit.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='twitter'] {
+          background: #55acee !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='twitter'] a {
+            background-image: url("../images/share-icons/twitter.svg"); }
+        .totalpoll-poll-container share-button .sb-social ul li[class*='whatsapp'] {
+          background: #43d854 !important; }
+          .totalpoll-poll-container share-button .sb-social ul li[class*='whatsapp'] a {
+            background-image: url("../images/share-icons/whatsapp.svg"); }
+
+@media screen and (max-width: 400px) {
+  .totalpoll-poll-container share-button .sb-social.networks-6.sb-center {
+    white-space: initial;
+    text-align: center;
+    width: 300px; } }
+@media screen and (max-width: 460px) {
+  .totalpoll-poll-container share-button .sb-social.networks-7.sb-center {
+    white-space: initial;
+    text-align: center;
+    width: 360px; } }
+@media screen and (max-width: 400px) {
+  .totalpoll-poll-container share-button .sb-social.networks-7.sb-center {
+    white-space: initial;
+    text-align: center;
+    width: 300px; } }
+@media screen and (max-width: 520px) {
+  .totalpoll-poll-container share-button .sb-social.networks-8.sb-center {
+    white-space: initial;
+    text-align: center;
+    width: 420px; } }
+@media screen and (max-width: 460px) {
+  .totalpoll-poll-container share-button .sb-social.networks-8.sb-center {
+    white-space: initial;
+    text-align: center;
+    width: 360px; } }
+@media screen and (max-width: 400px) {
+  .totalpoll-poll-container share-button .sb-social.networks-8.sb-center {
+    white-space: initial;
+    text-align: center;
+    width: 300px; } }
+
+/*# sourceMappingURL=share-button.css.map */

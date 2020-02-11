@@ -1,0 +1,2021 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll 3\n"
+"POT-Creation-Date: 2016-05-09 18:13+0100\n"
+"PO-Revision-Date: 2016-05-09 18:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: MisqTech <contact@misqtech.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: templates\n"
+
+#: includes/admin/ajax.php:44 includes/admin/ajax.php:53
+#: includes/admin/ajax.php:78 includes/admin/ajax.php:87
+msgid "Invalid argument passed"
+msgstr "无效参数"
+
+#: includes/admin/bootstrap.php:103 includes/admin/bootstrap.php:313
+msgid "Title"
+msgstr "标题"
+
+#: includes/admin/bootstrap.php:104 includes/admin/bootstrap.php:430
+#: includes/admin/editor/actions.php:6
+msgid "Shortcode"
+msgstr "短代码"
+
+#: includes/admin/bootstrap.php:105
+msgid "Results Shortcode"
+msgstr "投票结果短代码"
+
+#: includes/admin/bootstrap.php:106
+msgid "Total votes"
+msgstr "总投票数"
+
+#: includes/admin/bootstrap.php:107
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/settings/choices.php:82
+#: includes/admin/editor/settings/results.php:52
+msgid "Date"
+msgstr "日期"
+
+#: includes/admin/bootstrap.php:131
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your Envato license key</a> in order to "
+"update TotalPoll."
+msgstr ""
+"您需要<a href=\"%s\">输入您的 Envato 购买许可证密钥</a>来自动更新 TotalPoll。"
+
+#: includes/admin/bootstrap.php:225
+msgid "TotalPoll Extensions"
+msgstr "拓展"
+
+#: includes/admin/bootstrap.php:225 includes/admin/bootstrap.php:280
+#: includes/admin/pages/about.php:77 includes/admin/pages/about.php:99
+#: includes/admin/pages/extensions.php:59 includes/admin/pages/store.php:30
+msgid "Extensions"
+msgstr "拓展"
+
+#: includes/admin/bootstrap.php:226
+msgid "TotalPoll Templates"
+msgstr "模板"
+
+#: includes/admin/bootstrap.php:226 includes/admin/bootstrap.php:285
+#: includes/admin/pages/about.php:72 includes/admin/pages/about.php:95
+#: includes/admin/pages/store.php:27 includes/admin/pages/templates.php:59
+msgid "Templates"
+msgstr "模板"
+
+#: includes/admin/bootstrap.php:227
+msgid "TotalPoll Store"
+msgstr "商店"
+
+#: includes/admin/bootstrap.php:227 includes/admin/bootstrap.php:290
+#: includes/admin/pages/store.php:23
+msgid "Store"
+msgstr "商店"
+
+#: includes/admin/bootstrap.php:228
+msgid "TotalPoll Tools"
+msgstr "工具"
+
+#: includes/admin/bootstrap.php:228 includes/admin/bootstrap.php:295
+#: includes/admin/pages/tools.php:44
+msgid "Tools"
+msgstr "工具"
+
+#: includes/admin/bootstrap.php:229
+msgid "TotalPoll About"
+msgstr "关于 TotalPoll"
+
+#: includes/admin/bootstrap.php:229
+msgid "About"
+msgstr "关于"
+
+#: includes/admin/bootstrap.php:230
+msgid "TotalPoll Update"
+msgstr "更新"
+
+#: includes/admin/bootstrap.php:230 includes/admin/bootstrap.php:300
+msgid "Update"
+msgstr "更新"
+
+#: includes/admin/bootstrap.php:231
+msgid "TotalPoll Support Center"
+msgstr "支持中心"
+
+#: includes/admin/bootstrap.php:231 includes/admin/bootstrap.php:305
+msgid "Support / Help"
+msgstr "支持和帮助"
+
+#: includes/admin/bootstrap.php:260 includes/admin/editor/browse/logs.php:111
+#: includes/admin/editor/browse/submissions.php:84
+msgid "Previous"
+msgstr "上一项"
+
+#: includes/admin/bootstrap.php:261 includes/admin/editor/browse/logs.php:114
+#: includes/admin/editor/browse/submissions.php:87
+msgid "Next"
+msgstr "下一项"
+
+#: includes/admin/bootstrap.php:262
+msgid "Done"
+msgstr "确定"
+
+#: includes/admin/bootstrap.php:270
+msgid "Welcome!"
+msgstr "欢迎！"
+
+#: includes/admin/bootstrap.php:271
+msgid "You can access to your polls and TotalPoll features from this menu."
+msgstr "你可以通过菜单快速进入查看投票和了解 TotalPoll 特色功能。"
+
+#: includes/admin/bootstrap.php:275
+msgid "New poll"
+msgstr "新建投票"
+
+#: includes/admin/bootstrap.php:276
+msgid "You can create your first poll from this page."
+msgstr "通过此页面开始新建第一个投票。"
+
+#: includes/admin/bootstrap.php:281
+msgid "From this page you can manage TotalPoll extensions."
+msgstr "在此页面管理你的所有拓展。"
+
+#: includes/admin/bootstrap.php:286
+msgid "From this page you can manage manage TotalPoll templates."
+msgstr "在此页面管理你的所有 TotalPoll 模板。"
+
+#: includes/admin/bootstrap.php:291
+msgid ""
+"Extend TotalPoll functionality and appearance with premium extensions and "
+"templates."
+msgstr "通过拓展和模板丰富 TotalPoll 的功能和外观。"
+
+#: includes/admin/bootstrap.php:296
+msgid "Tools for importing, exporting and migrating polls."
+msgstr "用工具导入、导出和迁移投票内容。"
+
+#: includes/admin/bootstrap.php:301
+msgid "Receive updates by activating TotalPoll via Envato license key."
+msgstr "通过激活 Envato 购买许可接收 TotalPoll 更新。"
+
+#: includes/admin/bootstrap.php:306
+msgid "Visit this page if you need any help with TotalPoll."
+msgstr "如果需要任何帮助，请访问此页。"
+
+#: includes/admin/bootstrap.php:314
+msgid "First things first, let's give the poll a title i.e. Favorite colors."
+msgstr "首先第一件事情，让我们给投票项目一个标题，以及喜欢颜色等。"
+
+#: includes/admin/bootstrap.php:322 includes/admin/editor/question.php:7
+msgid "Question"
+msgstr "投票项目标题"
+
+#: includes/admin/bootstrap.php:323
+msgid "And of course a question i.e. What is your favorite colors."
+msgstr "那么第一个问题，你最喜欢什么颜色？"
+
+#: includes/admin/bootstrap.php:331 includes/admin/bootstrap.php:367
+#: includes/admin/editor.php:260 includes/admin/editor/browse/logs.php:34
+#: includes/admin/editor/browse/logs.php:59
+#: includes/admin/editor/browse/logs.php:94
+#: includes/admin/editor/browse/statistics-cards.php:59
+#: includes/admin/editor/choices.php:7 includes/admin/editor/settings.php:65
+#: includes/admin/pages/about.php:62
+msgid "Choices"
+msgstr "选项结果"
+
+#: includes/admin/bootstrap.php:332
+msgid "Now let's introduce poll choices i.e. Red, green and blue."
+msgstr "现在让我们介绍所有投票选项，红色、绿色和蓝色。"
+
+#: includes/admin/bootstrap.php:340 includes/admin/editor/choices.php:33
+msgid "Bulk insertion"
+msgstr "批量插入"
+
+#: includes/admin/bootstrap.php:341
+msgid "Protip: Use bulk insertion when you have already a list of choices."
+msgstr "小贴士：从已知选项列表进行批量插入。"
+
+#: includes/admin/bootstrap.php:349 includes/admin/editor/settings.php:55
+msgid "Limitations"
+msgstr "限制条件"
+
+#: includes/admin/bootstrap.php:350
+msgid "Set limitations to match your needs."
+msgstr "根据你的需要设置限制条件。"
+
+#: includes/admin/bootstrap.php:358 includes/admin/editor/settings.php:60
+#: includes/classes/template.php:493
+msgid "Results"
+msgstr "查看结果"
+
+#: includes/admin/bootstrap.php:359
+msgid "Change results settings to match your needs."
+msgstr "更改结果设置以满足您的需求。"
+
+#: includes/admin/bootstrap.php:368
+msgid "Change choices settings to match your needs."
+msgstr "更改选项设置以满足您的需求。"
+
+#: includes/admin/bootstrap.php:376 includes/admin/editor/settings.php:70
+#: includes/admin/pages/about.php:27
+msgid "Custom fields"
+msgstr "自定字段"
+
+#: includes/admin/bootstrap.php:377
+msgid "You can manage custom fields from this tab."
+msgstr "你能通过此标签管理自定义域选项。"
+
+#: includes/admin/bootstrap.php:385 includes/admin/editor/settings.php:75
+msgid "Design"
+msgstr "外观设置"
+
+#: includes/admin/bootstrap.php:386
+msgid "And polish poll's appearance from this one."
+msgstr "通过这里设计一个美观的投票界面。"
+
+#: includes/admin/bootstrap.php:394 includes/admin/editor/settings.php:80
+msgid "Screens"
+msgstr "投票提示"
+
+#: includes/admin/bootstrap.php:395
+msgid "Set a \"thank you\" or \"welcome\" message from this tab."
+msgstr "在此标签设置”谢谢你“或者”欢迎“信息。"
+
+#: includes/admin/bootstrap.php:403 includes/admin/editor/browse.php:16
+#: includes/admin/editor/custom-fields/tabs.php:10
+#: includes/admin/pages/about.php:32
+msgid "Statistics"
+msgstr "数据分析"
+
+#: includes/admin/bootstrap.php:404
+msgid "Browse the statistics from this tab."
+msgstr "在此标签浏览统计信息。"
+
+#: includes/admin/bootstrap.php:412 includes/admin/editor/browse.php:21
+#: includes/admin/editor/settings.php:85 includes/admin/pages/about.php:67
+msgid "Logs"
+msgstr "投票记录"
+
+#: includes/admin/bootstrap.php:413
+msgid "You can also browse the logs from this tab."
+msgstr "在此标签浏览投票记录信息。"
+
+#: includes/admin/bootstrap.php:421 includes/admin/editor/browse.php:26
+msgid "Submissions"
+msgstr "提交内容"
+
+#: includes/admin/bootstrap.php:422
+msgid "Lastly, the submissions from this one."
+msgstr "最后，在这里进行提交。"
+
+#: includes/admin/bootstrap.php:431
+msgid "Paste this shortcode anywhere to embed the poll."
+msgstr "粘贴此短代码到你需要显示投票的文章和页面，以及其他任何地方。"
+
+#: includes/admin/bootstrap.php:439
+msgid "Publish"
+msgstr "发布"
+
+#: includes/admin/bootstrap.php:440
+msgid "You are almost done! Now It's time to publish the poll."
+msgstr "一切准备就绪！发布投票。"
+
+#: includes/admin/bootstrap.php:448 includes/admin/editor/choices.php:35
+msgid "Reset votes"
+msgstr "重置投票"
+
+#: includes/admin/bootstrap.php:449
+msgid ""
+"You can use this button to reset choices votes to 0. You can also set votes "
+"manually from \"votes\" field underneath."
+msgstr ""
+"您可以通过此按钮来投票数重置为0，您也可以手动在下面的投票字段设置“投票数”。"
+
+#: includes/admin/bootstrap.php:457 includes/admin/pages/update.php:22
+msgid "Thank you!"
+msgstr "感谢！"
+
+#: includes/admin/bootstrap.php:459
+#, php-format
+msgid ""
+"By now you are familiar with the basics of TotalPoll. Thank you for your "
+"time! If you need any help, please don't hesitate to visit our <a href=\"%s"
+"\">support center</a>."
+msgstr ""
+"你已经了解 TotalPoll 的基本使用方法。感谢您使用！如果您需要任何帮助，请访问我"
+"们的<a href=\"%s\">支持中心</a> 。"
+
+#: includes/admin/editor.php:129
+msgid "Are you sure?!"
+msgstr "你确定吗？"
+
+#: includes/admin/editor.php:130
+msgid ""
+"Changing the current template requires a page reload. All changes will be "
+"saved now. Are you sure?"
+msgstr "更改当前模板需要重新加载页面。所有的更改将被保存。确定吗？"
+
+#: includes/admin/editor.php:254 includes/admin/editor/browse/logs.php:18
+#: includes/admin/editor/browse/logs.php:55
+#: includes/admin/editor/browse/logs.php:90
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:72
+msgid "Status"
+msgstr "状态"
+
+#: includes/admin/editor.php:255 includes/admin/editor/browse/logs.php:22
+#: includes/admin/editor/browse/logs.php:56
+#: includes/admin/editor/browse/logs.php:91
+msgid "Time"
+msgstr "时间"
+
+#: includes/admin/editor.php:256 includes/admin/editor/browse/logs.php:26
+#: includes/admin/editor/browse/logs.php:57
+#: includes/admin/editor/browse/logs.php:92
+msgid "IP"
+msgstr "IP 地址"
+
+#: includes/admin/editor.php:257
+msgid "Platform"
+msgstr "来源平台"
+
+#: includes/admin/editor.php:258 includes/admin/editor/browse/logs.php:30
+#: includes/admin/editor/browse/logs.php:58
+#: includes/admin/editor/browse/logs.php:93
+#: includes/admin/editor/browse/statistics-cards.php:38
+msgid "Browser"
+msgstr "用户浏览器"
+
+#: includes/admin/editor.php:259 includes/admin/pages/extensions.php:178
+#: includes/admin/pages/templates.php:182
+msgid "Version"
+msgstr "版本"
+
+#: includes/admin/editor.php:261 includes/admin/editor/browse/logs.php:39
+#: includes/admin/editor/browse/logs.php:66
+#: includes/admin/editor/browse/logs.php:101
+msgid "Details"
+msgstr "详情"
+
+#: includes/admin/editor.php:262
+msgid "User agent"
+msgstr "用户代理"
+
+#: includes/admin/editor.php:271 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:20
+msgid "Accepted"
+msgstr "接受"
+
+#: includes/admin/editor.php:271 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:25
+msgid "Denied"
+msgstr "拒绝"
+
+#: includes/admin/editor.php:299 includes/admin/editor/browse/logs-item.php:28
+#: includes/admin/editor/browse/logs-item.php:41
+#: includes/admin/editor/browse/submissions-item.php:14
+#: includes/admin/statistics.php:25 includes/classes/helpers.php:147
+msgid "N/A"
+msgstr "暂无信息"
+
+#: includes/admin/editor/browse.php:7 includes/admin/pages/extensions.php:63
+#: includes/admin/pages/templates.php:63
+msgid "Browse"
+msgstr "浏览器"
+
+#: includes/admin/editor/browse/logs.php:77
+msgid "There are no logs."
+msgstr "暂无投票记录。"
+
+#: includes/admin/editor/browse/logs.php:109
+#: includes/admin/editor/browse/submissions.php:82
+msgid "First"
+msgstr "第一"
+
+#: includes/admin/editor/browse/logs.php:116
+#: includes/admin/editor/browse/submissions.php:89
+msgid "Last"
+msgstr "最后"
+
+#: includes/admin/editor/browse/logs.php:122
+#, fuzzy
+msgid "One log"
+msgstr "一条投票记录"
+
+#: includes/admin/editor/browse/logs.php:125
+#: includes/admin/editor/browse/statistics.php:36
+#: includes/admin/editor/browse/submissions.php:99
+#: includes/admin/pages/support.php:63
+msgid "Download"
+msgstr "下载"
+
+#: includes/admin/editor/browse/logs.php:127
+#: includes/admin/editor/browse/submissions.php:101
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/admin/editor/browse/logs.php:129
+#: includes/admin/editor/browse/submissions.php:103
+#: includes/admin/editor/custom-fields/tabs.php:9
+#: includes/admin/pages/about.php:107
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/editor/browse/logs.php:131
+#: includes/admin/editor/browse/submissions.php:105
+msgid "or"
+msgstr "或者"
+
+#: includes/admin/editor/browse/logs.php:133
+#: includes/admin/editor/browse/submissions.php:107
+msgid "Reset"
+msgstr "重置"
+
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/browse/statistics-cards.php:33
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:50
+#: includes/admin/editor/browse/statistics-cards.php:55
+#: includes/admin/editor/choices/handle.php:10
+#: includes/admin/editor/choices/handle.php:13
+#: includes/admin/editor/print.php:22 includes/admin/editor/print.php:30
+#: includes/admin/editor/settings/choices.php:76
+#: includes/admin/editor/settings/results.php:46
+#: includes/admin/editor/settings/results.php:134
+msgid "Votes"
+msgstr "投票"
+
+#: includes/admin/editor/browse/statistics-cards.php:32
+msgid "Month"
+msgstr "月"
+
+#: includes/admin/editor/browse/statistics-cards.php:33
+msgid "Year"
+msgstr "年"
+
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:170
+msgid "Platforms"
+msgstr "来源平台"
+
+#: includes/admin/editor/browse/statistics-cards.php:55
+#: includes/admin/editor/print.php:21 includes/admin/editor/print.php:30
+msgid "Choice"
+msgstr "选项"
+
+#: includes/admin/editor/browse/statistics-cards.php:64
+#: includes/admin/editor/browse/statistics-cards.php:77
+#: includes/admin/editor/browse/statistics-cards.php:92
+#: includes/admin/editor/browse/statistics-cards.php:130
+#: includes/admin/editor/browse/statistics-cards.php:144
+#: includes/admin/editor/browse/statistics-cards.php:161
+#: includes/admin/editor/browse/statistics-cards.php:175
+#: includes/admin/editor/browse/statistics.php:16
+msgid "Insufficient data to analyze."
+msgstr "暂无数据。"
+
+#: includes/admin/editor/browse/statistics-cards.php:87
+msgid "Votes over the last 30 days of activity"
+msgstr "最近 30 天的投票"
+
+#: includes/admin/editor/browse/statistics-cards.php:103
+msgid "Votes casted"
+msgstr "投票结果"
+
+#: includes/admin/editor/browse/statistics-cards.php:108
+msgid "Votes casted today"
+msgstr "今天的投票结果"
+
+#: includes/admin/editor/browse/statistics-cards.php:113
+msgid "Votes casted this week"
+msgstr "本周的投票结果"
+
+#: includes/admin/editor/browse/statistics-cards.php:118
+msgid "Votes casted this month"
+msgstr "本月投票结果"
+
+#: includes/admin/editor/browse/statistics-cards.php:125
+msgid "Votes over months"
+msgstr "月投票结果"
+
+#: includes/admin/editor/browse/statistics-cards.php:139
+msgid "Votes over years"
+msgstr "年投票结果"
+
+#: includes/admin/editor/browse/statistics-cards.php:156
+msgid "Browsers"
+msgstr "浏览器"
+
+#: includes/admin/editor/browse/statistics.php:34
+msgid "Print"
+msgstr "打印"
+
+#: includes/admin/editor/browse/submissions.php:42
+msgid ""
+"There are stored submissions, but custom fields must be present to browse "
+"them."
+msgstr "有保存的提交，但浏览它们的时候，自定义字段必须存在。"
+
+#: includes/admin/editor/browse/submissions.php:44
+#: includes/admin/editor/browse/submissions.php:54
+msgid "There are no submissions."
+msgstr "没有提交。"
+
+#: includes/admin/editor/browse/submissions.php:96
+#, fuzzy
+msgid "One submission"
+msgstr "一次提交"
+
+#: includes/admin/editor/choices.php:13
+msgid ""
+"TotalPoll will synchronize votes between translations automatically. "
+"Therefore, choices must be in the exact order across all translations."
+msgstr "TotalPoll 会自动同步翻译的选票。因此，选项的所有翻译必须准确有序。"
+
+#: includes/admin/editor/choices.php:17
+#: includes/admin/editor/choices/text.php:10
+#: includes/admin/editor/custom-fields/text.php:10
+#: includes/admin/editor/settings/custom-fields.php:12
+msgid "Text"
+msgstr "文本"
+
+#: includes/admin/editor/choices.php:20
+#: includes/admin/editor/choices/image.php:10
+msgid "Image"
+msgstr "图片"
+
+#: includes/admin/editor/choices.php:23
+#: includes/admin/editor/choices/video.php:10
+msgid "Video"
+msgstr "视频"
+
+#: includes/admin/editor/choices.php:26
+#: includes/admin/editor/choices/audio.php:10
+msgid "Audio"
+msgstr "音频"
+
+#: includes/admin/editor/choices.php:29
+#: includes/admin/editor/choices/html.php:10
+msgid "Rich"
+msgstr "富文本编辑器"
+
+#: includes/admin/editor/choices.php:40
+msgid "Import"
+msgstr "导入"
+
+#: includes/admin/editor/choices/audio.php:32
+#: includes/admin/editor/choices/html.php:19
+#: includes/admin/editor/choices/image.php:27
+#: includes/admin/editor/choices/text.php:19
+#: includes/admin/editor/choices/video.php:32
+#: includes/admin/editor/custom-fields/checkbox.php:51
+#: includes/admin/editor/custom-fields/radio.php:49
+#: includes/admin/editor/custom-fields/select.php:49
+#: includes/admin/editor/custom-fields/text.php:49
+#: includes/admin/editor/custom-fields/textarea.php:49
+#: includes/admin/editor/settings/choices.php:79
+#: includes/admin/editor/settings/results.php:49
+msgid "Label"
+msgstr "标签"
+
+#: includes/admin/editor/choices/audio.php:37
+#: includes/admin/editor/choices/image.php:32
+#: includes/admin/editor/choices/video.php:37
+msgid "Choice label"
+msgstr "选择标签"
+
+#: includes/admin/editor/choices/audio.php:46
+msgid "Full audio url"
+msgstr "完整的音频链接地址"
+
+#: includes/admin/editor/choices/audio.php:54
+msgid "Choice full audio url"
+msgstr "选择完整的音频链接地址"
+
+#: includes/admin/editor/choices/audio.php:69
+#: includes/admin/editor/choices/audio.php:123
+#: includes/admin/editor/choices/image.php:64
+#: includes/admin/editor/choices/video.php:69
+#: includes/admin/editor/choices/video.php:123
+#: includes/admin/pages/extensions.php:61 includes/admin/pages/templates.php:61
+msgid "Upload"
+msgstr "上传"
+
+#: includes/admin/editor/choices/audio.php:76
+msgid "Thumbnail audio url"
+msgstr "音频缩略图链接"
+
+#: includes/admin/editor/choices/audio.php:81
+msgid "Choice thumbnail audio url"
+msgstr "选择音频缩略图链接"
+
+#: includes/admin/editor/choices/audio.php:88
+#: includes/admin/editor/choices/image.php:85
+#: includes/admin/editor/choices/video.php:88
+msgid "Available sizes"
+msgstr "适用尺寸"
+
+#: includes/admin/editor/choices/audio.php:99
+#: includes/admin/editor/choices/image.php:97
+#: includes/admin/editor/choices/video.php:99
+msgid "Upload image first"
+msgstr "首先上传图片"
+
+#: includes/admin/editor/choices/handle.php:8
+#: includes/admin/editor/custom-fields/handle.php:8
+msgid "Remove"
+msgstr "移出"
+
+#: includes/admin/editor/choices/html.php:24
+#: includes/admin/editor/choices/text.php:24
+msgid "Choice content"
+msgstr "选择内容"
+
+#: includes/admin/editor/choices/image.php:40
+msgid "Full image url"
+msgstr "完整的图片链接"
+
+#: includes/admin/editor/choices/image.php:48
+msgid "Choice full image url"
+msgstr "选择完整的图片链接"
+
+#: includes/admin/editor/choices/image.php:72
+msgid "Thumbnail image url"
+msgstr "缩略图链接"
+
+#: includes/admin/editor/choices/image.php:77
+msgid "Choice thumbnail image url"
+msgstr "选择缩略图链接"
+
+#: includes/admin/editor/choices/video.php:46
+msgid "Full video url"
+msgstr "视频链接"
+
+#: includes/admin/editor/choices/video.php:54
+msgid "Choice full video url"
+msgstr "选择视频链接"
+
+#: includes/admin/editor/choices/video.php:76
+msgid "Thumbnail video url"
+msgstr "视频缩略图链接"
+
+#: includes/admin/editor/choices/video.php:81
+msgid "Choice thumbnail video url"
+msgstr "选择视频缩略图链接"
+
+#: includes/admin/editor/custom-fields/checkbox.php:10
+#: includes/admin/editor/settings/custom-fields.php:21
+msgid "Checkbox"
+msgstr "复选框"
+
+#: includes/admin/editor/custom-fields/checkbox.php:31
+#: includes/admin/editor/custom-fields/radio.php:29
+#: includes/admin/editor/custom-fields/select.php:29
+#: includes/admin/editor/custom-fields/text.php:29
+#: includes/admin/editor/custom-fields/textarea.php:29
+msgid "Name"
+msgstr "字段名"
+
+#: includes/admin/editor/custom-fields/checkbox.php:36
+#: includes/admin/editor/custom-fields/radio.php:34
+#: includes/admin/editor/custom-fields/select.php:34
+#: includes/admin/editor/custom-fields/text.php:34
+#: includes/admin/editor/custom-fields/textarea.php:34
+msgid "Field name"
+msgstr "字段名"
+
+#: includes/admin/editor/custom-fields/checkbox.php:56
+#: includes/admin/editor/custom-fields/radio.php:54
+#: includes/admin/editor/custom-fields/select.php:54
+#: includes/admin/editor/custom-fields/text.php:54
+#: includes/admin/editor/custom-fields/textarea.php:54
+msgid "Field label"
+msgstr "字段标签"
+
+#: includes/admin/editor/custom-fields/checkbox.php:70
+#: includes/admin/editor/custom-fields/radio.php:68
+#: includes/admin/editor/custom-fields/select.php:68
+msgid "Options"
+msgstr "设置"
+
+#: includes/admin/editor/custom-fields/checkbox.php:74
+#: includes/admin/editor/custom-fields/radio.php:72
+#: includes/admin/editor/custom-fields/select.php:73
+msgid "option_key : Option label"
+msgstr "option_key ：选项标签"
+
+#: includes/admin/editor/custom-fields/checkbox.php:80
+#: includes/admin/editor/custom-fields/radio.php:78
+#: includes/admin/editor/custom-fields/select.php:79
+msgid "Option per line."
+msgstr "每行选项"
+
+#: includes/admin/editor/custom-fields/checkbox.php:90
+#: includes/admin/editor/custom-fields/radio.php:88
+#: includes/admin/editor/custom-fields/select.php:89
+msgid "Default values"
+msgstr "默认值"
+
+#: includes/admin/editor/custom-fields/checkbox.php:94
+#: includes/admin/editor/custom-fields/radio.php:93
+#: includes/admin/editor/custom-fields/select.php:94
+msgid "option_key"
+msgstr "option_key"
+
+#: includes/admin/editor/custom-fields/checkbox.php:100
+#: includes/admin/editor/custom-fields/select.php:100
+msgid "Default value per line."
+msgstr "每行的默认值。"
+
+#: includes/admin/editor/custom-fields/checkbox.php:126
+#: includes/admin/editor/custom-fields/radio.php:123
+#: includes/admin/editor/custom-fields/select.php:140
+#: includes/admin/editor/custom-fields/text.php:96
+#: includes/admin/editor/custom-fields/textarea.php:117
+msgid "Filled (required)"
+msgstr "填写内容（必填）"
+
+#: includes/admin/editor/custom-fields/html-fields.php:12
+msgid "Field CSS classes"
+msgstr "字段 CSS 类"
+
+#: includes/admin/editor/custom-fields/html-fields.php:17
+msgid "Field classes"
+msgstr "字段类"
+
+#: includes/admin/editor/custom-fields/html-fields.php:30
+msgid "Label CSS classes"
+msgstr "标签CSS类"
+
+#: includes/admin/editor/custom-fields/html-fields.php:35
+msgid "Label classes"
+msgstr "标签类"
+
+#: includes/admin/editor/custom-fields/html-fields.php:49
+#: includes/admin/editor/settings/design.php:14
+#: includes/admin/pages/templates.php:106
+#: includes/admin/pages/templates.php:117
+msgid "Template"
+msgstr "模板"
+
+#: includes/admin/editor/custom-fields/html-fields.php:54
+msgid "Field template"
+msgstr "字段模板"
+
+#: includes/admin/editor/custom-fields/html-fields.php:60
+msgid "%label% for field label."
+msgstr "％标签％字段标签。"
+
+#: includes/admin/editor/custom-fields/html-fields.php:62
+#, php-format
+msgid "%field% for field input."
+msgstr "%field% 用于字段输入。"
+
+#: includes/admin/editor/custom-fields/radio.php:10
+#: includes/admin/editor/settings/custom-fields.php:24
+msgid "Radio"
+msgstr "单选框"
+
+#: includes/admin/editor/custom-fields/select.php:10
+#: includes/admin/editor/settings/custom-fields.php:18
+msgid "Select"
+msgstr "选择"
+
+#: includes/admin/editor/custom-fields/select.php:112
+msgid "Allow multiple values"
+msgstr "允许多个值"
+
+#: includes/admin/editor/custom-fields/statistics-fields.php:18
+msgid "Include in statistics"
+msgstr "包括在统计中"
+
+#: includes/admin/editor/custom-fields/tabs.php:7
+msgid "Basic"
+msgstr "基本功能"
+
+#: includes/admin/editor/custom-fields/tabs.php:8
+msgid "Validations"
+msgstr "验证方式"
+
+#: includes/admin/editor/custom-fields/text.php:68
+#: includes/admin/editor/custom-fields/textarea.php:68
+msgid "Default value"
+msgstr "默认值"
+
+#: includes/admin/editor/custom-fields/text.php:73
+#: includes/admin/editor/custom-fields/textarea.php:73
+msgid "Field default"
+msgstr "默认字段"
+
+#: includes/admin/editor/custom-fields/text.php:112
+msgid "Email"
+msgstr "邮件地址"
+
+#: includes/admin/editor/custom-fields/text.php:128
+msgid "Unique"
+msgstr "唯一性"
+
+#: includes/admin/editor/custom-fields/text.php:146
+#: includes/admin/editor/custom-fields/textarea.php:134
+msgid "Filter by list"
+msgstr "名单过滤"
+
+#: includes/admin/editor/custom-fields/text.php:156
+#: includes/admin/editor/custom-fields/textarea.php:144
+msgid "List"
+msgstr "名单列表"
+
+#: includes/admin/editor/custom-fields/text.php:166
+#: includes/admin/editor/custom-fields/textarea.php:154
+msgid "Word per line."
+msgstr "每行的字数。"
+
+#: includes/admin/editor/custom-fields/text.php:168
+#: includes/admin/editor/custom-fields/textarea.php:156
+msgid "\"+\" before word means white-listed."
+msgstr "字前面有 “+” 表示列入白名单。"
+
+#: includes/admin/editor/custom-fields/text.php:170
+#: includes/admin/editor/custom-fields/textarea.php:158
+msgid "\"-\" before word means black-listed."
+msgstr "字前面有 “ - ” 表示列入黑名单。"
+
+#: includes/admin/editor/custom-fields/text.php:172
+#: includes/admin/editor/custom-fields/textarea.php:160
+msgid "\"*\" means wildcard."
+msgstr "“*” 表示通配符。"
+
+#: includes/admin/editor/custom-fields/text.php:188
+#: includes/admin/editor/custom-fields/textarea.php:176
+msgid "Regex"
+msgstr "正则表达式"
+
+#: includes/admin/editor/custom-fields/text.php:198
+#: includes/admin/editor/custom-fields/textarea.php:186
+msgid "Regular expression"
+msgstr "正则表达式"
+
+#: includes/admin/editor/custom-fields/text.php:210
+#: includes/admin/editor/custom-fields/textarea.php:198
+msgid "Must be a valid regular expression."
+msgstr "必须是有效的正则表达式。"
+
+#: includes/admin/editor/custom-fields/text.php:215
+#: includes/admin/editor/custom-fields/textarea.php:203
+msgid "Comparison"
+msgstr "比较"
+
+#: includes/admin/editor/custom-fields/text.php:226
+#: includes/admin/editor/custom-fields/textarea.php:214
+msgid "Must match"
+msgstr "必须匹配"
+
+#: includes/admin/editor/custom-fields/text.php:237
+#: includes/admin/editor/custom-fields/textarea.php:225
+msgid "Must not match"
+msgstr "不必匹配"
+
+#: includes/admin/editor/custom-fields/textarea.php:10
+#: includes/admin/editor/settings/custom-fields.php:15
+msgid "Text area"
+msgstr "文本区域"
+
+#: includes/admin/editor/custom-fields/textarea.php:87
+msgid "Rows"
+msgstr "行"
+
+#: includes/admin/editor/custom-fields/textarea.php:92
+msgid "Field rows"
+msgstr "字段行"
+
+#: includes/admin/editor/header.php:9
+#, php-format
+msgid ""
+"This poll was created with prior version of TotalPoll. Please <a href=\"%s"
+"\">migrate your polls</a>."
+msgstr "这个投票项由旧版 TotalPoll 创建。请<a href=\"%s\">迁移您的投票</a> 。"
+
+#: includes/admin/editor/print.php:10 includes/admin/pages/about.php:111
+#: includes/classes/post-types.php:35 includes/widgets/base.php:74
+#: includes/widgets/base.php:84 includes/widgets/latest.php:77
+#: includes/widgets/random.php:75
+msgid "Poll"
+msgstr "投票"
+
+#: includes/admin/editor/settings.php:7
+msgid "Settings"
+msgstr "设置"
+
+#: includes/admin/editor/settings/choices.php:14
+msgid "Minimum selection"
+msgstr "最少选择"
+
+#: includes/admin/editor/settings/choices.php:24
+msgid "Maximum selection"
+msgstr "最多选择"
+
+#: includes/admin/editor/settings/choices.php:29
+#: includes/admin/editor/settings/choices.php:45
+msgid "0 means unlimited."
+msgstr "0 表示没有限制。"
+
+#: includes/admin/editor/settings/choices.php:40
+msgid "Choices per page"
+msgstr "每页选项数"
+
+#: includes/admin/editor/settings/choices.php:57
+msgid "Order choices"
+msgstr "选项排序"
+
+#: includes/admin/editor/settings/choices.php:60
+#: includes/admin/editor/settings/results.php:30
+msgid ""
+"Heads up! Enabling this along with pagination can cause performance issues."
+msgstr "注意！开启此项可能会导致性能下降。"
+
+#: includes/admin/editor/settings/choices.php:71
+#: includes/admin/editor/settings/results.php:41
+msgid "Order by"
+msgstr "排序方式"
+
+#: includes/admin/editor/settings/choices.php:85
+#: includes/admin/editor/settings/results.php:55
+msgid "Random"
+msgstr "随机"
+
+#: includes/admin/editor/settings/choices.php:92
+#: includes/admin/editor/settings/results.php:62
+msgid "Order direction"
+msgstr "排序序列"
+
+#: includes/admin/editor/settings/choices.php:98
+#: includes/admin/editor/settings/results.php:68
+msgid "Ascending"
+msgstr "升序"
+
+#: includes/admin/editor/settings/choices.php:103
+#: includes/admin/editor/settings/results.php:73
+msgid "Descending"
+msgstr "降序"
+
+#: includes/admin/editor/settings/choices.php:116
+msgid "Allow user submissions"
+msgstr "允许用户提交额外内容"
+
+#: includes/admin/editor/settings/choices.php:128
+msgid "Hide new submissions for moderation"
+msgstr "隐藏提交内容以供审核"
+
+#: includes/admin/editor/settings/design.php:26
+msgid "(Not Activated)"
+msgstr "（插件激活失败）"
+
+#: includes/admin/editor/settings/design.php:27
+msgid "(Not Compatible)"
+msgstr "（不兼容）"
+
+#: includes/admin/editor/settings/design.php:38
+msgid "Set current settings as defaults"
+msgstr "保存当前设置"
+
+#: includes/admin/editor/settings/design.php:46
+msgid "Reset settings to defaults"
+msgstr "恢复默认设置"
+
+#: includes/admin/editor/settings/limitations.php:14
+msgid "Block re-vote by Cookies"
+msgstr "通过 Cookies 阻止重复投票"
+
+#: includes/admin/editor/settings/limitations.php:18
+#: includes/admin/editor/settings/limitations.php:50
+msgid "Advanced"
+msgstr "高级"
+
+#: includes/admin/editor/settings/limitations.php:29
+msgid "Cookies timeout (minutes)"
+msgstr "Cookies 过期时间（分钟）"
+
+#: includes/admin/editor/settings/limitations.php:34
+#: includes/admin/editor/settings/limitations.php:66
+msgid "0 means permanent."
+msgstr "设置为 0 则永不过期。"
+
+#: includes/admin/editor/settings/limitations.php:46
+msgid "Block re-vote by IP"
+msgstr "通过 IP 阻止重复投票"
+
+#: includes/admin/editor/settings/limitations.php:61
+msgid "IP timeout (minutes)"
+msgstr "IP 过期时间（分钟）"
+
+#: includes/admin/editor/settings/limitations.php:71
+msgid "Filter list"
+msgstr "过滤列表"
+
+#: includes/admin/editor/settings/limitations.php:76
+msgid "IP Per line."
+msgstr "每行填写一个 IP。"
+
+#: includes/admin/editor/settings/limitations.php:78
+msgid ""
+"\"+\" before IP means white-listed / \"-\" means black-listed / \"*\" means "
+"wildcard"
+msgstr "IP前面有“ + ”表示列入白名单 / “ - ”表示列入白名单 /  \"*\" 表示通配符"
+
+#: includes/admin/editor/settings/limitations.php:90
+msgid "Require membership"
+msgstr "需要登录"
+
+#: includes/admin/editor/settings/limitations.php:102
+msgid "Membership type"
+msgstr "登录类型"
+
+#: includes/admin/editor/settings/limitations.php:111
+msgid "Hold Control/Command for multiple selection."
+msgstr "按住Ctrl /Command 键进行多选。"
+
+#: includes/admin/editor/settings/limitations.php:117
+msgid "Allow only one vote per member"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:130
+msgid "Require reCaptcha"
+msgstr "需要 reCaptcha 验证"
+
+#: includes/admin/editor/settings/limitations.php:142
+msgid "Site Key"
+msgstr "Site Key"
+
+#: includes/admin/editor/settings/limitations.php:150
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: includes/admin/editor/settings/limitations.php:165
+msgid "Limit by quota"
+msgstr "通过配额限制"
+
+#: includes/admin/editor/settings/limitations.php:176
+msgid "Quota (votes)"
+msgstr "配额（票数）"
+
+#: includes/admin/editor/settings/limitations.php:191
+msgid "Limit by date"
+msgstr "通过时间限制"
+
+#: includes/admin/editor/settings/limitations.php:202
+msgid "Start date"
+msgstr "开始时间"
+
+#: includes/admin/editor/settings/limitations.php:210
+#: includes/admin/editor/settings/results.php:109
+msgid "End date"
+msgstr "结束时间"
+
+#: includes/admin/editor/settings/limitations.php:226
+msgid "Regenerate poll unique ID"
+msgstr "重新生成投票项目唯一的ID"
+
+#: includes/admin/editor/settings/limitations.php:228
+msgid "Current:"
+msgstr "当前："
+
+#: includes/admin/editor/settings/logs.php:15
+msgid "Enable logs"
+msgstr "开启投票记录"
+
+#: includes/admin/editor/settings/logs.php:18
+msgid "Heads up! Statistics are based on logs."
+msgstr "注意！统计资料是基于投票记录。"
+
+#: includes/admin/editor/settings/results.php:15
+msgid "Require vote"
+msgstr "投票后可见"
+
+#: includes/admin/editor/settings/results.php:27
+msgid "Order results"
+msgstr "结果排序"
+
+#: includes/admin/editor/settings/results.php:86
+msgid "Hide results"
+msgstr "隐藏结果"
+
+#: includes/admin/editor/settings/results.php:98
+msgid "Until reaching"
+msgstr "结果隐藏条件"
+
+#: includes/admin/editor/settings/results.php:104
+msgid "Quota"
+msgstr "配额"
+
+#: includes/admin/editor/settings/results.php:115
+msgid "Results content"
+msgstr "结果内容"
+
+#: includes/admin/editor/settings/results.php:129
+msgid "Results fragments"
+msgstr "项目显示内容"
+
+#: includes/admin/editor/settings/results.php:139
+msgid "Percentages"
+msgstr "百分比"
+
+#: includes/admin/editor/settings/screens.php:15
+msgid "Before voting"
+msgstr "投票前展示信息"
+
+#: includes/admin/editor/settings/screens.php:38
+msgid "After voting"
+msgstr "投票后展示信息"
+
+#: includes/admin/extensions.php:163 includes/admin/templates.php:159
+msgid "Could not access filesystem."
+msgstr "无法访问文件系统。"
+
+#: includes/admin/extensions.php:167 includes/admin/templates.php:163
+msgid "Filesystem error."
+msgstr "文件系统错误。"
+
+#: includes/admin/extensions.php:191
+#, php-format
+msgid "Could not fully remove the extension(s) %s."
+msgstr "无法完全删除 %s 扩展。"
+
+#: includes/admin/installer.php:59
+msgid "Upload package"
+msgstr "上传拓展包"
+
+#: includes/admin/installer.php:83
+msgid "The package is at the latest version."
+msgstr "此拓展包为最新版本。"
+
+#: includes/admin/installer.php:84
+msgid "Update package not available."
+msgstr "暂无可用更新。"
+
+#: includes/admin/installer.php:85
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "正在从 <span class=\"code\">%s</span>...下载更新；"
+
+#: includes/admin/installer.php:86
+msgid "Unpacking the update&#8230;"
+msgstr "正在解压更新包..."
+
+#: includes/admin/installer.php:87
+msgid "Removing the old version of the package&#8230;"
+msgstr "删除旧版本的拓展..."
+
+#: includes/admin/installer.php:88
+msgid "Could not remove the old package."
+msgstr "无法删除旧的拓展包。"
+
+#: includes/admin/installer.php:89
+msgid "Packages updated successfully."
+msgstr "更新成功。"
+
+#: includes/admin/installer.php:99
+msgid "Install package not available."
+msgstr "安装包不可用。"
+
+#: includes/admin/installer.php:100
+msgid "Unpacking the package&#8230;"
+msgstr "正在解压更新包..."
+
+#: includes/admin/installer.php:101
+msgid "Installing the package&#8230;"
+msgstr "正在安装更新..."
+
+#: includes/admin/installer.php:102
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "正在从 <span class=\"code\">%s</span>下载更新；"
+
+#: includes/admin/installer.php:103
+msgid "The package contains no files."
+msgstr "此更新包不包含任何文件。"
+
+#: includes/admin/installer.php:104
+msgid "Package install failed."
+msgstr "拓展包安装失败。"
+
+#: includes/admin/installer.php:105
+msgid "Package installed successfully."
+msgstr "拓展安装成功。"
+
+#: includes/admin/installer.php:106
+#, php-format
+msgid "Successfully installed the package <strong>%1$s %2$s</strong>."
+msgstr "成功安装拓展 <strong>%1$s %2$s</strong>。"
+
+#: includes/admin/installer.php:107
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "正在准备安装 <strong>%1$s %2$s</strong> ...；"
+
+#: includes/admin/installer.php:178
+msgid "The template is missing the <code>template.php</code> stylesheet."
+msgstr "模板缺少 <code>template.php</code> 样式表。"
+
+#: includes/admin/installer.php:185
+msgid "The <code>template.php</code> doesn't contain a valid template header."
+msgstr "<code>template.php</code> 缺少有效的模板头文件。"
+
+#: includes/admin/installer.php:192
+#, php-format
+msgid "The template is missing the <code>%s</code> file."
+msgstr "模板缺少 <code>%s</code> 文件。"
+
+#: includes/admin/installer.php:198
+msgid ""
+"The <code>template.php</code> file doesn't contain the minimum required "
+"version."
+msgstr "该 <code>template.php</code> 文件不包含所需的最低版本。"
+
+#: includes/admin/installer.php:203
+#, php-format
+msgid "This template requires TotalPoll version %s or higher"
+msgstr "模板需要 TotalPoll 版本为 %s 或更高"
+
+#: includes/admin/installer.php:211
+msgid "The extension is missing the <code>extension.php</code> essential file."
+msgstr "扩展缺少必须文件 <code>extension.php</code>。"
+
+#: includes/admin/installer.php:218
+msgid ""
+"The <code>extension.php</code> file doesn't contain a valid extension header."
+msgstr "该<code>extension.php</code>文件缺少有效的扩展头文件。"
+
+#: includes/admin/installer.php:223
+msgid ""
+"The <code>extension.php</code> file doesn't contain the minimum required "
+"version."
+msgstr "该<code>extension.php</code>文件不包含所需的最低版本。"
+
+#: includes/admin/installer.php:228
+#, php-format
+msgid "This extension requires TotalPoll version %s or higher"
+msgstr "此扩展需要 TotalPoll 版本为 %s 或更高"
+
+#: includes/admin/installer.php:263
+msgid "Return to Templates"
+msgstr "返回到模版页面"
+
+#: includes/admin/installer.php:266
+msgid "Return to extensions"
+msgstr "返回到拓展页面"
+
+#: includes/admin/pages/about.php:12
+msgid "User friendly"
+msgstr "优秀的用户体验"
+
+#: includes/admin/pages/about.php:13
+msgid ""
+"With TotalPoll, you can now create polls within 60 seconds! Its user "
+"friendly interface was expertly designed to make poll creation hassle-free."
+msgstr ""
+"通过使用 TotalPoll，你能在 1 分钟内创建自己的投票项目！其友好的用户界面设计能"
+"让你非常轻松的创建投票项目。"
+
+#: includes/admin/pages/about.php:17
+msgid "Overall performance"
+msgstr "优异的性能"
+
+#: includes/admin/pages/about.php:18
+msgid ""
+"TotalPoll was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+"TotalPoll 的开发充分考虑到性能优先！它的所有功能都能在 WordPress 中得到发挥。"
+
+#: includes/admin/pages/about.php:22
+msgid "Customization"
+msgstr "专属定制"
+
+#: includes/admin/pages/about.php:23
+msgid ""
+"Do you need “Welcome message” or “Thank you message”? We have got your back! "
+"With over 5 customization settings, you definitely have the total control."
+msgstr ""
+"您是否需要“欢迎信息”或“谢谢你的消息”？这些我们已经为你充分定制！内置超过5种定"
+"制方案，你可以完全的控制所有设定。"
+
+#: includes/admin/pages/about.php:28
+msgid ""
+"Collecting additional information from voters has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"从用户那里收集额外的投票信息并不那么容易。通过我们5种不同的自定义类型，你能收"
+"集需要的一切内容。"
+
+#: includes/admin/pages/about.php:33
+msgid ""
+"Regular vote tracking has been made easy. You can now track votes daily, "
+"weekly and monthly. Even, you can track custom field values with votes."
+msgstr ""
+"定期跟踪投票已经变得很简单。现在，您可以每天、每周和每月跟踪投票信息。甚至，"
+"你可以通过投票跟踪自定义字段信息。"
+
+#: includes/admin/pages/about.php:37
+msgid "Extensible"
+msgstr "丰富的拓展功能"
+
+#: includes/admin/pages/about.php:38
+msgid ""
+"The extensibility of TotalPoll makes such extensions and templates possible. "
+"Developers can certainly make TotalPoll a step further to suit your needs."
+msgstr ""
+"TotalPoll 具有高度的可扩展性，使得扩展和模板的使用成为可能。这使得开发人员可"
+"以让 TotalPoll 进一步满足您的需要。"
+
+#: includes/admin/pages/about.php:42
+msgid "SEO Friendly"
+msgstr "搜索引擎优化"
+
+#: includes/admin/pages/about.php:43
+msgid ""
+"Search Engine Optimization is a very key factor for every website. Thus, "
+"TotalPoll makes polls more search-engine friendly in order to get more "
+"search traffic."
+msgstr ""
+"搜索引擎优化对于网站用户来源是一个非常关键的因素。因此，TotalPoll 让投票调查"
+"更加友好，以获得更多的搜索流量来源。"
+
+#: includes/admin/pages/about.php:47
+msgid "Mobile-first"
+msgstr "移动优先"
+
+#: includes/admin/pages/about.php:48
+msgid ""
+"With Totalpoll, you gain more engagement with an optimal viewing experience "
+"for your visitors. And your polls will always look amazing whether in a "
+"laptop, tablet or a smartphone."
+msgstr ""
+"使用 Totalpoll，能让您的访客获得最佳的视觉体验。无论在笔记本电脑、 平板电脑或"
+"智能手机 Totalpoll 创建的投票项目总是让人感到惊艳。"
+
+#: includes/admin/pages/about.php:52
+msgid "Voting limitations"
+msgstr "投票限制"
+
+#: includes/admin/pages/about.php:53
+msgid ""
+"The ability of Totalpoll to reduce votes and results makes it easy for you "
+"to specify conditions under which visitors can vote in a poll or see its "
+"results."
+msgstr ""
+"Totalpoll 可以通过不同限制条件，让你很容易的对不同用户进行投票或者定制查看投"
+"票结果设置额外条件。"
+
+#: includes/admin/pages/about.php:57
+msgid "Polls import"
+msgstr "导入投票项目"
+
+#: includes/admin/pages/about.php:58
+msgid ""
+"Are you planning to switch? You can migrate from WP-Polls and YOP polls "
+"easily (and many more plugins are coming)."
+msgstr ""
+"你计划迁移吗？您可以从 WP-Polls 和 YOP polls 等插件轻松完成迁移（以及支持更多"
+"的插件迁移即将到来）。"
+
+#: includes/admin/pages/about.php:63
+msgid ""
+"Give your polls more attraction with Text, Image, Video, Audio, Short code "
+"or even HTML."
+msgstr ""
+"通过文字、图片、视频、音频、短代码，甚至HTML模版，让您的投票内容更具吸引力。"
+
+#: includes/admin/pages/about.php:68
+msgid ""
+"Trace back every vote, with an informative log to identify any cheating "
+"attempts."
+msgstr "追踪用户每次投票，通过这些信息辨别那些欺骗性的用户投票。"
+
+#: includes/admin/pages/about.php:73
+msgid ""
+"Make your polls look compelling with customized templates from our store."
+msgstr "从商店购买自定义模版，让你的投票项目与众不同。"
+
+#: includes/admin/pages/about.php:78
+msgid ""
+"Take TotalPoll’s functionality a step further with powerful extensions from "
+"our store."
+msgstr "通过购买拓展，让 TotalPoll 的功能进一步增强。"
+
+#: includes/admin/pages/about.php:82
+msgid "Integration"
+msgstr "多种显示方式"
+
+#: includes/admin/pages/about.php:83
+msgid ""
+"Totalpoll integrates your polls everywhere like with a short code, widget or "
+"even a direct link."
+msgstr ""
+"Totalpoll 通过使用短代码、 小工具，以及链接地址在你需要的任何地方显示您的投票"
+"项目。"
+
+#: includes/admin/pages/about.php:87
+msgid "3rd-party Compatibility"
+msgstr "插件兼容性"
+
+#: includes/admin/pages/about.php:88
+msgid ""
+"TotalPoll is compatible with other plugins like WPML, ACF, WP SUPER CACHE "
+"and Others."
+msgstr ""
+"TotalPoll与其他插件有良好的兼容性，比如WPML、ACF和WP SUPER CACHE等插件。"
+
+#: includes/admin/pages/about.php:96
+msgid "<code>TP_Template</code> can be used now as a prototype for templates."
+msgstr "<code>TP_Template</code>用于模板的调用。"
+
+#: includes/admin/pages/about.php:100
+msgid ""
+"<code>TP_Extension</code> can be used now as a prototype for extensions."
+msgstr "<code>TP_Extension</code>用于拓展的调用。"
+
+#: includes/admin/pages/about.php:103
+msgid "Fields"
+msgstr "丰富的字段"
+
+#: includes/admin/pages/about.php:104
+msgid "<code>TP_Field</code> can be used now as a prototype for custom fields."
+msgstr "<code>TP_Field</code>用于自定义字段的调用。"
+
+#: includes/admin/pages/about.php:108
+msgid "<code>TP_HTML</code> is used for HTML manipulation and generation."
+msgstr "<code>TP_HTML</code>用于 HTML 代码操作和生成。"
+
+#: includes/admin/pages/about.php:112
+msgid ""
+"<code>TP_Poll</code> is the main class for poll manipulation and rendering."
+msgstr "<code>TP_Poll</code>为投票项目的处理和输出的主类。"
+
+#: includes/admin/pages/about.php:115
+msgid "Request"
+msgstr "请求处理"
+
+#: includes/admin/pages/about.php:116
+msgid "<code>TP_Request</code> is used to handle TotalPoll requests."
+msgstr "<code>TP_Request</code>用来处理 TotalPoll 的请求。"
+
+#: includes/admin/pages/about.php:146
+msgid "Welcome to"
+msgstr "欢迎使用"
+
+#: includes/admin/pages/about.php:148
+msgid ""
+"Thank you for using TotalPoll! This update brings several improvements and "
+"new features along with fixes of known bugs."
+msgstr ""
+"感谢您使用 TotalPoll！此更新带来了一些改进和新的特性，同时对已知的bug进行修"
+"复。"
+
+#: includes/admin/pages/about.php:168 includes/admin/pages/store.php:61
+#, php-format
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: includes/admin/pages/about.php:172
+msgid "What’s New"
+msgstr "最新特性"
+
+#: includes/admin/pages/about.php:195
+msgid "Under the Hood"
+msgstr "底层功能"
+
+#: includes/admin/pages/about.php:217
+msgid "Credits"
+msgstr "开发人员"
+
+#: includes/admin/pages/about.php:242
+msgid "Testimonials"
+msgstr "感言"
+
+#: includes/admin/pages/about.php:269
+msgid "Go to Polls"
+msgstr "进入投票"
+
+#: includes/admin/pages/extensions.php:84
+#: includes/admin/pages/extensions.php:204
+#: includes/admin/pages/templates.php:84 includes/admin/pages/templates.php:208
+msgid "Select bulk action"
+msgstr "选择批量操作"
+
+#: includes/admin/pages/extensions.php:86
+#: includes/admin/pages/extensions.php:206
+#: includes/admin/pages/templates.php:86 includes/admin/pages/templates.php:210
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: includes/admin/pages/extensions.php:87
+#: includes/admin/pages/extensions.php:152
+#: includes/admin/pages/extensions.php:207
+#: includes/admin/pages/templates.php:87 includes/admin/pages/templates.php:155
+#: includes/admin/pages/templates.php:211
+msgid "Activate"
+msgstr "激活"
+
+#: includes/admin/pages/extensions.php:88
+#: includes/admin/pages/extensions.php:146
+#: includes/admin/pages/extensions.php:208
+#: includes/admin/pages/templates.php:88 includes/admin/pages/templates.php:148
+#: includes/admin/pages/templates.php:212
+msgid "Deactivate"
+msgstr "停用"
+
+#: includes/admin/pages/extensions.php:89
+#: includes/admin/pages/extensions.php:168
+#: includes/admin/pages/extensions.php:209
+#: includes/admin/pages/templates.php:89 includes/admin/pages/templates.php:172
+#: includes/admin/pages/templates.php:213
+msgid "Delete"
+msgstr "删除"
+
+#: includes/admin/pages/extensions.php:103
+#: includes/admin/pages/extensions.php:114
+#: includes/admin/pages/templates.php:103
+#: includes/admin/pages/templates.php:114
+msgid "Select All"
+msgstr "选择全部"
+
+#: includes/admin/pages/extensions.php:106
+#: includes/admin/pages/extensions.php:117
+msgid "Extension"
+msgstr "扩展"
+
+#: includes/admin/pages/extensions.php:107
+#: includes/admin/pages/extensions.php:118
+#: includes/admin/pages/templates.php:107
+#: includes/admin/pages/templates.php:118
+msgid "Description"
+msgstr "描述"
+
+#: includes/admin/pages/extensions.php:157
+#: includes/admin/pages/templates.php:161
+msgid "Open this file in the Plugin Editor"
+msgstr "在插件编辑器打开文件"
+
+#: includes/admin/pages/extensions.php:159
+#: includes/admin/pages/templates.php:163
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/admin/pages/extensions.php:181
+#: includes/admin/pages/templates.php:185
+msgid "Requires"
+msgstr "需要"
+
+#: includes/admin/pages/extensions.php:184
+#: includes/admin/pages/templates.php:188
+msgid "By"
+msgstr "通过"
+
+#: includes/admin/pages/extensions.php:188
+msgid "Extension page"
+msgstr "拓展包"
+
+#: includes/admin/pages/extensions.php:196
+#, php-format
+msgid "No extensions. Browse the <a href=\"%s\">store</a>."
+msgstr "没有扩展。浏览<a href=\"%s\">商店</a> 。"
+
+#: includes/admin/pages/extensions.php:222
+msgid ""
+"If you have an extension in a .zip format, you may install it by uploading "
+"it here."
+msgstr "如果你有 .zip 格式的扩展，您可以在这里上传安装。"
+
+#: includes/admin/pages/store.php:33
+msgid "Refresh (new purchases)"
+msgstr "刷新（新购）"
+
+#: includes/admin/pages/store.php:44
+msgid "Free!"
+msgstr "免费！"
+
+#: includes/admin/pages/store.php:53
+#, php-format
+msgid "%s Downloads"
+msgstr "%s 次下载"
+
+#: includes/admin/pages/store.php:67
+#, php-format
+msgid "Update to %s"
+msgstr "更新 %s"
+
+#: includes/admin/pages/store.php:69
+msgid "Installed"
+msgstr "已安装"
+
+#: includes/admin/pages/store.php:73
+msgid "Install"
+msgstr "安装"
+
+#: includes/admin/pages/store.php:75
+#, php-format
+msgid "Requires %s"
+msgstr "需要 %s"
+
+#: includes/admin/pages/store.php:78
+msgid "Get it"
+msgstr "获取它"
+
+#: includes/admin/pages/store.php:78
+msgid "Buy now"
+msgstr "立即购买"
+
+#: includes/admin/pages/support.php:23
+msgid "Support Center"
+msgstr "支持中心"
+
+#: includes/admin/pages/support.php:32
+msgid "Use common keywords for best results."
+msgstr "使用关键词搜索需要的内容。"
+
+#: includes/admin/pages/support.php:40
+msgid "Check our knowledge base."
+msgstr "查看 TotalPoll 的帮助文档。"
+
+#: includes/admin/pages/support.php:49
+msgid "Have a question? Read the FAQs."
+msgstr "还有问题？请阅读常见问题解答。"
+
+#: includes/admin/pages/support.php:55
+msgid "Open a support ticket."
+msgstr "创建一个支持工单获取帮助。"
+
+#: includes/admin/pages/support.php:60
+msgid "Please attach the following information when you open a new ticket."
+msgstr "当你创建一个支持工单时，请附上以下信息。"
+
+#: includes/admin/pages/templates.php:192
+msgid "Template page"
+msgstr "模板页面"
+
+#: includes/admin/pages/templates.php:200
+#, php-format
+msgid "No templates. Browse the <a href=\"%s\">store</a>."
+msgstr "没有模板。浏览<a href=\"%s\">商店</a> 。"
+
+#: includes/admin/pages/templates.php:226
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr "如果你有.zip格式的模版，您可以在这里上传安装。"
+
+#: includes/admin/pages/tools.php:19
+msgid "Polls have been migrated successfully."
+msgstr "所有投票项目导入完成。"
+
+#: includes/admin/pages/tools.php:29
+msgid "The cache has been purged."
+msgstr "缓存已经清空。"
+
+#: includes/admin/pages/tools.php:52
+#, php-format
+msgid "%d Polls to migrate from YOP-Polls"
+msgstr "从 YOP 迁移 %d 个投票项目"
+
+#: includes/admin/pages/tools.php:58
+#, php-format
+msgid "%d Polls to migrate from WP-Polls"
+msgstr "从 WP-Polls 迁移 %d 个投票项目"
+
+#: includes/admin/pages/tools.php:64
+#, php-format
+msgid "%d Polls to migrate from TotalPoll"
+msgstr "从 TotalPoll 迁移 %d 个投票项目"
+
+#: includes/admin/pages/tools.php:73
+msgid "Purge cache"
+msgstr "清空缓存"
+
+#: includes/admin/pages/tools.php:81
+#, php-format
+msgid "%d Polls to export"
+msgstr "导出 %d 个投票项目"
+
+#: includes/admin/pages/tools.php:88
+msgid "Import polls"
+msgstr "导入投票项目"
+
+#: includes/admin/pages/update.php:24
+msgid "You are currently receiving updates!"
+msgstr "你现在可以接收插件的最新更新！"
+
+#: includes/admin/pages/update.php:25
+msgid "Thank you for activating TotalPoll."
+msgstr "感谢您激活 TotalPoll 许可。"
+
+#: includes/admin/pages/update.php:31
+msgid "Updates"
+msgstr "更新"
+
+#: includes/admin/pages/update.php:33
+msgid "Do you want to receive updates when released?"
+msgstr "当我们发布更新时，你想第一时间接收更新吗？"
+
+#: includes/admin/pages/update.php:35
+msgid "Please enter your Envato license key."
+msgstr "请输入 Envato 的购买许可密钥。"
+
+#: includes/admin/pages/update.php:40
+msgid "The submitted license key isn't valid. Please check it."
+msgstr "提交的许可无效。请再次检查。"
+
+#: includes/admin/pages/update.php:43
+msgid "Activate now!"
+msgstr "立即激活！"
+
+#: includes/admin/partials/welcome.php:133
+msgid "Newsletter"
+msgstr "新闻"
+
+#: includes/admin/partials/welcome.php:137
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "小贴士：获取指南和 WordPress 资源。"
+
+#: includes/admin/partials/welcome.php:138
+#, php-format
+msgid ""
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
+msgstr ""
+"感谢您安装 TotalPoll Pro！我们很高兴能和你分享 TotalPoll 的使用技巧和教程。现"
+"在订阅，您将每天收到一个使用提示，一周后获得20％的折扣券，并可以在我们的商店"
+"使用。"
+
+#: includes/admin/partials/welcome.php:144
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr "订阅<a href=\"%s\" target=\"_blank\">一周新闻</a> 。"
+
+#: includes/admin/partials/welcome.php:147
+msgid "No, thank you"
+msgstr "不，谢谢！"
+
+#: includes/admin/partials/welcome.php:149
+msgid "Subscribe"
+msgstr "订阅我们"
+
+#: includes/admin/partials/welcome.php:155
+msgid "Keep in touch with us!"
+msgstr "通过以下方式联系我们！"
+
+#: includes/admin/templates.php:82
+msgid "All"
+msgstr "所有"
+
+#: includes/admin/templates.php:189
+#, php-format
+msgid "Could not fully remove the template(s) %s."
+msgstr "无法完全删除模板（S）%s。"
+
+#: includes/classes/limitations.php:125 includes/classes/limitations.php:161
+#: includes/classes/limitations.php:415
+msgid "You cannot vote again in this poll."
+msgstr "您不能进行重复投票。"
+
+#: includes/classes/limitations.php:188
+#, fuzzy
+msgid "You have to vote for at least one choice."
+msgstr "你至少选择一项进行投票。"
+
+#: includes/classes/limitations.php:200
+#, fuzzy
+msgid "You cannot vote for more than one choice."
+msgstr "你只能选择一项进行投票。"
+
+#: includes/classes/limitations.php:240
+msgid "You have entered an invalid captcha code."
+msgstr "你输入的验证码错误。"
+
+#: includes/classes/limitations.php:264
+msgid "You cannot vote because the quota has been exceeded."
+msgstr "你不能投票，因为被限制投票。"
+
+#: includes/classes/limitations.php:289
+msgid "You cannot see results before voting."
+msgstr "投票后查看结果。"
+
+#: includes/classes/limitations.php:315
+msgid "You cannot vote because this poll has not started yet."
+msgstr "你不能投票，因为投票尚未开始。"
+
+#: includes/classes/limitations.php:324
+msgid "You cannot vote because this poll has been completed."
+msgstr "投票已经结束。"
+
+#: includes/classes/limitations.php:368
+msgid "You cannot vote because this poll is not available in your region."
+msgstr "此投票不适用与你所在地区或国家。"
+
+#: includes/classes/limitations.php:404
+msgid "You cannot vote because you have insufficient rights."
+msgstr "你没有足够的权限进行投票。"
+
+#: includes/classes/limitations.php:426
+#, php-format
+msgid ""
+"You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> "
+"or <a href=\"%s\">register</a>."
+msgstr "你不能投票，请先<a href=\"%s\">登录</a>或<a href=\"%s\">注册</a> 。"
+
+#: includes/classes/poll.php:274
+msgid "Other"
+msgstr "其他"
+
+#: includes/classes/post-types.php:34 includes/classes/post-types.php:46
+msgid "Polls"
+msgstr "投票"
+
+#: includes/classes/post-types.php:36
+msgid "Add New"
+msgstr "新建"
+
+#: includes/classes/post-types.php:37
+msgid "Add New Poll"
+msgstr "添加新投票项目"
+
+#: includes/classes/post-types.php:38
+msgid "Edit Poll"
+msgstr "编辑投票"
+
+#: includes/classes/post-types.php:39
+msgid "New Poll"
+msgstr "新建投票"
+
+#: includes/classes/post-types.php:40
+msgid "All Polls"
+msgstr "所有投票"
+
+#: includes/classes/post-types.php:41
+msgid "View Poll"
+msgstr "查看投票"
+
+#: includes/classes/post-types.php:42
+msgid "Search Polls"
+msgstr "搜索投票"
+
+#: includes/classes/post-types.php:43
+msgid "No polls found"
+msgstr "没有发现投票项目"
+
+#: includes/classes/post-types.php:44
+msgid "No polls found in Trash"
+msgstr "回收站无投票项目"
+
+#: includes/classes/post-types.php:56
+msgid "poll"
+msgstr "票"
+
+#: includes/classes/post-types.php:58
+msgid "polls"
+msgstr "票"
+
+#: includes/classes/post-types.php:88
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "更新投票<a href=\"%s\">查看投票</a>"
+
+#: includes/classes/post-types.php:89
+msgid "Custom field updated."
+msgstr "更新自定义字段。"
+
+#: includes/classes/post-types.php:90
+msgid "Custom field deleted."
+msgstr "删除自定义字段。"
+
+#: includes/classes/post-types.php:91
+msgid "Poll updated."
+msgstr "投票已更新。"
+
+#: includes/classes/post-types.php:92
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "正在从 %s 恢复投票项目"
+
+#: includes/classes/post-types.php:93
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "投票已发布。<a href=\"%s\">查看投票</a>"
+
+#: includes/classes/post-types.php:94
+msgid "Poll saved."
+msgstr "投票已保存。"
+
+#: includes/classes/post-types.php:95
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr "投票已提交。<a target=\"_blank\" href=\"%s\">预览投票项目</a>"
+
+#: includes/classes/post-types.php:97
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"投票定于<strong>%1$s</strong>。<a target=\"_blank\" href=\"%2$s\">预览投票项"
+"目</a>"
+
+#: includes/classes/post-types.php:98
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/classes/post-types.php:99
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr "投票草稿已更新。<a target=\"_blank\" href=\"%s\">预览投票项目</a>"
+
+#: includes/classes/template.php:451
+msgid "Previous page"
+msgstr "前一页"
+
+#: includes/classes/template.php:465
+msgid "Next page"
+msgstr "下一页"
+
+#: includes/classes/template.php:503
+msgid "Vote"
+msgstr "投票"
+
+#: includes/classes/template.php:515
+msgid "Back"
+msgstr "后退"
+
+#: includes/classes/template.php:526
+msgid "Proceed"
+msgstr "继续"
+
+#: includes/classes/template.php:650
+#, php-format
+msgid "%s Vote"
+msgstr "%s 票"
+
+#: includes/classes/validations.php:35
+msgid "%label% field does not contain a valid email."
+msgstr "%标签%没有有效的电子邮件地址。"
+
+#: includes/classes/validations.php:66
+msgid "%label% field is required."
+msgstr "%标签%字段为必须项。"
+
+#: includes/classes/validations.php:100
+msgid "%label% field does not contain a valid value."
+msgstr "%标签%字段无有效的值。"
+
+#: includes/classes/validations.php:104
+msgid "%label% field does not support multiple values."
+msgstr "%标签%字段不支持多个值。"
+
+#: includes/classes/validations.php:122
+msgid "%label% has been used before."
+msgstr "%标签%已被使用过。"
+
+#: includes/classes/validations.php:143
+msgid "%label% field is not valid."
+msgstr "%标签%字段无效。"
+
+#: includes/classes/validations.php:181
+#, php-format
+msgid "You cannot vote because %s field is not allowed."
+msgstr "因为 %s 字段不允许，你不能投票。"
+
+#: includes/widgets/base.php:24
+msgid "Poll - TotalPoll"
+msgstr "TotalPoll - 投票"
+
+#: includes/widgets/base.php:25 includes/widgets/latest.php:25
+#: includes/widgets/random.php:25
+msgid "Poll widget"
+msgstr "投票小工具"
+
+#: includes/widgets/base.php:79 includes/widgets/latest.php:82
+#: includes/widgets/random.php:80
+msgid "Title:"
+msgstr "标题："
+
+#: includes/widgets/latest.php:24
+msgid "Latest Poll - TotalPoll"
+msgstr "最新投票 - TotalPoll"
+
+#: includes/widgets/random.php:24
+msgid "Random Poll - TotalPoll"
+msgstr "随机投票 - TotalPoll"

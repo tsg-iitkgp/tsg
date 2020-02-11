@@ -1,0 +1,18 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">question</custom-field>
+        <custom-field action="translate">settings_fields</custom-field>
+        <custom-field action="translate">settings_screens</custom-field>
+
+        <custom-field action="ignore">settings_limitations</custom-field>
+        <custom-field action="ignore">settings_results</custom-field>
+        <custom-field action="ignore">settings_choices</custom-field>
+        <custom-field action="ignore">settings_logs</custom-field>
+        <custom-field action="ignore">choices</custom-field>
+        <custom-field action="ignore">votes</custom-field>
+        <custom-field action="ignore">_compiled_css</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">poll</custom-type>
+    </custom-types>
+</wpml-config>

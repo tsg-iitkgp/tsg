@@ -1,0 +1,290 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.button-danger {
+  color: #a00 !important;
+  background: #fff !important; }
+  .button-danger:hover, .button-danger:focus {
+    border-color: #a00 !important; }
+
+.totalpoll-upload.upload-plugin {
+  display: block !important; }
+
+#totalpoll-store .extensions {
+  margin: 1rem -1rem; }
+#totalpoll-store .extension-card {
+  margin: 0 1rem 2rem;
+  float: left;
+  max-width: 380px;
+  border: 1px solid #dddddd;
+  background: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075); }
+  #totalpoll-store .extension-card-header {
+    position: relative;
+    overflow: hidden; }
+    #totalpoll-store .extension-card-header .extension-price-label {
+      position: absolute;
+      top: 20px;
+      right: -35px;
+      width: 140px;
+      padding: 0.5rem 0;
+      line-height: 1;
+      text-align: center;
+      background-color: #00AA7B;
+      border: 2px solid white;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transform-origin: center;
+      -moz-transform-origin: center;
+      -ms-transform-origin: center;
+      -o-transform-origin: center;
+      transform-origin: center; }
+    #totalpoll-store .extension-card-header img {
+      max-width: 100%;
+      vertical-align: middle; }
+  #totalpoll-store .extension-card-content {
+    border-top: 1px solid #dddddd;
+    padding: 1rem; }
+  #totalpoll-store .extension-card-footer {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    line-height: 2;
+    border-top: 1px solid #dddddd;
+    background: #fafafa; }
+#totalpoll-store .extension-name {
+  margin: 0 0 0.5rem; }
+  #totalpoll-store .extension-name a {
+    text-decoration: none; }
+#totalpoll-store .extension-meta {
+  margin: 0 0 1rem;
+  color: #777777; }
+  #totalpoll-store .extension-meta strong {
+    color: #00AA7B; }
+#totalpoll-store .extension-description {
+  margin-bottom: 0; }
+#totalpoll-store .nav-tab-wrapper a {
+  text-decoration: none; }
+
+.totalpoll-page {
+  margin-top: 4rem;
+  box-sizing: border-box; }
+  .totalpoll-page * {
+    box-sizing: inherit; }
+  .totalpoll-page .totalpoll-page-container {
+    padding: 2rem;
+    border: 1px solid #dddddd;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; }
+  .totalpoll-page svg {
+    fill: #dddddd; }
+  .totalpoll-page .totalpoll-page-title {
+    margin: 1rem 0 3rem;
+    padding: 0; }
+  .totalpoll-page p {
+    margin: 0 0 0.5rem;
+    font-size: 16px; }
+  .totalpoll-page .links-cards {
+    margin: 3rem -1.5% 0; }
+    .totalpoll-page .links-cards + .links-cards {
+      margin-top: 3%; }
+  .totalpoll-page .link-card {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #dddddd;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    background: white;
+    cursor: pointer;
+    color: #0073aa;
+    text-decoration: none; }
+    .totalpoll-page .link-card p {
+      margin-top: 0.5rem;
+      font-size: 14px; }
+    .totalpoll-page .link-card:hover, .totalpoll-page .link-card:focus, .totalpoll-page .link-card:active {
+      background-color: #0073aa;
+      border-color: #0073aa;
+      color: white; }
+      .totalpoll-page .link-card:hover svg, .totalpoll-page .link-card:focus svg, .totalpoll-page .link-card:active svg {
+        fill: white; }
+    @media only screen and (min-width: 768px) {
+      .totalpoll-page .link-card {
+        display: inline-block;
+        float: left;
+        width: 30.33%;
+        margin: 0 1.5%; } }
+
+#totalpoll-activation form h1 {
+  margin: 1rem 0 3rem;
+  padding: 0; }
+#totalpoll-activation form p {
+  margin: 0 0 0.5rem;
+  font-size: 16px; }
+#totalpoll-activation form .input-key {
+  display: block;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  text-transform: uppercase; }
+#totalpoll-activation form .button {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 1rem;
+  line-height: normal;
+  font-size: 16px;
+  vertical-align: middle;
+  height: auto; }
+#totalpoll-activation form .invalid-key {
+  color: red;
+  padding: 1rem;
+  margin: 0; }
+
+#totalpoll-support .input-search {
+  padding: 1rem;
+  margin: 1rem 0;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  border-radius: 4rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem; }
+#totalpoll-support pre {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  font-family: Consolas, Monaco, monospace;
+  white-space: pre-wrap;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 200px;
+  text-align: left; }
+
+#totalpoll-about {
+  box-sizing: border-box; }
+  #totalpoll-about .boxes {
+    margin: 2rem -2rem 0; }
+    #totalpoll-about .boxes-row {
+      display: table;
+      width: 100%;
+      border-spacing: 2rem 0;
+      border-collapse: separate;
+      table-layout: fixed;
+      margin-bottom: 2rem; }
+    #totalpoll-about .boxes-cell {
+      display: table-cell;
+      width: 50%;
+      background: white;
+      padding: 2rem;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      border: 1px solid #dddddd; }
+      #totalpoll-about .boxes-cell img {
+        float: left;
+        width: 100px;
+        margin-right: 2rem;
+        border: 0; }
+      #totalpoll-about .boxes-cell h4 {
+        margin-top: 0; }
+      #totalpoll-about .boxes-cell h3 {
+        margin-top: 0;
+        color: #0073aa; }
+      #totalpoll-about .boxes-cell p {
+        margin-bottom: 0;
+        overflow: hidden; }
+  #totalpoll-about [class$=col] .col {
+    float: left;
+    position: relative; }
+  #totalpoll-about .two-col .col {
+    margin-right: 4.799999999%;
+    width: 47.6%; }
+  #totalpoll-about .feature-section.two-col .col {
+    display: inline-block;
+    float: none;
+    margin-right: 4.799999999%;
+    width: calc(47.6% - 4px);
+    vertical-align: top; }
+  #totalpoll-about .three-col .col {
+    margin-right: 4.999999999%;
+    width: 29.95%; }
+  #totalpoll-about .two-col .col:nth-of-type(2n),
+  #totalpoll-about .three-col .col:nth-of-type(3n) {
+    margin-right: 0; }
+  #totalpoll-about .feature-section:not(.under-the-hood) .col {
+    margin-top: 40px; }
+  #totalpoll-about .totalpoll-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    display: inline-block;
+    padding: 1.25rem 2.25rem;
+    color: #c4ecff;
+    background-color: #11b2ff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; }
+    #totalpoll-about .totalpoll-badge svg {
+      fill: white;
+      margin-bottom: 0.5rem; }
+  #totalpoll-about .testimonials-section, #totalpoll-about .feature-section {
+    padding: 0;
+    margin-top: 40px; }
+  #totalpoll-about .testimonials-section {
+    overflow: hidden; }
+  #totalpoll-about .testimonials-content img, #totalpoll-about .feature-content img {
+    float: left;
+    width: 100px;
+    margin-right: 2rem; }
+  #totalpoll-about .testimonials-content h4, #totalpoll-about .feature-content h4 {
+    margin-top: 0; }
+  #totalpoll-about .testimonials-content h3, #totalpoll-about .feature-content h3 {
+    margin-top: 0;
+    color: #0073aa; }
+  #totalpoll-about .testimonials-content p, #totalpoll-about .feature-content p {
+    margin-bottom: 0;
+    overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    #totalpoll-about .totalpoll-badge {
+      display: none; }
+    #totalpoll-about .about-text, #totalpoll-about h1 {
+      margin-right: 0; }
+    #totalpoll-about .boxes {
+      margin: 2rem 0; }
+    #totalpoll-about .boxes-row {
+      display: block;
+      margin: 0; }
+    #totalpoll-about .boxes-cell {
+      display: block;
+      width: auto;
+      table-layout: auto;
+      float: none;
+      margin-bottom: 1rem; } }
+  @media only screen and (max-width: 1024px) {
+    #totalpoll-about .boxes-cell {
+      text-align: center !important; }
+      #totalpoll-about .boxes-cell img {
+        display: block !important;
+        float: none !important;
+        margin: 0 auto 1em !important; } }
+
+/*# sourceMappingURL=admin-pages.css.map */

@@ -1,0 +1,1192 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: USP 20171028\n"
+"Language: hi\n"
+
+#. Name of the plugin
+#: user-submitted-posts.php:44
+msgid "User Submitted Posts"
+msgstr "उपयोगकर्ता सबमिट किए गए डाक"
+
+#: user-submitted-posts.php:78
+msgid "requires WordPress "
+msgstr "वर्डप्रेस की आवश्यकता है"
+
+#: user-submitted-posts.php:79
+msgid " or higher, and has been deactivated! "
+msgstr " या अधिक, और निष्क्रिय कर दिया गया है!"
+
+#: user-submitted-posts.php:80
+msgid "Please return to the"
+msgstr "कृपया वापस जाएँ"
+
+#: user-submitted-posts.php:81
+msgid "WordPress Admin Area"
+msgstr "वर्डप्रेस व्यवस्थापक एरिया"
+
+#: user-submitted-posts.php:82
+msgid "to upgrade WordPress and try again."
+msgstr "वर्डप्रेस का नवीनीकरण करने और फिर से प्रयास करने के लिए"
+
+#: user-submitted-posts.php:124
+msgid "User Submitted Post"
+msgstr "उपयोगकर्ता द्वारा सबमिट की गई पोस्ट"
+
+#: user-submitted-posts.php:445
+msgid "User Submitted Post Info"
+msgstr "उपयोगकर्ता सबमिट की गयी पोस्ट जानकारी"
+
+#: user-submitted-posts.php:475
+msgid "Submitter Name: "
+msgstr "उपनाम का नाम:"
+
+#: user-submitted-posts.php:476
+msgid "Submitter Email: "
+msgstr "सबमिटर ईमेल:"
+
+#: user-submitted-posts.php:477
+msgid "Submitter URL: "
+msgstr "सबमिटर यूआरएल:"
+
+#: user-submitted-posts.php:478
+msgid "Submitter IP: "
+msgstr "सबमिटर आईपी:"
+
+#: user-submitted-posts.php:529
+msgid "Show USP Posts"
+msgstr "यूएसपी पोस्ट दिखाएं"
+
+#: user-submitted-posts.php:530 library/plugin-settings.php:967
+msgid "USP"
+msgstr "खासियत"
+
+#: user-submitted-posts.php:1175
+msgid " files required"
+msgstr " आवश्यक फ़ाइलें"
+
+#: user-submitted-posts.php:1176
+msgid " file required"
+msgstr " फ़ाइल आवश्यक है"
+
+#: user-submitted-posts.php:1178
+msgid " files"
+msgstr " फ़ाइलें"
+
+#: user-submitted-posts.php:1179
+msgid " file"
+msgstr " फ़ाइल"
+
+#: user-submitted-posts.php:1181 user-submitted-posts.php:1182
+#: user-submitted-posts.php:1183 user-submitted-posts.php:1184
+msgid " pixels"
+msgstr " पिक्सल"
+
+#: user-submitted-posts.php:1186 library/plugin-settings.php:284
+#: library/plugin-settings.php:303 library/plugin-settings.php:690
+#: library/plugin-settings.php:1176
+msgid "Custom Field"
+msgstr "कस्टम फील्ड"
+
+#: user-submitted-posts.php:1189
+msgid "An error occurred. Please go back and try again."
+msgstr "एक त्रुटि पाई गई। कृपया पीछे जाएं और दोबारा कोशिश करें।"
+
+#: user-submitted-posts.php:1199
+msgid "User login required"
+msgstr "उपयोगकर्ता लॉगिन आवश्यक है"
+
+#: user-submitted-posts.php:1200
+msgid "User name required"
+msgstr "उपयोगकर्ता का नाम (आवश्यक"
+
+#: user-submitted-posts.php:1201
+msgid "Post title required"
+msgstr "पोस्ट का शीर्षक आवश्यक है"
+
+#: user-submitted-posts.php:1202
+msgid "User URL required"
+msgstr "उपयोगकर्ता यूआरएल की आवश्यकता है"
+
+#: user-submitted-posts.php:1203
+msgid "Post tags required"
+msgstr "पोस्ट टैग की आवश्यकता है"
+
+#: user-submitted-posts.php:1204
+msgid "Post category required"
+msgstr "पोस्ट श्रेणी आवश्यक है"
+
+#: user-submitted-posts.php:1205
+msgid "Post content required"
+msgstr "आवश्यक सामग्री पोस्ट करें"
+
+#: user-submitted-posts.php:1206 user-submitted-posts.php:1207
+msgid "Correct captcha required"
+msgstr "सही कैप्चा आवश्यक है"
+
+#: user-submitted-posts.php:1208
+msgid "User email required"
+msgstr "उपयोगकर्ता ईमेल की आवश्यकता है"
+
+#: user-submitted-posts.php:1209
+msgid "Please check your email and try again"
+msgstr "कृपया अपना ईमेल जांचें और पुनः प्रयास करें"
+
+#: user-submitted-posts.php:1210
+msgid "Non-empty value for hidden field"
+msgstr "छिपा क्षेत्र के लिए खाली-खाली मान"
+
+#: user-submitted-posts.php:1211
+msgid "Minimum number of images not met"
+msgstr "छवियों की न्यूनतम संख्या नहीं मिली"
+
+#: user-submitted-posts.php:1212
+msgid "Maximum number of images exceeded "
+msgstr "छवियों की अधिकतम संख्या पार हो गई"
+
+#: user-submitted-posts.php:1213
+msgid "Minimum image width not met"
+msgstr "न्यूनतम छवि चौड़ाई नहीं मिली"
+
+#: user-submitted-posts.php:1214
+msgid "Image width exceeds maximum"
+msgstr "छवि चौड़ाई अधिकतम से अधिक है"
+
+#: user-submitted-posts.php:1215
+msgid "Minimum image height not met"
+msgstr "न्यूनतम छवि ऊंचाई नहीं मिले"
+
+#: user-submitted-posts.php:1216
+msgid "Image height exceeds maximum"
+msgstr "छवि ऊंचाई अधिकतम से अधिक है"
+
+#: user-submitted-posts.php:1217
+msgid "File type not allowed (please upload images only)"
+msgstr "फ़ाइल प्रकार की अनुमति नहीं है (कृपया केवल चित्र अपलोड करें)"
+
+#: user-submitted-posts.php:1218
+msgid " required"
+msgstr " अपेक्षित"
+
+#: user-submitted-posts.php:1222
+msgid "File not uploaded. Please check the file and try again."
+msgstr "फ़ाइल अपलोड नहीं की गई कृपया फ़ाइल की जांच करें और फिर से प्रयास करें।"
+
+#: user-submitted-posts.php:1226
+msgid "The file(s) could not be uploaded"
+msgstr "फाइल (ओं) को अपलोड नहीं किया जा सका"
+
+#: user-submitted-posts.php:1228
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "पोस्ट नहीं बनाया गया कृपया सहायता के लिए साइट व्यवस्थापक से संपर्क करें।"
+
+#: user-submitted-posts.php:1229
+msgid "Duplicate post title. Please try again."
+msgstr "डुप्लिकेट पोस्ट शीर्षक कृपया पुन: प्रयास करें।"
+
+#: user-submitted-posts.php:1239
+msgid "Error: "
+msgstr "त्रुटि:"
+
+#: user-submitted-posts.php:1265
+msgid "Return to form"
+msgstr "फॉर्म पर लौटें"
+
+#: user-submitted-posts.php:1293 library/plugin-settings.php:943
+msgid "Please"
+msgstr "कृप्या"
+
+#: user-submitted-posts.php:1294
+msgid "log in"
+msgstr "लॉग इन करें"
+
+#: user-submitted-posts.php:1295
+msgid "to submit content!"
+msgstr "सामग्री जमा करने के लिए!"
+
+#: views/submission-form.php:46 views/submission-form-alt.php:55
+msgid "Please complete the required fields."
+msgstr "कृपया आवश्यक फ़ील्ड को पूरा करें"
+
+#: views/submission-form.php:56 views/submission-form.php:57
+#: views/submission-form-alt.php:61 views/submission-form-alt.php:62
+msgid "Your Name"
+msgstr "आपका नाम"
+
+#: views/submission-form.php:62 views/submission-form.php:63
+#: views/submission-form-alt.php:67 views/submission-form-alt.php:68
+msgid "Your URL"
+msgstr "आपका यूआरएल"
+
+#: views/submission-form.php:68 views/submission-form.php:69
+#: views/submission-form-alt.php:73 views/submission-form-alt.php:74
+msgid "Your Email"
+msgstr "तुम्हारा ईमेल"
+
+#: views/submission-form.php:74 views/submission-form.php:75
+#: views/submission-form-alt.php:79 views/submission-form-alt.php:80
+#: library/plugin-settings.php:1004
+msgid "Post Title"
+msgstr "शीर्षक पोस्ट करें"
+
+#: views/submission-form.php:80 views/submission-form.php:81
+#: views/submission-form-alt.php:85 views/submission-form-alt.php:86
+#: library/plugin-settings.php:1005
+msgid "Post Tags"
+msgstr "पोस्ट टैग"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Antispam Question"
+msgstr "Antispam प्रश्न"
+
+#: views/submission-form.php:98 views/submission-form-alt.php:103
+#: library/plugin-settings.php:1006
+msgid "Post Category"
+msgstr "पोस्ट श्रेणी"
+
+#: views/submission-form.php:100 views/submission-form-alt.php:105
+msgid "Please select a category.."
+msgstr "कृपया एक कैटेगरी चयनित करें.."
+
+#: views/submission-form.php:135 views/submission-form.php:136
+#: views/submission-form-alt.php:140 views/submission-form-alt.php:141
+#: library/plugin-settings.php:1007
+msgid "Post Content"
+msgstr "पोस्ट सामग्री"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Verification"
+msgstr "सत्यापन"
+
+#: views/submission-form.php:149 views/submission-form-alt.php:154
+msgid "Upload an Image"
+msgstr "एक छवि अपलोड करें"
+
+#: views/submission-form.php:158 views/submission-form-alt.php:163
+msgid "Add another image"
+msgstr "एक और छवि जोड़ें"
+
+#: views/submission-form.php:180 views/submission-form-alt.php:185
+msgid "Human verification: leave this field empty."
+msgstr "मानव सत्यापन: इस क्षेत्र को खाली छोड़ दें।"
+
+#: views/submission-form.php:202 views/submission-form-alt.php:207
+msgid "Submit Post"
+msgstr "पोस्ट जमा करें"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "असीमित रूपों के लिए यूएसपी प्रो प्राप्त करें!"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "पेशेवर बनो"
+
+#: library/plugin-settings.php:37
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: library/plugin-settings.php:55
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "वर्डप्रेस.org में यूएसपी को 5-सितारा रेटिंग दें"
+
+#: library/plugin-settings.php:56
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "इस प्लगइन को रेट करें & nbsp; & raquo;"
+
+#: library/plugin-settings.php:114
+msgid "WP Post (recommended)"
+msgstr "WP पोस्ट (अनुशंसित)"
+
+#: library/plugin-settings.php:118
+msgid "WP Page"
+msgstr "WP पृष्ठ"
+
+#: library/plugin-settings.php:134
+msgid "HTML5 Form + Default CSS"
+msgstr "एचटीएमएल 5 फॉर्म + डिफ़ॉल्ट सीएसएस"
+
+#: library/plugin-settings.php:134
+msgid "(Recommended)"
+msgstr "(सिफारिश की)"
+
+#: library/plugin-settings.php:138
+msgid "HTML5 Form + Disable CSS"
+msgstr "एचटीएमएल 5 फॉर्म + अक्षम सीएसएस"
+
+#: library/plugin-settings.php:138
+msgid "(Provide your own styles)"
+msgstr "(अपनी खुद की शैली प्रदान करें)"
+
+#: library/plugin-settings.php:142
+msgid "Custom Form + Custom CSS"
+msgstr "कस्टम फॉर्म + कस्टम सीएसएस"
+
+#: library/plugin-settings.php:142
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(अपना स्वयं का फॉर्म टेम्पलेट और शैलियों प्रदान करें)"
+
+#: library/plugin-settings.php:158 library/plugin-settings.php:182
+#: library/plugin-settings.php:205 library/plugin-settings.php:229
+msgid "Auto-display before post content"
+msgstr "पोस्ट सामग्री से पहले ऑटो-डिस्प्ले"
+
+#: library/plugin-settings.php:162 library/plugin-settings.php:186
+#: library/plugin-settings.php:209 library/plugin-settings.php:233
+msgid "Auto-display after post content"
+msgstr "पोस्ट सामग्री के बाद ऑटो-डिस्प्ले"
+
+#: library/plugin-settings.php:166
+msgid "Do not auto-display submitted images"
+msgstr "प्रस्तुत छवियां स्वत: प्रदर्शित न करें"
+
+#: library/plugin-settings.php:190
+msgid "Do not auto-display submitted email"
+msgstr "स्वचालित रूप से सबमिट किए गए ईमेल न करें"
+
+#: library/plugin-settings.php:213
+msgid "Do not auto-display submitted URL"
+msgstr "ऑटो-प्रदर्शन प्रस्तुत URL न करें"
+
+#: library/plugin-settings.php:237
+msgid "Do not auto-display the Custom Field"
+msgstr "कस्टम फ़ील्ड को स्वतः प्रदर्शित न करें"
+
+#: library/plugin-settings.php:265 library/plugin-settings.php:297
+#: library/plugin-settings.php:330 library/plugin-settings.php:362
+msgid "Display and require"
+msgstr "प्रदर्शन और आवश्यकता है"
+
+#: library/plugin-settings.php:266 library/plugin-settings.php:298
+msgid "Display but do not require"
+msgstr "प्रदर्शित करें लेकिन इसकी आवश्यकता नहीं है"
+
+#: library/plugin-settings.php:267 library/plugin-settings.php:299
+#: library/plugin-settings.php:331 library/plugin-settings.php:363
+msgid "Disable this field"
+msgstr "इस फ़ील्ड को अक्षम करें"
+
+#: library/plugin-settings.php:302 library/plugin-settings.php:334
+#: library/plugin-settings.php:366 library/plugin-settings.php:398
+msgid "(Visit"
+msgstr "(जाएँ"
+
+#: library/plugin-settings.php:303 library/plugin-settings.php:335
+#: library/plugin-settings.php:367 library/plugin-settings.php:399
+msgid "to configure options)"
+msgstr "विकल्प कॉन्फ़िगर करने के लिए)"
+
+#: library/plugin-settings.php:318 library/plugin-settings.php:335
+#: library/plugin-settings.php:1194 library/plugin-settings.php:1199
+msgid "Challenge Question"
+msgstr "चुनोती वाला सवाल"
+
+#: library/plugin-settings.php:350 library/plugin-settings.php:367
+#: library/plugin-settings.php:1216
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:382
+msgid "Post Images"
+msgstr "चित्र पोस्ट करें"
+
+#: library/plugin-settings.php:394
+msgid "Display"
+msgstr "प्रदर्शन"
+
+#: library/plugin-settings.php:395
+msgid "Disable"
+msgstr "अक्षम"
+
+#: library/plugin-settings.php:399 library/plugin-settings.php:1277
+msgid "Image Uploads"
+msgstr "छवि अपलोड"
+
+#: library/plugin-settings.php:479
+msgid "Draft"
+msgstr "प्रारूप"
+
+#: library/plugin-settings.php:480
+msgid "Pending (default)"
+msgstr "लंबित (डिफ़ॉल्ट)"
+
+#: library/plugin-settings.php:481
+msgid "Publish immediately"
+msgstr "तुरंत प्रकाशित करें"
+
+#: library/plugin-settings.php:482
+msgid "Publish after 1 approved post"
+msgstr "1 अनुमोदित पोस्ट के बाद प्रकाशित करें"
+
+#: library/plugin-settings.php:483
+msgid "Publish after "
+msgstr "बाद प्रकाशित करें"
+
+#: library/plugin-settings.php:483
+msgid " approved posts"
+msgstr " अनुमोदित पद"
+
+#: library/plugin-settings.php:635
+msgid "There was an error. Please ensure that you have added a title, some content, and that you have uploaded only images."
+msgstr "एक त्रुटि हुई। कृपया सुनिश्चित करें कि आपने एक शीर्षक, कुछ सामग्री जोड़ दी है, और आपने केवल छवियां अपलोड की हैं।"
+
+#: library/plugin-settings.php:649
+msgid "Please select your image(s) to upload."
+msgstr "अपलोड करने के लिए कृपया अपनी छवियां चुनें"
+
+#: library/plugin-settings.php:655
+msgid "Success! Thank you for your submission."
+msgstr "सफलता! आपके निवेदन के लिए धन्यवाद।"
+
+#: library/plugin-settings.php:681
+msgid "Email"
+msgstr "ईमेल"
+
+#: library/plugin-settings.php:682
+msgid "URL"
+msgstr "यूआरएल"
+
+#: library/plugin-settings.php:721
+msgid "Sorry, you are not allowed to modify settings."
+msgstr "क्षमा करें, आपको सेटिंग्स को संशोधित करने की अनुमति नहीं है"
+
+#: library/plugin-settings.php:930
+msgid "Toggle all panels"
+msgstr "सभी पैनल टॉगल करें"
+
+#: library/plugin-settings.php:939
+msgid "We need your support!"
+msgstr "हमें आपका समर्थन चाहिए!"
+
+#: library/plugin-settings.php:943
+msgid "Make a donation via PayPal"
+msgstr "पेपैल के माध्यम से एक दान करें"
+
+#: library/plugin-settings.php:943
+msgid "make a donation"
+msgstr "एक दान करें"
+
+#: library/plugin-settings.php:943
+msgid "and/or"
+msgstr "और / या"
+
+#: library/plugin-settings.php:944
+msgid "Rate and review at the Plugin Directory"
+msgstr "प्लग इन निर्देशिका में दर और समीक्षा करें"
+
+#: library/plugin-settings.php:945
+msgid "give this plugin a 5-star rating"
+msgstr "इस प्लगइन को 5 सितारा रेटिंग दें"
+
+#: library/plugin-settings.php:949
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "आपका उदार समर्थन इस मुफ्त प्लगइन का निरंतर विकास सक्षम बनाता है। धन्यवाद!"
+
+#: library/plugin-settings.php:954
+msgid "Check this box if you have shown support"
+msgstr "यदि आपने समर्थन दिखाया है तो इस बॉक्स को चेक करें"
+
+#: library/plugin-settings.php:963
+msgid "Overview"
+msgstr "अवलोकन"
+
+#: library/plugin-settings.php:967
+msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
+msgstr "आपके आगंतुकों को पोस्ट सबमिट करने और आपकी साइट के फ्रंट-एंड से छवियों को अपलोड करने के लिए सक्षम बनाता है।"
+
+#: library/plugin-settings.php:968
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "उन्नत कार्यक्षमता और असीमित रूपों के लिए, देखें"
+
+#: library/plugin-settings.php:968 library/plugin-settings.php:1335
+msgid "USP Pro"
+msgstr "यूएसपी प्रो"
+
+#: library/plugin-settings.php:969
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "& Mdash; यूजर जनरेटेड कंटेंट के लिए अंतिम समाधान"
+
+#: library/plugin-settings.php:973 library/plugin-settings.php:990
+msgid "Plugin Settings"
+msgstr "प्लगइन सेटिंग"
+
+#: library/plugin-settings.php:974
+msgid "Display the form"
+msgstr "प्रपत्र प्रदर्शित करें"
+
+#: library/plugin-settings.php:975 library/plugin-settings.php:1482
+msgid "Plugin Homepage"
+msgstr "प्लगइन मुखपृष्ठ"
+
+#: library/plugin-settings.php:978
+msgid "If you like this plugin, please"
+msgstr "यदि आप इस प्लगइन को पसंद करते हैं, तो कृपया"
+
+#: library/plugin-settings.php:979
+msgid "THANK YOU for your support!"
+msgstr "आपके सहयोग के लिए धन्यवाद!"
+
+#: library/plugin-settings.php:979
+msgid "give it a 5-star rating"
+msgstr "इसे 5 सितारा रेटिंग दें"
+
+#: library/plugin-settings.php:983
+msgid "Unlimited front-end forms"
+msgstr "असीमित फ्रंट-एंड फॉर्म"
+
+#: library/plugin-settings.php:983
+msgid "Get USP Pro"
+msgstr "यूएसपी प्रो प्राप्त करें"
+
+#: library/plugin-settings.php:993
+msgid "Configure your settings for User Submitted Posts."
+msgstr "उपयोगकर्ता सबमिट की गई पोस्ट के लिए अपनी सेटिंग्स कॉन्फ़िगर करें"
+
+#: library/plugin-settings.php:995
+msgid "Form Fields"
+msgstr "फार्म फ़ील्ड"
+
+#: library/plugin-settings.php:1001
+msgid "User Name"
+msgstr "उपयोगकर्ता नाम"
+
+#: library/plugin-settings.php:1002
+msgid "User Email"
+msgstr "उपयोगकर्ता ईमेल"
+
+#: library/plugin-settings.php:1003
+msgid "User URL"
+msgstr "उपयोगकर्ता यूआरएल"
+
+#: library/plugin-settings.php:1018
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+#: library/plugin-settings.php:1023
+msgid "Form Style"
+msgstr "फॉर्म स्टाइल"
+
+#: library/plugin-settings.php:1028
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "इस विकल्प के साथ, आप प्लगइन & rsquo; डिफ़ॉल्ट टेम्पलेट की प्रतिलिपि बना सकते हैं:"
+
+#: library/plugin-settings.php:1033
+msgid "..and upload them into a directory named"
+msgstr "..और उन्हें एक नामांकित निर्देशिका में अपलोड करें"
+
+#: library/plugin-settings.php:1033
+msgid "in your theme:"
+msgstr "अपने विषय में:"
+
+#: library/plugin-settings.php:1039
+msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
+msgstr "इससे आपको वांछित रूपों और शैलियों को अनुकूलित करने में सक्षम होगा। अधिक जानकारी के लिए, में \"कस्टम सबमिशन फॉर्म\" अनुभाग देखें"
+
+#: library/plugin-settings.php:1040
+msgid "Installation Docs"
+msgstr "स्थापना डॉक्स"
+
+#: library/plugin-settings.php:1041
+msgid "FYI: here is a"
+msgstr "एफवाईआई: यहां एक है"
+
+#: library/plugin-settings.php:1041
+msgid "list of USP CSS selectors"
+msgstr "यूएसपी सीएसएस चयनकर्ताओं की सूची"
+
+#: library/plugin-settings.php:1047
+msgid "Include JavaScript"
+msgstr "जावास्क्रिप्ट शामिल करें"
+
+#: library/plugin-settings.php:1049
+msgid "Check this box if you want to include the external JavaScript files (recommended)."
+msgstr "यदि आप बाहरी जावास्क्रिप्ट फाइलों को शामिल करना चाहते हैं तो इस बॉक्स को चेक करें (अनुशंसित)।"
+
+#: library/plugin-settings.php:1052
+msgid "Targeted Loading"
+msgstr "लक्षित लोड हो रहा है"
+
+#: library/plugin-settings.php:1054
+msgid "By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages."
+msgstr "डिफ़ॉल्ट रूप से, बाह्य सीएसएस & amp; जावास्क्रिप्ट फ़ाइलों को हर पेज पर लोड किया जाता है। यहां आप उस पृष्ठ पर संसाधनों को लोड करने के लिए यूएसपी फॉर्म का यूआरएल निर्दिष्ट कर सकते हैं। नोट: सभी पृष्ठों पर लोड करने के लिए खाली छोड़ दें"
+
+#: library/plugin-settings.php:1057
+msgid "Post Type"
+msgstr "पद प्रकार"
+
+#: library/plugin-settings.php:1060
+msgid "Submit posts as WP Posts or Pages"
+msgstr "WP पोस्ट या पेज के रूप में पोस्ट सबमिट करें"
+
+#: library/plugin-settings.php:1064
+msgid "Post Status"
+msgstr "पोस्ट स्थिति"
+
+#: library/plugin-settings.php:1067
+msgid "Post Status for submitted posts"
+msgstr "सबमिट किए गए पदों के लिए पोस्ट स्थिति"
+
+#: library/plugin-settings.php:1071
+msgid "Redirect URL"
+msgstr "रीडायरेक्ट यूआरएल"
+
+#: library/plugin-settings.php:1073
+msgid "Specify a URL to redirect the user after post-submission. Leave blank to redirect back to current page."
+msgstr "पोस्ट-सबमिशन के बाद उपयोगकर्ता को पुनर्निर्देशित करने के लिए यूआरएल निर्दिष्ट करें। वर्तमान पृष्ठ पर वापस रीडायरेक्ट करने के लिए रिक्त छोड़ दें।"
+
+#: library/plugin-settings.php:1076
+msgid "Success Message"
+msgstr "सफलता संदेश"
+
+#: library/plugin-settings.php:1078
+msgid "Success message that is displayed if post-submission is successful. Basic markup is allowed."
+msgstr "पोस्ट-सबमिशन सफल होने पर सफलता संदेश प्रदर्शित किया जाता है मूल मार्कअप की अनुमति है"
+
+#: library/plugin-settings.php:1081
+msgid "Error Message"
+msgstr "त्रुटि संदेश"
+
+#: library/plugin-settings.php:1083
+msgid "General error message that is displayed if post-submission fails. Basic markup is allowed."
+msgstr "पोस्ट-सबमिशन विफल होने पर सामान्य त्रुटि संदेश प्रदर्शित होता है मूल मार्कअप की अनुमति है"
+
+#: library/plugin-settings.php:1086
+msgid "Custom Content"
+msgstr "प्रचलित सामग्री"
+
+#: library/plugin-settings.php:1088
+msgid "Custom text/markup to be included before the submission form. Leave blank to disable."
+msgstr "प्रस्तुत करने के पहले कस्टम टेक्स्ट / मार्कअप शामिल किए जाने के लिए निष्क्रिय करने के लिए रिक्त छोड़ दें"
+
+#: library/plugin-settings.php:1091
+msgid "Rich Text Editor"
+msgstr "रिच टेक्स्ट एडिटर"
+
+#: library/plugin-settings.php:1093
+msgid "Check this box if you want to enable WP rich text editing for submitted posts."
+msgstr "यदि आप सबमिट किए गए पदों के लिए WP रिच टेक्स्ट संपादन को सक्षम करना चाहते हैं, तो इस बॉक्स को चेक करें"
+
+#: library/plugin-settings.php:1096
+msgid "Unique Titles"
+msgstr "अद्वितीय खिताब"
+
+#: library/plugin-settings.php:1098
+msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate submitted posts)."
+msgstr "अद्वितीय पोस्ट करने के लिए सबमिट किए गए पोस्ट शीर्षकों की आवश्यकता है (एकाधिक / डुप्लिकेट सबमिट किए गए पदों को रोकने के लिए उपयोगी)"
+
+#: library/plugin-settings.php:1101
+msgid "Disable Required"
+msgstr "आवश्यक अक्षम करें"
+
+#: library/plugin-settings.php:1103
+msgid "Disable all required attributes on default form fields (useful for troubleshooting error messages)."
+msgstr "डिफ़ॉल्ट प्रपत्र फ़ील्ड्स पर सभी आवश्यक विशेषताओं को अक्षम करें (त्रुटि संदेश समस्या निवारण के लिए उपयोगी)"
+
+#: library/plugin-settings.php:1106
+msgid "Disable IP Tracking"
+msgstr "आईपी ​​ट्रैकिंग अक्षम करें"
+
+#: library/plugin-settings.php:1108
+msgid "By default USP records the IP address with each submitted post. Check this box to disable all IP tracking."
+msgstr "डिफ़ॉल्ट रूप से यूएसपी प्रत्येक सबमिट किए गए पोस्ट के साथ आईपी पते को रिकॉर्ड करता है। सभी आईपी ट्रैकिंग को अक्षम करने के लिए इस बॉक्स को चेक करें।"
+
+#: library/plugin-settings.php:1111
+msgid "Enable Shortcodes"
+msgstr "शॉर्टकोड सक्षम करें"
+
+#: library/plugin-settings.php:1113
+msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
+msgstr "विगेट्स में शॉर्टकोड सक्षम करें डिफ़ॉल्ट रूप से, वर्डप्रेस विगेट्स में लघुकोड को सक्षम नहीं करता है"
+
+#: library/plugin-settings.php:1114
+msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
+msgstr "यह सेटिंग विगेट्स में किसी भी / सभी शॉर्टकोड (अन्य प्लगइन्स से भी शॉर्टकोड) सक्षम करता है।"
+
+#: library/plugin-settings.php:1119 library/plugin-settings.php:1124
+msgid "Categories"
+msgstr "श्रेणियाँ"
+
+#: library/plugin-settings.php:1127
+msgid "Select which categories may be assigned to submitted posts (click to toggle)"
+msgstr "चुनें कि कौन सी श्रेणियां सबमिट की गई पोस्ट को असाइन की जा सकती हैं (टॉगल करने के लिए क्लिक करें)"
+
+#: library/plugin-settings.php:1135
+msgid "Hidden/Default Category"
+msgstr "छुपा / डिफ़ॉल्ट श्रेणी"
+
+#: library/plugin-settings.php:1137
+msgid "Use a hidden field for the post category. This may be used to specify a default category when the category field is disabled."
+msgstr "पोस्ट श्रेणी के लिए छिपे हुए फ़ील्ड का उपयोग करें। इसका उपयोग श्रेणी श्रेणी अक्षम होने पर डिफ़ॉल्ट श्रेणी निर्दिष्ट करने के लिए किया जा सकता है।"
+
+#: library/plugin-settings.php:1140
+msgid "Category ID for Hidden Field"
+msgstr "छिपे हुए फील्ड के लिए श्रेणी आईडी"
+
+#: library/plugin-settings.php:1142
+msgid "Specify the ID of the category to use for the &ldquo;Hidden/Default Category&rdquo; option."
+msgstr "& Ldquo; छुपा / डिफ़ॉल्ट श्रेणी & rdquo; के लिए उपयोग करने के लिए श्रेणी का आईडी निर्दिष्ट करें; विकल्प।"
+
+#: library/plugin-settings.php:1147
+msgid "Users"
+msgstr "उपयोगकर्ता"
+
+#: library/plugin-settings.php:1152
+msgid "Assigned Author"
+msgstr "असाइन किए गए लेखक"
+
+#: library/plugin-settings.php:1155
+msgid "Specify the user that should be assigned as author for submitted posts."
+msgstr "सबमिट किए गए पदों के लिए लेखक के रूप में असाइन किए जाने वाले उपयोगकर्ता को निर्दिष्ट करें।"
+
+#: library/plugin-settings.php:1159
+msgid "Registered Username"
+msgstr "पंजीकृत उपयोगकर्ता नाम"
+
+#: library/plugin-settings.php:1161
+msgid "Use registered username as post author. Valid when the person submitting the form is logged in to WordPress."
+msgstr "पोस्ट लेखक के रूप में पंजीकृत उपयोगकर्ता नाम का उपयोग करें। वैध जब फ़ॉर्म प्रस्तुत करने वाला व्यक्ति वर्डप्रेस में लॉग इन होता है।"
+
+#: library/plugin-settings.php:1164
+msgid "User Profile URL"
+msgstr "उपयोगकर्ता प्रोफ़ाइल यूआरएल"
+
+#: library/plugin-settings.php:1166
+msgid "Use registered user&rsquo;s Profile URL as the value of the URL field. Valid when the person submitting the form is logged in to WordPress."
+msgstr "यूआरएल क्षेत्र के मान के रूप में पंजीकृत उपयोगकर्ता & rsquo; प्रोफ़ाइल यूआरएल का इस्तेमाल करें। वैध जब फ़ॉर्म प्रस्तुत करने वाला व्यक्ति वर्डप्रेस में लॉग इन होता है।"
+
+#: library/plugin-settings.php:1169
+msgid "Require User Login"
+msgstr "उपयोगकर्ता लॉगिन की आवश्यकता है"
+
+#: library/plugin-settings.php:1171
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "प्रपत्र को देखने / सबमिट करने के लिए उपयोगकर्ताओं को WordPress में लॉग इन करने की आवश्यकता है"
+
+#: library/plugin-settings.php:1177
+msgid "Here you may change the name and label used by the Custom Field. You can enable this field via the Form Fields setting, above."
+msgstr "यहां आप कस्टम फ़ील्ड द्वारा उपयोग किए गए नाम और लेबल को बदल सकते हैं। आप इस फ़ील्ड को ऊपर दिए गए फॉर्म फ़ील्ड सेटिंग के माध्यम से सक्षम कर सकते हैं।"
+
+#: library/plugin-settings.php:1182
+msgid "Custom Field Name"
+msgstr "कस्टम फ़ील्ड का नाम"
+
+#: library/plugin-settings.php:1184
+msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
+msgstr "केवल अल्फ़ान्यूमेरिक, अंडरस्कोर और डैश का उपयोग करें यदि अनिश्चित है, तो डिफ़ॉल्ट नाम का उपयोग करें:"
+
+#: library/plugin-settings.php:1187
+msgid "Custom Field Label"
+msgstr "कस्टम फील्ड लेबल"
+
+#: library/plugin-settings.php:1189
+msgid "This will be displayed as the field label on the form. Default: Custom Field"
+msgstr "यह प्रपत्र पर फ़ील्ड लेबल के रूप में प्रदर्शित किया जाएगा। डिफ़ॉल्ट: कस्टम फ़ील्ड"
+
+#: library/plugin-settings.php:1201
+msgid "To prevent spam, enter a question that users must answer before submitting the form."
+msgstr "स्पैम को रोकने के लिए, उस प्रपत्र को दर्ज करें जो फ़ॉर्म सबमिट करने से पहले उपयोगकर्ता को उत्तर देना चाहिए।"
+
+#: library/plugin-settings.php:1204
+msgid "Challenge Response"
+msgstr "उत्तर को दावा करें"
+
+#: library/plugin-settings.php:1206
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "चुनौती प्रश्न के लिए * केवल * सही उत्तर दर्ज करें"
+
+#: library/plugin-settings.php:1209
+msgid "Case-sensitivity"
+msgstr "मामले की संवेदनशीलता"
+
+#: library/plugin-settings.php:1211
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr "यदि आप केस-संवेदी होने के लिए चुनौती प्रतिक्रिया चाहते हैं तो इस बॉक्स को चेक करें।"
+
+#: library/plugin-settings.php:1217
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr "Google reCAPTCHA को सक्षम करने के लिए, अपनी सार्वजनिक और निजी कुंजी दर्ज करें।"
+
+#: library/plugin-settings.php:1222
+msgid "Public Key"
+msgstr "सार्वजनिक कुंजी"
+
+#: library/plugin-settings.php:1224
+msgid "Enter your Public Key"
+msgstr "अपनी सार्वजनिक कुंजी दर्ज करें"
+
+#: library/plugin-settings.php:1227
+msgid "Private Key"
+msgstr "निजी चाबी"
+
+#: library/plugin-settings.php:1229
+msgid "Enter your Private Key"
+msgstr "अपनी निजी कुंजी दर्ज करें"
+
+#: library/plugin-settings.php:1234
+msgid "Email Alerts"
+msgstr "ईमेल अलर्ट"
+
+#: library/plugin-settings.php:1239
+msgid "Receive Email Alert"
+msgstr "ईमेल अलर्ट प्राप्त करें"
+
+#: library/plugin-settings.php:1241
+msgid "Check this box if you want to be notified via email for new post submissions."
+msgstr "अगर आप नई पोस्ट सबमिशन के लिए ईमेल द्वारा अधिसूचित होना चाहते हैं तो इस बॉक्स को चेक करें।"
+
+#: library/plugin-settings.php:1244
+msgid "Enable HTML Format"
+msgstr "HTML स्वरूप को सक्षम करें"
+
+#: library/plugin-settings.php:1246
+msgid "Check this box to enable HTML format for email alerts."
+msgstr "ईमेल अलर्ट के लिए HTML प्रारूप को सक्षम करने के लिए इस बॉक्स को चेक करें।"
+
+#: library/plugin-settings.php:1249
+msgid "Email Address for Alerts"
+msgstr "अलर्ट के लिए ईमेल पता"
+
+#: library/plugin-settings.php:1251
+msgid "If you checked the box to receive email alerts, indicate here the address(es) to which the emails should be sent."
+msgstr "यदि आप ईमेल अलर्ट प्राप्त करने के लिए बॉक्स को चेक करते हैं, तो उस पते (तों) को इंगित करें जिस पर ईमेल भेजे जाएं।"
+
+#: library/plugin-settings.php:1252
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "कॉमा का उपयोग करके एकाधिक प्राप्तकर्ताओं को शामिल किया जा सकता है, जैसे:"
+
+#: library/plugin-settings.php:1255
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "ईमेल & ldquo; से & rdquo; पता"
+
+#: library/plugin-settings.php:1257
+msgid "Here you may customize the address(es) used for the &ldquo;From&rdquo; header (see plugin FAQs for info). "
+msgstr "यहां आप & ldquo; From & rdquo; के लिए उपयोग किए गए पते (एसई) को अनुकूलित कर सकते हैं; हेडर (जानकारी के लिए प्लगइन देखें)"
+
+#: library/plugin-settings.php:1258
+msgid "If multiple addresses are specified in the previous setting, include an equal number of &ldquo;From&rdquo; addresses for this setting (in the same order)."
+msgstr "यदि पिछले पते में एकाधिक पते निर्दिष्ट हैं, तो एक समान संख्या में & ldquo; From & rdquo; इस सेटिंग के लिए पते (उसी क्रम में)"
+
+#: library/plugin-settings.php:1261
+msgid "Email Alert Subject"
+msgstr "ईमेल अलर्ट विषय"
+
+#: library/plugin-settings.php:1263
+msgid "Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: "
+msgstr "ईमेल अलर्ट के लिए विषय पंक्ति डिफ़ॉल्ट विषय पंक्ति का उपयोग करने के लिए खाली छोड़ दें नोट: आप निम्न चर का उपयोग कर सकते हैं:"
+
+#: library/plugin-settings.php:1268
+msgid "Email Alert Message"
+msgstr "ईमेल अलर्ट संदेश"
+
+#: library/plugin-settings.php:1270
+msgid "Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: "
+msgstr "ईमेल अलर्ट के लिए संदेश डिफ़ॉल्ट संदेश का उपयोग करने के लिए खाली छोड़ दें नोट: आप निम्न चर का उपयोग कर सकते हैं:"
+
+#: library/plugin-settings.php:1282
+msgid "Featured Image"
+msgstr "निरूपित चित्र"
+
+#: library/plugin-settings.php:1284
+msgid "Set submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)."
+msgstr "फीचर्ड छवियों के रूप में प्रस्तुत चित्र सेट करें फीचर्ड छवियों (उर्फ पोस्ट थंबनेल) के लिए थीम समर्थन की आवश्यकता है"
+
+#: library/plugin-settings.php:1287
+msgid "Upload Message"
+msgstr "संदेश अपलोड करें"
+
+#: library/plugin-settings.php:1289
+msgid "Message that appears next to the upload field. Useful for stating your upload guidelines/policy/etc. Basic markup allowed."
+msgstr "संदेश जो अपलोड फ़ील्ड के आगे दिखाई देता है आपके अपलोड दिशानिर्देश / नीति / आदि के बारे में बताए जाने के लिए उपयोगी मूल मार्कअप की अनुमति"
+
+#: library/plugin-settings.php:1292
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "& ldquo; एक अन्य छवि जोड़ें & rdquo; संपर्क"
+
+#: library/plugin-settings.php:1294
+msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
+msgstr "& Ldquo; अन्य छवि जोड़ें & rdquo; के लिए कस्टम मार्कअप संपर्क। डिफ़ॉल्ट मार्कअप का उपयोग करने के लिए खाली छोड़ें (अनुशंसित)।"
+
+#: library/plugin-settings.php:1297
+msgid "Minimum number of images"
+msgstr "छवियों की न्यूनतम संख्या"
+
+#: library/plugin-settings.php:1300
+msgid "Specify the minimum number of images."
+msgstr "चित्रों की न्यूनतम संख्या निर्दिष्ट करें"
+
+#: library/plugin-settings.php:1304
+msgid "Maximum number of images"
+msgstr "छवियों की अधिकतम संख्या"
+
+#: library/plugin-settings.php:1307
+msgid "Specify the maximum number of images."
+msgstr "छवियों की अधिकतम संख्या निर्दिष्ट करें"
+
+#: library/plugin-settings.php:1311
+msgid "Minimum image width"
+msgstr "न्यूनतम छवि चौड़ाई"
+
+#: library/plugin-settings.php:1313
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "अपलोड की गई छवियों के लिए न्यूनतम चौड़ाई (पिक्सेल में) निर्दिष्ट करें"
+
+#: library/plugin-settings.php:1316
+msgid "Minimum image height"
+msgstr "न्यूनतम छवि ऊंचाई"
+
+#: library/plugin-settings.php:1318
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "अपलोड की गई छवियों के लिए न्यूनतम ऊंचाई (पिक्सेल में) निर्दिष्ट करें।"
+
+#: library/plugin-settings.php:1321
+msgid "Maximum image width"
+msgstr "अधिकतम छवि चौड़ाई"
+
+#: library/plugin-settings.php:1323
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "अपलोड की गई छवियों के लिए अधिकतम चौड़ाई (पिक्सेल में) निर्दिष्ट करें"
+
+#: library/plugin-settings.php:1326
+msgid "Maximum image height"
+msgstr "अधिकतम छवि ऊंचाई"
+
+#: library/plugin-settings.php:1328
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "अपलोड की गई छवियों के लिए अधिकतम ऊंचाई (पिक्सेल में) निर्दिष्ट करें"
+
+#: library/plugin-settings.php:1331
+msgid "More Options"
+msgstr "अधिक विकल्प"
+
+#: library/plugin-settings.php:1334
+msgid "For more options, like the ability to upload other file types (like PDF, Word, Zip, videos, and more), check out"
+msgstr "अधिक विकल्प के लिए, जैसे अन्य फाइल प्रकारों (जैसे पीडीएफ, वर्ड, ज़िप, वीडियो और अन्य) को अपलोड करने की क्षमता, चेक आउट करें"
+
+#: library/plugin-settings.php:1335
+msgid "Go Pro!"
+msgstr "पेशेवर बनो!"
+
+#: library/plugin-settings.php:1342
+msgid "Auto-Display Content"
+msgstr "स्वत: प्रदर्शन सामग्री"
+
+#: library/plugin-settings.php:1347
+msgid "Images Auto-Display"
+msgstr "छवियां ऑटो-प्रदर्शन"
+
+#: library/plugin-settings.php:1349
+msgid "Auto-display user-submitted images:"
+msgstr "स्वत: -प्रदर्शन उपयोगकर्ता द्वारा प्रस्तुत छवियां:"
+
+#: library/plugin-settings.php:1354
+msgid "Image Markup"
+msgstr "छवि मार्कअप"
+
+#: library/plugin-settings.php:1356
+msgid "Markup to use for each submitted image (when auto-display is enabled). Can use"
+msgstr "प्रत्येक सबमिट की गई छवि के लिए उपयोग करने के लिए मार्कअप (जब ऑटो-डिस्प्ले सक्रिय है)। इस्तेमाल कर सकते हैं"
+
+#: library/plugin-settings.php:1358 library/plugin-settings.php:1371
+#: library/plugin-settings.php:1384 library/plugin-settings.php:1397
+msgid "and"
+msgstr "तथा"
+
+#: library/plugin-settings.php:1361
+msgid "Email Auto-Display"
+msgstr "ईमेल ऑटो-प्रदर्शन"
+
+#: library/plugin-settings.php:1363
+msgid "Auto-display user-submitted email:"
+msgstr "स्वत: -प्रदर्शन उपयोगकर्ता द्वारा सबमिट की गई ईमेल:"
+
+#: library/plugin-settings.php:1368
+msgid "Email Markup"
+msgstr "ईमेल मार्कअप"
+
+#: library/plugin-settings.php:1370
+msgid "Markup to use for the submitted email address (when auto-display is enabled). Can use"
+msgstr "सबमिट किए गए ईमेल पते के लिए उपयोग करने के लिए मार्कअप (जब ऑटो-डिस्प्ले सक्रिय है)। इस्तेमाल कर सकते हैं"
+
+#: library/plugin-settings.php:1374
+msgid "URL Auto-Display"
+msgstr "यूआरएल ऑटो-डिस्प्ले"
+
+#: library/plugin-settings.php:1376
+msgid "Auto-display user-submitted URL:"
+msgstr "स्वत: प्रदर्शन उपयोगकर्ता द्वारा प्रस्तुत यूआरएल:"
+
+#: library/plugin-settings.php:1381
+msgid "URL Markup"
+msgstr "URL मार्कअप"
+
+#: library/plugin-settings.php:1383
+msgid "Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr "सबमिट किए गए URL के लिए उपयोग करने के लिए मार्कअप (जब ऑटो-डिस्प्ले सक्रिय है)। इस्तेमाल कर सकते हैं"
+
+#: library/plugin-settings.php:1387
+msgid "Custom Field Auto-Display"
+msgstr "कस्टम फील्ड ऑटो-डिस्प्ले"
+
+#: library/plugin-settings.php:1389
+msgid "Auto-display user-submitted Custom Field:"
+msgstr "स्वत: -प्रदर्शन उपयोगकर्ता-जमा कस्टम फ़ील्ड:"
+
+#: library/plugin-settings.php:1394
+msgid "Custom Field Markup"
+msgstr "कस्टम फील्ड मार्कअप"
+
+#: library/plugin-settings.php:1396
+msgid "Markup to use for the submitted Custom Field (when auto-display is enabled). Can use"
+msgstr "प्रस्तुत कस्टम फ़ील्ड के लिए उपयोग करने के लिए मार्कअप (जब ऑटो-डिस्प्ले सक्रिय है)। इस्तेमाल कर सकते हैं"
+
+#: library/plugin-settings.php:1402 library/plugin-settings.php:1468
+msgid "Save Settings"
+msgstr "समायोजन बचाओ"
+
+#: library/plugin-settings.php:1407
+msgid "Display the Form"
+msgstr "प्रपत्र प्रदर्शित करें"
+
+#: library/plugin-settings.php:1410
+msgid "Post-Submit Form"
+msgstr "पोस्ट-फॉर्म भेजें"
+
+#: library/plugin-settings.php:1411
+msgid "USP enables you to display a post-submission form anywhere on your site."
+msgstr "यूएसपी आपको अपनी साइट पर कहीं भी एक पोस्ट-सबमिशन फॉर्म प्रदर्शित करने में सक्षम बनाता है।"
+
+#: library/plugin-settings.php:1412 library/plugin-settings.php:1419
+msgid "Use the shortcode to display the form on any WP Post or Page:"
+msgstr "किसी भी WP पोस्ट या पृष्ठ पर फ़ॉर्म प्रदर्शित करने के लिए शोर्ट का उपयोग करें:"
+
+#: library/plugin-settings.php:1414 library/plugin-settings.php:1421
+msgid "Or, use the template tag to display the form anywhere in your theme template:"
+msgstr "या, अपने विषय टेम्पलेट में फ़ॉर्म को प्रदर्शित करने के लिए टेम्पलेट टैग का उपयोग करें:"
+
+#: library/plugin-settings.php:1417
+msgid "Login/Register Form"
+msgstr "लॉग इन / रजिस्टर फॉर्म"
+
+#: library/plugin-settings.php:1418
+msgid "You also can display a form that enables users to log in, register, or reset their password."
+msgstr "आप एक ऐसा फ़ॉर्म प्रदर्शित भी कर सकते हैं जो उपयोगकर्ताओं को अपने पासवर्ड में प्रवेश, पंजीकरण या रीसेट करने में सक्षम बनाता है।"
+
+#: library/plugin-settings.php:1424
+msgid "Display Submitted Posts"
+msgstr "सबमिट किए गए पोस्ट प्रदर्शित करें"
+
+#: library/plugin-settings.php:1425
+msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
+msgstr "किसी भी WP पोस्ट या पेज पर सबमिट की गई सूची की सूची प्रदर्शित करने के लिए इस शोर्ट कोड का उपयोग करें:"
+
+#: library/plugin-settings.php:1427
+msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
+msgstr "या, अपने विषय टेम्पलेट में कहीं भी सबमिट की गई सूची की सूची प्रदर्शित करने के लिए टेम्पलेट टैग का उपयोग करें:"
+
+#: library/plugin-settings.php:1429
+msgid "Here are some examples showing how to configure this shortcode:"
+msgstr "इस शोर्टकोड को कॉन्फ़िगर करने का तरीका दिखाते हुए कुछ उदाहरण यहां दिए गए हैं:"
+
+#: library/plugin-settings.php:1436
+msgid "Access Control"
+msgstr "पहुँच नियंत्रण"
+
+#: library/plugin-settings.php:1437
+msgid "USP provides three shortcodes to control access and restrict content."
+msgstr "यूएसपी एक्सेस को नियंत्रित करने और सामग्री को प्रतिबंधित करने के लिए तीन शॉर्टकोड प्रदान करता है।"
+
+#: library/plugin-settings.php:1438
+msgid "Display content only to users with a specific capability:"
+msgstr "केवल विशिष्ट क्षमता वाले उपयोगकर्ताओं को सामग्री प्रदर्शित करें:"
+
+#: library/plugin-settings.php:1440
+msgid "Display content to logged-in users:"
+msgstr "लॉग-इन उपयोगकर्ताओं के लिए सामग्री प्रदर्शित करें:"
+
+#: library/plugin-settings.php:1442
+msgid "Display content to visitors only:"
+msgstr "सामग्री को केवल विज़िटर पर प्रदर्शित करें:"
+
+#: library/plugin-settings.php:1444
+msgid "Tip:"
+msgstr "सुझाव:"
+
+#: library/plugin-settings.php:1444
+msgid "to include markup in the deny message, you can use"
+msgstr "अस्वीकार संदेश में मार्कअप शामिल करने के लिए, आप उपयोग कर सकते हैं"
+
+#: library/plugin-settings.php:1444
+msgid "to output"
+msgstr "आउटपुट के लिए"
+
+#: library/plugin-settings.php:1446
+msgid "Example"
+msgstr "उदाहरण"
+
+#: library/plugin-settings.php:1447
+msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
+msgstr "यदि उपयोगकर्ता लॉग इन होता है, तो पोस्ट-सबमिट फ़ॉर्म प्रदर्शित करें; या यदि उपयोगकर्ता लॉग इन नहीं है, तो प्रवेश प्रपत्र प्रदर्शित करें:"
+
+#: library/plugin-settings.php:1459
+msgid "Restore Defaults"
+msgstr "डिफॉल्ट्स का पुनःस्थापन"
+
+#: library/plugin-settings.php:1462
+msgid "Leave this option disabled to remember your settings. Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
+msgstr "अपनी सेटिंग्स को याद रखने के लिए इस विकल्प को अक्षम करें। या, आगे जाने और डिफ़ॉल्ट प्लगइन विकल्पों को पुनर्स्थापित करने के लिए: बॉक्स को चेक करें, अपनी सेटिंग सहेजें, और फिर प्लग इन निष्क्रिय / पुनः सक्रिय करें"
+
+#: library/plugin-settings.php:1466
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr "प्लगइन निष्क्रियकरण / पुनर्सक्रियन पर डिफ़ॉल्ट विकल्प पुनर्स्थापित करें"
+
+#: library/plugin-settings.php:1473
+msgid "Show Support"
+msgstr "समर्थन दिखाएं"
+
+#: library/plugin-settings.php:1482
+msgid "by"
+msgstr "द्वारा"
+
+#: library/plugin-settings.php:1483
+msgid "Jeff Starr on Twitter"
+msgstr "ट्विटर पर जेफ स्टार"
+
+#: library/plugin-settings.php:1484
+msgid "Obsessive Web Design &amp; Development"
+msgstr "बाध्यकारी वेब डिज़ाइन & amp; विकास"
+
+#: library/plugin-settings.php:1495
+msgid "Save Preference"
+msgstr "प्राथमिकता सहेजें"
+
+#: library/plugin-settings.php:1502
+msgid "Are you sure you want to restore all default options? (this action cannot be undone)"
+msgstr "क्या आप वाकई सभी डिफ़ॉल्ट विकल्पों को पुनर्स्थापित करना चाहते हैं? (यह कार्य दोबारा से नहीं हो सकता)"
+
+#: library/template-tags.php:214
+msgid "View full post"
+msgstr "पूर्ण पोस्ट देखें"
+
+#. Description of the plugin
+#: 
+msgid "Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "आपकी साइट पर कहीं से पोस्ट और छवियां सबमिट करने के लिए आपके विज़िटर को सक्षम करता है।"
+
+#. URI of the plugin
+#: 
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+#: 
+msgid "Jeff Starr"
+msgstr "जेफ स्टार"
+
+#. Author URI of the plugin
+#: 
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"
+

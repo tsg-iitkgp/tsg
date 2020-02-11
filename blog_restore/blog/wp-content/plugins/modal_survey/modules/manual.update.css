@@ -1,0 +1,22 @@
+.manual-plugin-updater-buttons form
+{
+	float: left;
+	margin: 3px;
+}
+
+.manual-plugin-updater-buttons
+{
+	display: inline-block;
+}
+
+.update_plugin_form .button
+{
+	vertical-align: baseline;
+}
+
+.update_plugin_form  input[type=file]
+{
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	padding: 0px;
+}

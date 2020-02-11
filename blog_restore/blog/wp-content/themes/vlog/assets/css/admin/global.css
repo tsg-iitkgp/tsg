@@ -1,0 +1,323 @@
+
+/* Admin options */
+
+input.vlog-hidden { display: none; }
+img.vlog-img-select { border: 2px solid #eee; cursor: pointer; border-radius: 4px; background: #fff;}
+img.vlog-img-select.selected {border: 2px solid #0074a2;}
+ul.vlog-img-select-wrap {float: left; width: 100%; display: block; margin: 5px 0;}
+ul.vlog-img-select-wrap li {float: left; margin-right: 1px;}
+.vlog-disabled { opacity: 0.3; }
+
+.vlog-img-select-wrap li span{
+	font-size: 11px;
+	display: block;
+	text-align: center;
+	max-width: 60px;
+	line-height: 13px;
+}
+
+input.vlog-radio{
+	width: 16px;
+	margin-left:0;
+}
+
+.vlog-rec-color{
+	width: 20px; 
+	height: 20px;
+	float: left; 
+	margin-right:3px; 
+	border: 1px solid #aaa;
+}
+
+#vlog_modules,
+#vlog_page_layouts,
+.post-type-page #vlog_sidebar,
+#vlog_pagination {
+	display: none;
+}
+
+/* Welcome panel */
+
+.welcome-panel.vlog-welcome-panel{
+	margin: 33px 20px 0 0;
+	padding-bottom: 30px;
+}
+
+.welcome-panel.vlog-welcome-panel .welcome-panel-column,
+.welcome-panel.vlog-welcome-panel .welcome-panel-column:first-child{
+	 max-width: 350px;
+  	 margin-right: 40px;
+  	 width: 25%;
+}
+
+.vlog-customize-welcome {
+	margin-top: 24px;
+  	display: inline-block;
+}
+
+
+/* Sections and modules */
+
+#vlog-section-clone, .vlog-section-form, #vlog-module-clone, .vlog-module-form {
+	display: none; 
+}
+
+#vlog-sections{ margin-top: 10px; }
+
+.vlog-section{
+	    width: 100%;
+    background: #f5f5f5;
+    min-height: 130px;
+    padding: 20px 20px 55px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.vlog-section.ui-sortable-helper, .vlog-module.ui-sortable-helper{
+	opacity: 0.8;
+}
+
+.vlog-section-drop {
+	width: 100%;
+	min-height: 200px;
+	background: transparent;
+	border: 1px dashed #aaa;
+	margin-bottom: 10px;
+}
+
+.section-bottom{
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: #e5e5e5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.section-bottom .left, .vlog-module .left{
+	float: left;
+}
+
+.section-bottom .right, .vlog-module .right{
+	float: right;
+}
+.section-bottom .right > span {
+	    display: inline-block;
+	    margin: 5px 5px 0 0;
+}
+
+.vlog-module{
+	width: 100%;
+    background: #eaeaea;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.vlog-module-type{
+    background: rgba(0,0,0,0.05);
+    margin-top: -16px;
+    margin-left: -16px;
+    width: 86px;
+    height: 18px;
+    padding: 16px;
+  	float: left;
+    margin-right: 15px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.vlog-module-title{
+    font-weight: 600;
+}
+
+.vlog-module-drop {
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: 1px dashed #aaa;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+
+.vlog-remove-module{
+	color: #a00;
+}
+
+.vlog-remove-module:hover{
+	color: red;
+}
+
+.vlog-opt{
+	width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 25px;
+}
+
+
+
+.vlog-opt:last-child{
+	 border-bottom: 0;
+}
+
+.vlog-opt-title{
+	font-weight: bold;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.vlog-opt-content{
+	display: inline-block;
+	float: left;
+	width: 70%;
+}
+
+.vlog-opt-content.sortable label{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.vlog-fit-height{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.vlog-opt-tabs{
+	float: left;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 0 0 30px -16px;
+    padding-left: 16px;
+}
+
+.vlog-opt-tabs a{
+	    float: left;
+    display: inline-block;
+    margin: 0 0 -1px -1px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+    text-decoration: none;
+    background-color: #ebebeb;
+}
+
+.vlog-opt-tabs a.active{
+	background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.vlog-opt-tabs a, .vlog-opt-tabs a:hover, .vlog-opt-tabs a:focus{
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+ 
+.vlog-tab{
+
+	display: none;
+}
+
+.vlog-tab.first{
+	display: block;
+}
+
+.vlog-opt textarea{ 
+	width: 100%;
+	height: 200px;
+}
+
+.modal-open .select2-drop{
+	z-index: 9999999999999999;
+}
+
+.vlog-opt .vlog-select2{
+	width: 300px;
+}
+
+.vlog-opt-box {
+    width: 48.5%;
+    display: inline-block;
+    vertical-align: top;
+    background: #f5f5f5;
+    min-height: 130px;
+    padding: 20px 20px 30px 20px;
+    margin: 6px 10px 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.1);
+    min-width: 300px;
+}
+
+.vlog-opt-inline {
+   width: 100%;
+    display: block;
+    clear: both;
+    margin-bottom: 30px;
+    float: left;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    padding-bottom: 26px;
+}
+
+.vlog-opt-inline:last-child{
+     margin-bottom: 0;
+     border-bottom: none;
+     padding-bottom: 0;
+}
+
+
+
+/* Widgets */
+
+#vlog_footer_sidebar_1 .vlog-opt-highlight,
+#vlog_footer_sidebar_2 .vlog-opt-highlight,
+#vlog_footer_sidebar_3 .vlog-opt-highlight,
+#vlog_footer_sidebar_4 .vlog-opt-highlight { 
+    display: none; 
+}
+
+#available-widgets #widget-list div[id*='_mks_'] .widget-title h3,
+#available-widgets #widget-list div[id*='_vlog_'] .widget-title h3{
+    color: #fff;
+    background: #004c79;  
+}
+
+.vlog-widget-content-sortable label{
+    width: 100%;
+    display: block;
+}
+.form-field input.vlog-small-text {
+    width: 50px;
+}
+
+@media only screen and (max-width: 1330px){
+.vlog-opt-box {
+    width: 48%;
+}    
+}
+@media only screen and (max-width: 1180px){
+.vlog-opt-box {
+    width: 100%;
+}    
+}

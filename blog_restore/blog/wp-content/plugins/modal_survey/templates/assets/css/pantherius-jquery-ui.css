@@ -1,0 +1,77 @@
+.ui-dialog-titlebar {
+    background: rgb(26, 188, 156);
+}
+
+.ui-dialog-buttonset span.ui-button-text {
+    background: #0085ba;
+    color: #fff;
+}
+
+.configuration_accordion h4, .additional-options-accordion h4, .group h3, .ui-widget-header {
+    background: rgba(7, 45, 38, 0.1) !important;
+	color: #000 !important;
+}
+
+.ui-effects-wrapper {
+	display: none;
+}
+
+.ui-dialog-titlebar {
+    background-color: #1abc9c !important;
+}
+
+.ui-dialog[aria-describedby="dialog-message"] .ui-dialog-titlebar {
+	display: none;
+}
+
+.ui-dialog[aria-describedby="dialog-message"] {
+	text-align: center;
+	position: fixed;
+}
+
+.help-dialogs {
+	position: fixed;	
+}
+
+#dialog-message .icon {
+	width: 64px;
+	height: 64px;
+	margin-right: 20px;
+}
+
+#dialog-message p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ui-dialog-titlebar-close {
+	background: transparent !important;
+	color: #000 !important;
+	outline : none !important;
+	border: 0px solid transparent !important;
+}
+
+a {
+	outline: none !important;
+	outline-width: 0px !important;
+}
+
+.ui-widget-overlay {
+	background: #5d5a5a !important;
+}
+
+.ui-icon:not( .ui-icon-circle-triangle-e ):not( .ui-icon-circle-triangle-w ) {
+	display: none !important;
+}
+
+.ui-dialog-buttonset span.ui-button-text, .pantherius-jquery-ui .button-primary, .pantherius-jquery-ui .button-primary:hover, .pantherius-jquery-ui .button-primary:active, .pantherius-jquery-ui .button-primary:visited {
+	background: #1abc9c;
+	border-color: transparent !important;
+	text-shadow: 0px 0px 0px transparent !important;
+	box-shadow: none !important;
+}
+
+.ui-cancel span {
+	background: #ececec !important;
+	color: #000 !important;
+}

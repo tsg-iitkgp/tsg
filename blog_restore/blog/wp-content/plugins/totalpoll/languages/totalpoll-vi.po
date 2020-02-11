@@ -1,0 +1,2312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll 3\n"
+"POT-Creation-Date: 2016-10-15 09:45+0400\n"
+"PO-Revision-Date: 2016-10-15 09:45+0400\n"
+"Last-Translator: \n"
+"Language-Team: Hoan Chu <hoanchu.it@gmail.com>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: templates\n"
+
+#: includes/admin/ajax.php:50 includes/admin/ajax.php:59
+#: includes/admin/ajax.php:84 includes/admin/ajax.php:93
+msgid "Invalid argument passed"
+msgstr "Đối số không hợp lệ được thông qua"
+
+#: includes/admin/bootstrap.php:168 includes/admin/bootstrap.php:408
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/admin/bootstrap.php:169 includes/admin/bootstrap.php:525
+#: includes/admin/editor/actions.php:6
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/bootstrap.php:170
+msgid "Results Shortcode"
+msgstr "Shortcode kết quả"
+
+#: includes/admin/bootstrap.php:171
+msgid "Total votes"
+msgstr "Tổng cộng"
+
+#: includes/admin/bootstrap.php:172 includes/admin/editor.php:310
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/submissions.php:18
+#: includes/admin/editor/browse/submissions.php:33
+#: includes/admin/editor/browse/submissions.php:80
+#: includes/admin/editor/settings/choices.php:82
+#: includes/admin/editor/settings/results.php:52
+msgid "Date"
+msgstr "Ngày lập:"
+
+#: includes/admin/bootstrap.php:196
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your Envato license key</a> in order to "
+"update TotalPoll."
+msgstr ""
+"Bạn cần phải <a href=\"%s\">nhập mã bản quyền Envato của bạn</a> để cập nhật "
+"TotalPoll."
+
+#: includes/admin/bootstrap.php:290
+msgid "TotalPoll Options"
+msgstr ""
+
+#: includes/admin/bootstrap.php:290
+#: includes/admin/editor/custom-fields/checkbox.php:74
+#: includes/admin/editor/custom-fields/radio.php:68
+#: includes/admin/editor/custom-fields/select.php:68
+#: includes/admin/partials/options-panel.php:2
+msgid "Options"
+msgstr "Tuỳ chọn"
+
+#: includes/admin/bootstrap.php:291
+msgid "TotalPoll Extensions"
+msgstr "Tiện ích của TotalPoll"
+
+#: includes/admin/bootstrap.php:291 includes/admin/bootstrap.php:375
+#: includes/admin/pages/about.php:77 includes/admin/pages/about.php:99
+#: includes/admin/pages/extensions.php:59 includes/admin/pages/store.php:30
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: includes/admin/bootstrap.php:292
+msgid "TotalPoll Templates"
+msgstr "TotalPoll Templates"
+
+#: includes/admin/bootstrap.php:292 includes/admin/bootstrap.php:380
+#: includes/admin/pages/about.php:72 includes/admin/pages/about.php:95
+#: includes/admin/pages/store.php:27 includes/admin/pages/templates.php:59
+msgid "Templates"
+msgstr "Bản mẫu"
+
+#: includes/admin/bootstrap.php:293
+msgid "TotalPoll Store"
+msgstr "Cửa hang TotalPoll"
+
+#: includes/admin/bootstrap.php:293 includes/admin/bootstrap.php:385
+#: includes/admin/pages/store.php:23
+msgid "Store"
+msgstr "Cửa hàng"
+
+#: includes/admin/bootstrap.php:294
+msgid "TotalPoll Tools"
+msgstr "Công cụ TotalPoll "
+
+#: includes/admin/bootstrap.php:294 includes/admin/bootstrap.php:390
+#: includes/admin/pages/tools.php:44
+msgid "Tools"
+msgstr "Công cụ"
+
+#: includes/admin/bootstrap.php:295
+msgid "TotalPoll About"
+msgstr "Giới thiệu TotalPoll"
+
+#: includes/admin/bootstrap.php:295
+msgid "About"
+msgstr "Giới thiệu"
+
+#: includes/admin/bootstrap.php:296
+msgid "TotalPoll Update"
+msgstr "Cập nhật TotalPoll"
+
+#: includes/admin/bootstrap.php:296 includes/admin/bootstrap.php:395
+msgid "Update"
+msgstr "Cập Nhật"
+
+#: includes/admin/bootstrap.php:297
+msgid "TotalPoll Support Center"
+msgstr "Trung tâm Hỗ trợ TotalPoll"
+
+#: includes/admin/bootstrap.php:297 includes/admin/bootstrap.php:400
+msgid "Support / Help"
+msgstr "Hỗ trợ / trợ giúp"
+
+#: includes/admin/bootstrap.php:322 includes/admin/editor.php:107
+msgid "Are you sure?!"
+msgstr "Bạn có chắc không"
+
+#: includes/admin/bootstrap.php:323 includes/admin/editor.php:109
+msgid ""
+"Changing the current template requires a page reload. All changes will be "
+"saved now. Are you sure?"
+msgstr ""
+"Thay đổi mẫu hiện tại đòi hỏi một tải lại trang. Tất cả những thay đổi sẽ "
+"được lưu ngay bây giờ. Bạn có chắc không?"
+
+#: includes/admin/bootstrap.php:355 includes/admin/editor/browse/logs.php:115
+#: includes/admin/editor/browse/submissions.php:96
+msgid "Previous"
+msgstr "< Lùi lại"
+
+#: includes/admin/bootstrap.php:356 includes/admin/editor/browse/logs.php:118
+#: includes/admin/editor/browse/submissions.php:99
+msgid "Next"
+msgstr "Kế tiếp >"
+
+#: includes/admin/bootstrap.php:357
+msgid "Done"
+msgstr "Đã xong"
+
+#: includes/admin/bootstrap.php:365
+msgid "Welcome!"
+msgstr "Xin chào!"
+
+#: includes/admin/bootstrap.php:366
+msgid "You can access to your polls and TotalPoll features from this menu."
+msgstr ""
+"Bạn có thể truy cập đến các cuộc thăm dò của bạn và tính năng TotalPoll  từ "
+"trình đơn này."
+
+#: includes/admin/bootstrap.php:370
+msgid "New poll"
+msgstr "Cuộc thăm dò mới"
+
+#: includes/admin/bootstrap.php:371
+msgid "You can create your first poll from this page."
+msgstr "Bạn có thể tạo cuộc thăm do tại đây"
+
+#: includes/admin/bootstrap.php:376
+msgid "From this page you can manage TotalPoll extensions."
+msgstr "Từ trang này bạn có thể quản lý tiện ích TotalPoll."
+
+#: includes/admin/bootstrap.php:381
+msgid "From this page you can manage manage TotalPoll templates."
+msgstr "Từ trang này bạn có thể quản lý quản lý mẫu TotalPoll."
+
+#: includes/admin/bootstrap.php:386
+msgid ""
+"Extend TotalPoll functionality and appearance with premium extensions and "
+"templates."
+msgstr ""
+"Mở rộng chức năng TotalPoll và xuất hiện với phần mở rộng cao cấp và các mẫu."
+
+#: includes/admin/bootstrap.php:391
+msgid "Tools for importing, exporting and migrating polls."
+msgstr "Công cụ cho nhập khẩu, xuất khẩu và các cuộc thăm dò di cư."
+
+#: includes/admin/bootstrap.php:396
+msgid "Receive updates by activating TotalPoll via Envato license key."
+msgstr ""
+"Nhận thông tin cập nhật bằng cách kích hoạt TotalPoll qua Envato key bản "
+"quyền."
+
+#: includes/admin/bootstrap.php:401
+msgid "Visit this page if you need any help with TotalPoll."
+msgstr "Truy cập vào trang này nếu bạn cần bất kỳ sự giúp đỡ với TotalPoll."
+
+#: includes/admin/bootstrap.php:409
+msgid "First things first, let's give the poll a title i.e. Favorite colors."
+msgstr ""
+"Trước tiên, chúng ta hãy cung cấp cho các cuộc thăm dò một danh hiệu tức là "
+"màu sắc yêu thích."
+
+#: includes/admin/bootstrap.php:417 includes/admin/editor/question.php:7
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: includes/admin/bootstrap.php:418
+msgid "And of course a question i.e. What is your favorite colors."
+msgstr "Và tất nhiên một câu hỏi tức là màu sắc ưa thích của bạn là gì."
+
+#: includes/admin/bootstrap.php:426 includes/admin/bootstrap.php:462
+#: includes/admin/editor.php:250 includes/admin/editor/browse/logs.php:34
+#: includes/admin/editor/browse/logs.php:63
+#: includes/admin/editor/browse/logs.php:98
+#: includes/admin/editor/browse/statistics-cards.php:62
+#: includes/admin/editor/choices.php:7 includes/admin/editor/settings.php:77
+#: includes/admin/pages/about.php:62 includes/classes/request.php:250
+msgid "Choices"
+msgstr "Lựa chọn"
+
+#: includes/admin/bootstrap.php:427
+msgid "Now let's introduce poll choices i.e. Red, green and blue."
+msgstr ""
+"Bây giờ chúng ta hãy giới thiệu lựa chọn cuộc khảo sát tức là đỏ, xanh lá cây "
+"và xanh dương."
+
+#: includes/admin/bootstrap.php:435 includes/admin/editor/choices.php:33
+msgid "Bulk insertion"
+msgstr "Chèn nhiều lựa chọn"
+
+#: includes/admin/bootstrap.php:436
+msgid "Protip: Use bulk insertion when you have already a list of choices."
+msgstr ""
+"Protip: Sử dụng chèn số lượng lớn khi bạn đã có một danh sách các lựa chọn."
+
+#: includes/admin/bootstrap.php:444 includes/admin/editor/settings.php:67
+msgid "Limitations"
+msgstr "Hạn chế"
+
+#: includes/admin/bootstrap.php:445
+msgid "Set limitations to match your needs."
+msgstr "Đặt giới hạn để phù hợp với nhu cầu của bạn."
+
+#: includes/admin/bootstrap.php:453 includes/admin/editor/settings.php:72
+#: includes/admin/pages/options/expressions.php:41
+#: includes/classes/template.php:499
+msgid "Results"
+msgstr "Kết quả"
+
+#: includes/admin/bootstrap.php:454
+msgid "Change results settings to match your needs."
+msgstr "Thay đổi cài đặt kết quả để phù hợp với nhu cầu của bạn."
+
+#: includes/admin/bootstrap.php:463
+msgid "Change choices settings to match your needs."
+msgstr "Thay đổi cài đặt lựa chọn để phù hợp với nhu cầu của bạn."
+
+#: includes/admin/bootstrap.php:471 includes/admin/editor/settings.php:82
+#: includes/admin/pages/about.php:27
+msgid "Custom fields"
+msgstr "Trường tùy chỉnh"
+
+#: includes/admin/bootstrap.php:472
+msgid "You can manage custom fields from this tab."
+msgstr "Bạn có thể quản lý các lĩnh vực tùy chỉnh từ tab này."
+
+#: includes/admin/bootstrap.php:480 includes/admin/editor/settings.php:87
+msgid "Design"
+msgstr "Thiết kế"
+
+#: includes/admin/bootstrap.php:481
+msgid "And polish poll's appearance from this one."
+msgstr "Và sự xuất hiện đánh bóng thăm dò của từ này."
+
+#: includes/admin/bootstrap.php:489 includes/admin/editor/settings.php:92
+msgid "Screens"
+msgstr "Screens"
+
+#: includes/admin/bootstrap.php:490
+msgid "Set a \"thank you\" or \"welcome\" message from this tab."
+msgstr ""
+"Thiết lập một &quot;cảm ơn&quot; hay &quot;chào đón&quot; tin nhắn từ thẻ này."
+
+#: includes/admin/bootstrap.php:498 includes/admin/editor/browse.php:16
+#: includes/admin/editor/custom-fields/tabs.php:10
+#: includes/admin/pages/about.php:32
+msgid "Statistics"
+msgstr "Tình trạng"
+
+#: includes/admin/bootstrap.php:499
+msgid "Browse the statistics from this tab."
+msgstr "Duyệt các số liệu thống kê từ tab này."
+
+#: includes/admin/bootstrap.php:507 includes/admin/editor/browse.php:21
+#: includes/admin/editor/settings.php:97 includes/admin/pages/about.php:67
+msgid "Logs"
+msgstr "Logs"
+
+#: includes/admin/bootstrap.php:508
+msgid "You can also browse the logs from this tab."
+msgstr "Bạn cũng có thể duyệt các bản ghi từ tab này."
+
+#: includes/admin/bootstrap.php:516 includes/admin/editor/browse.php:26
+msgid "Submissions"
+msgstr "Bài nộp"
+
+#: includes/admin/bootstrap.php:517
+msgid "Lastly, the submissions from this one."
+msgstr "Cuối cùng, các bài dự thi từ này."
+
+#: includes/admin/bootstrap.php:526
+msgid "Paste this shortcode anywhere to embed the poll."
+msgstr "Dán shortcode này bất cứ nơi nào để nhúng các cuộc thăm dò."
+
+#: includes/admin/bootstrap.php:534
+msgid "Publish"
+msgstr "Ok :0"
+
+#: includes/admin/bootstrap.php:535
+msgid "You are almost done! Now It's time to publish the poll."
+msgstr ""
+"Bạn đang gần hoàn tất! Nó bây giờ là thời gian để xuất bản các cuộc thăm dò."
+
+#: includes/admin/bootstrap.php:543 includes/admin/editor/choices.php:35
+msgid "Reset votes"
+msgstr "Đặt lại khảo sát"
+
+#: includes/admin/bootstrap.php:544
+msgid ""
+"You can use this button to reset choices votes to 0. You can also set votes "
+"manually from \"votes\" field underneath."
+msgstr ""
+"Bạn có thể sử dụng nút này để thiết lập lại sự lựa chọn phiếu 0. Bạn cũng có "
+"thể thiết lập phiếu bằng tay từ &quot;phiếu&quot; lĩnh vực bên dưới."
+
+#: includes/admin/bootstrap.php:552 includes/admin/pages/update.php:22
+msgid "Thank you!"
+msgstr "Chân thành cảm ơn!"
+
+#: includes/admin/bootstrap.php:554
+#, php-format
+msgid ""
+"By now you are familiar with the basics of TotalPoll. Thank you for your "
+"time! If you need any help, please don't hesitate to visit our <a href=\"%s"
+"\">support center</a>."
+msgstr ""
+"Bởi bây giờ bạn đã quen thuộc với những điều cơ bản của TotalPoll. Cảm ơn bạn "
+"đã dành thời gian! Nếu bạn cần bất kỳ sự giúp đỡ, xin vui lòng truy cập của "
+"chúng tôi <a href=\"%s\">trung tâm hỗ trợ</a> ."
+
+#: includes/admin/editor.php:108
+msgid "Extract thumbnail from video URL?"
+msgstr ""
+
+#: includes/admin/editor.php:111
+#, php-format
+msgid ""
+"STOP!\n"
+"\n"
+"Some of your changes will be lost because your PHP configuration is limited "
+"to %d inputs per page and unfortunately you have exceeded that limit.\n"
+"\n"
+"Please ask your hosting provider to change the value of 'max_input_vars' in "
+"your PHP.INI file to a higher number.\n"
+"\n"
+"For more details please visit our help center."
+msgstr ""
+
+#: includes/admin/editor.php:244 includes/admin/editor/browse/logs.php:18
+#: includes/admin/editor/browse/logs.php:59
+#: includes/admin/editor/browse/logs.php:94
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:75
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/editor.php:245 includes/admin/editor/browse/logs.php:22
+#: includes/admin/editor/browse/logs.php:60
+#: includes/admin/editor/browse/logs.php:95 includes/classes/request.php:249
+msgid "Time"
+msgstr "Thời gian"
+
+#: includes/admin/editor.php:246 includes/admin/editor/browse/logs.php:26
+#: includes/admin/editor/browse/logs.php:61
+#: includes/admin/editor/browse/logs.php:96 includes/classes/request.php:247
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/editor.php:247
+msgid "Platform"
+msgstr "Bục"
+
+#: includes/admin/editor.php:248 includes/admin/editor/browse/logs.php:30
+#: includes/admin/editor/browse/logs.php:62
+#: includes/admin/editor/browse/logs.php:97
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/classes/request.php:248
+msgid "Browser"
+msgstr "Trình duyệt"
+
+#: includes/admin/editor.php:249 includes/admin/pages/extensions.php:178
+#: includes/admin/pages/templates.php:182
+msgid "Version"
+msgstr "Phiên bản"
+
+#: includes/admin/editor.php:251 includes/admin/editor/browse/logs.php:39
+#: includes/admin/editor/browse/logs.php:70
+#: includes/admin/editor/browse/logs.php:105 includes/classes/request.php:251
+msgid "Details"
+msgstr "Chi tiết"
+
+#: includes/admin/editor.php:252
+msgid "User agent"
+msgstr "Đại lý người dùng"
+
+#: includes/admin/editor.php:267 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:20
+msgid "Accepted"
+msgstr "Được chấp nhận"
+
+#: includes/admin/editor.php:267 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:25
+msgid "Denied"
+msgstr "Đã từ chối"
+
+#: includes/admin/editor.php:279 includes/admin/editor.php:302
+#: includes/admin/editor/browse/logs-item.php:28
+#: includes/admin/editor/browse/logs-item.php:41
+#: includes/admin/editor/browse/submissions-item.php:13
+#: includes/admin/editor/browse/submissions-item.php:25
+#: includes/admin/statistics.php:25 includes/classes/helpers.php:146
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/editor/browse.php:7 includes/admin/pages/extensions.php:63
+#: includes/admin/pages/templates.php:63
+msgid "Browse"
+msgstr "Duyệt"
+
+#: includes/admin/editor/browse/logs.php:81
+msgid "There are no logs."
+msgstr "Không có bản ghi."
+
+#: includes/admin/editor/browse/logs.php:113
+#: includes/admin/editor/browse/submissions.php:94
+msgid "First"
+msgstr "Đầu tiên"
+
+#: includes/admin/editor/browse/logs.php:120
+#: includes/admin/editor/browse/submissions.php:101
+msgid "Last"
+msgstr "Trang cuối"
+
+#: includes/admin/editor/browse/logs.php:126
+#, php-format
+msgid "One log"
+msgid_plural "%s logs"
+msgstr[0] "%s logs"
+
+#: includes/admin/editor/browse/logs.php:129
+#: includes/admin/editor/browse/statistics.php:36
+#: includes/admin/editor/browse/submissions.php:111
+#: includes/admin/pages/support.php:63
+msgid "Download"
+msgstr "Tải xuống"
+
+#: includes/admin/editor/browse/logs.php:131
+#: includes/admin/editor/browse/submissions.php:113
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/admin/editor/browse/logs.php:133
+#: includes/admin/editor/browse/submissions.php:115
+#: includes/admin/editor/custom-fields/tabs.php:9
+#: includes/admin/pages/about.php:107
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/editor/browse/logs.php:135
+#: includes/admin/editor/browse/statistics.php:38
+#: includes/admin/editor/browse/submissions.php:117
+msgid "or"
+msgstr "hoặc"
+
+#: includes/admin/editor/browse/logs.php:137
+#: includes/admin/editor/browse/statistics.php:40
+#: includes/admin/editor/browse/submissions.php:119
+msgid "Reset"
+msgstr "Thiết lập lại"
+
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/browse/statistics-cards.php:33
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:53
+#: includes/admin/editor/browse/statistics-cards.php:58
+#: includes/admin/editor/choices/handle.php:10
+#: includes/admin/editor/choices/handle.php:13
+#: includes/admin/editor/print.php:22 includes/admin/editor/print.php:30
+#: includes/admin/editor/settings/choices.php:76
+#: includes/admin/editor/settings/results.php:46
+#: includes/admin/editor/settings/results.php:134
+#: includes/admin/pages/options/expressions.php:14
+msgid "Votes"
+msgstr "Lượt khảo sát"
+
+#: includes/admin/editor/browse/statistics-cards.php:32
+msgid "Month"
+msgstr "Tháng"
+
+#: includes/admin/editor/browse/statistics-cards.php:33
+msgid "Year"
+msgstr "Năm"
+
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:173
+msgid "Platforms"
+msgstr "Nền tảng"
+
+#: includes/admin/editor/browse/statistics-cards.php:58
+#: includes/admin/editor/print.php:21 includes/admin/editor/print.php:30
+msgid "Choice"
+msgstr "Lựa chọn"
+
+#: includes/admin/editor/browse/statistics-cards.php:67
+#: includes/admin/editor/browse/statistics-cards.php:80
+#: includes/admin/editor/browse/statistics-cards.php:95
+#: includes/admin/editor/browse/statistics-cards.php:133
+#: includes/admin/editor/browse/statistics-cards.php:147
+#: includes/admin/editor/browse/statistics-cards.php:164
+#: includes/admin/editor/browse/statistics-cards.php:178
+#: includes/admin/editor/browse/statistics.php:16
+msgid "Insufficient data to analyze."
+msgstr "Không đủ dữ liệu để phân tích."
+
+#: includes/admin/editor/browse/statistics-cards.php:90
+msgid "Votes over the last 30 days of activity"
+msgstr "Phiếu trong 30 ngày cuối cùng của hoạt động"
+
+#: includes/admin/editor/browse/statistics-cards.php:106
+msgid "Votes casted"
+msgstr "Đã bầu"
+
+#: includes/admin/editor/browse/statistics-cards.php:111
+msgid "Votes casted today"
+msgstr "Bình chọn ngày hôm nay"
+
+#: includes/admin/editor/browse/statistics-cards.php:116
+msgid "Votes casted this week"
+msgstr "Bình chọn trong tuần này"
+
+#: includes/admin/editor/browse/statistics-cards.php:121
+msgid "Votes casted this month"
+msgstr "Bình chọn trong tháng này"
+
+#: includes/admin/editor/browse/statistics-cards.php:128
+msgid "Votes over months"
+msgstr "Bình chọn theo tháng"
+
+#: includes/admin/editor/browse/statistics-cards.php:142
+msgid "Votes over years"
+msgstr "Bình chọn theo năm"
+
+#: includes/admin/editor/browse/statistics-cards.php:159
+msgid "Browsers"
+msgstr "Các trình duyệt"
+
+#: includes/admin/editor/browse/statistics.php:34
+msgid "Print"
+msgstr "In"
+
+#: includes/admin/editor/browse/submissions.php:51
+msgid ""
+"There are stored submissions, but custom fields must be present to browse "
+"them."
+msgstr ""
+"Có đệ trình lưu trữ, nhưng lĩnh vực tùy chỉnh phải có mặt để duyệt chúng."
+
+#: includes/admin/editor/browse/submissions.php:53
+#: includes/admin/editor/browse/submissions.php:63
+msgid "There are no submissions."
+msgstr "Không có bài nộp."
+
+#: includes/admin/editor/browse/submissions.php:108
+#, php-format
+msgid "One submission"
+msgid_plural "%s submissions"
+msgstr[0] "%s submissions"
+
+#: includes/admin/editor/choices.php:13
+msgid ""
+"TotalPoll will synchronize votes between translations automatically. "
+"Therefore, choices must be in the exact order across all translations."
+msgstr ""
+"TotalPoll sẽ đồng bộ hóa phiếu giữa bản dịch tự động. Do đó, sự lựa chọn phải "
+"được theo thứ tự chính xác trên tất cả các bản dịch."
+
+#: includes/admin/editor/choices.php:17
+#: includes/admin/editor/choices/text.php:10
+#: includes/admin/editor/custom-fields/text.php:10
+#: includes/admin/editor/settings/custom-fields.php:12
+msgid "Text"
+msgstr "Văn bản"
+
+#: includes/admin/editor/choices.php:20
+#: includes/admin/editor/choices/image.php:10
+msgid "Image"
+msgstr "Hình ảnh"
+
+#: includes/admin/editor/choices.php:23
+#: includes/admin/editor/choices/video.php:10
+msgid "Video"
+msgstr "Video"
+
+#: includes/admin/editor/choices.php:26
+#: includes/admin/editor/choices/audio.php:10
+msgid "Audio"
+msgstr "Âm thanh"
+
+#: includes/admin/editor/choices.php:29
+#: includes/admin/editor/choices/html.php:10
+msgid "Rich"
+msgstr "Văn bản (nâng cao)"
+
+#: includes/admin/editor/choices.php:40
+msgid "Import"
+msgstr "Nhập"
+
+#: includes/admin/editor/choices/audio.php:34
+#: includes/admin/editor/choices/html.php:19
+#: includes/admin/editor/choices/image.php:27
+#: includes/admin/editor/choices/text.php:19
+#: includes/admin/editor/choices/video.php:34
+#: includes/admin/editor/custom-fields/checkbox.php:55
+#: includes/admin/editor/custom-fields/radio.php:49
+#: includes/admin/editor/custom-fields/select.php:49
+#: includes/admin/editor/custom-fields/text.php:49
+#: includes/admin/editor/custom-fields/textarea.php:49
+#: includes/admin/editor/settings/choices.php:79
+#: includes/admin/editor/settings/results.php:49
+msgid "Label"
+msgstr "Tiêu đề"
+
+#: includes/admin/editor/choices/audio.php:39
+#: includes/admin/editor/choices/image.php:32
+#: includes/admin/editor/choices/video.php:39
+msgid "Choice label"
+msgstr "Tiêu đề lựa chọn"
+
+#: includes/admin/editor/choices/audio.php:50
+msgid "Full audio url"
+msgstr "Đường dẫn file audio đầy đủ"
+
+#: includes/admin/editor/choices/audio.php:58
+msgid "Choice full audio url"
+msgstr "Lựa chọn đường dẫn file audio đầy đủ"
+
+#: includes/admin/editor/choices/audio.php:74
+#: includes/admin/editor/choices/audio.php:129
+#: includes/admin/editor/choices/image.php:66
+#: includes/admin/editor/choices/video.php:75
+#: includes/admin/editor/choices/video.php:130
+#: includes/admin/pages/extensions.php:61 includes/admin/pages/templates.php:61
+msgid "Upload"
+msgstr "Upload"
+
+#: includes/admin/editor/choices/audio.php:81
+msgid "Thumbnail audio url"
+msgstr "url âm thanh thu nhỏ"
+
+#: includes/admin/editor/choices/audio.php:86
+msgid "Choice thumbnail audio url"
+msgstr "Choice url âm thanh thu nhỏ"
+
+#: includes/admin/editor/choices/audio.php:94
+#: includes/admin/editor/choices/image.php:87
+#: includes/admin/editor/choices/video.php:95
+msgid "Available sizes"
+msgstr "Kích thước có sẵn"
+
+#: includes/admin/editor/choices/audio.php:105
+#: includes/admin/editor/choices/image.php:99
+#: includes/admin/editor/choices/video.php:106
+msgid "Upload image first"
+msgstr "Tải lên hình ảnh đầu tiên"
+
+#: includes/admin/editor/choices/handle.php:8
+#: includes/admin/editor/custom-fields/handle.php:8
+msgid "Remove"
+msgstr "Xoá"
+
+#: includes/admin/editor/choices/html.php:24
+#: includes/admin/editor/choices/text.php:24
+msgid "Choice content"
+msgstr "nội dung lựa chọn"
+
+#: includes/admin/editor/choices/image.php:42
+msgid "Full image url"
+msgstr "url hình ảnh đầy đủ"
+
+#: includes/admin/editor/choices/image.php:50
+msgid "Choice full image url"
+msgstr "Lựa chọn url hình ảnh đầy đủ"
+
+#: includes/admin/editor/choices/image.php:74
+msgid "Thumbnail image url"
+msgstr "url hình ảnh thu nhỏ"
+
+#: includes/admin/editor/choices/image.php:79
+msgid "Choice thumbnail image url"
+msgstr "Lựa chọn đường dẫn hình ảnh thu nhỏ"
+
+#: includes/admin/editor/choices/video.php:50
+msgid "Full video url"
+msgstr "Đường dẫn video đầy đủ"
+
+#: includes/admin/editor/choices/video.php:58
+msgid "Choice full video url"
+msgstr "Chọn đường dẫn video đầy đủ"
+
+#: includes/admin/editor/choices/video.php:82
+msgid "Thumbnail video url"
+msgstr "Đường dẫn hình thu nhỏ của video"
+
+#: includes/admin/editor/choices/video.php:87
+msgid "Choice thumbnail video url"
+msgstr "Lựa chọn đường dẫn hình thu nhỏ của video"
+
+#: includes/admin/editor/custom-fields/checkbox.php:10
+#: includes/admin/editor/settings/custom-fields.php:21
+msgid "Checkbox"
+msgstr "Hộp chọn"
+
+#: includes/admin/editor/custom-fields/checkbox.php:35
+#: includes/admin/editor/custom-fields/radio.php:29
+#: includes/admin/editor/custom-fields/select.php:29
+#: includes/admin/editor/custom-fields/text.php:29
+#: includes/admin/editor/custom-fields/textarea.php:29
+msgid "Name"
+msgstr "Tên"
+
+#: includes/admin/editor/custom-fields/checkbox.php:40
+#: includes/admin/editor/custom-fields/radio.php:34
+#: includes/admin/editor/custom-fields/select.php:34
+#: includes/admin/editor/custom-fields/text.php:34
+#: includes/admin/editor/custom-fields/textarea.php:34
+msgid "Field name"
+msgstr "Tên trường"
+
+#: includes/admin/editor/custom-fields/checkbox.php:60
+#: includes/admin/editor/custom-fields/radio.php:54
+#: includes/admin/editor/custom-fields/select.php:54
+#: includes/admin/editor/custom-fields/text.php:54
+#: includes/admin/editor/custom-fields/textarea.php:54
+msgid "Field label"
+msgstr "Trường nhãn"
+
+#: includes/admin/editor/custom-fields/checkbox.php:78
+#: includes/admin/editor/custom-fields/radio.php:72
+#: includes/admin/editor/custom-fields/select.php:73
+msgid "option_key : Option label"
+msgstr "option_key: Lựa chọn nhãn"
+
+#: includes/admin/editor/custom-fields/checkbox.php:84
+#: includes/admin/editor/custom-fields/radio.php:78
+#: includes/admin/editor/custom-fields/select.php:79
+msgid "Option per line."
+msgstr "Lựa chọn mỗi dòng."
+
+#: includes/admin/editor/custom-fields/checkbox.php:94
+#: includes/admin/editor/custom-fields/radio.php:88
+#: includes/admin/editor/custom-fields/select.php:89
+msgid "Default values"
+msgstr "Giá trị mặc định"
+
+#: includes/admin/editor/custom-fields/checkbox.php:98
+#: includes/admin/editor/custom-fields/radio.php:93
+#: includes/admin/editor/custom-fields/select.php:94
+msgid "option_key"
+msgstr "option_key"
+
+#: includes/admin/editor/custom-fields/checkbox.php:104
+#: includes/admin/editor/custom-fields/select.php:100
+msgid "Default value per line."
+msgstr "Giá trị mặc định trên mỗi dòng."
+
+#: includes/admin/editor/custom-fields/checkbox.php:130
+#: includes/admin/editor/custom-fields/radio.php:123
+#: includes/admin/editor/custom-fields/select.php:143
+#: includes/admin/editor/custom-fields/text.php:96
+#: includes/admin/editor/custom-fields/textarea.php:117
+msgid "Filled (required)"
+msgstr "Đầy (bắt buộc)"
+
+#: includes/admin/editor/custom-fields/html-fields.php:12
+msgid "Field CSS classes"
+msgstr "lớp học Dòng CSS"
+
+#: includes/admin/editor/custom-fields/html-fields.php:17
+msgid "Field classes"
+msgstr "lớp học Dòng"
+
+#: includes/admin/editor/custom-fields/html-fields.php:30
+msgid "Label CSS classes"
+msgstr "lớp Label CSS"
+
+#: includes/admin/editor/custom-fields/html-fields.php:35
+msgid "Label classes"
+msgstr "lớp Label"
+
+#: includes/admin/editor/custom-fields/html-fields.php:49
+#: includes/admin/editor/settings/design.php:14
+#: includes/admin/pages/templates.php:106 includes/admin/pages/templates.php:117
+msgid "Template"
+msgstr "Mẫu"
+
+#: includes/admin/editor/custom-fields/html-fields.php:54
+msgid "Field template"
+msgstr "trường mẫu"
+
+#: includes/admin/editor/custom-fields/html-fields.php:60
+msgid "%label% for field label."
+msgstr "% Nhãn% cho nhãn lĩnh vực."
+
+#: includes/admin/editor/custom-fields/html-fields.php:62
+#, php-format
+msgid "%field% for field input."
+msgstr "%field% for field input."
+
+#: includes/admin/editor/custom-fields/radio.php:10
+#: includes/admin/editor/settings/custom-fields.php:24
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/admin/editor/custom-fields/select.php:10
+#: includes/admin/editor/settings/custom-fields.php:18
+msgid "Select"
+msgstr "Chọn"
+
+#: includes/admin/editor/custom-fields/select.php:115
+msgid "Allow multiple values"
+msgstr "Cho phép nhiều giá trị"
+
+#: includes/admin/editor/custom-fields/statistics-fields.php:18
+msgid "Include in statistics"
+msgstr "Bao gồm trong thống kê"
+
+#: includes/admin/editor/custom-fields/tabs.php:7
+msgid "Basic"
+msgstr "Cơ bản"
+
+#: includes/admin/editor/custom-fields/tabs.php:8
+#: includes/admin/pages/options/expressions.php:142
+msgid "Validations"
+msgstr "Xác thực"
+
+#: includes/admin/editor/custom-fields/text.php:68
+#: includes/admin/editor/custom-fields/textarea.php:68
+msgid "Default value"
+msgstr "Giá trị mặc định"
+
+#: includes/admin/editor/custom-fields/text.php:73
+#: includes/admin/editor/custom-fields/textarea.php:73
+msgid "Field default"
+msgstr "mặc định lĩnh vực"
+
+#: includes/admin/editor/custom-fields/text.php:112
+#: includes/admin/editor/settings/notifications.php:13
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/editor/custom-fields/text.php:128
+msgid "Unique"
+msgstr "Unique"
+
+#: includes/admin/editor/custom-fields/text.php:146
+#: includes/admin/editor/custom-fields/textarea.php:134
+msgid "Filter by list"
+msgstr "Lọc theo danh mục"
+
+#: includes/admin/editor/custom-fields/text.php:156
+#: includes/admin/editor/custom-fields/textarea.php:144
+msgid "List"
+msgstr "Danh sách"
+
+#: includes/admin/editor/custom-fields/text.php:166
+#: includes/admin/editor/custom-fields/textarea.php:154
+msgid "Word per line."
+msgstr "Lời trên mỗi dòng."
+
+#: includes/admin/editor/custom-fields/text.php:168
+#: includes/admin/editor/custom-fields/textarea.php:156
+msgid "\"+\" before word means white-listed."
+msgstr "&quot; &quot; Trước từ có nghĩa là danh sách trắng."
+
+#: includes/admin/editor/custom-fields/text.php:170
+#: includes/admin/editor/custom-fields/textarea.php:158
+msgid "\"-\" before word means black-listed."
+msgstr "&quot;-&quot; Trước khi từ nghĩa đen được liệt kê."
+
+#: includes/admin/editor/custom-fields/text.php:172
+#: includes/admin/editor/custom-fields/textarea.php:160
+msgid "\"*\" means wildcard."
+msgstr "&quot;*&quot; Có nghĩa là ký tự đại diện."
+
+#: includes/admin/editor/custom-fields/text.php:188
+#: includes/admin/editor/custom-fields/textarea.php:176
+msgid "Regex"
+msgstr "Biểu thức chính quy"
+
+#: includes/admin/editor/custom-fields/text.php:198
+#: includes/admin/editor/custom-fields/textarea.php:186
+msgid "Regular expression"
+msgstr "Biểu thức chính quy"
+
+#: includes/admin/editor/custom-fields/text.php:210
+#: includes/admin/editor/custom-fields/textarea.php:198
+msgid "Must be a valid regular expression."
+msgstr "Phải là một biểu hiện thường xuyên hợp lệ."
+
+#: includes/admin/editor/custom-fields/text.php:215
+#: includes/admin/editor/custom-fields/textarea.php:203
+msgid "Error message"
+msgstr ""
+
+#: includes/admin/editor/custom-fields/text.php:230
+#: includes/admin/editor/custom-fields/textarea.php:218
+msgid "Comparison"
+msgstr "So sánh"
+
+#: includes/admin/editor/custom-fields/text.php:241
+#: includes/admin/editor/custom-fields/textarea.php:229
+msgid "Must match"
+msgstr "Phải phù hợp với"
+
+#: includes/admin/editor/custom-fields/text.php:252
+#: includes/admin/editor/custom-fields/textarea.php:240
+msgid "Must not match"
+msgstr "không phải phù hợp"
+
+#: includes/admin/editor/custom-fields/textarea.php:10
+#: includes/admin/editor/settings/custom-fields.php:15
+msgid "Text area"
+msgstr "Vùng nhập dữ liệu"
+
+#: includes/admin/editor/custom-fields/textarea.php:87
+msgid "Rows"
+msgstr "Các dòng"
+
+#: includes/admin/editor/custom-fields/textarea.php:92
+msgid "Field rows"
+msgstr "Dòng hàng"
+
+#: includes/admin/editor/header.php:10
+#, php-format
+msgid ""
+"This poll was created with prior version of TotalPoll. Please <a href=\"%s"
+"\">migrate your polls</a>."
+msgstr ""
+"Khảo sát này đã được tạo ra với phiên bản trước của TotalPoll. Xin hãy <a "
+"href=\"%s\">di chuyển các cuộc thăm dò của bạn</a> ."
+
+#: includes/admin/editor/print.php:10 includes/admin/pages/about.php:111
+#: includes/classes/post-types.php:35 includes/widgets/base.php:74
+#: includes/widgets/base.php:84 includes/widgets/latest.php:77
+#: includes/widgets/random.php:75
+msgid "Poll"
+msgstr "Thăm dò ý kiến"
+
+#: includes/admin/editor/settings.php:7
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: includes/admin/editor/settings.php:7
+msgid "Default settings"
+msgstr ""
+
+#: includes/admin/editor/settings.php:102
+msgid "Notifications"
+msgstr ""
+
+#: includes/admin/editor/settings/choices.php:14
+msgid "Minimum selection"
+msgstr "Lựa chọn tối thiểu"
+
+#: includes/admin/editor/settings/choices.php:24
+msgid "Maximum selection"
+msgstr "Lựa chọn tối đa"
+
+#: includes/admin/editor/settings/choices.php:29
+#: includes/admin/editor/settings/choices.php:45
+msgid "0 means unlimited."
+msgstr "0 có nghĩa là không giới hạn."
+
+#: includes/admin/editor/settings/choices.php:40
+msgid "Choices per page"
+msgstr "Lựa chọn của mỗi trang"
+
+#: includes/admin/editor/settings/choices.php:57
+msgid "Order choices"
+msgstr "Lựa chọn thứ tự"
+
+#: includes/admin/editor/settings/choices.php:60
+#: includes/admin/editor/settings/results.php:30
+msgid ""
+"Heads up! Enabling this along with pagination can cause performance issues."
+msgstr ""
+"Cảnh báo! Bật tính năng này cùng với phân trang có thể gây ra vấn đề hiệu "
+"suất."
+
+#: includes/admin/editor/settings/choices.php:71
+#: includes/admin/editor/settings/results.php:41
+msgid "Order by"
+msgstr "Đặt theo:"
+
+#: includes/admin/editor/settings/choices.php:85
+#: includes/admin/editor/settings/results.php:55
+msgid "Random"
+msgstr "Ngẫu nhiên"
+
+#: includes/admin/editor/settings/choices.php:92
+#: includes/admin/editor/settings/results.php:62
+msgid "Order direction"
+msgstr "Hướng Thứ Tự:"
+
+#: includes/admin/editor/settings/choices.php:98
+#: includes/admin/editor/settings/results.php:68
+msgid "Ascending"
+msgstr "Tăng dần"
+
+#: includes/admin/editor/settings/choices.php:103
+#: includes/admin/editor/settings/results.php:73
+msgid "Descending"
+msgstr "Giảm dần"
+
+#: includes/admin/editor/settings/choices.php:116
+msgid "Allow user submissions"
+msgstr "Cho phép người dùng gửi"
+
+#: includes/admin/editor/settings/choices.php:128
+msgid "Hide new submissions for moderation"
+msgstr "Hide đệ trình mới kiểm duyệt"
+
+#: includes/admin/editor/settings/design.php:26
+msgid "(Not Activated)"
+msgstr "(Chưa được kích hoạt)"
+
+#: includes/admin/editor/settings/design.php:27
+msgid "(Not Compatible)"
+msgstr "(Không tương thích)"
+
+#: includes/admin/editor/settings/design.php:144
+msgid "Set current settings as defaults"
+msgstr "Thiết lập cài đặt hiện tại như mặc định"
+
+#: includes/admin/editor/settings/design.php:152
+msgid "Reset settings to defaults"
+msgstr "Cài lại cài đặt mặc định"
+
+#: includes/admin/editor/settings/design.php:163
+msgid "Transition"
+msgstr ""
+
+#: includes/admin/editor/settings/design.php:178
+msgid "Scroll up after vote submit"
+msgstr ""
+
+#: includes/admin/editor/settings/design.php:189
+msgid "Enable one-click vote"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:14
+msgid "Block re-vote by Cookies"
+msgstr "Chặn bỏ phiếu nhiều lần"
+
+#: includes/admin/editor/settings/limitations.php:18
+#: includes/admin/editor/settings/limitations.php:49
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: includes/admin/editor/settings/limitations.php:29
+msgid "Cookies timeout (minutes)"
+msgstr "Thời gian chờ cookie (phút)"
+
+#: includes/admin/editor/settings/limitations.php:34
+#: includes/admin/editor/settings/limitations.php:65
+msgid "0 means permanent."
+msgstr "0 có nghĩa là vĩnh viễn."
+
+#: includes/admin/editor/settings/limitations.php:45
+msgid "Block re-vote by IP"
+msgstr "Khối tái bỏ phiếu bằng IP"
+
+#: includes/admin/editor/settings/limitations.php:60
+msgid "IP timeout (minutes)"
+msgstr "thời gian chờ IP (phút)"
+
+#: includes/admin/editor/settings/limitations.php:70
+msgid "Votes per ip"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:78
+msgid "Filter list"
+msgstr "danh sách bộ lọc"
+
+#: includes/admin/editor/settings/limitations.php:83
+msgid "IP Per line."
+msgstr "IP mỗi dòng."
+
+#: includes/admin/editor/settings/limitations.php:85
+msgid ""
+"\"+\" before IP means white-listed / \"-\" means black-listed / \"*\" means "
+"wildcard"
+msgstr ""
+"&quot; &quot; Trước khi IP có nghĩa là danh sách trắng / &quot;-&quot; nghĩa "
+"đen được liệt kê / &quot;*&quot; có nghĩa là ký tự đại diện"
+
+#: includes/admin/editor/settings/limitations.php:97
+msgid "Block vote via direct link"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:113
+msgid "Require membership"
+msgstr "Yêu cầu tư cách thành viên"
+
+#: includes/admin/editor/settings/limitations.php:125
+msgid "Membership type"
+msgstr "Loại thành viên"
+
+#: includes/admin/editor/settings/limitations.php:134
+#: includes/admin/pages/options/sharing.php:35
+msgid "Hold Control/Command for multiple selection."
+msgstr "Giữ Control / Command cho nhiều lựa chọn."
+
+#: includes/admin/editor/settings/limitations.php:140
+msgid "Allow only one vote per member"
+msgstr ""
+
+#: includes/admin/editor/settings/limitations.php:153
+msgid "Require reCaptcha"
+msgstr "Yêu cầu reCaptcha"
+
+#: includes/admin/editor/settings/limitations.php:165
+msgid "Site Key"
+msgstr "Site Key"
+
+#: includes/admin/editor/settings/limitations.php:173
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: includes/admin/editor/settings/limitations.php:188
+msgid "Limit by quota"
+msgstr "Giới hạn theo hạn ngạch"
+
+#: includes/admin/editor/settings/limitations.php:199
+msgid "Quota (votes)"
+msgstr "Hạn ngạch (khảo sát)"
+
+#: includes/admin/editor/settings/limitations.php:214
+msgid "Limit by date"
+msgstr "Giới hạn theo ngày"
+
+#: includes/admin/editor/settings/limitations.php:225
+msgid "Start date"
+msgstr "Ngày bắt đầu"
+
+#: includes/admin/editor/settings/limitations.php:233
+#: includes/admin/editor/settings/results.php:109
+msgid "End date"
+msgstr "Ngày kết thúc"
+
+#: includes/admin/editor/settings/limitations.php:250
+msgid "Regenerate poll unique ID"
+msgstr "Tái tạo cuộc khảo sát ID duy nhất"
+
+#: includes/admin/editor/settings/limitations.php:252
+msgid "Current:"
+msgstr "Hiện tại:"
+
+#: includes/admin/editor/settings/logs.php:15
+msgid "Enable logs"
+msgstr "Cho phép các ghi lại thao tác"
+
+#: includes/admin/editor/settings/logs.php:18
+msgid "Heads up! Statistics are based on logs."
+msgstr "Cảnh báo! Thống kê này được dựa trên các bản ghi."
+
+#: includes/admin/editor/settings/logs.php:25
+msgid "Include user ID"
+msgstr ""
+
+#: includes/admin/editor/settings/logs.php:32
+msgid "Include username"
+msgstr ""
+
+#: includes/admin/editor/settings/logs.php:39
+msgid "Include user email"
+msgstr ""
+
+#: includes/admin/editor/settings/notifications.php:27
+msgid "New vote has been casted"
+msgstr ""
+
+#: includes/admin/editor/settings/results.php:15
+msgid "Require vote"
+msgstr "Yêu cầu bỏ phiếu"
+
+#: includes/admin/editor/settings/results.php:27
+msgid "Order results"
+msgstr "Kết quả theo thứ tự"
+
+#: includes/admin/editor/settings/results.php:86
+msgid "Hide results"
+msgstr "Ẩn kết quả"
+
+#: includes/admin/editor/settings/results.php:98
+msgid "Until reaching"
+msgstr "Cho đến khi đạt"
+
+#: includes/admin/editor/settings/results.php:104
+msgid "Quota"
+msgstr "Hạn ngạch"
+
+#: includes/admin/editor/settings/results.php:115
+msgid "Results content"
+msgstr "nội dung kết quả"
+
+#: includes/admin/editor/settings/results.php:129
+msgid "Results fragments"
+msgstr "Kết quả phân mảnh"
+
+#: includes/admin/editor/settings/results.php:139
+msgid "Percentages"
+msgstr "Phần trăm:"
+
+#: includes/admin/editor/settings/screens.php:15
+msgid "Before voting"
+msgstr "Trước khi bỏ phiếu"
+
+#: includes/admin/editor/settings/screens.php:38
+msgid "After voting"
+msgstr "Sau khi bỏ phiếu"
+
+#: includes/admin/editor/settings/screens.php:63
+msgid "Above vote"
+msgstr ""
+
+#: includes/admin/editor/settings/screens.php:86
+msgid "Below vote"
+msgstr ""
+
+#: includes/admin/editor/settings/screens.php:110
+msgid "Above results"
+msgstr ""
+
+#: includes/admin/editor/settings/screens.php:133
+msgid "Below results"
+msgstr ""
+
+#: includes/admin/extensions.php:163 includes/admin/templates.php:159
+msgid "Could not access filesystem."
+msgstr "Không thể truy cập hệ thống tập tin."
+
+#: includes/admin/extensions.php:167 includes/admin/templates.php:163
+msgid "Filesystem error."
+msgstr "Lỗi file hệ thống."
+
+#: includes/admin/extensions.php:191
+#, php-format
+msgid "Could not fully remove the extension(s) %s."
+msgstr "Không thể loại bỏ hoàn toàn các phần mở rộng (s)%s."
+
+#: includes/admin/installer.php:59
+msgid "Upload package"
+msgstr "gói tải lên"
+
+#: includes/admin/installer.php:83
+msgid "The package is at the latest version."
+msgstr "Các gói phần mềm là phiên bản mới nhất."
+
+#: includes/admin/installer.php:84
+msgid "Update package not available."
+msgstr "Cập nhật gói không có sẵn."
+
+#: includes/admin/installer.php:85
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "Tải bản cập nhật <span class=\"code\">từ%s</span> ..."
+
+#: includes/admin/installer.php:86
+msgid "Unpacking the update&#8230;"
+msgstr "Bung cập nhật ..."
+
+#: includes/admin/installer.php:87
+msgid "Removing the old version of the package&#8230;"
+msgstr "Loại bỏ các phiên bản cũ của gói ..."
+
+#: includes/admin/installer.php:88
+msgid "Could not remove the old package."
+msgstr "Không thể loại bỏ các gói cũ."
+
+#: includes/admin/installer.php:89
+msgid "Packages updated successfully."
+msgstr "Gói cập nhật thành công."
+
+#: includes/admin/installer.php:99
+msgid "Install package not available."
+msgstr "Package cài đặt không có sẵn."
+
+#: includes/admin/installer.php:100
+msgid "Unpacking the package&#8230;"
+msgstr "Giải nén gói cài đạt&#8230;"
+
+#: includes/admin/installer.php:101
+msgid "Installing the package&#8230;"
+msgstr "Cài đặt các gói ..."
+
+#: includes/admin/installer.php:102
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Đang tải về gói cài đặt từ <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:103
+msgid "The package contains no files."
+msgstr "Các gói phần mềm không chứa tập tin."
+
+#: includes/admin/installer.php:104
+msgid "Package install failed."
+msgstr "Gói cài đặt không thành."
+
+#: includes/admin/installer.php:105
+msgid "Package installed successfully."
+msgstr "Gói cài đặt thành công."
+
+#: includes/admin/installer.php:106
+#, php-format
+msgid "Successfully installed the package <strong>%1$s %2$s</strong>."
+msgstr "Cài đặt thành công <strong>gói%1$s %2$s.</strong>"
+
+#: includes/admin/installer.php:107
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Chuẩn bị để cài <strong>đặt%1$s %2$s</strong> ..."
+
+#: includes/admin/installer.php:178
+msgid "The template is missing the <code>template.php</code> stylesheet."
+msgstr "Mẫu thiếu <code>template.php</code> stylesheet."
+
+#: includes/admin/installer.php:185
+msgid "The <code>template.php</code> doesn't contain a valid template header."
+msgstr "Các <code>template.php</code> không chứa một mẫu tiêu đề hợp lệ."
+
+#: includes/admin/installer.php:192
+#, php-format
+msgid "The template is missing the <code>%s</code> file."
+msgstr "Mẫu thiếu <code>%s</code> file."
+
+#: includes/admin/installer.php:198
+msgid ""
+"The <code>template.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"Các <code>template.php</code> file không chứa phiên bản yêu cầu tối thiểu."
+
+#: includes/admin/installer.php:203
+#, php-format
+msgid "This template requires TotalPoll version %s or higher"
+msgstr "Bản mẫu này đòi hỏi TotalPoll phiên bản%s hoặc cao hơn"
+
+#: includes/admin/installer.php:211
+msgid "The extension is missing the <code>extension.php</code> essential file."
+msgstr "Các phần mở rộng là thiếu <code>extension.php</code> tập tin cần thiết."
+
+#: includes/admin/installer.php:218
+msgid ""
+"The <code>extension.php</code> file doesn't contain a valid extension header."
+msgstr ""
+"Các <code>extension.php</code> tập tin không chứa một header mở rộng hợp lệ."
+
+#: includes/admin/installer.php:223
+msgid ""
+"The <code>extension.php</code> file doesn't contain the minimum required "
+"version."
+msgstr ""
+"Các <code>extension.php</code> tập tin không chứa phiên bản yêu cầu tối thiểu."
+
+#: includes/admin/installer.php:228
+#, php-format
+msgid "This extension requires TotalPoll version %s or higher"
+msgstr "Phần mở rộng này đòi hỏi TotalPoll phiên bản%s hoặc cao hơn"
+
+#: includes/admin/installer.php:263
+msgid "Return to Templates"
+msgstr "Quay trở lại Templates"
+
+#: includes/admin/installer.php:266
+msgid "Return to extensions"
+msgstr "Quay trở lại phần mở rộng"
+
+#: includes/admin/pages/about.php:12
+msgid "User friendly"
+msgstr "Thân thiện với người dùng"
+
+#: includes/admin/pages/about.php:13
+msgid ""
+"With TotalPoll, you can now create polls within 60 seconds! Its user friendly "
+"interface was expertly designed to make poll creation hassle-free."
+msgstr ""
+"Với TotalPoll, bây giờ bạn có thể tạo các cuộc khảo sát trong vòng 60 giây! "
+"Giao diện người dùng thân thiện được thiết kế chuyên dụng để tạo các bình "
+"chọn phức tạp."
+
+#: includes/admin/pages/about.php:17
+msgid "Overall performance"
+msgstr "Hiệu suất tổng quát"
+
+#: includes/admin/pages/about.php:18
+msgid ""
+"TotalPoll was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+"TotalPoll được phát triển với hiệu suất trong tâm trí! Nó hoạt động không có "
+"một trục trặc nào với WordPress."
+
+#: includes/admin/pages/about.php:22
+msgid "Customization"
+msgstr "Tùy biến"
+
+#: includes/admin/pages/about.php:23
+msgid ""
+"Do you need “Welcome message” or “Thank you message”? We have got your back! "
+"With over 5 customization settings, you definitely have the total control."
+msgstr ""
+"Bạn có cần &quot;Thông điệp chào mừng&quot; hay &quot;Tin nhắn cảm ơn&quot;? "
+"Chúng tôi đã thấy sự trở lại của bạn! Với hơn 5 các thiết lập tùy biến, bạn "
+"chắc chắn có tất cả sự kiểm soát."
+
+#: includes/admin/pages/about.php:28
+msgid ""
+"Collecting additional information from voters has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"Thu thập thêm thông tin từ người dùng chưa bao giờ được dễ dàng. Với 5 loại "
+"lĩnh vực khác nhau độc đáo của chúng tôi, bạn hoàn toàn có thể thu thập tất "
+"cả mọi thứ."
+
+#: includes/admin/pages/about.php:33
+msgid ""
+"Regular vote tracking has been made easy. You can now track votes daily, "
+"weekly and monthly. Even, you can track custom field values with votes."
+msgstr ""
+"Theo dõi cuộc khảo sát thường xuyên đã được thực hiện dễ dàng. Bây giờ bạn có "
+"thể theo dõi phiếu hàng ngày, hàng tuần và hàng tháng. Thậm chí, bạn có thể "
+"theo dõi các dữ liệu tùy với phiếu."
+
+#: includes/admin/pages/about.php:37
+msgid "Extensible"
+msgstr "Mở rộng"
+
+#: includes/admin/pages/about.php:38
+msgid ""
+"The extensibility of TotalPoll makes such extensions and templates possible. "
+"Developers can certainly make TotalPoll a step further to suit your needs."
+msgstr ""
+"Các mở rộng của TotalPoll làm cho các phần mở rộng như vậy và các mẫu có thể. "
+"Các nhà phát triển chắc chắn có thể làm cho TotalPoll một bước xa hơn để phù "
+"hợp với nhu cầu của bạn."
+
+#: includes/admin/pages/about.php:42
+msgid "SEO Friendly"
+msgstr "SEO thân thiện"
+
+#: includes/admin/pages/about.php:43
+msgid ""
+"Search Engine Optimization is a very key factor for every website. Thus, "
+"TotalPoll makes polls more search-engine friendly in order to get more search "
+"traffic."
+msgstr ""
+"Search Engine Optimization là một yếu tố rất quan trọng đối với tất cả các "
+"website. Như vậy, TotalPoll làm cho các cuộc thăm dò nhiều công cụ tìm kiếm "
+"thân thiện để có được lưu lượng tìm kiếm hơn."
+
+#: includes/admin/pages/about.php:47
+msgid "Mobile-first"
+msgstr "Mobile-first"
+
+#: includes/admin/pages/about.php:48
+msgid ""
+"With Totalpoll, you gain more engagement with an optimal viewing experience "
+"for your visitors. And your polls will always look amazing whether in a "
+"laptop, tablet or a smartphone."
+msgstr ""
+"Với Totalpoll, bạn có được sự tham gia nhiều hơn với một trải nghiệm hình ảnh "
+"tối ưu cho người truy cập. Và các cuộc thăm dò của bạn sẽ luôn luôn nhìn "
+"tuyệt vời cho dù trong một máy tính xách tay, tablet hay smartphone."
+
+#: includes/admin/pages/about.php:52
+msgid "Voting limitations"
+msgstr "Hạn chế quyền biểu quyết"
+
+#: includes/admin/pages/about.php:53
+msgid ""
+"The ability of Totalpoll to reduce votes and results makes it easy for you to "
+"specify conditions under which visitors can vote in a poll or see its results."
+msgstr ""
+"Khả năng của Totalpoll để giảm phiếu và kết quả làm cho nó dễ dàng cho bạn để "
+"xác định các điều kiện theo đó du khách có thể bỏ phiếu trong cuộc khảo sát "
+"hoặc xem kết quả của nó."
+
+#: includes/admin/pages/about.php:57
+msgid "Polls import"
+msgstr "Nhập khẩu cuộc khảo sát"
+
+#: includes/admin/pages/about.php:58
+msgid ""
+"Are you planning to switch? You can migrate from WP-Polls and YOP polls "
+"easily (and many more plugins are coming)."
+msgstr ""
+"Bạn có kế hoạch để chuyển đổi? Bạn có thể di chuyển từ WP-thăm dò ý kiến ​​và "
+"các cuộc thăm dò YOP dễ dàng (và nhiều plugin hơn đang đến)."
+
+#: includes/admin/pages/about.php:63
+msgid ""
+"Give your polls more attraction with Text, Image, Video, Audio, Short code or "
+"even HTML."
+msgstr ""
+"Hãy cho các cuộc thăm dò của bạn thêm hấp dẫn với các dòng chữ, hình ảnh, "
+"Video, Audio, mã ngắn hoặc thậm chí cả HTML."
+
+#: includes/admin/pages/about.php:68
+msgid ""
+"Trace back every vote, with an informative log to identify any cheating "
+"attempts."
+msgstr ""
+"Tìm lại mỗi phiếu, với một bản ghi thông tin để xác định bất kỳ nỗ lực gian "
+"lận."
+
+#: includes/admin/pages/about.php:73
+msgid ""
+"Make your polls look compelling with customized templates from our store."
+msgstr ""
+"Hãy khảo sát của bạn trông hấp dẫn với các mẫu tùy chỉnh từ cửa hàng của "
+"chúng tôi."
+
+#: includes/admin/pages/about.php:78
+msgid ""
+"Take TotalPoll’s functionality a step further with powerful extensions from "
+"our store."
+msgstr ""
+"Đi chức năng TotalPoll của một bước xa hơn với mở rộng mạnh mẽ từ cửa hàng "
+"của chúng tôi."
+
+#: includes/admin/pages/about.php:82
+msgid "Integration"
+msgstr "Hội nhập"
+
+#: includes/admin/pages/about.php:83
+msgid ""
+"Totalpoll integrates your polls everywhere like with a short code, widget or "
+"even a direct link."
+msgstr ""
+"Totalpoll tích hợp các cuộc thăm dò của bạn ở khắp mọi nơi giống như với một "
+"mã ngắn, widget hay thậm chí là một liên kết trực tiếp."
+
+#: includes/admin/pages/about.php:87
+msgid "3rd-party Compatibility"
+msgstr "Khả năng tương thích của bên thứ 3"
+
+#: includes/admin/pages/about.php:88
+msgid ""
+"TotalPoll is compatible with other plugins like WPML, ACF, WP SUPER CACHE and "
+"Others."
+msgstr ""
+"TotalPoll là tương thích với các plugin khác như WPML, ACF, WP SUPER CACHE và "
+"những người khác."
+
+#: includes/admin/pages/about.php:96
+msgid "<code>TP_Template</code> can be used now as a prototype for templates."
+msgstr ""
+"<code>TP_Template</code> có thể được sử dụng hiện nay như một nguyên mẫu cho "
+"mẫu."
+
+#: includes/admin/pages/about.php:100
+msgid "<code>TP_Extension</code> can be used now as a prototype for extensions."
+msgstr ""
+"<code>TP_Extension</code> có thể được sử dụng hiện nay như một nguyên mẫu cho "
+"các phần mở rộng."
+
+#: includes/admin/pages/about.php:103
+msgid "Fields"
+msgstr "Các trường"
+
+#: includes/admin/pages/about.php:104
+msgid "<code>TP_Field</code> can be used now as a prototype for custom fields."
+msgstr ""
+"<code>TP_Field</code> có thể được sử dụng hiện nay như một nguyên mẫu cho các "
+"lĩnh vực tùy chỉnh."
+
+#: includes/admin/pages/about.php:108
+msgid "<code>TP_HTML</code> is used for HTML manipulation and generation."
+msgstr "<code>TP_HTML</code> được sử dụng cho các thao tác HTML và thế hệ."
+
+#: includes/admin/pages/about.php:112
+msgid ""
+"<code>TP_Poll</code> is the main class for poll manipulation and rendering."
+msgstr "<code>TP_Poll</code> là lớp chính cho các thao tác thăm dò và vẽ."
+
+#: includes/admin/pages/about.php:115
+msgid "Request"
+msgstr "yêu cầu"
+
+#: includes/admin/pages/about.php:116
+msgid "<code>TP_Request</code> is used to handle TotalPoll requests."
+msgstr "<code>TP_Request</code> được sử dụng để xử lý yêu cầu TotalPoll."
+
+#: includes/admin/pages/about.php:146
+msgid "Welcome to"
+msgstr "Chào mừng bạn đến với"
+
+#: includes/admin/pages/about.php:148
+msgid ""
+"Thank you for using TotalPoll! This update brings several improvements and "
+"new features along with fixes of known bugs."
+msgstr ""
+"Cảm ơn bạn đã sử dụng TotalPoll! Bản cập nhật này mang lại nhiều cải tiến và "
+"tính năng mới cùng với sửa các lỗi đã biết."
+
+#: includes/admin/pages/about.php:168 includes/admin/pages/store.php:61
+#, php-format
+msgid "Version %s"
+msgstr "Phiên bản %s"
+
+#: includes/admin/pages/about.php:172
+msgid "What’s New"
+msgstr "Có gì mới"
+
+#: includes/admin/pages/about.php:195
+msgid "Under the Hood"
+msgstr "Dưới mũ trùm"
+
+#: includes/admin/pages/about.php:217
+msgid "Credits"
+msgstr "Credit"
+
+#: includes/admin/pages/about.php:242
+msgid "Testimonials"
+msgstr "Chứng thực"
+
+#: includes/admin/pages/about.php:279
+msgid "Go to Polls"
+msgstr "Tới khảo sát"
+
+#: includes/admin/pages/extensions.php:84
+#: includes/admin/pages/extensions.php:204 includes/admin/pages/templates.php:84
+#: includes/admin/pages/templates.php:208
+msgid "Select bulk action"
+msgstr "Chọn hành động"
+
+#: includes/admin/pages/extensions.php:86
+#: includes/admin/pages/extensions.php:206 includes/admin/pages/templates.php:86
+#: includes/admin/pages/templates.php:210
+msgid "Bulk Actions"
+msgstr "Loạt tác vụ"
+
+#: includes/admin/pages/extensions.php:87
+#: includes/admin/pages/extensions.php:152
+#: includes/admin/pages/extensions.php:207 includes/admin/pages/templates.php:87
+#: includes/admin/pages/templates.php:155 includes/admin/pages/templates.php:211
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: includes/admin/pages/extensions.php:88
+#: includes/admin/pages/extensions.php:146
+#: includes/admin/pages/extensions.php:208 includes/admin/pages/templates.php:88
+#: includes/admin/pages/templates.php:148 includes/admin/pages/templates.php:212
+msgid "Deactivate"
+msgstr "Hủy kích hoạt"
+
+#: includes/admin/pages/extensions.php:89
+#: includes/admin/pages/extensions.php:168
+#: includes/admin/pages/extensions.php:209 includes/admin/pages/templates.php:89
+#: includes/admin/pages/templates.php:172 includes/admin/pages/templates.php:213
+msgid "Delete"
+msgstr "Xóa"
+
+#: includes/admin/pages/extensions.php:103
+#: includes/admin/pages/extensions.php:114
+#: includes/admin/pages/templates.php:103 includes/admin/pages/templates.php:114
+msgid "Select All"
+msgstr "Chọn tất cả"
+
+#: includes/admin/pages/extensions.php:106
+#: includes/admin/pages/extensions.php:117
+msgid "Extension"
+msgstr "Phần mở rộng"
+
+#: includes/admin/pages/extensions.php:107
+#: includes/admin/pages/extensions.php:118
+#: includes/admin/pages/templates.php:107 includes/admin/pages/templates.php:118
+msgid "Description"
+msgstr "Mô tả"
+
+#: includes/admin/pages/extensions.php:157
+#: includes/admin/pages/templates.php:161
+msgid "Open this file in the Plugin Editor"
+msgstr "Mở tập tin này trong Plugin Editor"
+
+#: includes/admin/pages/extensions.php:159
+#: includes/admin/pages/templates.php:163
+msgid "Edit"
+msgstr "Sửa"
+
+#: includes/admin/pages/extensions.php:181
+#: includes/admin/pages/templates.php:185
+msgid "Requires"
+msgstr ""
+
+#: includes/admin/pages/extensions.php:184
+#: includes/admin/pages/templates.php:188
+msgid "By"
+msgstr "Bởi"
+
+#: includes/admin/pages/extensions.php:188
+msgid "Extension page"
+msgstr "Trang mở rộng"
+
+#: includes/admin/pages/extensions.php:196
+#, php-format
+msgid "No extensions. Browse the <a href=\"%s\">store</a>."
+msgstr "Không có phần mở rộng. Duyệt các <a href=\"%s\">cửa hàng</a> ."
+
+#: includes/admin/pages/extensions.php:222
+msgid ""
+"If you have an extension in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"Nếu bạn có một phần mở rộng trong một định dạng .zip, bạn có thể cài đặt nó "
+"bằng cách tải nó ở đây."
+
+#: includes/admin/pages/options.php:26
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:7
+msgid "Global"
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:19
+#: includes/classes/template.php:662
+#, fuzzy, php-format
+msgid "%s Vote"
+msgstr "%s Votes"
+
+#: includes/admin/pages/options/expressions.php:20
+#, php-format
+msgid "%s Votes"
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:26
+msgid "Buttons"
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:31
+#: includes/classes/template.php:457
+msgid "Previous page"
+msgstr "Trang trước"
+
+#: includes/admin/pages/options/expressions.php:36
+#: includes/classes/template.php:471
+msgid "Next page"
+msgstr "Trang tiếp theo"
+
+#: includes/admin/pages/options/expressions.php:46
+#: includes/classes/template.php:510
+msgid "Vote"
+msgstr "Khảo sát"
+
+#: includes/admin/pages/options/expressions.php:51
+#: includes/classes/template.php:523
+msgid "Back"
+msgstr "Quay lại"
+
+#: includes/admin/pages/options/expressions.php:56
+#: includes/classes/template.php:534
+msgid "Proceed"
+msgstr "Tiến hành"
+
+#: includes/admin/pages/options/expressions.php:62
+msgid "Errors"
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:68
+#: includes/classes/limitations.php:126 includes/classes/limitations.php:165
+#: includes/classes/limitations.php:419
+msgid "You cannot vote again in this poll."
+msgstr "Bạn không thể bỏ phiếu một lần nữa trong cuộc khảo sát này."
+
+#: includes/admin/pages/options/expressions.php:74
+#: includes/classes/limitations.php:192
+#, fuzzy, php-format
+msgid "You have to vote for at least one choice."
+msgstr "You have to vote for at least %d choices."
+
+#: includes/admin/pages/options/expressions.php:75
+#, php-format
+msgid "You have to vote for at least %d choices."
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:81
+#: includes/classes/limitations.php:204
+#, fuzzy, php-format
+msgid "You cannot vote for more than one choice."
+msgstr "You cannot vote for more than %d choices."
+
+#: includes/admin/pages/options/expressions.php:82
+#, php-format
+msgid "You cannot vote for more than %d choices."
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:88
+#: includes/classes/limitations.php:244
+msgid "You have entered an invalid captcha code."
+msgstr "Bạn đã nhập mã xác thực không hợp lệ."
+
+#: includes/admin/pages/options/expressions.php:94
+#: includes/classes/limitations.php:268
+msgid "You cannot vote because the quota has been exceeded."
+msgstr "Bạn không thể bỏ phiếu bởi vì các hạn ngạch đã bị vượt quá."
+
+#: includes/admin/pages/options/expressions.php:100
+#: includes/classes/limitations.php:293
+msgid "You cannot see results before voting."
+msgstr "Bạn không thể xem kết quả trước khi biểu quyết."
+
+#: includes/admin/pages/options/expressions.php:106
+#: includes/classes/limitations.php:319
+msgid "You cannot vote because this poll has not started yet."
+msgstr "Bạn không thể bỏ phiếu trong bầu chọn này vì đã chưa bắt đầu."
+
+#: includes/admin/pages/options/expressions.php:112
+#: includes/classes/limitations.php:328
+msgid "You cannot vote because this poll has been completed."
+msgstr "Bạn không thể bỏ phiếu trong bầu chọn này vì đã được hoàn thành."
+
+#: includes/admin/pages/options/expressions.php:118
+#: includes/classes/limitations.php:372
+msgid "You cannot vote because this poll is not available in your region."
+msgstr ""
+"Bạn không thể bỏ phiếu trong bầu chọn này vì không có sẵn trong khu vực của "
+"bạn."
+
+#: includes/admin/pages/options/expressions.php:124
+#: includes/classes/limitations.php:408
+msgid "You cannot vote because you have insufficient rights."
+msgstr "Bạn không thể bỏ phiếu bởi vì bạn không có đủ quyền."
+
+#: includes/admin/pages/options/expressions.php:130
+#: includes/classes/limitations.php:430
+#, php-format
+msgid ""
+"You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> or "
+"<a href=\"%s\">register</a>."
+msgstr ""
+"Bạn không thể bỏ phiếu bởi vì bạn là một khách mời, xin vui lòng <a href=\"%s"
+"\">đăng nhập</a> hoặc <a href=\"%s\">đăng ký</a> ."
+
+#: includes/admin/pages/options/expressions.php:136
+#: includes/classes/limitations.php:456
+msgid "Voting via links has been disabled for this poll."
+msgstr ""
+
+#: includes/admin/pages/options/expressions.php:147
+#: includes/classes/validations.php:35
+msgid "%label% field does not contain a valid email."
+msgstr "% Nhãn% trường không chứa một email hợp lệ."
+
+#: includes/admin/pages/options/expressions.php:152
+#: includes/classes/validations.php:66
+msgid "%label% field is required."
+msgstr "% Nhãn trường% là bắt buộc."
+
+#: includes/admin/pages/options/expressions.php:157
+#: includes/classes/validations.php:100
+msgid "%label% field does not contain a valid value."
+msgstr "% Nhãn% trường không chứa một giá trị hợp lệ."
+
+#: includes/admin/pages/options/expressions.php:162
+#: includes/classes/validations.php:104
+msgid "%label% field does not support multiple values."
+msgstr "% Nhãn% trường không hỗ trợ nhiều giá trị."
+
+#: includes/admin/pages/options/expressions.php:167
+#: includes/classes/validations.php:123
+msgid "%label% has been used before."
+msgstr "% Nhãn% đã được sử dụng trước đó."
+
+#: includes/admin/pages/options/expressions.php:172
+#: includes/classes/validations.php:144
+msgid "%label% field is not valid."
+msgstr "% Nhãn% trường là không hợp lệ."
+
+#: includes/admin/pages/options/expressions.php:177
+#: includes/classes/validations.php:182
+#, php-format
+msgid "You cannot vote because %s field is not allowed."
+msgstr "Bạn không thể bỏ phiếu bởi vì trường%s không được phép."
+
+#: includes/admin/pages/options/general.php:6
+msgid "Asynchronous loading"
+msgstr ""
+
+#: includes/admin/pages/options/general.php:9
+msgid "This can be useful when TotalPoll is being used with cache plugins."
+msgstr ""
+
+#: includes/admin/pages/options/general.php:15
+msgid "Enable REST API (Preview)"
+msgstr ""
+
+#: includes/admin/pages/options/general.php:18
+msgid ""
+"Access your polls data through an easy-to-use <a href=\"http://v2.wp-api.org/"
+"\">HTTP REST API</a>."
+msgstr ""
+
+#: includes/admin/pages/options/sharing.php:8
+msgid "Enable sharing"
+msgstr ""
+
+#: includes/admin/pages/options/sharing.php:18
+msgid "Sharing expression"
+msgstr ""
+
+#: includes/admin/pages/options/sharing.php:22
+msgid "You can use %question% variable for question text."
+msgstr ""
+
+#: includes/admin/pages/options/sharing.php:27
+msgid "Social networks"
+msgstr ""
+
+#: includes/admin/pages/store.php:33
+msgid "Refresh (new purchases)"
+msgstr "Làm mới (mua mới)"
+
+#: includes/admin/pages/store.php:44
+msgid "Free!"
+msgstr "Miễn phí!"
+
+#: includes/admin/pages/store.php:53
+#, php-format
+msgid "%s Downloads"
+msgstr "%s lượt tải"
+
+#: includes/admin/pages/store.php:67
+#, php-format
+msgid "Update to %s"
+msgstr "Cập nhật đến %s"
+
+#: includes/admin/pages/store.php:69
+msgid "Installed"
+msgstr "Đã được cài đặt"
+
+#: includes/admin/pages/store.php:73
+msgid "Install"
+msgstr "Cài đặt"
+
+#: includes/admin/pages/store.php:75
+#, php-format
+msgid "Requires %s"
+msgstr "Yêu cầu %s"
+
+#: includes/admin/pages/store.php:78
+msgid "Get it"
+msgstr "Đã nắm rõ"
+
+#: includes/admin/pages/store.php:78
+msgid "Buy now"
+msgstr "Mua ngay"
+
+#: includes/admin/pages/support.php:23
+msgid "Support Center"
+msgstr "Trung tâm hỗ trợ"
+
+#: includes/admin/pages/support.php:32
+msgid "Use common keywords for best results."
+msgstr "Sử dụng từ khóa phổ biến cho kết quả tốt nhất."
+
+#: includes/admin/pages/support.php:40
+msgid "Check our knowledge base."
+msgstr "Kiểm tra kiến ​​thức cơ bản của chúng tôi."
+
+#: includes/admin/pages/support.php:49
+msgid "Have a question? Read the FAQs."
+msgstr "Bạn có một câu hỏi? Đọc Câu Hỏi Thường Gặp."
+
+#: includes/admin/pages/support.php:55
+msgid "Open a support ticket."
+msgstr "Mở ticket hỗ trợ."
+
+#: includes/admin/pages/support.php:60
+msgid "Please attach the following information when you open a new ticket."
+msgstr "Xin đính kèm các thông tin sau khi bạn mở một thẻ mới."
+
+#: includes/admin/pages/templates.php:192
+msgid "Template page"
+msgstr "trang mẫu"
+
+#: includes/admin/pages/templates.php:200
+#, php-format
+msgid "No templates. Browse the <a href=\"%s\">store</a>."
+msgstr "Không có mẫu. Duyệt các <a href=\"%s\">cửa hàng</a> ."
+
+#: includes/admin/pages/templates.php:226
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"Nếu bạn có một mẫu trong một định dạng .zip, bạn có thể cài đặt nó bằng cách "
+"tải nó ở đây."
+
+#: includes/admin/pages/tools.php:19
+msgid "Polls have been migrated successfully."
+msgstr "Thăm dò ý kiến ​​đã được chuyển thành công."
+
+#: includes/admin/pages/tools.php:29
+msgid "The cache has been purged."
+msgstr "Các bộ nhớ cache đã được thanh lọc."
+
+#: includes/admin/pages/tools.php:52
+#, php-format
+msgid "%d Polls to migrate from YOP-Polls"
+msgstr "%d Polls to migrate from YOP-Polls"
+
+#: includes/admin/pages/tools.php:58
+#, php-format
+msgid "%d Polls to migrate from WP-Polls"
+msgstr "%d Polls to migrate from WP-Polls"
+
+#: includes/admin/pages/tools.php:64
+#, php-format
+msgid "%d Polls to migrate from TotalPoll"
+msgstr "%d Polls to migrate from TotalPoll"
+
+#: includes/admin/pages/tools.php:73
+msgid "Purge cache"
+msgstr "bộ nhớ cache Purge"
+
+#: includes/admin/pages/tools.php:81
+#, php-format
+msgid "%d Polls to export"
+msgstr "%d Polls to export"
+
+#: includes/admin/pages/tools.php:88
+msgid "Import polls"
+msgstr "các cuộc thăm dò nhập"
+
+#: includes/admin/pages/update.php:24
+msgid "You are currently receiving updates!"
+msgstr "Bạn hiện đang nhận được cập nhật!"
+
+#: includes/admin/pages/update.php:25
+msgid "Thank you for activating TotalPoll."
+msgstr "Cảm ơn bạn đã kích hoạt TotalPoll."
+
+#: includes/admin/pages/update.php:31
+msgid "Updates"
+msgstr "Cập nhật"
+
+#: includes/admin/pages/update.php:33
+msgid "Do you want to receive updates when released?"
+msgstr "Bạn có muốn nhận được cập nhật ngay khi phát hành?"
+
+#: includes/admin/pages/update.php:35
+msgid "Please enter your Envato license key."
+msgstr "Vui lòng nhập key bản quyền Envato của bạn."
+
+#: includes/admin/pages/update.php:40
+msgid "The submitted license key isn't valid. Please check it."
+msgstr ""
+"Các trình trọng điểm cấp giấy phép là không hợp lệ. Xin vui lòng kiểm tra xem "
+"nó."
+
+#: includes/admin/pages/update.php:43
+msgid "Activate now!"
+msgstr "Kích hoạt ngay!"
+
+#: includes/admin/partials/notification-email.php:56
+msgid "Deactivate this notifications"
+msgstr ""
+
+#: includes/admin/partials/options-panel.php:11
+msgid "General"
+msgstr ""
+
+#: includes/admin/partials/options-panel.php:16
+msgid "Expressions"
+msgstr ""
+
+#: includes/admin/partials/options-panel.php:21
+msgid "Sharing"
+msgstr ""
+
+#: includes/admin/partials/phpversion.php:89
+msgid "Heads up!"
+msgstr ""
+
+#: includes/admin/partials/welcome.php:140
+msgid "Newsletter"
+msgstr "Bản tin"
+
+#: includes/admin/partials/welcome.php:144
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "Lời khuyên, hướng dẫn và nguồn WordPress hữu ích."
+
+#: includes/admin/partials/welcome.php:145
+#, php-format
+msgid ""
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
+msgstr ""
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
+
+#: includes/admin/partials/welcome.php:151
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr ""
+"Count tôi trong <a href=\"%s\" target=\"_blank\">bản tin hàng tuần</a> ."
+
+#: includes/admin/partials/welcome.php:154
+msgid "No, thank you"
+msgstr "Không cám ơn"
+
+#: includes/admin/partials/welcome.php:156
+msgid "Subscribe"
+msgstr "Đăng ký"
+
+#: includes/admin/partials/welcome.php:162
+msgid "Keep in touch with us!"
+msgstr "Giữ liên lạc với chúng tôi!"
+
+#: includes/admin/templates.php:82
+msgid "All"
+msgstr "Tất cả"
+
+#: includes/admin/templates.php:189
+#, php-format
+msgid "Could not fully remove the template(s) %s."
+msgstr "Không thể hoàn toàn loại bỏ các mẫu (s)%s."
+
+#: includes/classes/poll.php:311
+msgid "Other"
+msgstr "Khách"
+
+#: includes/classes/post-types.php:34 includes/classes/post-types.php:46
+msgid "Polls"
+msgstr "Khảo sát"
+
+#: includes/classes/post-types.php:36
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: includes/classes/post-types.php:37
+msgid "Add New Poll"
+msgstr "Thêm mới khảo sát"
+
+#: includes/classes/post-types.php:38
+msgid "Edit Poll"
+msgstr "Sửa khảo sát"
+
+#: includes/classes/post-types.php:39
+msgid "New Poll"
+msgstr "Thêm khảo sát mới"
+
+#: includes/classes/post-types.php:40
+msgid "All Polls"
+msgstr "Xem tất cả"
+
+#: includes/classes/post-types.php:41
+msgid "View Poll"
+msgstr "Xem khảo sát"
+
+#: includes/classes/post-types.php:42
+msgid "Search Polls"
+msgstr "Tìm kiếm khảo sát"
+
+#: includes/classes/post-types.php:43
+msgid "No polls found"
+msgstr "Không có khảo sát nào được tìm thấy"
+
+#: includes/classes/post-types.php:44
+msgid "No polls found in Trash"
+msgstr "Không tìm thấy khảo sát nào trong thùng rác"
+
+#: includes/classes/post-types.php:56
+msgid "poll"
+msgstr "Khảo sát"
+
+#: includes/classes/post-types.php:58
+msgid "polls"
+msgstr "các khảo sát"
+
+#: includes/classes/post-types.php:88
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "Khảo sát được cập nhật. <a href=\"%s\">Xem khảo sát</a>"
+
+#: includes/classes/post-types.php:89
+msgid "Custom field updated."
+msgstr "Tùy chỉnh lĩnh vực được cập nhật."
+
+#: includes/classes/post-types.php:90
+msgid "Custom field deleted."
+msgstr "Tùy chỉnh lĩnh vực đã xóa."
+
+#: includes/classes/post-types.php:91
+msgid "Poll updated."
+msgstr "Khảo sát ​​được cập nhật."
+
+#: includes/classes/post-types.php:92
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "Khảo sát được phục hồi để sửa đổi từ %s"
+
+#: includes/classes/post-types.php:93
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "Khảo sát được công bố. <a href=\"%s\">Xem khảo sát</a>"
+
+#: includes/classes/post-types.php:94
+msgid "Poll saved."
+msgstr "Khảo sát đã lưu."
+
+#: includes/classes/post-types.php:95
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Thăm dò ý kiến đệ trình. <a target=\"_blank\" href=\"%s\">Xem trước cuộc thăm "
+"dò</a>"
+
+#: includes/classes/post-types.php:97
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"Thăm dò ý kiến dự <strong>kiến:%1$s.</strong> <a target=\"_blank\" href=\"%2$s"
+"\">Xem trước cuộc thăm dò</a>"
+
+#: includes/classes/post-types.php:98
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/classes/post-types.php:99
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Thăm dò ý kiến dự thảo cập nhật. <a target=\"_blank\" href=\"%s\">Xem trước "
+"cuộc thăm dò</a>"
+
+#: includes/classes/request.php:255
+#, php-format
+msgid "Field: %s"
+msgstr ""
+
+#: includes/classes/request.php:262
+#, php-format
+msgid "Poll notification: New vote - %s"
+msgstr ""
+
+#: includes/widgets/base.php:24
+msgid "Poll - TotalPoll"
+msgstr "Poll  ​​- TotalPoll"
+
+#: includes/widgets/base.php:25 includes/widgets/latest.php:25
+#: includes/widgets/random.php:25
+msgid "Poll widget"
+msgstr "Poll widget"
+
+#: includes/widgets/base.php:79 includes/widgets/latest.php:82
+#: includes/widgets/random.php:80
+msgid "Title:"
+msgstr "Tiêu đề"
+
+#: includes/widgets/latest.php:24
+msgid "Latest Poll - TotalPoll"
+msgstr "Thăm dò ý kiến ​​mới nhất - TotalPoll"
+
+#: includes/widgets/random.php:24
+msgid "Random Poll - TotalPoll"
+msgstr "Random Poll - TotalPoll"
+
+#~ msgid "Yêu cầu"
+#~ msgstr "* Yêu cầu phải hoàn thành trước khóa học:"

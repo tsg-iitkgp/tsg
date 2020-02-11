@@ -1,0 +1,192 @@
+@import "shared";
+
+/** POLL EDITOR **/
+#totalpoll-editor {
+
+  .totalpoll-containables-container {
+    .totalpoll-containables-types {
+      li + li {
+        margin-left: 0;
+        margin-right: .5em;
+      }
+    }
+
+    .totalpoll-containables {
+      .totalpoll-containable {
+
+        .totalpoll-containable-handle {
+
+          &:before {
+            float: right;
+            margin-right: 0;
+            margin-left: 0.5em;
+          }
+
+          .totalpoll-containable-votes {
+            margin: -3px 0 0 10px;
+            padding: 0 8px 0 0;
+            float: left;
+
+            input {
+              margin-right: 8px;
+              margin-left: 0;
+              padding: 0 0 1px 0;
+              border-right: 1px solid $gray;
+              border-left: 0;
+            }
+          }
+
+          .totalpoll-containable-visibility {
+            margin: -3px 0 0 10px;
+            float: left;
+          }
+
+          .totalpoll-containable-remove {
+            float: left;
+          }
+        }
+
+        .totalpoll-containable-content {
+
+          .field-wrapper {
+
+            .field-row{
+              .field-column + .field-column {
+                padding-right: 1em;
+                padding-left: 0;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .totalpoll-tabs-container {
+
+    .totalpoll-tabs {
+      border-right: 1px solid $gray;
+      border-left: 1px solid $gray;
+      box-shadow: inset 2px 0 6px rgba(0, 0, 0, 0.025);
+
+      a {
+        display: block;
+        padding: 0.75rem 1rem 0.75rem 0.75rem;
+        border-right-width: 2px;
+        border-left-width: 1px;
+
+        .dashicons {
+          margin-left: 0.5rem;
+          margin-right: 0;
+        }
+
+        &.active {
+          margin-left: -1px!important;
+          margin-right: -2px;
+
+          border-left-color: transparent;
+          border-right-color: $primary;
+        }
+
+      }
+
+    }
+
+    &.totalpoll-tabs-vertical {
+
+      .totalpoll-tabs, .totalpoll-tabs-content {
+        display: block;
+      }
+
+      .totalpoll-tabs {
+        width: 100%;
+        padding: 0;
+        border-left: 0;
+        border-right: 1px;
+
+        a {
+          margin-right: -1px;
+          margin-left: 0;
+          float: right;
+
+          &.active {
+            margin-left: 0;
+            margin-right: 1px;
+
+          }
+        }
+      }
+    }
+
+  }
+
+  .totalpoll-settings-wrapper {
+
+    .totalpoll-settings-container {
+
+      .totalpoll-settings-item-advanced {
+        box-shadow: -1px 1px 15px rgba(0, 0, 0, 0.1);
+
+        &:before, &:after {
+          right: 1.5rem;
+          left: auto;
+        }
+
+        &:after {
+          right: 1.6rem;
+          left: auto;
+        }
+      }
+
+    }
+  }
+
+  .feature-tip:before {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+
+}
+
+/** STORE **/
+#totalpoll-store {
+  .extension {
+    &-card {
+      float: right;
+
+      &-footer {
+        padding: 0.5rem 1rem 0.5rem 0.5rem;
+      }
+    }
+  }
+}
+
+
+/** TOTALPOLL PAGE **/
+.totalpoll-page {
+  .link-card {
+    @media only screen and (min-width: 768px) {
+      display: inline-block;
+      float: right;
+      width: 30.33%;
+      margin: 0 1.5%;
+    }
+  }
+}
+
+/** ABOUT PAGE **/
+#totalpoll-about {
+  .totalpoll-badge {
+    left: 0;
+    right: auto;
+  }
+
+  .testimonials-content, .feature-content {
+    img {
+      float: right;
+      margin-left: 2rem;
+      margin-right: 0;
+    }
+  }
+}

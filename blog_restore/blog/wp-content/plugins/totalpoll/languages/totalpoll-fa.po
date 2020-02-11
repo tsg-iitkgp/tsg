@@ -1,0 +1,2289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll 3\n"
+"POT-Creation-Date: 2016-11-01 10:43+0330\n"
+"PO-Revision-Date: 2016-11-06 13:47+0100\n"
+"Last-Translator: Amir <danlod.com@gmail.com>\n"
+"Language-Team: MisqTech <contact@misqtech.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: templates\n"
+
+#: includes/admin/ajax.php:50 includes/admin/ajax.php:59
+#: includes/admin/ajax.php:84 includes/admin/ajax.php:93
+msgid "Invalid argument passed"
+msgstr "استدلال نامعتبر قبول شد"
+
+#: includes/admin/bootstrap.php:168 includes/admin/bootstrap.php:408
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/admin/bootstrap.php:169 includes/admin/bootstrap.php:525
+#: includes/admin/editor/actions.php:6
+msgid "Shortcode"
+msgstr "کدکوتاه"
+
+#: includes/admin/bootstrap.php:170
+msgid "Results Shortcode"
+msgstr "کد کوتاه نتایج"
+
+#: includes/admin/bootstrap.php:171
+msgid "Total votes"
+msgstr "مجموع آرا"
+
+#: includes/admin/bootstrap.php:172 includes/admin/editor.php:310
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/submissions.php:18
+#: includes/admin/editor/browse/submissions.php:33
+#: includes/admin/editor/browse/submissions.php:80
+#: includes/admin/editor/settings/choices.php:82
+#: includes/admin/editor/settings/results.php:52
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/admin/bootstrap.php:196
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your Envato license key</a> in order to "
+"update TotalPoll."
+msgstr ""
+"شما نیاز به <a href=\"%s\">یک کلید انواتو دارید</a> برای دریافت به روز رسانی "
+"های خودکار."
+
+#: includes/admin/bootstrap.php:290
+msgid "TotalPoll Options"
+msgstr "گزینه های TotalPoll"
+
+#: includes/admin/bootstrap.php:290
+#: includes/admin/editor/custom-fields/checkbox.php:74
+#: includes/admin/editor/custom-fields/radio.php:68
+#: includes/admin/editor/custom-fields/select.php:68
+#: includes/admin/partials/options-panel.php:2
+msgid "Options"
+msgstr "تنظیمات"
+
+#: includes/admin/bootstrap.php:291
+msgid "TotalPoll Extensions"
+msgstr "افزودنی های TotalPoll"
+
+#: includes/admin/bootstrap.php:291 includes/admin/bootstrap.php:375
+#: includes/admin/pages/about.php:77 includes/admin/pages/about.php:99
+#: includes/admin/pages/extensions.php:59 includes/admin/pages/store.php:30
+msgid "Extensions"
+msgstr "افزودنی ها"
+
+#: includes/admin/bootstrap.php:292
+msgid "TotalPoll Templates"
+msgstr "الگوهاِی TotalPoll"
+
+#: includes/admin/bootstrap.php:292 includes/admin/bootstrap.php:380
+#: includes/admin/pages/about.php:72 includes/admin/pages/about.php:95
+#: includes/admin/pages/store.php:27 includes/admin/pages/templates.php:59
+msgid "Templates"
+msgstr "الگوها"
+
+#: includes/admin/bootstrap.php:293
+msgid "TotalPoll Store"
+msgstr "فروشگاه TotalPoll"
+
+#: includes/admin/bootstrap.php:293 includes/admin/bootstrap.php:385
+#: includes/admin/pages/store.php:23
+msgid "Store"
+msgstr "فروشگاه"
+
+#: includes/admin/bootstrap.php:294
+msgid "TotalPoll Tools"
+msgstr "ابزارهای نظرسنجی"
+
+#: includes/admin/bootstrap.php:294 includes/admin/bootstrap.php:390
+#: includes/admin/pages/tools.php:44
+msgid "Tools"
+msgstr "ابزار ها"
+
+#: includes/admin/bootstrap.php:295
+msgid "TotalPoll About"
+msgstr "درباره TotalPoll"
+
+#: includes/admin/bootstrap.php:295
+msgid "About"
+msgstr "درباره"
+
+#: includes/admin/bootstrap.php:296
+msgid "TotalPoll Update"
+msgstr "بروزرسانی TotalPoll"
+
+#: includes/admin/bootstrap.php:296 includes/admin/bootstrap.php:395
+msgid "Update"
+msgstr "بروز رسانی"
+
+#: includes/admin/bootstrap.php:297
+msgid "TotalPoll Support Center"
+msgstr "مرکز پشتیبانی TotalPoll"
+
+#: includes/admin/bootstrap.php:297 includes/admin/bootstrap.php:400
+msgid "Support / Help"
+msgstr "پشتیبانی/ راهنما"
+
+#: includes/admin/bootstrap.php:322 includes/admin/editor.php:107
+msgid "Are you sure?!"
+msgstr "آیا شما مطمئن هستید؟!"
+
+#: includes/admin/bootstrap.php:323 includes/admin/editor.php:109
+msgid ""
+"Changing the current template requires a page reload. All changes will be "
+"saved now. Are you sure?"
+msgstr ""
+"تغییر قالب فعلی نیاز به بارگذاری صفحه دارد. همه تغییرات ذخیره خواهند شد. شما "
+"مطمئن هستید؟"
+
+#: includes/admin/bootstrap.php:355 includes/admin/editor/browse/logs.php:115
+#: includes/admin/editor/browse/submissions.php:96
+msgid "Previous"
+msgstr "قبلی"
+
+#: includes/admin/bootstrap.php:356 includes/admin/editor/browse/logs.php:118
+#: includes/admin/editor/browse/submissions.php:99
+msgid "Next"
+msgstr "بعدی"
+
+#: includes/admin/bootstrap.php:357
+msgid "Done"
+msgstr "پایان"
+
+#: includes/admin/bootstrap.php:365
+msgid "Welcome!"
+msgstr "خوش آمدید!"
+
+#: includes/admin/bootstrap.php:366
+msgid "You can access to your polls and TotalPoll features from this menu."
+msgstr ""
+"شما از این منو می توانید به ویژگی نظرسنجی های TotalPoll دسترسی داشته باشید."
+
+#: includes/admin/bootstrap.php:370
+msgid "New poll"
+msgstr "نظرسنجی جدید"
+
+#: includes/admin/bootstrap.php:371
+msgid "You can create your first poll from this page."
+msgstr "شما می توانید اولین نظرسنجی خود را از این صفحه ایجاد کنید."
+
+#: includes/admin/bootstrap.php:376
+msgid "From this page you can manage TotalPoll extensions."
+msgstr "از این صفحه می توانید افزودنی های افزونه را مدیریت کنید."
+
+#: includes/admin/bootstrap.php:381
+msgid "From this page you can manage manage TotalPoll templates."
+msgstr "از این صفحه می توانید قالب های TotalPoll را مدیریت کنید."
+
+#: includes/admin/bootstrap.php:386
+msgid ""
+"Extend TotalPoll functionality and appearance with premium extensions and "
+"templates."
+msgstr "گسترش قابلیت های TotalPoll و ظاهر با افزودنی ها و قالب های تجاری."
+
+#: includes/admin/bootstrap.php:391
+msgid "Tools for importing, exporting and migrating polls."
+msgstr "ابزارها برای درون ریزی، برون ریزی و انتقال نظرسنجی ها."
+
+#: includes/admin/bootstrap.php:396
+msgid "Receive updates by activating TotalPoll via Envato license key."
+msgstr "دریافت به روز رسانی با TotalPoll فعال کردن از طریق کلید مجوز Envato."
+
+#: includes/admin/bootstrap.php:401
+msgid "Visit this page if you need any help with TotalPoll."
+msgstr "بازدید از این صفحه اگر نیاز به هر راهنمایی همراه با TotalPoll دارید."
+
+#: includes/admin/bootstrap.php:409
+msgid "First things first, let's give the poll a title i.e. Favorite colors."
+msgstr ""
+"اول از همه، اجازه دهید یک عنوان نظرسنجی با عنوان رنگ های دلخواهتان ایجاد شود."
+
+#: includes/admin/bootstrap.php:417 includes/admin/editor/question.php:7
+msgid "Question"
+msgstr "سوال"
+
+#: includes/admin/bootstrap.php:418
+msgid "And of course a question i.e. What is your favorite colors."
+msgstr "افزودن یک سؤال به عنوان رنگ های مورد علاقه شما."
+
+#: includes/admin/bootstrap.php:426 includes/admin/bootstrap.php:462
+#: includes/admin/editor.php:250 includes/admin/editor/browse/logs.php:34
+#: includes/admin/editor/browse/logs.php:63
+#: includes/admin/editor/browse/logs.php:98
+#: includes/admin/editor/browse/statistics-cards.php:62
+#: includes/admin/editor/choices.php:7 includes/admin/editor/settings.php:77
+#: includes/admin/pages/about.php:62 includes/classes/request.php:251
+msgid "Choices"
+msgstr "گزینه ها"
+
+#: includes/admin/bootstrap.php:427
+msgid "Now let's introduce poll choices i.e. Red, green and blue."
+msgstr "حالا گزینه هایی را برای نظرسنجی خود انتخاب کنید."
+
+#: includes/admin/bootstrap.php:435 includes/admin/editor/choices.php:33
+msgid "Bulk insertion"
+msgstr "درج چندتایی"
+
+#: includes/admin/bootstrap.php:436
+msgid "Protip: Use bulk insertion when you have already a list of choices."
+msgstr ""
+"نکته: استفاده از درج چندتایی زمانی که شما در حال افزودن یک لیست از گزینه ها "
+"هستید مقدور است."
+
+#: includes/admin/bootstrap.php:444 includes/admin/editor/settings.php:67
+msgid "Limitations"
+msgstr "محدودیت ها"
+
+#: includes/admin/bootstrap.php:445
+msgid "Set limitations to match your needs."
+msgstr "تنظیم محدودیت با مطابقت های مورد نیاز شما."
+
+#: includes/admin/bootstrap.php:453 includes/admin/editor/settings.php:72
+#: includes/admin/pages/options/expressions.php:41
+#: includes/classes/template.php:503
+msgid "Results"
+msgstr "نتایج"
+
+#: includes/admin/bootstrap.php:454
+msgid "Change results settings to match your needs."
+msgstr "تغییر تنظیمات نتایج برای مطابقت های مورد نیاز شما."
+
+#: includes/admin/bootstrap.php:463
+msgid "Change choices settings to match your needs."
+msgstr "تغییر تنظیمات گزینه ها برای مطابقت های مورد نیاز شما."
+
+#: includes/admin/bootstrap.php:471 includes/admin/editor/settings.php:82
+#: includes/admin/pages/about.php:27
+msgid "Custom fields"
+msgstr "فیلدهای سفارشی"
+
+#: includes/admin/bootstrap.php:472
+msgid "You can manage custom fields from this tab."
+msgstr "شما می توانید فیلد های دلخواه را از این زبانه مدیریت کنید."
+
+#: includes/admin/bootstrap.php:480 includes/admin/editor/settings.php:87
+msgid "Design"
+msgstr "طراحی"
+
+#: includes/admin/bootstrap.php:481
+msgid "And polish poll's appearance from this one."
+msgstr "و ظاهر نظرسنجی لهستانی از این یکی."
+
+#: includes/admin/bootstrap.php:489 includes/admin/editor/settings.php:92
+msgid "Screens"
+msgstr "صفحه نمایش"
+
+#: includes/admin/bootstrap.php:490
+msgid "Set a \"thank you\" or \"welcome\" message from this tab."
+msgstr "تنظیم یک پیام \"متشکریم\" یا \"خوش آمدید\" از این زبانه."
+
+#: includes/admin/bootstrap.php:498 includes/admin/editor/browse.php:16
+#: includes/admin/editor/custom-fields/tabs.php:10
+#: includes/admin/pages/about.php:32
+msgid "Statistics"
+msgstr "آمار"
+
+#: includes/admin/bootstrap.php:499
+msgid "Browse the statistics from this tab."
+msgstr "مرور آمارها از این زبانه."
+
+#: includes/admin/bootstrap.php:507 includes/admin/editor/browse.php:21
+#: includes/admin/editor/settings.php:97 includes/admin/pages/about.php:67
+msgid "Logs"
+msgstr "گزارش ها"
+
+#: includes/admin/bootstrap.php:508
+msgid "You can also browse the logs from this tab."
+msgstr "شما همچنین می توانید گزارش ها را از این زبانه مرور کنید."
+
+#: includes/admin/bootstrap.php:516 includes/admin/editor/browse.php:26
+msgid "Submissions"
+msgstr "ارسال"
+
+#: includes/admin/bootstrap.php:517
+msgid "Lastly, the submissions from this one."
+msgstr "در نهایت، ارسال این یکی."
+
+#: includes/admin/bootstrap.php:526
+msgid "Paste this shortcode anywhere to embed the poll."
+msgstr "برای جاسازی این نظرسنجی، این کد را در سایت خود قرار دهید."
+
+#: includes/admin/bootstrap.php:534
+msgid "Publish"
+msgstr "انتشار"
+
+#: includes/admin/bootstrap.php:535
+msgid "You are almost done! Now It's time to publish the poll."
+msgstr "تقریبا تمام است! زمان انتشار این نظرسنجی است."
+
+#: includes/admin/bootstrap.php:543 includes/admin/editor/choices.php:35
+msgid "Reset votes"
+msgstr "تنظیم مجدد آرا"
+
+#: includes/admin/bootstrap.php:544
+msgid ""
+"You can use this button to reset choices votes to 0. You can also set votes "
+"manually from \"votes\" field underneath."
+msgstr ""
+"شما می توانید این دکمه را برای تنظیم مجدد انتخاب رای برروی 0 بگذارید. همچنین "
+"به صورت دستی از فیلد آرا استفاده کنید."
+
+#: includes/admin/bootstrap.php:552 includes/admin/pages/update.php:22
+msgid "Thank you!"
+msgstr "سپاس از شما!"
+
+#: includes/admin/bootstrap.php:554
+#, php-format
+msgid ""
+"By now you are familiar with the basics of TotalPoll. Thank you for your "
+"time! If you need any help, please don't hesitate to visit our <a href=\"%s"
+"\">support center</a>."
+msgstr ""
+"شما در حال حاضر با اصول اولیه افزونه آشنا هستید. باتشکر به منظور وقتی که "
+"گذاشتید! هرگونه کمکی نیاز دارید دریغ نکنید <a href=\"%s\">مرکز پشتیبانی</a>."
+
+#: includes/admin/editor.php:108
+msgid "Extract thumbnail from video URL?"
+msgstr "تصویر بند انگشتی از URL ویدیو"
+
+#: includes/admin/editor.php:111
+#, php-format
+msgid ""
+"STOP!\n"
+"\n"
+"Some of your changes will be lost because your PHP configuration is limited "
+"to %d inputs per page and unfortunately you have exceeded that limit.\n"
+"\n"
+"Please ask your hosting provider to change the value of 'max_input_vars' in "
+"your PHP.INI file to a higher number.\n"
+"\n"
+"For more details please visit our help center."
+msgstr ""
+"بایست!\n"
+"\n"
+"برخی از تغییرات شما از دست رفته خواهد بود چون تنظیمات PHP %d ورودی در هر صفحه "
+"محدود است و متاسفانه شما بیش از حد آن استفاده کردید.\n"
+"\n"
+"-ارائه برای تغییر مقدار 'max_input_vars' در پی اچ پی خود را بپرسید. فایل INI "
+"به تعداد بالاتر.\n"
+"\n"
+"برای اطلاعات بیشتر به مرکز راهنمایی مراجعه کنید."
+
+#: includes/admin/editor.php:244 includes/admin/editor/browse/logs.php:18
+#: includes/admin/editor/browse/logs.php:59
+#: includes/admin/editor/browse/logs.php:94
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:75
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/admin/editor.php:245 includes/admin/editor/browse/logs.php:22
+#: includes/admin/editor/browse/logs.php:60
+#: includes/admin/editor/browse/logs.php:95 includes/classes/request.php:250
+msgid "Time"
+msgstr "زمان"
+
+#: includes/admin/editor.php:246 includes/admin/editor/browse/logs.php:26
+#: includes/admin/editor/browse/logs.php:61
+#: includes/admin/editor/browse/logs.php:96 includes/classes/request.php:248
+msgid "IP"
+msgstr "آی پی"
+
+#: includes/admin/editor.php:247
+msgid "Platform"
+msgstr "پلتفرم"
+
+#: includes/admin/editor.php:248 includes/admin/editor/browse/logs.php:30
+#: includes/admin/editor/browse/logs.php:62
+#: includes/admin/editor/browse/logs.php:97
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/classes/request.php:249
+msgid "Browser"
+msgstr "مرورگر"
+
+#: includes/admin/editor.php:249 includes/admin/pages/extensions.php:178
+#: includes/admin/pages/templates.php:182
+msgid "Version"
+msgstr "نسخه"
+
+#: includes/admin/editor.php:251 includes/admin/editor/browse/logs.php:39
+#: includes/admin/editor/browse/logs.php:70
+#: includes/admin/editor/browse/logs.php:105 includes/classes/request.php:252
+msgid "Details"
+msgstr "جزئیات"
+
+#: includes/admin/editor.php:252
+msgid "User agent"
+msgstr "عامل کاربر"
+
+#: includes/admin/editor.php:267 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:20
+msgid "Accepted"
+msgstr "پذیرفته شده"
+
+#: includes/admin/editor.php:267 includes/admin/editor/browse/logs-item.php:8
+#: includes/admin/editor/browse/statistics-cards.php:25
+msgid "Denied"
+msgstr "پذیرفته نشده"
+
+#: includes/admin/editor.php:279 includes/admin/editor.php:302
+#: includes/admin/editor/browse/logs-item.php:28
+#: includes/admin/editor/browse/logs-item.php:41
+#: includes/admin/editor/browse/submissions-item.php:13
+#: includes/admin/editor/browse/submissions-item.php:25
+#: includes/admin/statistics.php:25 includes/classes/helpers.php:146
+msgid "N/A"
+msgstr "خالی"
+
+#: includes/admin/editor/browse.php:7 includes/admin/pages/extensions.php:63
+#: includes/admin/pages/templates.php:63
+msgid "Browse"
+msgstr "مرور"
+
+#: includes/admin/editor/browse/logs.php:81
+msgid "There are no logs."
+msgstr "هیچ گزارشی وجود ندارد."
+
+#: includes/admin/editor/browse/logs.php:113
+#: includes/admin/editor/browse/submissions.php:94
+msgid "First"
+msgstr "اولین"
+
+#: includes/admin/editor/browse/logs.php:120
+#: includes/admin/editor/browse/submissions.php:101
+msgid "Last"
+msgstr "آخرین"
+
+#: includes/admin/editor/browse/logs.php:126
+#, php-format
+msgid "One log"
+msgid_plural "%s logs"
+msgstr[0] "%s گزارش"
+
+#: includes/admin/editor/browse/logs.php:129
+#: includes/admin/editor/browse/statistics.php:36
+#: includes/admin/editor/browse/submissions.php:111
+#: includes/admin/pages/support.php:63
+msgid "Download"
+msgstr "دانلود"
+
+#: includes/admin/editor/browse/logs.php:131
+#: includes/admin/editor/browse/submissions.php:113
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/admin/editor/browse/logs.php:133
+#: includes/admin/editor/browse/submissions.php:115
+#: includes/admin/editor/custom-fields/tabs.php:9
+#: includes/admin/pages/about.php:107
+msgid "HTML"
+msgstr "‏HTML"
+
+#: includes/admin/editor/browse/logs.php:135
+#: includes/admin/editor/browse/statistics.php:38
+#: includes/admin/editor/browse/submissions.php:117
+msgid "or"
+msgstr "یا"
+
+#: includes/admin/editor/browse/logs.php:137
+#: includes/admin/editor/browse/statistics.php:40
+#: includes/admin/editor/browse/submissions.php:119
+msgid "Reset"
+msgstr "تنظیم مجدد"
+
+#: includes/admin/editor/browse/statistics-cards.php:29
+#: includes/admin/editor/browse/statistics-cards.php:31
+#: includes/admin/editor/browse/statistics-cards.php:32
+#: includes/admin/editor/browse/statistics-cards.php:33
+#: includes/admin/editor/browse/statistics-cards.php:38
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:53
+#: includes/admin/editor/browse/statistics-cards.php:58
+#: includes/admin/editor/choices/handle.php:10
+#: includes/admin/editor/choices/handle.php:13
+#: includes/admin/editor/print.php:22 includes/admin/editor/print.php:30
+#: includes/admin/editor/settings/choices.php:76
+#: includes/admin/editor/settings/results.php:46
+#: includes/admin/editor/settings/results.php:134
+#: includes/admin/pages/options/expressions.php:14
+msgid "Votes"
+msgstr "آرا"
+
+#: includes/admin/editor/browse/statistics-cards.php:32
+msgid "Month"
+msgstr "ماه"
+
+#: includes/admin/editor/browse/statistics-cards.php:33
+msgid "Year"
+msgstr "سال"
+
+#: includes/admin/editor/browse/statistics-cards.php:39
+#: includes/admin/editor/browse/statistics-cards.php:173
+msgid "Platforms"
+msgstr "پلتفرم ها"
+
+#: includes/admin/editor/browse/statistics-cards.php:58
+#: includes/admin/editor/print.php:21 includes/admin/editor/print.php:30
+msgid "Choice"
+msgstr "انتخاب"
+
+#: includes/admin/editor/browse/statistics-cards.php:67
+#: includes/admin/editor/browse/statistics-cards.php:80
+#: includes/admin/editor/browse/statistics-cards.php:95
+#: includes/admin/editor/browse/statistics-cards.php:133
+#: includes/admin/editor/browse/statistics-cards.php:147
+#: includes/admin/editor/browse/statistics-cards.php:164
+#: includes/admin/editor/browse/statistics-cards.php:178
+#: includes/admin/editor/browse/statistics.php:16
+msgid "Insufficient data to analyze."
+msgstr "داده های کافی برای تجزیه و تحلیل."
+
+#: includes/admin/editor/browse/statistics-cards.php:90
+msgid "Votes over the last 30 days of activity"
+msgstr "آرای  30 روز گذشته"
+
+#: includes/admin/editor/browse/statistics-cards.php:106
+msgid "Votes casted"
+msgstr "قالب آرا"
+
+#: includes/admin/editor/browse/statistics-cards.php:111
+msgid "Votes casted today"
+msgstr "قالب آرای امروز"
+
+#: includes/admin/editor/browse/statistics-cards.php:116
+msgid "Votes casted this week"
+msgstr "قالب آرای این هفته"
+
+#: includes/admin/editor/browse/statistics-cards.php:121
+msgid "Votes casted this month"
+msgstr "قالب آرای این ماه"
+
+#: includes/admin/editor/browse/statistics-cards.php:128
+msgid "Votes over months"
+msgstr "آرا در طول ماه"
+
+#: includes/admin/editor/browse/statistics-cards.php:142
+msgid "Votes over years"
+msgstr "آرا در طول سال"
+
+#: includes/admin/editor/browse/statistics-cards.php:159
+msgid "Browsers"
+msgstr "مرورگرها"
+
+#: includes/admin/editor/browse/statistics.php:34
+msgid "Print"
+msgstr "چاپ"
+
+#: includes/admin/editor/browse/submissions.php:51
+msgid ""
+"There are stored submissions, but custom fields must be present to browse "
+"them."
+msgstr ""
+"ارسالی های ذخیره شده ای وجود دارند ولی برای پیمایش انها باید فیلدهای اضافه "
+"وجود داشته باشد."
+
+#: includes/admin/editor/browse/submissions.php:53
+#: includes/admin/editor/browse/submissions.php:63
+msgid "There are no submissions."
+msgstr "هیچ ارسالی وجود ندارد"
+
+#: includes/admin/editor/browse/submissions.php:108
+#, php-format
+msgid "One submission"
+msgid_plural "%s submissions"
+msgstr[0] "%s ارسال"
+
+#: includes/admin/editor/choices.php:13
+msgid ""
+"TotalPoll will synchronize votes between translations automatically. "
+"Therefore, choices must be in the exact order across all translations."
+msgstr ""
+"پلاگین TotalPollامتیازات بین نسخه های ترجمه شده را به طور خودکار هماهنگ می "
+"سازد. بنابراین انتخابهای شما باید در تمام زبان ها کاملا به ترتیب باشند."
+
+#: includes/admin/editor/choices.php:17
+#: includes/admin/editor/choices/text.php:10
+#: includes/admin/editor/custom-fields/text.php:10
+#: includes/admin/editor/settings/custom-fields.php:12
+msgid "Text"
+msgstr "متن"
+
+#: includes/admin/editor/choices.php:20
+#: includes/admin/editor/choices/image.php:10
+msgid "Image"
+msgstr "تصویر"
+
+#: includes/admin/editor/choices.php:23
+#: includes/admin/editor/choices/video.php:10
+msgid "Video"
+msgstr "ویدئو"
+
+#: includes/admin/editor/choices.php:26
+#: includes/admin/editor/choices/audio.php:10
+msgid "Audio"
+msgstr "صدا"
+
+#: includes/admin/editor/choices.php:29
+#: includes/admin/editor/choices/html.php:10
+msgid "Rich"
+msgstr "محتوا"
+
+#: includes/admin/editor/choices.php:40
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: includes/admin/editor/choices/audio.php:34
+#: includes/admin/editor/choices/html.php:19
+#: includes/admin/editor/choices/image.php:27
+#: includes/admin/editor/choices/text.php:19
+#: includes/admin/editor/choices/video.php:34
+#: includes/admin/editor/custom-fields/checkbox.php:55
+#: includes/admin/editor/custom-fields/radio.php:49
+#: includes/admin/editor/custom-fields/select.php:49
+#: includes/admin/editor/custom-fields/text.php:49
+#: includes/admin/editor/custom-fields/textarea.php:49
+#: includes/admin/editor/settings/choices.php:79
+#: includes/admin/editor/settings/results.php:49
+msgid "Label"
+msgstr "برچسب"
+
+#: includes/admin/editor/choices/audio.php:39
+#: includes/admin/editor/choices/image.php:32
+#: includes/admin/editor/choices/video.php:39
+msgid "Choice label"
+msgstr "انتخاب برچسب"
+
+#: includes/admin/editor/choices/audio.php:50
+msgid "Full audio url"
+msgstr "آدرس کامل صدا"
+
+#: includes/admin/editor/choices/audio.php:58
+msgid "Choice full audio url"
+msgstr "انتخاب آدرس کامل صدا"
+
+#: includes/admin/editor/choices/audio.php:74
+#: includes/admin/editor/choices/audio.php:129
+#: includes/admin/editor/choices/image.php:66
+#: includes/admin/editor/choices/video.php:75
+#: includes/admin/editor/choices/video.php:130
+#: includes/admin/pages/extensions.php:61 includes/admin/pages/templates.php:61
+msgid "Upload"
+msgstr "آپلود"
+
+#: includes/admin/editor/choices/audio.php:81
+msgid "Thumbnail audio url"
+msgstr "آدرس تصویر بندانگشتی صدا"
+
+#: includes/admin/editor/choices/audio.php:86
+msgid "Choice thumbnail audio url"
+msgstr "انتخاب آدرس تصویر بندانگشتی صدا"
+
+#: includes/admin/editor/choices/audio.php:94
+#: includes/admin/editor/choices/image.php:87
+#: includes/admin/editor/choices/video.php:95
+msgid "Available sizes"
+msgstr "اندازه های موجود"
+
+#: includes/admin/editor/choices/audio.php:105
+#: includes/admin/editor/choices/image.php:99
+#: includes/admin/editor/choices/video.php:106
+msgid "Upload image first"
+msgstr "آپلود اولین تصویر"
+
+#: includes/admin/editor/choices/handle.php:8
+#: includes/admin/editor/custom-fields/handle.php:8
+msgid "Remove"
+msgstr "حذف"
+
+#: includes/admin/editor/choices/html.php:24
+#: includes/admin/editor/choices/text.php:24
+msgid "Choice content"
+msgstr "انتخاب محتوا"
+
+#: includes/admin/editor/choices/image.php:42
+msgid "Full image url"
+msgstr "آدرس کامل تصویر"
+
+#: includes/admin/editor/choices/image.php:50
+msgid "Choice full image url"
+msgstr "انتخاب آدرس کامل تصویر"
+
+#: includes/admin/editor/choices/image.php:74
+msgid "Thumbnail image url"
+msgstr "آدرس تصویر بندانگشتی"
+
+#: includes/admin/editor/choices/image.php:79
+msgid "Choice thumbnail image url"
+msgstr "انتخاب آدرس تصویر بندانگشتی"
+
+#: includes/admin/editor/choices/video.php:50
+msgid "Full video url"
+msgstr "آدرس کامل ویدیو"
+
+#: includes/admin/editor/choices/video.php:58
+msgid "Choice full video url"
+msgstr "انتخاب آدرس کامل ویدیو"
+
+#: includes/admin/editor/choices/video.php:82
+msgid "Thumbnail video url"
+msgstr "آدرس تصویر بندانگشتی ویدیو"
+
+#: includes/admin/editor/choices/video.php:87
+msgid "Choice thumbnail video url"
+msgstr "انتخاب آدرس تصویر بندانگشتی ویدیو"
+
+#: includes/admin/editor/custom-fields/checkbox.php:10
+#: includes/admin/editor/settings/custom-fields.php:21
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: includes/admin/editor/custom-fields/checkbox.php:35
+#: includes/admin/editor/custom-fields/radio.php:29
+#: includes/admin/editor/custom-fields/select.php:29
+#: includes/admin/editor/custom-fields/text.php:29
+#: includes/admin/editor/custom-fields/textarea.php:29
+msgid "Name"
+msgstr "نام"
+
+#: includes/admin/editor/custom-fields/checkbox.php:40
+#: includes/admin/editor/custom-fields/radio.php:34
+#: includes/admin/editor/custom-fields/select.php:34
+#: includes/admin/editor/custom-fields/text.php:34
+#: includes/admin/editor/custom-fields/textarea.php:34
+msgid "Field name"
+msgstr "نام فیلد"
+
+#: includes/admin/editor/custom-fields/checkbox.php:60
+#: includes/admin/editor/custom-fields/radio.php:54
+#: includes/admin/editor/custom-fields/select.php:54
+#: includes/admin/editor/custom-fields/text.php:54
+#: includes/admin/editor/custom-fields/textarea.php:54
+msgid "Field label"
+msgstr "برچسب فیلد"
+
+#: includes/admin/editor/custom-fields/checkbox.php:78
+#: includes/admin/editor/custom-fields/radio.php:72
+#: includes/admin/editor/custom-fields/select.php:73
+msgid "option_key : Option label"
+msgstr "option_key : برچسب گزینه"
+
+#: includes/admin/editor/custom-fields/checkbox.php:84
+#: includes/admin/editor/custom-fields/radio.php:78
+#: includes/admin/editor/custom-fields/select.php:79
+msgid "Option per line."
+msgstr "هر خط یک گزینه."
+
+#: includes/admin/editor/custom-fields/checkbox.php:94
+#: includes/admin/editor/custom-fields/radio.php:88
+#: includes/admin/editor/custom-fields/select.php:89
+msgid "Default values"
+msgstr "مقادیر پیش فرض"
+
+#: includes/admin/editor/custom-fields/checkbox.php:98
+#: includes/admin/editor/custom-fields/radio.php:93
+#: includes/admin/editor/custom-fields/select.php:94
+msgid "option_key"
+msgstr "option_key"
+
+#: includes/admin/editor/custom-fields/checkbox.php:104
+#: includes/admin/editor/custom-fields/select.php:100
+msgid "Default value per line."
+msgstr "مقادیر پیش فرض در هر خط."
+
+#: includes/admin/editor/custom-fields/checkbox.php:130
+#: includes/admin/editor/custom-fields/radio.php:123
+#: includes/admin/editor/custom-fields/select.php:143
+#: includes/admin/editor/custom-fields/text.php:96
+#: includes/admin/editor/custom-fields/textarea.php:117
+msgid "Filled (required)"
+msgstr "پر شوند (الزامی)"
+
+#: includes/admin/editor/custom-fields/html-fields.php:12
+msgid "Field CSS classes"
+msgstr "کلاس های زمینه CSS"
+
+#: includes/admin/editor/custom-fields/html-fields.php:17
+msgid "Field classes"
+msgstr "کلاس های زمینه"
+
+#: includes/admin/editor/custom-fields/html-fields.php:30
+msgid "Label CSS classes"
+msgstr "کلاس های برچسب CSS"
+
+#: includes/admin/editor/custom-fields/html-fields.php:35
+msgid "Label classes"
+msgstr "کلاس های برچسب"
+
+#: includes/admin/editor/custom-fields/html-fields.php:49
+#: includes/admin/editor/settings/design.php:14
+#: includes/admin/pages/templates.php:106 includes/admin/pages/templates.php:117
+msgid "Template"
+msgstr "الگو"
+
+#: includes/admin/editor/custom-fields/html-fields.php:54
+msgid "Field template"
+msgstr "قالب زمینه"
+
+#: includes/admin/editor/custom-fields/html-fields.php:60
+msgid "%label% for field label."
+msgstr "%label% برای برچسب زمینه."
+
+#: includes/admin/editor/custom-fields/html-fields.php:62
+#, php-format
+msgid "%field% for field input."
+msgstr "%field% for field input."
+
+#: includes/admin/editor/custom-fields/radio.php:10
+#: includes/admin/editor/settings/custom-fields.php:24
+msgid "Radio"
+msgstr "دکمه رادیویی"
+
+#: includes/admin/editor/custom-fields/select.php:10
+#: includes/admin/editor/settings/custom-fields.php:18
+msgid "Select"
+msgstr "انتخاب کنید"
+
+#: includes/admin/editor/custom-fields/select.php:115
+msgid "Allow multiple values"
+msgstr "اجازه مقادیر چندگانه"
+
+#: includes/admin/editor/custom-fields/statistics-fields.php:18
+msgid "Include in statistics"
+msgstr "دخالت دادن در آمار"
+
+#: includes/admin/editor/custom-fields/tabs.php:7
+msgid "Basic"
+msgstr "ساده"
+
+#: includes/admin/editor/custom-fields/tabs.php:8
+#: includes/admin/pages/options/expressions.php:142
+msgid "Validations"
+msgstr "درست سنجی"
+
+#: includes/admin/editor/custom-fields/text.php:68
+#: includes/admin/editor/custom-fields/textarea.php:68
+msgid "Default value"
+msgstr "مقدار پیش فرض"
+
+#: includes/admin/editor/custom-fields/text.php:73
+#: includes/admin/editor/custom-fields/textarea.php:73
+msgid "Field default"
+msgstr "زمینه پیش فرض"
+
+#: includes/admin/editor/custom-fields/text.php:112
+#: includes/admin/editor/settings/notifications.php:13
+msgid "Email"
+msgstr "ایمیل"
+
+#: includes/admin/editor/custom-fields/text.php:128
+msgid "Unique"
+msgstr "منحصر بفرد"
+
+#: includes/admin/editor/custom-fields/text.php:146
+#: includes/admin/editor/custom-fields/textarea.php:134
+msgid "Filter by list"
+msgstr "فیلتر براساس لیست"
+
+#: includes/admin/editor/custom-fields/text.php:156
+#: includes/admin/editor/custom-fields/textarea.php:144
+msgid "List"
+msgstr "لیست"
+
+#: includes/admin/editor/custom-fields/text.php:166
+#: includes/admin/editor/custom-fields/textarea.php:154
+msgid "Word per line."
+msgstr "کلمه در هر خط."
+
+#: includes/admin/editor/custom-fields/text.php:168
+#: includes/admin/editor/custom-fields/textarea.php:156
+msgid "\"+\" before word means white-listed."
+msgstr "\"+\" قبل از واژه به معنی لیست سفید"
+
+#: includes/admin/editor/custom-fields/text.php:170
+#: includes/admin/editor/custom-fields/textarea.php:158
+msgid "\"-\" before word means black-listed."
+msgstr "\"-\" قبل از واژه به معنی لیست سیاه."
+
+#: includes/admin/editor/custom-fields/text.php:172
+#: includes/admin/editor/custom-fields/textarea.php:160
+msgid "\"*\" means wildcard."
+msgstr "\"*\" به معنی کلمات."
+
+#: includes/admin/editor/custom-fields/text.php:188
+#: includes/admin/editor/custom-fields/textarea.php:176
+msgid "Regex"
+msgstr "عبارت"
+
+#: includes/admin/editor/custom-fields/text.php:198
+#: includes/admin/editor/custom-fields/textarea.php:186
+msgid "Regular expression"
+msgstr "عبارت منظم"
+
+#: includes/admin/editor/custom-fields/text.php:210
+#: includes/admin/editor/custom-fields/textarea.php:198
+msgid "Must be a valid regular expression."
+msgstr "باید یک عبارت معتبر به طور منظم باشد."
+
+#: includes/admin/editor/custom-fields/text.php:215
+#: includes/admin/editor/custom-fields/textarea.php:203
+msgid "Error message"
+msgstr "پیغام خطا"
+
+#: includes/admin/editor/custom-fields/text.php:230
+#: includes/admin/editor/custom-fields/textarea.php:218
+msgid "Comparison"
+msgstr "مقایسه"
+
+#: includes/admin/editor/custom-fields/text.php:241
+#: includes/admin/editor/custom-fields/textarea.php:229
+msgid "Must match"
+msgstr "باید مطابقت داشته باشند"
+
+#: includes/admin/editor/custom-fields/text.php:252
+#: includes/admin/editor/custom-fields/textarea.php:240
+msgid "Must not match"
+msgstr "باید مطابقت نداشته باشند"
+
+#: includes/admin/editor/custom-fields/textarea.php:10
+#: includes/admin/editor/settings/custom-fields.php:15
+msgid "Text area"
+msgstr "ناحیه متن"
+
+#: includes/admin/editor/custom-fields/textarea.php:87
+msgid "Rows"
+msgstr "ردیف ها"
+
+#: includes/admin/editor/custom-fields/textarea.php:92
+msgid "Field rows"
+msgstr "ردیف های زمینه"
+
+#: includes/admin/editor/header.php:10
+#, php-format
+msgid ""
+"This poll was created with prior version of TotalPoll. Please <a href=\"%s"
+"\">migrate your polls</a>."
+msgstr ""
+"این نظرسنجی با نسخه های قبلی از TotalPoll ایجاد شده است. لطفاً<a href=\"%s\"> "
+"نظرسنجی خود را منتقل کنید</a>."
+
+#: includes/admin/editor/print.php:10 includes/admin/pages/about.php:111
+#: includes/classes/post-types.php:35 includes/widgets/base.php:74
+#: includes/widgets/base.php:84 includes/widgets/latest.php:77
+#: includes/widgets/random.php:75
+msgid "Poll"
+msgstr "نظرسنجی"
+
+#: includes/admin/editor/settings.php:7
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/admin/editor/settings.php:7
+msgid "Default settings"
+msgstr "تنظیمات پیش فرض"
+
+#: includes/admin/editor/settings.php:102
+msgid "Notifications"
+msgstr "اطلاعیه ها"
+
+#: includes/admin/editor/settings/choices.php:14
+msgid "Minimum selection"
+msgstr "حداقل انتخاب"
+
+#: includes/admin/editor/settings/choices.php:24
+msgid "Maximum selection"
+msgstr "حداکثر انتخاب"
+
+#: includes/admin/editor/settings/choices.php:29
+#: includes/admin/editor/settings/choices.php:45
+msgid "0 means unlimited."
+msgstr "0 به معنی نامحدود."
+
+#: includes/admin/editor/settings/choices.php:40
+msgid "Choices per page"
+msgstr "انتخاب در هر صفحه"
+
+#: includes/admin/editor/settings/choices.php:57
+msgid "Order choices"
+msgstr "ترتیب انتخاب"
+
+#: includes/admin/editor/settings/choices.php:60
+#: includes/admin/editor/settings/results.php:30
+msgid ""
+"Heads up! Enabling this along with pagination can cause performance issues."
+msgstr ""
+"مراقب باش! فعال کردن این به طور بلند مدت با صفحه بندی باعث مشکلاتی در عملکرد "
+"می شود."
+
+#: includes/admin/editor/settings/choices.php:71
+#: includes/admin/editor/settings/results.php:41
+msgid "Order by"
+msgstr "مرتب سازی"
+
+#: includes/admin/editor/settings/choices.php:85
+#: includes/admin/editor/settings/results.php:55
+msgid "Random"
+msgstr "تصادفی"
+
+#: includes/admin/editor/settings/choices.php:92
+#: includes/admin/editor/settings/results.php:62
+msgid "Order direction"
+msgstr "جهت مرتب سازی"
+
+#: includes/admin/editor/settings/choices.php:98
+#: includes/admin/editor/settings/results.php:68
+msgid "Ascending"
+msgstr "صعودی"
+
+#: includes/admin/editor/settings/choices.php:103
+#: includes/admin/editor/settings/results.php:73
+msgid "Descending"
+msgstr "نزولی"
+
+#: includes/admin/editor/settings/choices.php:116
+msgid "Allow user submissions"
+msgstr "اجازه ارسال کاربر"
+
+#: includes/admin/editor/settings/choices.php:128
+msgid "Hide new submissions for moderation"
+msgstr "مخفی کردن مطالب جدید برای اعتدال"
+
+#: includes/admin/editor/settings/design.php:26
+msgid "(Not Activated)"
+msgstr "(فعال نشده)"
+
+#: includes/admin/editor/settings/design.php:27
+msgid "(Not Compatible)"
+msgstr "(سازگار نیست)"
+
+#: includes/admin/editor/settings/design.php:144
+msgid "Set current settings as defaults"
+msgstr "تنظیم تنظیمات فعلی بعنوان پیش فرض"
+
+#: includes/admin/editor/settings/design.php:152
+msgid "Reset settings to defaults"
+msgstr "بازگردانی تنظیمات به پیش فرض"
+
+#: includes/admin/editor/settings/design.php:163
+msgid "Transition"
+msgstr "انتقال"
+
+#: includes/admin/editor/settings/design.php:178
+msgid "Scroll up after vote submit"
+msgstr "رفتن به بالای صفحه پس از ارسال رای"
+
+#: includes/admin/editor/settings/design.php:189
+msgid "Enable one-click vote"
+msgstr "فعال کردن رای تنها با یک کلیک "
+
+#: includes/admin/editor/settings/limitations.php:14
+msgid "Block re-vote by Cookies"
+msgstr "ممنوع کردن رای گیری مجدد توسط کوکی ها"
+
+#: includes/admin/editor/settings/limitations.php:18
+#: includes/admin/editor/settings/limitations.php:49
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: includes/admin/editor/settings/limitations.php:29
+msgid "Cookies timeout (minutes)"
+msgstr "زمان اتمام کوکی ها (دقیقه)"
+
+#: includes/admin/editor/settings/limitations.php:34
+#: includes/admin/editor/settings/limitations.php:65
+msgid "0 means permanent."
+msgstr "0 به معنی دائم است."
+
+#: includes/admin/editor/settings/limitations.php:45
+msgid "Block re-vote by IP"
+msgstr "ممنوع کردن رای گیری مجدد توسط آی پی"
+
+#: includes/admin/editor/settings/limitations.php:60
+msgid "IP timeout (minutes)"
+msgstr "زمان وقفه آی پی (دقیقه)"
+
+#: includes/admin/editor/settings/limitations.php:70
+msgid "Votes per ip"
+msgstr "رأی برای هر IP"
+
+#: includes/admin/editor/settings/limitations.php:78
+msgid "Filter list"
+msgstr "فیلتر لیست"
+
+#: includes/admin/editor/settings/limitations.php:83
+msgid "IP Per line."
+msgstr "هر آی پی در یک خط."
+
+#: includes/admin/editor/settings/limitations.php:85
+msgid ""
+"\"+\" before IP means white-listed / \"-\" means black-listed / \"*\" means "
+"wildcard"
+msgstr ""
+"\"+\" قبل از آی پی به معنی لیست سفید / \"-\" به معنی لیست سیاه / \"*\" به "
+"معنی کلمات"
+
+#: includes/admin/editor/settings/limitations.php:97
+msgid "Block vote via direct link"
+msgstr "ممنوع کردن رای گیری از طریق لینک مستقیم"
+
+#: includes/admin/editor/settings/limitations.php:113
+msgid "Require membership"
+msgstr "عضویت الزامی است"
+
+#: includes/admin/editor/settings/limitations.php:125
+msgid "Membership type"
+msgstr "نوع عضویت"
+
+#: includes/admin/editor/settings/limitations.php:134
+#: includes/admin/pages/options/sharing.php:35
+msgid "Hold Control/Command for multiple selection."
+msgstr "نگهداشتن کنترل / فرمان برای انتخاب چندگانه."
+
+#: includes/admin/editor/settings/limitations.php:140
+msgid "Allow only one vote per member"
+msgstr "اجازه تنها یک رای برای هر عضو"
+
+#: includes/admin/editor/settings/limitations.php:153
+msgid "Require reCaptcha"
+msgstr "ری کپچا مورد نیاز است"
+
+#: includes/admin/editor/settings/limitations.php:165
+msgid "Site Key"
+msgstr "کلید سایت"
+
+#: includes/admin/editor/settings/limitations.php:173
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: includes/admin/editor/settings/limitations.php:188
+msgid "Limit by quota"
+msgstr "محدودیت توسط سهمیه"
+
+#: includes/admin/editor/settings/limitations.php:199
+msgid "Quota (votes)"
+msgstr "سهمیه (آرا)"
+
+#: includes/admin/editor/settings/limitations.php:214
+msgid "Limit by date"
+msgstr "محدودیت توسط تاریخ"
+
+#: includes/admin/editor/settings/limitations.php:225
+msgid "Start date"
+msgstr "تاریخ شروع"
+
+#: includes/admin/editor/settings/limitations.php:233
+#: includes/admin/editor/settings/results.php:109
+msgid "End date"
+msgstr "تاریخ پایان"
+
+#: includes/admin/editor/settings/limitations.php:250
+msgid "Regenerate poll unique ID"
+msgstr "بازسازی شناسه منحصربه فرد نظرسنجی"
+
+#: includes/admin/editor/settings/limitations.php:252
+msgid "Current:"
+msgstr "کنونی:"
+
+#: includes/admin/editor/settings/logs.php:15
+msgid "Enable logs"
+msgstr "فعال کردن گزارش ها"
+
+#: includes/admin/editor/settings/logs.php:18
+msgid "Heads up! Statistics are based on logs."
+msgstr "مراقب باش! آمار براساس گزارش های مربوطه است."
+
+#: includes/admin/editor/settings/logs.php:25
+msgid "Include user ID"
+msgstr "شامل ID کاربر"
+
+#: includes/admin/editor/settings/logs.php:32
+msgid "Include username"
+msgstr "شامل نام کاربری"
+
+#: includes/admin/editor/settings/logs.php:39
+msgid "Include user email"
+msgstr "شامل ایمیل کاربر"
+
+#: includes/admin/editor/settings/notifications.php:27
+msgid "New vote has been casted"
+msgstr "رای جدید اخذ شد."
+
+#: includes/admin/editor/settings/results.php:15
+msgid "Require vote"
+msgstr "رای مورد نیاز"
+
+#: includes/admin/editor/settings/results.php:27
+msgid "Order results"
+msgstr "ترتیب نتایج"
+
+#: includes/admin/editor/settings/results.php:86
+msgid "Hide results"
+msgstr "پنهان کردن نتایج"
+
+#: includes/admin/editor/settings/results.php:98
+msgid "Until reaching"
+msgstr "تا رسیدن به"
+
+#: includes/admin/editor/settings/results.php:104
+msgid "Quota"
+msgstr "سهمیه"
+
+#: includes/admin/editor/settings/results.php:115
+msgid "Results content"
+msgstr "محتوای نتایج"
+
+#: includes/admin/editor/settings/results.php:129
+msgid "Results fragments"
+msgstr "تکه های نتایج"
+
+#: includes/admin/editor/settings/results.php:139
+msgid "Percentages"
+msgstr "درصد"
+
+#: includes/admin/editor/settings/screens.php:15
+msgid "Before voting"
+msgstr "قبل از رای گیری"
+
+#: includes/admin/editor/settings/screens.php:38
+msgid "After voting"
+msgstr "پس از رای گیری"
+
+#: includes/admin/editor/settings/screens.php:63
+msgid "Above vote"
+msgstr "بالا رأی"
+
+#: includes/admin/editor/settings/screens.php:86
+msgid "Below vote"
+msgstr "زیر رای"
+
+#: includes/admin/editor/settings/screens.php:110
+msgid "Above results"
+msgstr "بالای نتایج"
+
+#: includes/admin/editor/settings/screens.php:133
+msgid "Below results"
+msgstr "پایین نتایج"
+
+#: includes/admin/extensions.php:163 includes/admin/templates.php:159
+msgid "Could not access filesystem."
+msgstr "توانایی دسترسی به فایل سیستم ها نیست"
+
+#: includes/admin/extensions.php:167 includes/admin/templates.php:163
+msgid "Filesystem error."
+msgstr "خطا در فایل سیستم"
+
+#: includes/admin/extensions.php:191
+#, php-format
+msgid "Could not fully remove the extension(s) %s."
+msgstr "نمی تواند به طور کامل افزودنی %s پاک شود."
+
+#: includes/admin/installer.php:59
+msgid "Upload package"
+msgstr "آپلود بسته"
+
+#: includes/admin/installer.php:83
+msgid "The package is at the latest version."
+msgstr "این پکیج آخرین نگارش آن است."
+
+#: includes/admin/installer.php:84
+msgid "Update package not available."
+msgstr "به روز رسانی بسته در دسترس نیست."
+
+#: includes/admin/installer.php:85
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
+msgstr "درحال دانلود به روز رسانی از <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:86
+msgid "Unpacking the update&#8230;"
+msgstr "بازکردن بسته به روز رسانی &#8230;"
+
+#: includes/admin/installer.php:87
+msgid "Removing the old version of the package&#8230;"
+msgstr "پاک کردن نسخه های قدیمی بسته &#8230;"
+
+#: includes/admin/installer.php:88
+msgid "Could not remove the old package."
+msgstr "نمی توان بسته قدیمی را پاک کرد."
+
+#: includes/admin/installer.php:89
+msgid "Packages updated successfully."
+msgstr "پکیج ها باموفقعیت به روز رسانی شدند."
+
+#: includes/admin/installer.php:99
+msgid "Install package not available."
+msgstr "بسته نصبی در دسترس نیست"
+
+#: includes/admin/installer.php:100
+msgid "Unpacking the package&#8230;"
+msgstr "بازگشایی بسته نصبی &#8230;"
+
+#: includes/admin/installer.php:101
+msgid "Installing the package&#8230;"
+msgstr "نصب بسته &#8230;"
+
+#: includes/admin/installer.php:102
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "دریافت بسته نصبی از <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/installer.php:103
+msgid "The package contains no files."
+msgstr "هیچ فایلی در پکیج وجود ندارد."
+
+#: includes/admin/installer.php:104
+msgid "Package install failed."
+msgstr "نصب بسته شکست خورده است."
+
+#: includes/admin/installer.php:105
+msgid "Package installed successfully."
+msgstr "افزونه با موفقیت نصب شد ."
+
+#: includes/admin/installer.php:106
+#, php-format
+msgid "Successfully installed the package <strong>%1$s %2$s</strong>."
+msgstr "افزونه <strong>%1$s %2$s</strong> با موفقیت نصب شد."
+
+#: includes/admin/installer.php:107
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "آماده سازی برای نصب <strong>%1$s %2$s</strong>&#8230;"
+
+#: includes/admin/installer.php:178
+msgid "The template is missing the <code>template.php</code> stylesheet."
+msgstr "فایل  <code>template.php</code> از دست رفته است."
+
+#: includes/admin/installer.php:185
+msgid "The <code>template.php</code> doesn't contain a valid template header."
+msgstr "این <code>template.php</code> شامل یک سربرگ قالب معتبر نیست."
+
+#: includes/admin/installer.php:192
+#, php-format
+msgid "The template is missing the <code>%s</code> file."
+msgstr "فایل قالب <code>%s</code> از دست رفته است."
+
+#: includes/admin/installer.php:198
+msgid ""
+"The <code>template.php</code> file doesn't contain the minimum required "
+"version."
+msgstr "فایل <code>template.php</code> حاوی حداقل مورد نیاز نسخه نیست."
+
+#: includes/admin/installer.php:203
+#, php-format
+msgid "This template requires TotalPoll version %s or higher"
+msgstr "این قالب نیاز به نگارش %s TotalPoll یا بالاتر دارد"
+
+#: includes/admin/installer.php:211
+msgid "The extension is missing the <code>extension.php</code> essential file."
+msgstr "افزودنی <code>extension.php</code> از دست رفته است که ضروری می باشد."
+
+#: includes/admin/installer.php:218
+msgid ""
+"The <code>extension.php</code> file doesn't contain a valid extension header."
+msgstr "فایل <code>extension.php</code> دارای سربرگ قالب نامعتبر است."
+
+#: includes/admin/installer.php:223
+msgid ""
+"The <code>extension.php</code> file doesn't contain the minimum required "
+"version."
+msgstr "فایل <code>template.php</code> حاوی حداقل  نسخه مورد نیاز نیست."
+
+#: includes/admin/installer.php:228
+#, php-format
+msgid "This extension requires TotalPoll version %s or higher"
+msgstr "این افزودنی نیاز به نگارش %s یا بالاتر دارد."
+
+#: includes/admin/installer.php:263
+msgid "Return to Templates"
+msgstr "بازگشت به قالب ها"
+
+#: includes/admin/installer.php:266
+msgid "Return to extensions"
+msgstr "بازگشت به افزودنی ها"
+
+#: includes/admin/pages/about.php:12
+msgid "User friendly"
+msgstr "کاربر پسند"
+
+#: includes/admin/pages/about.php:13
+msgid ""
+"With TotalPoll, you can now create polls within 60 seconds! Its user friendly "
+"interface was expertly designed to make poll creation hassle-free."
+msgstr ""
+"با افزونه TotalPoll، شما می توانید در حالت فعلی نظر سنجی ها را 60 ثانیه ای "
+"ایجاد کنید! رابطه کاربر پسند ماهرانه طراحی شده است."
+
+#: includes/admin/pages/about.php:17
+msgid "Overall performance"
+msgstr "عملکرد کلی"
+
+#: includes/admin/pages/about.php:18
+msgid ""
+"TotalPoll was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr "TotalPoll با عملکرد در ذهن توسعه داده شده است و با وردپرس هماهنگ است."
+
+#: includes/admin/pages/about.php:22
+msgid "Customization"
+msgstr "سفارشی سازی"
+
+#: includes/admin/pages/about.php:23
+msgid ""
+"Do you need “Welcome message” or “Thank you message”? We have got your back! "
+"With over 5 customization settings, you definitely have the total control."
+msgstr ""
+"آیا شما نیاز به \"پیام خوش آمدید گویی\" یا \"باتشکر از شما \" دارید؟ با "
+"تنظیمات دلخواه بخش می تواند آن را کاملاً کنترل کنید."
+
+#: includes/admin/pages/about.php:28
+msgid ""
+"Collecting additional information from voters has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"جمع آوری اطلاعات بیشتر از رای دهندگان هرگز آسان نیست. با 5 نوع زمینه دلخواه و "
+"منحصربفرد شما کاملاً می توانید همه چیز را جمع آوری کنید."
+
+#: includes/admin/pages/about.php:33
+msgid ""
+"Regular vote tracking has been made easy. You can now track votes daily, "
+"weekly and monthly. Even, you can track custom field values with votes."
+msgstr ""
+"ردیابی رای به طور منظم است و آسان ایجاد می شود. هم اکنون می توانید رای "
+"روزانه، هفتگی و ماهانه را پیگیری کنید."
+
+#: includes/admin/pages/about.php:37
+msgid "Extensible"
+msgstr "توسعه پذیر"
+
+#: includes/admin/pages/about.php:38
+msgid ""
+"The extensibility of TotalPoll makes such extensions and templates possible. "
+"Developers can certainly make TotalPoll a step further to suit your needs."
+msgstr ""
+"توسعه پذیری افزونه باعث می شود که چنین افزودنی ها با قالب امکان پذیر شوند. "
+"توسعه دهندگان مطمئنا می توانند افزونه را یک گام بیشتر به نیازی های شما جلو "
+"ببرند."
+
+#: includes/admin/pages/about.php:42
+msgid "SEO Friendly"
+msgstr "سازگار با سئو"
+
+#: includes/admin/pages/about.php:43
+msgid ""
+"Search Engine Optimization is a very key factor for every website. Thus, "
+"TotalPoll makes polls more search-engine friendly in order to get more search "
+"traffic."
+msgstr ""
+"بهینه سازی موتور جستجو یک عامل بسیار کلیدی برای هر وب سایت است. نظرسنجی های "
+"ایجاد شده با این افزونه می تواند با بهترین نحو در ترافیک سایت شما با بهینه "
+"سازی در موتورهای جستجو موثر باشد."
+
+#: includes/admin/pages/about.php:47
+msgid "Mobile-first"
+msgstr "سازگار با موبایل"
+
+#: includes/admin/pages/about.php:48
+msgid ""
+"With Totalpoll, you gain more engagement with an optimal viewing experience "
+"for your visitors. And your polls will always look amazing whether in a "
+"laptop, tablet or a smartphone."
+msgstr ""
+"با افزونه Totalpoll شما می توانید تعامل و تجربه بیشتری بین کاربران خود تجربه "
+"کنید. نظرسنجی ها، شما را در انواع دستگاه ها مانند لپ تاپ، تبلت و گوشی های "
+"هوشمند شگفت زده می کنند."
+
+#: includes/admin/pages/about.php:52
+msgid "Voting limitations"
+msgstr "محدودیت رای دهی"
+
+#: includes/admin/pages/about.php:53
+msgid ""
+"The ability of Totalpoll to reduce votes and results makes it easy for you to "
+"specify conditions under which visitors can vote in a poll or see its results."
+msgstr ""
+"قابلیت Totalpoll در محدودسازی امتیازات و نتایج، ایجاد شرایط برای تعیین "
+"کاربرانی که می توانند در نظرسنجی شرکت کنند یا نتایج را مشاهده کنند را آسان می "
+"سازد."
+
+#: includes/admin/pages/about.php:57
+msgid "Polls import"
+msgstr "درون ریزی نظرسنجی ها"
+
+#: includes/admin/pages/about.php:58
+msgid ""
+"Are you planning to switch? You can migrate from WP-Polls and YOP polls "
+"easily (and many more plugins are coming)."
+msgstr ""
+"آیا قصد مهاجرت دارید؟ شما می توانید از افزونه های wp-polls و یا Yop به سادگی "
+"به افزونه نظرسنجی مهاجرت کنید."
+
+#: includes/admin/pages/about.php:63
+msgid ""
+"Give your polls more attraction with Text, Image, Video, Audio, Short code or "
+"even HTML."
+msgstr ""
+"نظرسنجی های خود را با متن، تصویر، ویدیو و کد کوتاه و یا حتی کد HTML جذاب تر "
+"کنید."
+
+#: includes/admin/pages/about.php:68
+msgid ""
+"Trace back every vote, with an informative log to identify any cheating "
+"attempts."
+msgstr ""
+"ردیابی هر رای، با ورود به تاریخچه های سیستم برای شناسایی هر گونه تلاش برای "
+"تقلب."
+
+#: includes/admin/pages/about.php:73
+msgid ""
+"Make your polls look compelling with customized templates from our store."
+msgstr "نظرسنجی های خود را فوری با قالب های فروشگاه ما شخصی سازی کنید."
+
+#: includes/admin/pages/about.php:78
+msgid ""
+"Take TotalPoll’s functionality a step further with powerful extensions from "
+"our store."
+msgstr "گسترش قابلیت های TotalPoll با افزودنی ها و قالب های تجاری."
+
+#: includes/admin/pages/about.php:82
+msgid "Integration"
+msgstr "یکپارچه سازی"
+
+#: includes/admin/pages/about.php:83
+msgid ""
+"Totalpoll integrates your polls everywhere like with a short code, widget or "
+"even a direct link."
+msgstr ""
+"افزونه نظرسنجی می تواند با استفاده از کدکوتاه و یا ابزارک ها یا لینک در همه "
+"جا استفاده شود."
+
+#: includes/admin/pages/about.php:87
+msgid "3rd-party Compatibility"
+msgstr "سازگاری با افزونه های دیگر"
+
+#: includes/admin/pages/about.php:88
+msgid ""
+"TotalPoll is compatible with other plugins like WPML, ACF, WP SUPER CACHE and "
+"Others."
+msgstr ""
+"افزونه TotalPoll با دیگر افزونه های مانند WPML, ACF, WP SUPER CACHE و ... "
+"کاملاً سازگار است."
+
+#: includes/admin/pages/about.php:96
+msgid "<code>TP_Template</code> can be used now as a prototype for templates."
+msgstr ""
+"<code>TP_Template</code> می تواند در حال حاضر به عنوان یک نمونه برای قالب "
+"استفاده می شود."
+
+#: includes/admin/pages/about.php:100
+msgid "<code>TP_Extension</code> can be used now as a prototype for extensions."
+msgstr ""
+"<code>TP_Extension</code> می تواند در حال حاضر به عنوان یک نمونه برای افزودنی "
+"ها استفاده می شود."
+
+#: includes/admin/pages/about.php:103
+msgid "Fields"
+msgstr "فیلد ها"
+
+#: includes/admin/pages/about.php:104
+msgid "<code>TP_Field</code> can be used now as a prototype for custom fields."
+msgstr ""
+"<code>TP_Field</code> می تواند در حال حاضر به عنوان یک نمونه برای فیلد های "
+"سفارشی استفاده می شود."
+
+#: includes/admin/pages/about.php:108
+msgid "<code>TP_HTML</code> is used for HTML manipulation and generation."
+msgstr "<code>TP_HTML</code> برای دستکاری HTML استفاده می شود."
+
+#: includes/admin/pages/about.php:112
+msgid ""
+"<code>TP_Poll</code> is the main class for poll manipulation and rendering."
+msgstr "<code>TP_Poll</code>کلاس اصلی برای نظرسنجی دستکاری و رندر می باشد."
+
+#: includes/admin/pages/about.php:115
+msgid "Request"
+msgstr "درخواست"
+
+#: includes/admin/pages/about.php:116
+msgid "<code>TP_Request</code> is used to handle TotalPoll requests."
+msgstr ""
+"<code>TP_Request</code>برای رسیدگی به درخواست های TotalPoll استفاده می شود."
+
+#: includes/admin/pages/about.php:146
+msgid "Welcome to"
+msgstr "خوش آمدید به"
+
+#: includes/admin/pages/about.php:148
+msgid ""
+"Thank you for using TotalPoll! This update brings several improvements and "
+"new features along with fixes of known bugs."
+msgstr ""
+"باتشکر برای استفاده از TotalPoll! این به روز رسانی شامل بهبود ها و ویژگی های "
+"جدید و رفع اشکالات شناخته نشده است."
+
+#: includes/admin/pages/about.php:168 includes/admin/pages/store.php:61
+#, php-format
+msgid "Version %s"
+msgstr "ورژن %s"
+
+#: includes/admin/pages/about.php:172
+msgid "What’s New"
+msgstr "چه خبر"
+
+#: includes/admin/pages/about.php:195
+msgid "Under the Hood"
+msgstr "در زیر داشبورد"
+
+#: includes/admin/pages/about.php:217
+msgid "Credits"
+msgstr "اعتبار"
+
+#: includes/admin/pages/about.php:242
+msgid "Testimonials"
+msgstr "نظرات مشتریان"
+
+#: includes/admin/pages/about.php:279
+msgid "Go to Polls"
+msgstr "رفتن به نظرسنجی ها"
+
+#: includes/admin/pages/extensions.php:84
+#: includes/admin/pages/extensions.php:204 includes/admin/pages/templates.php:84
+#: includes/admin/pages/templates.php:208
+msgid "Select bulk action"
+msgstr "انتخاب عملیات کلی"
+
+#: includes/admin/pages/extensions.php:86
+#: includes/admin/pages/extensions.php:206 includes/admin/pages/templates.php:86
+#: includes/admin/pages/templates.php:210
+msgid "Bulk Actions"
+msgstr "عملیات دسته جمعی"
+
+#: includes/admin/pages/extensions.php:87
+#: includes/admin/pages/extensions.php:152
+#: includes/admin/pages/extensions.php:207 includes/admin/pages/templates.php:87
+#: includes/admin/pages/templates.php:155 includes/admin/pages/templates.php:211
+msgid "Activate"
+msgstr "فعال کردن"
+
+#: includes/admin/pages/extensions.php:88
+#: includes/admin/pages/extensions.php:146
+#: includes/admin/pages/extensions.php:208 includes/admin/pages/templates.php:88
+#: includes/admin/pages/templates.php:148 includes/admin/pages/templates.php:212
+msgid "Deactivate"
+msgstr "غیر فعال کردن"
+
+#: includes/admin/pages/extensions.php:89
+#: includes/admin/pages/extensions.php:168
+#: includes/admin/pages/extensions.php:209 includes/admin/pages/templates.php:89
+#: includes/admin/pages/templates.php:172 includes/admin/pages/templates.php:213
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/admin/pages/extensions.php:103
+#: includes/admin/pages/extensions.php:114
+#: includes/admin/pages/templates.php:103 includes/admin/pages/templates.php:114
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: includes/admin/pages/extensions.php:106
+#: includes/admin/pages/extensions.php:117
+msgid "Extension"
+msgstr "افزودنی"
+
+#: includes/admin/pages/extensions.php:107
+#: includes/admin/pages/extensions.php:118
+#: includes/admin/pages/templates.php:107 includes/admin/pages/templates.php:118
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/admin/pages/extensions.php:157
+#: includes/admin/pages/templates.php:161
+msgid "Open this file in the Plugin Editor"
+msgstr "بازشدن این فایل در افزونه ویرایشگر"
+
+#: includes/admin/pages/extensions.php:159
+#: includes/admin/pages/templates.php:163
+msgid "Edit"
+msgstr "ویرایش"
+
+#: includes/admin/pages/extensions.php:181
+#: includes/admin/pages/templates.php:185
+msgid "Requires"
+msgstr "مورد نیاز"
+
+#: includes/admin/pages/extensions.php:184
+#: includes/admin/pages/templates.php:188
+msgid "By"
+msgstr "توسط"
+
+#: includes/admin/pages/extensions.php:188
+msgid "Extension page"
+msgstr "صفحه افزودنی"
+
+#: includes/admin/pages/extensions.php:196
+#, php-format
+msgid "No extensions. Browse the <a href=\"%s\">store</a>."
+msgstr "بدون افزودنی. فروشگاه <a href=\"%s\"> مرور کنید</a>."
+
+#: includes/admin/pages/extensions.php:222
+msgid ""
+"If you have an extension in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"اگر افزونه را با فرمت zip دارید می توانید از طریق آپلود در اینجا آن را نصب "
+"نمایید"
+
+#: includes/admin/pages/options.php:26
+msgid "Save changes"
+msgstr "ذخیره ی تغییرات"
+
+#: includes/admin/pages/options/expressions.php:7
+msgid "Global"
+msgstr "سراسری"
+
+#: includes/admin/pages/options/expressions.php:19
+#: includes/classes/template.php:666
+#, php-format
+msgid "%s Vote"
+msgstr "%s رای"
+
+#: includes/admin/pages/options/expressions.php:20
+#, php-format
+msgid "%s Votes"
+msgstr "%s رای"
+
+#: includes/admin/pages/options/expressions.php:26
+msgid "Buttons"
+msgstr "دکمه‌ها"
+
+#: includes/admin/pages/options/expressions.php:31
+#: includes/classes/template.php:461
+msgid "Previous page"
+msgstr "صفحه قبلی"
+
+#: includes/admin/pages/options/expressions.php:36
+#: includes/classes/template.php:475
+msgid "Next page"
+msgstr "صفحه بعد"
+
+#: includes/admin/pages/options/expressions.php:46
+#: includes/classes/template.php:514
+msgid "Vote"
+msgstr "ارسال"
+
+#: includes/admin/pages/options/expressions.php:51
+#: includes/classes/template.php:527
+msgid "Back"
+msgstr "بازگشت"
+
+#: includes/admin/pages/options/expressions.php:56
+#: includes/classes/template.php:538
+msgid "Proceed"
+msgstr "پردازش شده"
+
+#: includes/admin/pages/options/expressions.php:62
+msgid "Errors"
+msgstr "خطاها"
+
+#: includes/admin/pages/options/expressions.php:68
+#: includes/classes/limitations.php:126 includes/classes/limitations.php:165
+#: includes/classes/limitations.php:419
+msgid "You cannot vote again in this poll."
+msgstr "شما نمی توانید دوباره در این نظرسنجی رای دهید."
+
+#: includes/admin/pages/options/expressions.php:74
+#: includes/classes/limitations.php:192
+#, php-format
+msgid "You have to vote for at least one choice."
+msgstr "شما باید حداقل یک گزینه را برای رای انتخاب کنید."
+
+#: includes/admin/pages/options/expressions.php:75
+#, php-format
+msgid "You have to vote for at least %d choices."
+msgstr "شما باید حداقل %d گزینه را برای رای انتخاب کنید."
+
+#: includes/admin/pages/options/expressions.php:81
+#: includes/classes/limitations.php:204
+#, php-format
+msgid "You cannot vote for more than one choice."
+msgstr "شما نمی توانید با بیش از یک انتخاب رای دهید."
+
+#: includes/admin/pages/options/expressions.php:82
+#, php-format
+msgid "You cannot vote for more than %d choices."
+msgstr "شما نمی توانید با بیش از %d انتخاب رای دهید."
+
+#: includes/admin/pages/options/expressions.php:88
+#: includes/classes/limitations.php:244
+msgid "You have entered an invalid captcha code."
+msgstr "تصویر امنیتی که وارد کرده اید نامعتبر است"
+
+#: includes/admin/pages/options/expressions.php:94
+#: includes/classes/limitations.php:268
+msgid "You cannot vote because the quota has been exceeded."
+msgstr "شما نمی توانید به دلیل سهمیه بندی بیش از حد رای دهید."
+
+#: includes/admin/pages/options/expressions.php:100
+#: includes/classes/limitations.php:293
+msgid "You cannot see results before voting."
+msgstr "شما نمی توانید نتایج را قبل از رای دادن مشاهده کنید."
+
+#: includes/admin/pages/options/expressions.php:106
+#: includes/classes/limitations.php:319
+msgid "You cannot vote because this poll has not started yet."
+msgstr "شما نمی توانید رای دهید نظرسنجی هنوز شروع نشده است."
+
+#: includes/admin/pages/options/expressions.php:112
+#: includes/classes/limitations.php:328
+msgid "You cannot vote because this poll has been completed."
+msgstr "شما نمی توانید رای دهید نظرسنجی پایان یافته است."
+
+#: includes/admin/pages/options/expressions.php:118
+#: includes/classes/limitations.php:372
+msgid "You cannot vote because this poll is not available in your region."
+msgstr "شما نمی توانید به دلیل منطقه جغرافیایی و مکانی خود رای دهید."
+
+#: includes/admin/pages/options/expressions.php:124
+#: includes/classes/limitations.php:408
+msgid "You cannot vote because you have insufficient rights."
+msgstr "شما عدم نقش کافی نمی توانید به دلیل رای دهید."
+
+#: includes/admin/pages/options/expressions.php:130
+#: includes/classes/limitations.php:430
+#, php-format
+msgid ""
+"You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> or "
+"<a href=\"%s\">register</a>."
+msgstr ""
+"شما به دلیل آنکه مهمان هستید نمی توانید رای دهید. لطفاً<a href=\"%s\">وارد "
+"شوید</a> یا <a href=\"%s\">ثبت نام کنید</a>."
+
+#: includes/admin/pages/options/expressions.php:136
+#: includes/classes/limitations.php:456
+msgid "Voting via links has been disabled for this poll."
+msgstr "رای گیری از طریق لینک برای این نظرسنجی غیر فعال شده است."
+
+#: includes/admin/pages/options/expressions.php:147
+#: includes/classes/validations.php:35
+msgid "%label% field does not contain a valid email."
+msgstr "فیلد %label% حاوی یک ایمیل معتبر نیست."
+
+#: includes/admin/pages/options/expressions.php:152
+#: includes/classes/validations.php:66
+msgid "%label% field is required."
+msgstr "%label% زمینه الزامی است."
+
+#: includes/admin/pages/options/expressions.php:157
+#: includes/classes/validations.php:100
+msgid "%label% field does not contain a valid value."
+msgstr "%label% زمینه شامل مقدار معتبر نیست."
+
+#: includes/admin/pages/options/expressions.php:162
+#: includes/classes/validations.php:104
+msgid "%label% field does not support multiple values."
+msgstr "%label% زمینه نمی تواند از مقادیر چندگانه پشتیبانی کند"
+
+#: includes/admin/pages/options/expressions.php:167
+#: includes/classes/validations.php:123
+msgid "%label% has been used before."
+msgstr "%label% از قبل استفاده شده است."
+
+#: includes/admin/pages/options/expressions.php:172
+#: includes/classes/validations.php:144
+msgid "%label% field is not valid."
+msgstr "فیلد %label% معتبر نیست."
+
+#: includes/admin/pages/options/expressions.php:177
+#: includes/classes/validations.php:182
+#, php-format
+msgid "You cannot vote because %s field is not allowed."
+msgstr "شما نمی توانید رای دهید زیرا فیلد %s نامعتبر است."
+
+#: includes/admin/pages/options/general.php:6
+msgid "Asynchronous loading"
+msgstr "بارگذاری ناهمگام"
+
+#: includes/admin/pages/options/general.php:9
+msgid "This can be useful when TotalPoll is being used with cache plugins."
+msgstr "وقتی TotalPoll از افزونه های کش استفاده می کند این می تواند مفید باشد."
+
+#: includes/admin/pages/options/general.php:15
+msgid "Enable REST API (Preview)"
+msgstr "فعال کردن API REST (پیش نمایش)"
+
+#: includes/admin/pages/options/general.php:18
+msgid ""
+"Access your polls data through an easy-to-use <a href=\"http://v2.wp-api.org/"
+"\">HTTP REST API</a>."
+msgstr ""
+"دسترسی آسان به داده های نظرسنجی خود از طریق استفاده از <a href=\"http://v2.wp-"
+"api.org/\">API بقیه HTTP</a>."
+
+#: includes/admin/pages/options/sharing.php:8
+msgid "Enable sharing"
+msgstr "فعال کردن اشتراک گذری"
+
+#: includes/admin/pages/options/sharing.php:18
+msgid "Sharing expression"
+msgstr "اشتراک گذاری"
+
+#: includes/admin/pages/options/sharing.php:22
+msgid "You can use %question% variable for question text."
+msgstr "شما می توانید از متغیر %question% برای متن سوالات استفاده کنید."
+
+#: includes/admin/pages/options/sharing.php:27
+msgid "Social networks"
+msgstr "شبکه های اجتماعی"
+
+#: includes/admin/pages/store.php:33
+msgid "Refresh (new purchases)"
+msgstr "تازه کردن (خرید جدید)"
+
+#: includes/admin/pages/store.php:44
+msgid "Free!"
+msgstr "رایگان!"
+
+#: includes/admin/pages/store.php:53
+#, php-format
+msgid "%s Downloads"
+msgstr "%s دانلود"
+
+#: includes/admin/pages/store.php:67
+#, php-format
+msgid "Update to %s"
+msgstr "به روزرسانی به %s"
+
+#: includes/admin/pages/store.php:69
+msgid "Installed"
+msgstr "نصب شده"
+
+#: includes/admin/pages/store.php:73
+msgid "Install"
+msgstr "نصب"
+
+#: includes/admin/pages/store.php:75
+#, php-format
+msgid "Requires %s"
+msgstr "نیاز به %s"
+
+#: includes/admin/pages/store.php:78
+msgid "Get it"
+msgstr "دریافت"
+
+#: includes/admin/pages/store.php:78
+msgid "Buy now"
+msgstr "همین الان بخرید"
+
+#: includes/admin/pages/support.php:23
+msgid "Support Center"
+msgstr "مرکز پشتیبانی"
+
+#: includes/admin/pages/support.php:32
+msgid "Use common keywords for best results."
+msgstr "استفاده از کلمات کلیدی رایج برای بهترین نتایج."
+
+#: includes/admin/pages/support.php:40
+msgid "Check our knowledge base."
+msgstr "بررسی پایگاه دانش ما"
+
+#: includes/admin/pages/support.php:49
+msgid "Have a question? Read the FAQs."
+msgstr "سوالی دارید؟ سوالات متداول را بخوانید."
+
+#: includes/admin/pages/support.php:55
+msgid "Open a support ticket."
+msgstr "بازکردن یک تیکت پشتیبانی"
+
+#: includes/admin/pages/support.php:60
+msgid "Please attach the following information when you open a new ticket."
+msgstr "هنگام باز کردن یک تیکت جدید لطفا اطلاعات زیر را کامل کنید."
+
+#: includes/admin/pages/templates.php:192
+msgid "Template page"
+msgstr "صفحه الگو"
+
+#: includes/admin/pages/templates.php:200
+#, php-format
+msgid "No templates. Browse the <a href=\"%s\">store</a>."
+msgstr "بدون قالب. مرور <a href=\"%s\">فروشگاه</a> ."
+
+#: includes/admin/pages/templates.php:226
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"درصورتی که قالبی با فرمت zip در اختیار دارید, می توانید با آپلود در اینجا آن "
+"را نصب کنید."
+
+#: includes/admin/pages/tools.php:19
+msgid "Polls have been migrated successfully."
+msgstr "نظرسنجی با موفقیت منتقل شده است."
+
+#: includes/admin/pages/tools.php:29
+msgid "The cache has been purged."
+msgstr "کش پاک سازی شده است."
+
+#: includes/admin/pages/tools.php:52
+#, php-format
+msgid "%d Polls to migrate from YOP-Polls"
+msgstr "%d نظرسنجی برای مهاجرت از YOP"
+
+#: includes/admin/pages/tools.php:58
+#, php-format
+msgid "%d Polls to migrate from WP-Polls"
+msgstr "%d نظرسنجی برای مهاجرت از WP-Polls"
+
+#: includes/admin/pages/tools.php:64
+#, php-format
+msgid "%d Polls to migrate from TotalPoll"
+msgstr "%d نظرسنجی برای مهاجرت از TotalPoll"
+
+#: includes/admin/pages/tools.php:73
+msgid "Purge cache"
+msgstr "پاکسازی کش"
+
+#: includes/admin/pages/tools.php:81
+#, php-format
+msgid "%d Polls to export"
+msgstr "%d نظرسنجی برای برون ریزی"
+
+#: includes/admin/pages/tools.php:88
+msgid "Import polls"
+msgstr "درون ریزی نظرسنجی ها"
+
+#: includes/admin/pages/update.php:24
+msgid "You are currently receiving updates!"
+msgstr "شما در حال دریافت به روزرسانی ها هستید!"
+
+#: includes/admin/pages/update.php:25
+msgid "Thank you for activating TotalPoll."
+msgstr "از شما به خاطر فعال کردن TotalPollمتشکریم."
+
+#: includes/admin/pages/update.php:31
+msgid "Updates"
+msgstr "بروزرسانی"
+
+#: includes/admin/pages/update.php:33
+msgid "Do you want to receive updates when released?"
+msgstr "آیا مایل به دریافت آپدیت در هنگام انتشار هستید؟"
+
+#: includes/admin/pages/update.php:35
+msgid "Please enter your Envato license key."
+msgstr "لطفا کلید مجوز Envato خود را وارد کنید."
+
+#: includes/admin/pages/update.php:40
+msgid "The submitted license key isn't valid. Please check it."
+msgstr "کلید مجوز ارائه شده معتبر نیست. لطفا بررسی کنید."
+
+#: includes/admin/pages/update.php:43
+msgid "Activate now!"
+msgstr "فعال کردن"
+
+#: includes/admin/partials/notification-email.php:56
+msgid "Deactivate this notifications"
+msgstr "غیرفعال کردن این اطلاعیه"
+
+#: includes/admin/partials/options-panel.php:11
+msgid "General"
+msgstr "عمومی"
+
+#: includes/admin/partials/options-panel.php:16
+msgid "Expressions"
+msgstr "اصطلاحات"
+
+#: includes/admin/partials/options-panel.php:21
+msgid "Sharing"
+msgstr "اشتراک گذاری"
+
+#: includes/admin/partials/phpversion.php:89
+msgid "Heads up!"
+msgstr "توجه!"
+
+#: includes/admin/partials/welcome.php:140
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+#: includes/admin/partials/welcome.php:144
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "راهنمایی، آموزش و منابع  مفید وردپرس."
+
+#: includes/admin/partials/welcome.php:145
+#, php-format
+msgid ""
+"Thank you for installing TotalPoll Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalPoll. Subscribe now and you will "
+"receive a tip everyday for a week plus a 20% discount coupon to use in our "
+"store."
+msgstr ""
+
+#: includes/admin/partials/welcome.php:151
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr "منم هستم<a href=\"%s\" target=\"_blank\">خبرنامه هفتگی</a>."
+
+#: includes/admin/partials/welcome.php:154
+msgid "No, thank you"
+msgstr "نه، متشکرم"
+
+#: includes/admin/partials/welcome.php:156
+msgid "Subscribe"
+msgstr "اشتراک"
+
+#: includes/admin/partials/welcome.php:162
+msgid "Keep in touch with us!"
+msgstr "با ما در تماس باشید!"
+
+#: includes/admin/templates.php:82
+msgid "All"
+msgstr "همه"
+
+#: includes/admin/templates.php:189
+#, php-format
+msgid "Could not fully remove the template(s) %s."
+msgstr "قالب %s را نمی توان به طور کامل حذف کرد."
+
+#: includes/classes/poll.php:324
+msgid "Other"
+msgstr "غیره"
+
+#: includes/classes/post-types.php:34 includes/classes/post-types.php:46
+msgid "Polls"
+msgstr "نظرسنجی ها"
+
+#: includes/classes/post-types.php:36
+msgid "Add New"
+msgstr "افزودن"
+
+#: includes/classes/post-types.php:37
+msgid "Add New Poll"
+msgstr "افزودن نظرسنجی جدید"
+
+#: includes/classes/post-types.php:38
+msgid "Edit Poll"
+msgstr "ویرایش نظرسنجی"
+
+#: includes/classes/post-types.php:39
+msgid "New Poll"
+msgstr "نظرسنجی جدید"
+
+#: includes/classes/post-types.php:40
+msgid "All Polls"
+msgstr "همه نظرسنجی ها"
+
+#: includes/classes/post-types.php:41
+msgid "View Poll"
+msgstr "نمایش نظرسنجی"
+
+#: includes/classes/post-types.php:42
+msgid "Search Polls"
+msgstr "جستجوی نظرسنجی ها"
+
+#: includes/classes/post-types.php:43
+msgid "No polls found"
+msgstr "هیچ نظرسنجی پیدا نشد"
+
+#: includes/classes/post-types.php:44
+msgid "No polls found in Trash"
+msgstr "هیچ نظرسنجی در زباله دان پیدا نشد"
+
+#: includes/classes/post-types.php:56
+msgid "poll"
+msgstr "نظرسنجی"
+
+#: includes/classes/post-types.php:58
+msgid "polls"
+msgstr "نظرسنجی ها"
+
+#: includes/classes/post-types.php:88
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "نظرسنجی به روز رسانی شد. <a href=\"%s\">نمایش نظرسنجی</a>"
+
+#: includes/classes/post-types.php:89
+msgid "Custom field updated."
+msgstr "فیلد سفارشی بروز شد."
+
+#: includes/classes/post-types.php:90
+msgid "Custom field deleted."
+msgstr "فیلد سفارشی حذف شد."
+
+#: includes/classes/post-types.php:91
+msgid "Poll updated."
+msgstr "نظرسنجی به روز رسانی شد."
+
+#: includes/classes/post-types.php:92
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "نظرسنجی به رونوشت %s بازگردانده شد."
+
+#: includes/classes/post-types.php:93
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "نظرسنجی منتشر شد. <a href=\"%s\">نمایش نظرسنجی</a>"
+
+#: includes/classes/post-types.php:94
+msgid "Poll saved."
+msgstr "نظرسنجی ذخیره شد."
+
+#: includes/classes/post-types.php:95
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr "نظرسنجی ثبت شد. <a target=\"_blank\" href=\"%s\">پیش نمایش نظرسنجی</a>"
+
+#: includes/classes/post-types.php:97
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"برنامه ریزی نظرسنجی برای: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">پیش نمایش نظرسنجی</a>"
+
+#: includes/classes/post-types.php:98
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/classes/post-types.php:99
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"پیش نویس نظرسنجی به روز شد. <a target=\"_blank\" href=\"%s\">پیش نمایش "
+"نظرسنجی</a>"
+
+#: includes/classes/request.php:256
+#, php-format
+msgid "Field: %s"
+msgstr "فیلد:%s"
+
+#: includes/classes/request.php:263
+#, php-format
+msgid "Poll notification: New vote - %s"
+msgstr "اعلان نظرسنجی : رای جدید - %s"
+
+#: includes/widgets/base.php:24
+msgid "Poll - TotalPoll"
+msgstr "نظرسنجی"
+
+#: includes/widgets/base.php:25 includes/widgets/latest.php:25
+#: includes/widgets/random.php:25
+msgid "Poll widget"
+msgstr "ابزارک نظرسنجی"
+
+#: includes/widgets/base.php:79 includes/widgets/latest.php:82
+#: includes/widgets/random.php:80
+msgid "Title:"
+msgstr "عنوان:"
+
+#: includes/widgets/latest.php:24
+msgid "Latest Poll - TotalPoll"
+msgstr "آخرین نظرسنجی"
+
+#: includes/widgets/random.php:24
+msgid "Random Poll - TotalPoll"
+msgstr "نظرسنجی تصادفی"

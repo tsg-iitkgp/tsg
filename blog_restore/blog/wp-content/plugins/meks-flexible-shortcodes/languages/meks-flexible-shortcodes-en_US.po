@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-04-04 21:45+0100\n"
+"PO-Revision-Date: 2014-04-04 21:45+0100\n"
+"Last-Translator: MeksHQ <support@mekshq.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../meks-shortcodes.php:123
+msgid "Columns"
+msgstr ""
+
+#: ../meks-shortcodes.php:124
+msgid "Separators"
+msgstr ""
+
+#: ../meks-shortcodes.php:125
+msgid "Highlights"
+msgstr ""
+
+#: ../meks-shortcodes.php:126
+msgid "Dropcaps"
+msgstr ""
+
+#: ../meks-shortcodes.php:127
+msgid "Buttons"
+msgstr ""
+
+#: ../meks-shortcodes.php:128
+msgid "Pull Quotes"
+msgstr ""
+
+#: ../meks-shortcodes.php:129
+msgid "Social Icons"
+msgstr ""
+
+#: ../meks-shortcodes.php:130
+msgid "Tabs"
+msgstr ""
+
+#: ../meks-shortcodes.php:131
+msgid "Toggles"
+msgstr ""
+
+#: ../meks-shortcodes.php:132
+msgid "Accordions"
+msgstr ""
+
+#: ../meks-shortcodes.php:133
+msgid "Icons"
+msgstr ""
+
+#: ../meks-shortcodes.php:134
+msgid "Progress Bars"
+msgstr ""
+
+#: ../inc/functions.php:25
+msgid "Choose icon"
+msgstr ""
+
+#: ../templates/accordion.php:6 ../templates/dropcaps.php:5
+#: ../templates/highlights.php:5 ../templates/icons.php:6
+#: ../templates/progressbars.php:5 ../templates/separators.php:5
+#: ../templates/social.php:5 ../templates/tabs.php:6
+#: ../templates/toggles.php:6
+msgid "Options"
+msgstr ""
+
+#: ../templates/accordion.php:10 ../templates/tabs.php:10
+msgid "Number of items"
+msgstr ""
+
+#: ../templates/accordion.php:15
+msgid "Insert Accordion"
+msgstr ""
+
+#: ../templates/buttons.php:6 ../templates/pullquotes.php:5
+msgid "Style Options"
+msgstr ""
+
+#: ../templates/buttons.php:10 ../templates/social.php:18
+msgid "Size"
+msgstr ""
+
+#: ../templates/buttons.php:12
+msgid "Small"
+msgstr ""
+
+#: ../templates/buttons.php:13
+msgid "Medium"
+msgstr ""
+
+#: ../templates/buttons.php:14
+msgid "Large"
+msgstr ""
+
+#: ../templates/buttons.php:20 ../templates/dropcaps.php:9
+#: ../templates/progressbars.php:28 ../templates/separators.php:9
+msgid "Style"
+msgstr ""
+
+#: ../templates/buttons.php:23 ../templates/progressbars.php:41
+msgid "Squared"
+msgstr ""
+
+#: ../templates/buttons.php:24
+msgid "Rounded"
+msgstr ""
+
+#: ../templates/buttons.php:28 ../templates/dropcaps.php:23
+#: ../templates/highlights.php:8 ../templates/pullquotes.php:24
+msgid "Background Color"
+msgstr ""
+
+#: ../templates/buttons.php:32 ../templates/dropcaps.php:27
+#: ../templates/pullquotes.php:28
+msgid "Text Color"
+msgstr ""
+
+#: ../templates/buttons.php:37 ../templates/icons.php:15
+#: ../templates/social.php:37
+msgid "Icon"
+msgstr ""
+
+#: ../templates/buttons.php:44
+msgid "Link Options"
+msgstr ""
+
+#: ../templates/buttons.php:47 ../templates/toggles.php:10
+msgid "Title"
+msgstr ""
+
+#: ../templates/buttons.php:48
+msgid "Button"
+msgstr ""
+
+#: ../templates/buttons.php:51 ../templates/social.php:23
+msgid "URL"
+msgstr ""
+
+#: ../templates/buttons.php:56 ../templates/social.php:28
+msgid "Link Target"
+msgstr ""
+
+#: ../templates/buttons.php:59 ../templates/social.php:31
+msgid "Open in same window"
+msgstr ""
+
+#: ../templates/buttons.php:60 ../templates/social.php:32
+msgid "Open in new window/tab"
+msgstr ""
+
+#: ../templates/buttons.php:64
+msgid "Insert Button"
+msgstr ""
+
+#: ../templates/columns.php:5
+msgid "Standard"
+msgstr ""
+
+#: ../templates/columns.php:8
+msgid "Two columns"
+msgstr ""
+
+#: ../templates/columns.php:12
+msgid "Three columns"
+msgstr ""
+
+#: ../templates/columns.php:16
+msgid "Four columns"
+msgstr ""
+
+#: ../templates/columns.php:20
+msgid "Complex"
+msgstr ""
+
+#: ../templates/columns.php:23
+msgid "Two thirds + one third"
+msgstr ""
+
+#: ../templates/columns.php:27
+msgid "One third + two thirds"
+msgstr ""
+
+#: ../templates/columns.php:31
+msgid "One half + two quarters"
+msgstr ""
+
+#: ../templates/columns.php:36
+msgid "Two quarters + one half"
+msgstr ""
+
+#: ../templates/columns.php:40
+msgid "One quarter + one half + one quarter"
+msgstr ""
+
+#: ../templates/columns.php:44
+msgid "Insert Columns"
+msgstr ""
+
+#: ../templates/dropcaps.php:12
+msgid "Letter only (no background)"
+msgstr ""
+
+#: ../templates/dropcaps.php:13 ../templates/social.php:11
+msgid "Square"
+msgstr ""
+
+#: ../templates/dropcaps.php:14 ../templates/social.php:12
+msgid "Circle"
+msgstr ""
+
+#: ../templates/dropcaps.php:15
+msgid "Rounded Corners"
+msgstr ""
+
+#: ../templates/dropcaps.php:19 ../templates/pullquotes.php:20
+msgid "Font size"
+msgstr ""
+
+#: ../templates/dropcaps.php:31
+msgid "Insert Dropcap"
+msgstr ""
+
+#: ../templates/highlights.php:12
+msgid "Insert Highlight"
+msgstr ""
+
+#: ../templates/icons.php:10 ../templates/progressbars.php:47
+msgid "Color"
+msgstr ""
+
+#: ../templates/icons.php:23
+msgid "Insert Icon"
+msgstr ""
+
+#: ../templates/progressbars.php:8
+msgid "Name label"
+msgstr ""
+
+#: ../templates/progressbars.php:9
+msgid "WordPress"
+msgstr ""
+
+#: ../templates/progressbars.php:13
+msgid "Level label"
+msgstr ""
+
+#: ../templates/progressbars.php:15
+msgid "Pro"
+msgstr ""
+
+#: ../templates/progressbars.php:18
+msgid "Value"
+msgstr ""
+
+#: ../templates/progressbars.php:32
+msgid "Height (thickness)"
+msgstr ""
+
+#: ../templates/progressbars.php:38 ../templates/social.php:9
+msgid "Shape"
+msgstr ""
+
+#: ../templates/progressbars.php:42 ../templates/social.php:13
+msgid "Rounded corners"
+msgstr ""
+
+#: ../templates/progressbars.php:52
+msgid "Insert Progress Bar"
+msgstr ""
+
+#: ../templates/pullquotes.php:9
+msgid "Align"
+msgstr ""
+
+#: ../templates/pullquotes.php:11
+msgid "Left"
+msgstr ""
+
+#: ../templates/pullquotes.php:12
+msgid "Right"
+msgstr ""
+
+#: ../templates/pullquotes.php:16
+msgid "Width"
+msgstr ""
+
+#: ../templates/pullquotes.php:32
+msgid "Insert Boxed Quote"
+msgstr ""
+
+#: ../templates/separators.php:11
+msgid "Solid"
+msgstr ""
+
+#: ../templates/separators.php:12
+msgid "Double"
+msgstr ""
+
+#: ../templates/separators.php:13
+msgid "Dotted"
+msgstr ""
+
+#: ../templates/separators.php:14
+msgid "Dashed"
+msgstr ""
+
+#: ../templates/separators.php:15
+msgid "Blank (empty space)"
+msgstr ""
+
+#: ../templates/separators.php:19
+msgid "Height"
+msgstr ""
+
+#: ../templates/separators.php:23
+msgid "Insert Separator"
+msgstr ""
+
+#: ../templates/social.php:41
+msgid "Insert Social Icon"
+msgstr ""
+
+#: ../templates/tabs.php:16
+msgid "Navigation type"
+msgstr ""
+
+#: ../templates/tabs.php:19
+msgid "Horizontal"
+msgstr ""
+
+#: ../templates/tabs.php:20
+msgid "Vertical"
+msgstr ""
+
+#: ../templates/tabs.php:25
+msgid "Insert Tabs"
+msgstr ""
+
+#: ../templates/toggles.php:15
+msgid "Default state"
+msgstr ""
+
+#: ../templates/toggles.php:18
+msgid "Open"
+msgstr ""
+
+#: ../templates/toggles.php:19
+msgid "Close"
+msgstr ""
+
+#: ../templates/toggles.php:23
+msgid "Insert Toggle"
+msgstr ""

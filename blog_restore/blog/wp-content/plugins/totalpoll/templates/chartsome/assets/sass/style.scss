@@ -1,0 +1,667 @@
+// Extra small screen / phone
+$screen-xs: 480px !default;
+$screen-xs-min: $screen-xs !default;
+$screen-phone: $screen-xs-min !default;
+
+// Small screen / tablet
+$screen-sm: 768px !default;
+$screen-sm-min: $screen-sm !default;
+$screen-tablet: $screen-sm-min !default;
+
+// Medium screen / desktop
+$screen-md: 992px !default;
+$screen-md-min: $screen-md !default;
+$screen-desktop: $screen-md-min !default;
+
+// Large screen / wide desktop
+$screen-lg: 1200px !default;
+$screen-lg-min: $screen-lg !default;
+$screen-lg-desktop: $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@include keyframes(votes-bar) {
+  from {
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+
+  to {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+/* VARIABLES */
+$startColor: unquote("<?php echo $this->option('votes-bar', 'bar', 'color:start'); ?>");
+$endColor: unquote("<?php echo $this->option('votes-bar', 'bar', 'color:end'); ?>");
+$textBackground: unquote("<?php echo $this->option('votes-bar', 'text', 'background'); ?>");
+$textColor: unquote("<?php echo $this->option('votes-bar', 'text', 'text'); ?>");
+
+___PREFIX___.totalpoll-poll-container {
+
+  $border-radius: unquote("<?php echo $this->option('general', 'other', 'border-radius'); ?>");
+  $animation-duration: unquote("<?php echo $this->option('general', 'other', 'animation'); ?>");
+
+  line-height: unquote("<?php echo $this->option('typography', 'general', 'line-height'); ?>");
+  font-family: unquote("<?php echo $this->option('typography', 'general', 'font-family'); ?>");
+  font-size: unquote("<?php echo $this->option('typography', 'general', 'font-size'); ?>");
+
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  /* Reset */
+  & {
+    div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video {
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      line-height: 1;
+    }
+    article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote {
+      display: block;
+    }
+    ul, ol {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after, q:before, q:after {
+      content: none;
+    }
+    ins {
+      text-decoration: underline;
+    }
+    del {
+      text-decoration: line-through;
+    }
+    mark {
+      background: none;
+    }
+    abbr[title], dfn[title] {
+      border-bottom: 1px dotted #000;
+      cursor: help;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0;
+    }
+    input[type=submit], input[type=button], button {
+      margin: 0;
+      padding: 0;
+    }
+    input, select, img {
+      vertical-align: middle;
+    }
+    video, audio {
+      vertical-align: bottom;
+    }
+    img {
+      max-width: 100%;
+    }
+    li {
+      list-style: none inside
+    }
+    ul:before, li:before, ul:after, li:after {
+      display: none;
+      content: ""
+    }
+  }
+
+  .totalpoll-error-message {
+    padding: 1em;
+    margin-bottom: 1em;
+    color: unquote("<?php echo $this->option('general', 'messages', 'color'); ?>");
+    background-color: unquote("<?php echo $this->option('general', 'messages', 'background'); ?>");
+    border: 1px solid unquote("<?php echo $this->option('general', 'messages', 'border'); ?>");
+    border-radius: $border-radius;
+  }
+
+  .totalpoll-question {
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+
+  .totalpoll-choices {
+    margin: 1em auto;
+    border: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+    border-radius: $border-radius;
+    overflow: hidden;
+    @include clearfix;
+
+    .totalpoll-chart-canvas {
+      padding: 2em;
+      border-bottom: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+    }
+
+    .totalpoll-choice-separator {
+      clear: both;
+      border-top: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+
+      &:first-child {
+        display: none;
+      }
+    }
+
+    .totalpoll-choice {
+
+      &:first-child {
+        border-top: 0;
+      }
+
+      @media all and (min-width: $screen-md-min) {
+        width: unquote("<?php echo number_format(100 / absint($this->option('general', 'other', 'per-row')), 2) . '%'; ?>");
+        float: left;
+
+      }
+
+      .totalpoll-choice-image, .totalpoll-choice-embed {
+        position: relative;
+
+        img {
+          vertical-align: bottom;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 1em;
+          width: 0;
+          height: 0;
+          border-left: 0.5em solid transparent;
+          border-right: 0.5em solid transparent;
+          border-bottom: 0.5em solid unquote("<?php echo $this->option('choices', 'default', 'background:normal'); ?>");
+          line-height: 0;
+        }
+
+      }
+
+      .totalpoll-choice-embed video, audio, iframe {
+        width: 100%;
+        vertical-align: bottom;
+      }
+
+      .totalpoll-choice-embed-image {
+        position: relative;
+        display: block;
+
+        &:before, &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        &:before {
+          background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+          background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+          background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=1);
+        }
+
+        &:after {
+          content: '▶';
+          margin: auto;
+          height: 0;
+          line-height: 0;
+          font-size: 4em;
+          color: white;
+          text-align: center;
+          text-shadow: 0 1px 30px rgba(0, 0, 0, 0.75);
+        }
+      }
+
+      .totalpoll-choice-embed-image + .totalpoll-choice-embed-code {
+        display: none;
+      }
+
+      .totalpoll-choice-embed.run {
+
+        .totalpoll-choice-embed-image {
+          display: none;
+        }
+
+        .totalpoll-choice-embed-code {
+          display: block;
+        }
+
+      }
+
+      .totalpoll-choice-container {
+        display: table;
+        width: 100%;
+
+        color: unquote("<?php echo $this->option('choices', 'default', 'color:normal'); ?>");
+        background-color: unquote("<?php echo $this->option('choices', 'default', 'background:normal'); ?>");
+        border-right: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+      }
+
+      .totalpoll-choice-checkbox-container, .totalpoll-choice-content {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      .totalpoll-choice-checkbox-container {
+        width: 8%;
+        max-width: 50px;
+        min-width: 50px;
+        padding: 0 1em;
+        line-height: 1;
+        text-align: center;
+        border-right: 1px dashed unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+
+        input {
+          outline: 0;
+          padding: 1em;
+        }
+
+      }
+
+      .totalpoll-choice-content {
+        padding: 1em;
+        word-break: break-word;
+      }
+
+      &.last-in-row {
+        .totalpoll-choice-container {
+          border-right: 0;
+        }
+      }
+
+      &.checked {
+
+        .totalpoll-choice-image:after, .totalpoll-choice-embed:after {
+          border-bottom-color: unquote("<?php echo $this->option('choices', 'checked', 'background:normal'); ?>");
+        }
+
+        .totalpoll-choice-container {
+          color: unquote("<?php echo $this->option('choices', 'checked', 'color:normal'); ?>");
+          background-color: unquote("<?php echo $this->option('choices', 'checked', 'background:normal'); ?>");
+        }
+
+        .totalpoll-choice-container:hover {
+          color: unquote("<?php echo $this->option('choices', 'checked', 'color:hover'); ?>");
+          background-color: unquote("<?php echo $this->option('choices', 'checked', 'background:hover'); ?>");
+        }
+
+        .totalpoll-choice-checkbox-container {
+          border-right-color: unquote("<?php echo $this->option('choices', 'checked', 'border:normal'); ?>");
+
+          &:hover {
+            border-right-color: unquote("<?php echo $this->option('choices', 'checked', 'border:hover'); ?>");
+          }
+
+          &:before {
+            font-weight: bold;
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+  .totalpoll-view {
+
+    &-vote {
+
+      .totalpoll-choices .totalpoll-choice-container {
+        cursor: pointer;
+
+        &:hover {
+          color: unquote("<?php echo $this->option('choices', 'default', 'color:hover'); ?>");
+          background-color: unquote("<?php echo $this->option('choices', 'default', 'background:hover'); ?>");
+        }
+      }
+
+    }
+
+    &-results {
+
+      .totalpoll-choices .totalpoll-choice {
+
+        .totalpoll-choice-votes {
+          position: relative;
+          display: table;
+          width: 100%;
+          margin-top: 1em;
+          line-height: 1;
+          font-size: 85%;
+
+          > div {
+            display: table-cell;
+          }
+
+          &-bar {
+
+            -webkit-animation-fill-mode: both;
+            -moz-animation-fill-mode: both;
+            -o-animation-fill-mode: both;
+            animation-fill-mode: both;
+
+            -webkit-transform-origin: left;
+            -moz-transform-origin: left;
+            -ms-transform-origin: left;
+            -o-transform-origin: left;
+            transform-origin: left;
+
+            -webkit-animation: votes-bar #{$animation-duration}ms ease-out;
+            -o-animation: votes-bar #{$animation-duration}ms ease-out;
+            animation: votes-bar #{$animation-duration}ms ease-out;
+
+            border-radius: $border-radius;
+
+            background: $startColor;
+            background: -moz-linear-gradient(left, $startColor 0%, $endColor 100%);
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%, $startColor), color-stop(100%, $endColor));
+            background: -webkit-linear-gradient(left, $startColor 0%, $endColor 100%);
+            background: -o-linear-gradient(left, $startColor 0%, $endColor 100%);
+            background: -ms-linear-gradient(left, $startColor 0%, $endColor 100%);
+            background: linear-gradient(to right, $startColor 0%, $endColor 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$startColor}', endColorstr='#{$endColor}', GradientType=1);
+
+          }
+
+          &-text {
+            white-space: nowrap;
+            padding-left: 1em;
+          }
+
+          .totalpoll-choice-votes-bar-0 {
+            display: none;
+
+            + .totalpoll-choice-votes-text {
+              padding-left: 0;
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+
+  .totalpoll-fields {
+
+    .totalpoll-field-wrapper {
+
+      label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      .totalpoll-fields-field {
+        border-radius: $border-radius;
+      }
+
+      .totalpoll-field-error {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+
+        color: unquote("<?php echo $this->option('general', 'messages', 'color'); ?>");
+        border-radius: $border-radius;
+
+      }
+
+      + .totalpoll-field-wrapper {
+        margin-top: 1.5em;
+      }
+
+    }
+
+    &-field {
+      width: 100%;
+    }
+
+    &-field[type=checkbox], &-field[type=radio] {
+      width: auto;
+      margin-right: 0.5em;
+    }
+
+  }
+
+  .totalpoll-buttons {
+    margin-top: 1em;
+    text-align: right;
+
+    .totalpoll-button {
+      display: block;
+      padding: 1em 2em;
+      margin-bottom: 1em;
+      width: 100%;
+
+      color: unquote("<?php echo $this->option('buttons', 'default', 'color:normal'); ?>");
+      background-color: unquote("<?php echo $this->option('buttons', 'default', 'background:normal'); ?>");
+      border: 1px solid unquote("<?php echo $this->option('buttons', 'default', 'border:normal'); ?>");
+
+      line-height: 1;
+      text-decoration: none;
+      border-radius: $border-radius;
+
+      &:hover, &:focus, &:active {
+        color: unquote("<?php echo $this->option('buttons', 'default', 'color:hover'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'default', 'background:hover'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'default', 'border:hover'); ?>");
+      }
+
+      &.totalpoll-button-primary {
+        color: unquote("<?php echo $this->option('buttons', 'primary', 'color:normal'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:normal'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:normal'); ?>");
+
+        &:hover, &:focus, &:active {
+          color: unquote("<?php echo $this->option('buttons', 'primary', 'color:hover'); ?>");
+          background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:hover'); ?>");
+          border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:hover'); ?>");
+        }
+
+      }
+
+      &.totalpoll-button-primary {
+        color: unquote("<?php echo $this->option('buttons', 'primary', 'color:normal'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:normal'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:normal'); ?>");
+
+        &:hover, &:focus, &:active {
+          color: unquote("<?php echo $this->option('buttons', 'primary', 'color:hover'); ?>");
+          background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:hover'); ?>");
+          border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:hover'); ?>");
+        }
+
+      }
+
+      &.totalpoll-button-link {
+        background: transparent;
+        border: 0;
+
+        &:hover, &:focus, &:active {
+          text-decoration: underline;
+        }
+      }
+
+      &[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      @media all and (min-width: $screen-md-min) {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 0;
+
+        + .totalpoll-button {
+          margin-left: 1em;
+        }
+
+        &.totalpoll-button-next {
+          float: right;
+          margin-left: 0;
+        }
+
+        &.totalpoll-button-previous {
+          float: left;
+          margin-left: 0;
+        }
+
+      }
+
+    }
+
+    .totalpoll-buttons-pagination {
+      padding: 1em;
+      margin-bottom: 1em;
+      border: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+      border-radius: $border-radius;
+
+      @include clearfix;
+    }
+
+  }
+
+  .totalpoll-captcha {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    @include clearfix;
+
+    > div {
+      float: right;
+    }
+  }
+
+}
+
+___PREFIX___.totalpoll-poll-container.totalpoll-rtl {
+  .totalpoll-choices {
+    .totalpoll-choice {
+      .totalpoll-choice-image, .totalpoll-choice-embed {
+        &:after {
+          left: auto !important;
+          right: 1em !important;
+        }
+      }
+
+      .totalpoll-choice-checkbox-container {
+        border-right: none;
+        border-left: 1px dashed unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+      }
+    }
+  }
+
+  .totalpoll-view-results {
+    .totalpoll-choices {
+      .totalpoll-choice {
+
+        .totalpoll-choice-votes-text {
+          padding-right: 1em;
+          padding-left: 0;
+        }
+
+        .totalpoll-choice-votes-bar {
+          -webkit-transform-origin: right;
+          -moz-transform-origin: right;
+          -ms-transform-origin: right;
+          -o-transform-origin: right;
+          transform-origin: right;
+
+          background: $startColor;
+          background: -moz-linear-gradient(right, $startColor 0%, $endColor 100%);
+          background: -webkit-gradient(linear, right top, left top, color-stop(0%, $startColor), color-stop(100%, $endColor));
+          background: -webkit-linear-gradient(right, $startColor 0%, $endColor 100%);
+          background: -o-linear-gradient(right, $startColor 0%, $endColor 100%);
+          background: -ms-linear-gradient(right, $startColor 0%, $endColor 100%);
+          background: linear-gradient(to left, $startColor 0%, $endColor 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$startColor}', endColorstr='#{$endColor}', GradientType=1);
+        }
+      }
+    }
+  }
+
+  .totalpoll-buttons {
+    text-align: left;
+
+    .totalpoll-button-next {
+      float: left;
+      margin-right: 0;
+    }
+
+    .totalpoll-button-previous {
+      float: right;
+      margin-right: 0;
+    }
+
+    .totalpoll-button + .totalpoll-button {
+      margin-left: 0;
+      margin-right: 1em;
+    }
+  }
+
+  .totalpoll-fields {
+    &-field[type=checkbox], &-field[type=radio] {
+      margin-left: 0.5em;
+      margin-right: 0;
+    }
+  }
+}

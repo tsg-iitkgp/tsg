@@ -1,0 +1,14 @@
+[Debug for [license] item [get_license_data-97]-> Array
+(
+    [success] => 1
+    [license] => invalid
+    [item_name] => WP+movies
+    [expires] => 
+    [payment_id] => 
+    [customer_name] =>  
+    [customer_email] => 
+    [license_limit] => 
+    [site_count] => 0
+    [activations_left] => unlimited
+)
+

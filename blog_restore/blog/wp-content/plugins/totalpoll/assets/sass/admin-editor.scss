@@ -1,0 +1,138 @@
+@import "shared";
+
+#totalpoll-editor {
+
+  .totalpoll-question-wrapper {
+    input {
+      padding: 1em;
+    }
+
+  }
+
+  .totalpoll-toolbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &.with-major-actions {
+      margin: 0 -1.5rem -1.5rem;
+      padding: 0.75rem;
+      background: $lightgray;
+      border-top: 1px solid $gray;
+      line-height: 28px;
+    }
+  }
+
+  .totalpoll-inline-labels {
+    label {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+    }
+    label + label {
+      margin-left: 1rem;
+    }
+  }
+
+  .totalpoll-chart-canvas {
+    max-width: 100%;
+    max-height: 500px;
+    padding: 1.5rem;
+  }
+
+  .totalpoll-statistics-progress {
+    padding: 0.5rem;
+    margin: 10rem auto;
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid $gray;
+    text-align: center;
+
+    &-bar {
+      display: block;
+      background: $primary;
+      height: 0.25rem;
+      transition: width 0.5s ease-out;
+    }
+  }
+
+  .totalpoll-statistics-card {
+    float: left;
+    width: 49%;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border: 1px solid $gray;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+    .totalpoll-statistics-card-header {
+      margin: 0;
+      padding: 1rem;
+      line-height: 1;
+      background-color: $lightgray;
+
+      border-bottom: 1px solid $gray;
+    }
+    .totalpoll-statistics-card-content {
+    }
+
+    .totalpoll-statistics-card-footer {
+
+    }
+
+    + .totalpoll-statistics-card {
+      margin-left: 2%;
+    }
+
+    &.full {
+      width: 100%;
+      float: none;
+    }
+
+  }
+
+  .totalpoll-statistics-inline {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-top: 1px solid $gray;
+
+    .totalpoll-statistics-item {
+      display: table-cell;
+      padding: 0.75rem;
+      vertical-align: middle;
+      text-align: center;
+
+      p {
+        margin: 0 0 0.5rem;
+      }
+
+      .number {
+        font-size: 1.75rem;
+
+        &.green {
+          color: limegreen;
+        }
+
+        &.red {
+          color: tomato;
+        }
+      }
+
+      .text {
+        color: $deepgray;
+      }
+
+      + .totalpoll-statistics-item {
+        border-left: 1px solid $gray;
+      }
+
+    }
+
+  }
+
+}

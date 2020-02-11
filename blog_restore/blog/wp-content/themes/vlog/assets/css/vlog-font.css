@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "font-vlog";
+  src:url("../fonts/font-vlog.eot");
+  src:url("../fonts/font-vlog.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-vlog.woff") format("woff"),
+    url("../fonts/font-vlog.ttf") format("truetype"),
+    url("../fonts/font-vlog.svg#font-vlog") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "FontVlog" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fv-"]:before,
+[class*=" fv-"]:before,
+.action-item.comments:before,
+.bypostauthor > .comment-body .fn:before {
+  font-family: "font-vlog" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bypostauthor > .comment-body .fn:before,
+.fv-author:before {
+  content: "\61";
+}
+.action-item.comments:before,
+.fv-comment:before {
+  content: "\62";
+}
+.fv-fullscreen:before {
+  content: "\64";
+}
+.fv-search:before {
+  content: "\66";
+}
+.fv-social:before {
+  content: "\67";
+}
+.fv-watch-later:before {
+  content: "\6a";
+}
+.fv-close:before {
+  content: "\6b";
+}
+.fv-added:before {
+  content: "\6c";
+}
