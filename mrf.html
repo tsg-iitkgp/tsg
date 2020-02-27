@@ -10,6 +10,7 @@
     <link rel="stylesheet"  href="css/style.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         #halls{display: block;z-index: 100;position: relative;left: 50%;width: 30%;margin-right: -50%;transform: translate(-50%, -50%);text-align: center;border: solid red; z-index: -3;}
         #test{font-size: larger;text-align: center;margin: 10px;}
@@ -20,10 +21,13 @@
         table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
         #mrf-container{border: dotted red;align-self: center;margin: 5% auto;}
         div#days{margin: 10px 5px;border: solid 1px rebeccapurple;}
-        label.container{font-size: medium;}
+        label.container{font-size:x-large;}
         #ansinput, #pass, #days, #submit2{display: none;}
+        h3{margin: auto;}
         button{padding: 1%; font-size: larger; color: black;background-color: #dd8f8f;}
         button:nth-child(2){color: black;background-color: #dd8f8f;}
+        div#description{margin:auto; display: none;font-size: 19px;color:black;font-family: Georgia, 'Times New Roman', Times, serif; width: 30%;text-align: justify; position: absolute;z-index: 6;background-color: aliceblue;}
+        i.material-icons{cursor: pointer;}
     </style>
 
 </head>
@@ -56,12 +60,19 @@
         </div>
     </nav>
     <br>
-    <div id='mrf-container'>
-        <h3 style="text-align: center">Mess Relief Form </h3>
+    <div id='mrf-container'>     
+        <h3 style="text-align: center">Mess Relief Form <span><i onMouseOver='show_info()' onMouseOut='hide_info()' class="material-icons">&#xe88e;</i></span> </h3>
+        <div id='description'>
+            <p>HexClock is not an unusual sense. These are, any dimensionally defined category of objects S, and any of its
+                subsets R. R, in essence, is a
+                representation of S, or, in other words, conveys representational (and hence, conceptual) information about S.
+                Vigo then
+                defines the amoclock as such. It just shows the time in 24- </p>
+        </div>
         <input class="erpinput" id="rollinput" type="text" placeholder="ERP Roll Number">
         <button id="submit1" onclick="getQue()" type="submit">Get Security Question</button>
         <p id="question"></p>
-        <input class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
+        <input class="erpinput" id="ansinput" type="password" placeholder="Security Question's Answer">
         <input class="erpinput" id="pass" type="password" placeholder="ERP Password">
         <div id="days">
             <!-- <label class="container">text here
@@ -267,7 +278,7 @@
                 });
         }
     
-        const URL =  'http://a627222f.ngrok.io';
+        const URL =  'http://ff71a4f3.ngrok.io';  
     
     function getQue(){
         var roll_no = document.getElementById("rollinput").value;
@@ -278,35 +289,37 @@
         }
         
         (async () => {
-              const rawResponse = await fetch(URL + '/que', {
-                method: 'POST',
-                headers: {
-                  'Accept': 'application/json',
-                  'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({"roll_no": roll_no})
-              });
-              const content = await rawResponse.json();
-            
-            if (content['que'] === 'Invalid Roll Number'){
+                    try{const rawResponse = await fetch(URL + '/que', {
+                        method: 'POST',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ "roll_no": roll_no })
+                    });}
+                    catch(err){
+                        alert('Failed to connect to server. Please try again later !');
+                    }
+                    const content = await rawResponse.json();
+                    if (content['que'] === 'Invalid Roll Number') {
                         alert('Roll number is incorrect!');
                         return;
                     }
-                document.getElementById("question").innerHTML = content['que'];
+                    document.getElementById("question").innerHTML = content['que'];
+                    document.getElementById("ansinput").style.display = "block";
+                    document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
+                    document.getElementById("days").style.display = "block";
+                    document.getElementById("submit2").style.display = "block";
 
-                document.getElementById("ansinput").style.display = "block";        
-                document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
-                document.getElementById("days").style.display = "block";
-                document.getElementById("submit2").style.display = "block";
+                    getDays();
 
-                getDays(); 
+                })();
             
-            })();
             document.getElementById("submit1").disabled = true;           
     }
     
     function onSubmit(){
-          var roll_no = document.getElementById("rollinput").value;
+            var roll_no = document.getElementById("rollinput").value;
             var pwd = document.getElementById("pass").value;
             var ans = document.getElementById("ansinput").value;
 
@@ -328,7 +341,7 @@
                     body: JSON.stringify({"roll_no": roll_no, "password": pwd,  "answer":ans, "days": selectdays})
                 });
                 const content = await rawResponse.json();
-
+                
                 console.log(content);
             })(); 
         }
@@ -344,23 +357,35 @@
 
     function getDays(){        
             var result = [];   // dates go here 
-            var next = new Date();
+            /* var next = new Date();
             next.setDate(next.getDate() + (7 - next.getDay()) % 7 + 1);   // next Monday
             for (var i = 1; i <= 7; i++){     // January 0 - December 11
                 var d = new Date();             // Sunday 0 - Saturday 6
                 d.setDate(next.getDate() + i - 1);
                 result.push(d)    
-            }
+            } */
 
-            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+            // var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+            var days = new Array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
-            for(let i = 0; i < result.length; i++){
+            for(let i = 0; i < days.length; i++){
+                /*
                 var dt = result[i].getDate() + '-' + (result[i].getMonth() + 1) + '-' + result[i].getFullYear() + ' (' + weekday[result[i].getDay()] + ')';
                 document.getElementById('days').innerHTML += '<label class=\"container\">' + dt + '<input type=\"checkbox\" value=\"' + 
-                    ((result[i].getDay() + 6) %7 ) + '\">' +  '<span class=\"checkmark\"></span></label>';  // 0 - Monday -- 6 Sunday
+                    ((result[i].getDay() + 6) %7 ) + '\">' +  '<span class=\"checkmark\"></span></label>';  // 0 - Monday -- 6 Sunday */
+                document.getElementById('days').innerHTML += '<label class=\"container\">' + days[i] + '<input type=\"checkbox\" value=\"' +
+                    i + '\">' +   '<span class=\"checkmark\"></span></label>';
             }   
     
     }
+
+    function show_info() {
+            document.getElementById('description').style.display = "block";
+        }
+
+    function hide_info() {
+            document.getElementById('description').style.display = "none";
+        }
 
 </script>
 
