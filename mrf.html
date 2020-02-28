@@ -279,7 +279,7 @@
                 });
         }
     
-        const URL =  'http://03fe158f.ngrok.io';  
+        const URL =  'http://1a5842ce.ngrok.io';  
     
     function getQue(){
         var roll_no = document.getElementById("rollinput").value;
@@ -303,7 +303,7 @@
                         alert('Failed to connect to server. Please try again later !');
                     }
                     const content = await rawResponse.json();
-                    
+
                     console.log('response is ', content)
                     if (content['que'] === 'Invalid Roll Number') {
                         alert('Roll number is incorrect!');
@@ -348,12 +348,18 @@
                     
                     console.log('try od false',content.message == "success")
                     console.log('falf ', content.message == "wrong creds")
+                    
                     if(content.message == "success") {
                         alert('SucessFully Registered Dates');
                         window.location.reload()
                     }
 
-                    if(content.message == "wrong creds") {
+                    else if(content.message == "DB Error") {
+                        alert('Failed to update to Database, Try again please');
+                        window.location.reload()
+                    }
+
+                    else if(content.message == "wrong creds") {
                         alert('Wrong credentails');
                         window.location.reload()
                     }
