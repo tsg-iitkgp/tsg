@@ -19,15 +19,15 @@
         td:not(:first-of-type){width: 14.3%;height: max-content;}
         td:first-child{color: black;font-family: "Roboto Light";font-size: 1.2em;background-color: #7abaff;}
         table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
-        #mrf-container{align-self: center;margin: 5% auto;width: 98%;}
+        #mrf-container{align-self: center;margin: 5% auto;width: 50%;}
         div#days{margin: 10px 5px;}
-        div#days div{display:inline-block; width: 30%;margin-left:10%;}
+        div#days div{display:inline-block; width: 30%;margin-left:15%;}
         div#days label{font-weight: 400; font-size: larger;}
         label.container{font-size:x-large;}
         #ansinput, #pass, #days, #submit2{display: none;}
         h3{margin: auto;}
         button{margin-top: 30px;padding: 1%; font-size: larger; color: black; border-radius: 12px;box-shadow: none; position: relative;left: 50%; margin-right: -50%;transform: translate(-50%, -50%);text-align: center;}
-        div#description{border-radius:12px; display: none;font-size: medium;color:black;font-family: Georgia, 'Times New Roman', Times, serif;text-align: justify; z-index: 6;background-color: aliceblue; position: absolute; width: 55%; margin: 2px 22% 0 22%;}
+        div#description{margin-top: 90px;border-radius:12px; display: none;font-size: medium;color:black;font-family: Georgia, 'Times New Roman', Times, serif;text-align: justify; z-index: 6;background-color: aliceblue; position: absolute;left: 50%; margin-right: -50%;transform: translate(-50%, -50%);text-align: center; width:45%;}
         i.material-icons{cursor: pointer;}
         input.erpinput{width: 30%;padding: 8px 10px;border-color: blue; outline: 0; border-width: 0 0 2px;}
     </style>
@@ -84,7 +84,6 @@
             <div><label for="to">To:</label><input type="date" id="to" name="to"></div>      
            
         </div>
-        <br>
         <button id="submit2" onclick="onSubmit()" type="submit">SUBMIT!</button><br>
 
     
@@ -310,6 +309,7 @@
                     console.log('response is ', content)
                     if (content['que'] === 'Invalid Roll Number') {
                         alert('Roll number is incorrect!');
+                        document.getElementById("submit1").disabled = false;
                         return;
                     }
                     document.getElementById("question").innerHTML = content['que'];
@@ -342,7 +342,8 @@
 
             console.log('inside');    
             
-                    (async () => {
+                (async () => {
+                    try{
                 const rawResponse = await fetch(URL + '/check', {
                     method: 'POST',
                     headers: {
@@ -350,27 +351,35 @@
                     'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({"roll_number": roll_no, "password": pwd,  "answer":ans, "from": from, "to": to})
-                });
-                const content = await rawResponse.json();
+                });}
+                catch(err){
+                        alert('Failed to connect to server. Please try again later !');
+                    }
+
+                    const content = await rawResponse.json();
                     
-                    console.log('try od false',content.message == "success")
-                    console.log('falf ', content.message == "wrong creds")
+                    console.log('try',content.message == "success")
+                    console.log('false ', content.message == "wrong creds")
                     
                     if(content.message == "success") {
                         alert('SucessFully Registered Dates');
-                        window.location.reload()
+                        window.location.reload();
                     }
 
                     else if(content.message == "DB Error") {
                         alert('Failed to update to Database, Try again please');
-                        window.location.reload()
+                        window.location.reload();
                     }
 
                     else if(content.message == "wrong creds") {
                         alert('Wrong credentails');
-                        window.location.reload()
+                        window.location.reload();
+                    }
+                    else{
+                        alert(content.message);
                     }
                 console.log(content);
+
             })(); 
         
             
