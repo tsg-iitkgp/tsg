@@ -62,6 +62,20 @@
         td:not(:first-of-type){width: 14.3%;height: max-content;}
         td:first-child{color: black;font-family: "Roboto Light";font-size: 1.2em;background-color: #7abaff;}
         table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
+        @media only screen and (max-width: 768px) {
+            #header { 
+                position: absolute;
+                left: 0px;
+            }
+            #mob-nav {
+                display: block;
+            }
+                
+            #not-on-mob {
+                display: none;
+                visibility: hidden;
+            }
+        }
     </style>
 
 </head>

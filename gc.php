@@ -25,7 +25,22 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script> 
-
+<style>
+@media only screen and (max-width: 768px) {
+            #header { 
+                position: absolute;
+                left: 0px;
+            }
+            #mob-nav {
+                display: block;
+            }
+                
+            #not-on-mob {
+                display: none;
+                visibility: hidden;
+            }
+        }
+</style>
 
         <meta charset="utf-8">
 
