@@ -10,7 +10,6 @@
     <link rel="stylesheet"  href="css/style.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         #halls{display: block;z-index: 100;position: relative;left: 50%;width: 30%;margin-right: -50%;transform: translate(-50%, -50%);text-align: center;border: solid red; z-index: -3;}
         #test{font-size: larger;text-align: center;margin: 10px;}
@@ -19,17 +18,12 @@
         td:not(:first-of-type){width: 14.3%;height: max-content;}
         td:first-child{color: black;font-family: "Roboto Light";font-size: 1.2em;background-color: #7abaff;}
         table{overflow-x: scroll;position: relative; margin: auto; width: 96%;}
-        #mrf-container{align-self: center;margin: 5% auto;width: 98%;}
-        div#days{margin: 10px 5px;}
-        div#days div{display:inline-block; width: 30%;margin-left:10%;}
-        div#days label{font-weight: 400; font-size: larger;}
-        label.container{font-size:x-large;}
+        #mrf-container{border: dotted red;align-self: center;margin: 5% auto;}
+        div#days{margin: 10px 5px;border: solid 1px rebeccapurple;}
+        label.container{font-size: medium;}
         #ansinput, #pass, #days, #submit2{display: none;}
-        h3{margin: auto;}
-        button{margin-top: 30px;padding: 1%; font-size: larger; color: black; border-radius: 12px;box-shadow: none; position: relative;left: 50%; margin-right: -50%;transform: translate(-50%, -50%);text-align: center;}
-        div#description{border-radius:12px; display: none;font-size: medium;color:black;font-family: Georgia, 'Times New Roman', Times, serif;text-align: justify; z-index: 6;background-color: aliceblue; position: absolute; width: 55%; margin: 2px 22% 0 22%;}
-        i.material-icons{cursor: pointer;}
-        input.erpinput{width: 30%;padding: 8px 10px;border-color: blue; outline: 0; border-width: 0 0 2px;}
+        button{padding: 1%; font-size: larger; color: black;background-color: #dd8f8f;}
+        button:nth-child(2){color: black;background-color: #dd8f8f;}
     </style>
 
 </head>
@@ -62,32 +56,23 @@
         </div>
     </nav>
     <br>
-    <div id='mrf-container'>     <br><br>
-        <h3 style="text-align: center">Mess Relief Form <span><i onMouseOver='show_info()' onMouseOut='hide_info()' class="material-icons">&#xe88e;</i></span> </h3>
-        <div id='description'>
-            <p>India is my country and all Indians are my Brothers and Sisters.
-            I love my country and I am proud of its rich and varied heritage.
-            I shall always strive to be worthy of it.
-            I shall give my parents, teachers and all the elders respect, and treat everyone with courtesy.
-            To my country and my people, I pledge my devotion.
-            In their well being and prosperity alone, lies my happiness.</p>
-        </div>
-        <br>
+    <div id='mrf-container'>
+        <h3 style="text-align: center">Mess Relief Form </h3>
         <input class="erpinput" id="rollinput" type="text" placeholder="ERP Roll Number">
-        <br>
         <button id="submit1" onclick="getQue()" type="submit">Get Security Question</button>
         <p id="question"></p>
-        <input class="erpinput" id="ansinput" type="password" placeholder="Security Question's Answer">
+        <input class="erpinput" id="ansinput" type="text" placeholder="Security Question's Answer">
         <input class="erpinput" id="pass" type="password" placeholder="ERP Password">
         <div id="days">
-             <div><label for="from">From:</label><input type="date" id="from" name="from"></div>
-            <div><label for="to">To:</label><input type="date" id="to" name="to"></div>      
-           
+            <!-- <label class="container">text here
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label> -->
+
         </div>
-        <br>
         <button id="submit2" onclick="onSubmit()" type="submit">SUBMIT!</button><br>
 
-    
+
     </div>    
     <h3 style="text-align: center">Mess Menu </h3><br>
     <select id="halls" onChange="getHall(this);">
@@ -212,13 +197,13 @@
     });
 </script>
 <script type="text/javascript">
-    
+
     var hall = "";
     const link = 'http://gymk-back.herokuapp.com/mess/';
     var req = '';
-    
+
     var hallnames = ["Azad", "BCRH", "BRH", "Gokhale", "HJB", "JCB", "Nehru", "LBS", "LLR", "MMM", "MS", "MT", "SNVH", "Patel", "Patel", "RK", "RLB", "RP", "SAM", "SNIG", "VS"];
-    
+
     window.onload = fillHalls;
 
     function fillHalls() {
@@ -240,7 +225,7 @@
         req = link + hall.toLowerCase();     // hallwise link here 
         fetchMenuData(req);        
     }    
-    
+
     function fetchMenuData(link) {    // changed name of the function
             let output = "";
             document.getElementById('messtable').innerHTML = `<img src="gif/loader.gif">`;   // id changed to messtable
@@ -281,9 +266,9 @@
                     return;
                 });
         }
-    
-        const URL =  'http://18570a66.ngrok.io';  
-    
+
+        const URL =  'http://a627222f.ngrok.io';
+
     function getQue(){
         var roll_no = document.getElementById("rollinput").value;
 
@@ -291,57 +276,48 @@
             alert("Roll number is empty");
             return;
         }
-        
-        (async () => {
-                    try{
-                        var rawResponse = await fetch(URL + '/que', {
-                        method: 'POST',
-                        headers: {
-                            'Accept': 'application/json',
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ "roll_number": roll_no })
-                    });}
-                    catch(err){
-                        alert('Failed to connect to server. Please try again later !');
-                    }
-                    const content = await rawResponse.json();
 
-                    console.log('response is ', content)
-                    if (content['que'] === 'Invalid Roll Number') {
+        (async () => {
+              const rawResponse = await fetch(URL + '/que', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({"roll_no": roll_no})
+              });
+              const content = await rawResponse.json();
+
+            if (content['que'] === 'Invalid Roll Number'){
                         alert('Roll number is incorrect!');
                         return;
                     }
-                    document.getElementById("question").innerHTML = content['que'];
-                    document.getElementById("ansinput").style.display = "block";
-                    document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
-                    document.getElementById("days").style.display = "block";
-                    document.getElementById("submit2").style.display = "block";
+                document.getElementById("question").innerHTML = content['que'];
 
-                    // getDays();
+                document.getElementById("ansinput").style.display = "block";        
+                document.getElementById("pass").style.display = "block";                // #ansinput, #pass, #days, #submit
+                document.getElementById("days").style.display = "block";
+                document.getElementById("submit2").style.display = "block";
 
-                })();
-            
+                getDays(); 
+
+            })();
             document.getElementById("submit1").disabled = true;           
     }
-    
+
     function onSubmit(){
-            var roll_no = document.getElementById("rollinput").value;
+          var roll_no = document.getElementById("rollinput").value;
             var pwd = document.getElementById("pass").value;
             var ans = document.getElementById("ansinput").value;
 
-            /* var days = document.getElementsByTagName('input');
+            var days = document.getElementsByTagName('input');
             var selectdays = [];  // values of checked days
             for (let i = 0; i < days.length; i++) {
                 if (days[i].type == 'checkbox' && days[i].checked == true)
                     selectdays.push(days[i].value);
-            } */
+            }
+            if (selectdays.length >= 1) {        
 
-            var from = document.getElementById('from').value;
-            var to = document.getElementById('to').value;     
-
-            console.log('inside');    
-            
                     (async () => {
                 const rawResponse = await fetch(URL + '/check', {
                     method: 'POST',
@@ -349,41 +325,24 @@
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({"roll_number": roll_no, "password": pwd,  "answer":ans, "from": from, "to": to})
+                    body: JSON.stringify({"roll_no": roll_no, "password": pwd,  "answer":ans, "days": selectdays})
                 });
                 const content = await rawResponse.json();
-                    
-                    console.log('try od false',content.message == "success")
-                    console.log('falf ', content.message == "wrong creds")
-                    
-                    if(content.message == "success") {
-                        alert('SucessFully Registered Dates');
-                        window.location.reload()
-                    }
 
-                    else if(content.message == "DB Error") {
-                        alert('Failed to update to Database, Try again please');
-                        window.location.reload()
-                    }
-
-                    else if(content.message == "wrong creds") {
-                        alert('Wrong credentails');
-                        window.location.reload()
-                    }
                 console.log(content);
             })(); 
-        
-            
+        }
+
             /* document.getElementById("rollinput").value = '';    // clear form after submit
             document.getElementById("pass").value = '';
             document.getElementById("ansinput").value = '';  
             document.getElementById("question").innerHTML = '';
             document.getElementById("pass").disabled = true;
             document.getElementById("ansinput").disabled = true;   */               
-            
+
     }
 
-     /* function getDays(){        
+    function getDays(){        
             var result = [];   // dates go here 
             var next = new Date();
             next.setDate(next.getDate() + (7 - next.getDay()) % 7 + 1);   // next Monday
@@ -391,32 +350,19 @@
                 var d = new Date();             // Sunday 0 - Saturday 6
                 d.setDate(next.getDate() + i - 1);
                 result.push(d)    
+            }
 
-            // var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-            var days = new Array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
-            for(let i = 0; i < days.length; i++){
-                /*
+            for(let i = 0; i < result.length; i++){
                 var dt = result[i].getDate() + '-' + (result[i].getMonth() + 1) + '-' + result[i].getFullYear() + ' (' + weekday[result[i].getDay()] + ')';
                 document.getElementById('days').innerHTML += '<label class=\"container\">' + dt + '<input type=\"checkbox\" value=\"' + 
-                document.getElementById('days').innerHTML += '<label class=\"container\">' + days[i] + '<input type=\"checkbox\" value=\"' +
-                    i + '\">' +   '<span class=\"checkmark\"></span></label>';
+                    ((result[i].getDay() + 6) %7 ) + '\">' +  '<span class=\"checkmark\"></span></label>';  // 0 - Monday -- 6 Sunday
             }   
-    
-                    ((result[i].getDay() + 6) %7 ) + '\">' +  '<span class=\"checkmark\"></span></label>';  // 0 - Monday -- 6 Sunday */
-            
-     
 
-    function show_info() {
-            document.getElementById('description').style.display = "block";
-        }
-
-    function hide_info() {
-            document.getElementById('description').style.display = "none";
-        }
+    }
 
 </script>
 
 </body>
 </html>
-
