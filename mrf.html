@@ -65,12 +65,15 @@
     <div id='mrf-container'>     <br><br>
         <h3 style="text-align: center">Mess Relief Form <span><i onMouseOver='show_info()' onMouseOut='hide_info()' class="material-icons">&#xe88e;</i></span> </h3>
         <div id='description'>
-            <p>India is my country and all Indians are my Brothers and Sisters.
-            I love my country and I am proud of its rich and varied heritage.
-            I shall always strive to be worthy of it.
-            I shall give my parents, teachers and all the elders respect, and treat everyone with courtesy.
-            To my country and my people, I pledge my devotion.
-            In their well being and prosperity alone, lies my happiness.</p>
+            <p>Mess rebate can be availed by providing a two day notice period and can be availed for a minimum
+                stretch of 5 days (no upper limit) from the date of rebate start.
+
+                For, e.g. if today is 29 Feb, you can choose rebate from minimum 3 March and it should be minimum
+                upto 7 March. Both dates are inclusive for the rebate.
+
+                You'll get a confirmational email once it is approved; please contact mess incharge in case it is not
+                approved before your rebate start date.
+            </p>
         </div>
         <br>
         <input class="erpinput" id="rollinput" type="text" placeholder="ERP Roll Number">
@@ -351,12 +354,8 @@
                     'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({"roll_number": roll_no, "password": pwd,  "answer":ans, "from": from, "to": to})
-                });}
-                catch(err){
-                        alert('Failed to connect to server. Please try again later !');
-                    }
-
-                    const content = await rawResponse.json();
+                });
+                const content = await rawResponse.json();
                     
                     console.log('try',content.message == "success")
                     console.log('false ', content.message == "wrong creds")
@@ -379,7 +378,11 @@
                         alert(content.message);
                     }
                 console.log(content);
-
+                
+                }
+                catch(err){
+                        alert('Failed to connect to server. Please try again later !');
+                    }
             })(); 
         
             
