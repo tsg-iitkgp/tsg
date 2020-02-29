@@ -30,15 +30,36 @@
         div#description{margin-top: 90px;border-radius:12px; display: none;font-size: medium;color:black;font-family: Georgia, 'Times New Roman', Times, serif;text-align: justify; z-index: 6;background-color: aliceblue; position: absolute;left: 50%; margin-right: -50%;transform: translate(-50%, -50%);text-align: center; width:45%;}
         i.material-icons{cursor: pointer;}
         input.erpinput{width: 30%;padding: 8px 10px;border-color: blue; outline: 0; border-width: 0 0 2px;}
+        @media only screen and (max-width: 768px) {
+            #header { 
+                position: absolute;
+                left: 0px;
+            }
+            #mob-nav {
+                display: block;
+            }
+                
+            #not-on-mob {
+                display: none;
+                visibility: hidden;
+            }
+        }
     </style>
-
+    <script> 
+        $(function(){
+        
+          $("#header").load("header.html"); 
+        
+          $("#footer").load("footer.html"); 
+        });
+        </script>
 </head>
 <body>
 
 <div class="container page z-depth-5">
+    <div id="header"></div>
 
-
-    <nav class="navigation">
+    <!-- <nav class="navigation">
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <a href="#" class="brand-logo left valign-wrapper">
@@ -60,7 +81,7 @@
                 <li><a href="blogpost.html" class="waves-effect">Blog</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
     <br>
     <div id='mrf-container'>     <br><br>
         <h3 style="text-align: center">Mess Rebate Form <span><i onMouseOver='show_info()' onMouseOut='hide_info()' class="material-icons">&#xe88e;</i></span> </h3>
@@ -426,7 +447,16 @@
         }
 
 </script>
-
+     
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
+        <!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.modal').modal();
+                $('.sidenav').sidenav();
+            });
+        </script>
 </body>
 </html>
 
