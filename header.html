@@ -1,64 +1,223 @@
-
 <nav class="navigation">
-    <div class="nav-wrapper">
-        <a  data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <a href="index.php" class="brand-logo left valign-wrapper">
-            <img src="./static/images/IIT_Kharagpur_Logo.svg" alt="" class="responsive-img">
-            <!-- <span id="tsg-banner">Technology Students’ Gymkhana</span> -->
-        </a>
-        <div id="tsg" >
+  <div class="nav-wrapper">
+    <!-- <a data-target="mobile-demo" class="sidenav-trigger"
+      ><i class="material-icons">menu</i></a
+    > -->
+    <a href="index.php" id="remove-in-mob" class="brand-logo left valign-wrapper">
+      <img
+        src="./static/images/IIT_Kharagpur_Logo.svg"
+        alt=""
+        class="responsive-img"
+      />
+      <!-- <span id="tsg-banner">Technology Students’ Gymkhana</span> -->
+    </a>
+    <div id="tsg">
+      <style>
+        .dropdown_content {
+          background: linear-gradient(135deg, #f44336, #673ab7);
+          border-radius: 10px;
+          display: none;
+          z-index: 2;
+          position: absolute;
+        }
+        ul.dropdown_content li {
+          display: table-cell;
+          border-radius: 10px;
+        }
+        li#drop1:hover ul.dropdown_content#opts1 {
+          display: block;
+          max-width: 100px;
+          padding: 0px;
+        }
+        li#drop2:hover ul.dropdown_content#opts2 {
+          display: block;
+          max-width: 120px;
+          padding: 0px;
+        }
+        li#drop3:hover ul.dropdown_content#opts3 {
+          display: block;
+          padding: 0px;
+          max-width: 100px;
+        }
 
-        <style>
-            .dropdown_content{
-                background: linear-gradient(135deg, #F44336, #673ab7);
-                border-radius: 10px;
-                display: none;
-                z-index: 2;
-                position: absolute;
-                
-            }
-            ul.dropdown_content li{
-                display: table-cell;
-                border-radius: 10px;
-            }
-            li#drop1:hover ul.dropdown_content#opts1{
-                display: block;
-                max-width: 100px;
-                padding: 0px;
-            }
-            li#drop2:hover ul.dropdown_content#opts2{
-                display: block;
-                max-width: 120px;
-                padding: 0px;
-            }
-            li#drop3:hover ul.dropdown_content#opts3{
-                display: block;
-                padding: 0px;
-                max-width: 100px;
-            }
-        </style>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-        <!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.modal').modal();
-                $('.sidenav').sidenav();
-            });
-        </script>
+        .mo_sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
-            <!--Script for adding the 'active' class to the opened tab-->
-        <script>
-            var name = window.location.pathname.split('/')[window.location.pathname.split('/').length - 1];
-            var element = document.getElementById(name);
-            if(element !== null)
-                element.classList.add("active");
-            var element = document.getElementsByClassName(name);
-            if(element[0] !== null)
-                element[0].classList.add("active");
-        </script>
-            <ul id="nav-mobile" class="hide-on-med-and-down right">
+.mo_sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #262626;
+  display: block;
+  transition: 0.3s;
+}
+
+.mo_sidenav a:hover {
+  color: #262626;
+}
+
+.mo_sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .mo_sidenav {padding-top: 15px;}
+  .mo_sidenav a {font-size: 18px;}
+}
+
+
+#mob-nav {
+  display: none;
+}
+
+
+.dropdown-container {
+  display: none;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 4px;
+}
+
+.mySidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #262622;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.mySidenav a:hover,.dropdown-btn:hover {
+  color: #262626;
+}
+
+#mySidenav a:not(:first-of-type) {
+   
+     border-bottom:  0.1px solid #282828;
+     
+}
+@media only screen and (max-width: 768px) {
+    #mob-nav {
+    display: block;
+  }
+    
+  #not-on-mob {
+      display: none;
+      visibility: hidden;
+  }
+
+  #remove-in-mob {
+    display: none;
+  }
+  
+  
+}
+      </style>
+
+      <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="materialize/js/bin/materialize.min.js"
+      ></script>
+      <!-- <script type="text/javascript" src="js/blogpost.js"></script> -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $(".modal").modal();
+          $(".sidenav").sidenav();
+        });
+      </script>
+
+      <!--Script for adding the 'active' class to the opened tab-->
+      <script>
+        var name = window.location.pathname.split("/")[
+          window.location.pathname.split("/").length - 1
+        ];
+        var element = document.getElementById(name);
+        if (element !== null) element.classList.add("active");
+        var element = document.getElementsByClassName(name);
+        if (element[0] !== null) element[0].classList.add("active");
+      </script>
+
+<div id="mySidenav" class="mo_sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.php">Home</a>
+    <a href="blog/">Blog</a>
+    <a href="events.html">Notices</a>
+    
+    <a class="dropdown-btn">Updates 
+            <i class="fa fa-caret-down"></i>
+    </a>
+      <div class="dropdown-container">
+        <a href="openiit.html">Open IIT</a>
+        <a href="gc-results.html">GC 19-20</a>
+       </div>
+
+
+    <a class="dropdown-btn2">Info 
+            <i class="fa fa-caret-down"></i>
+    </a>
+      <div class="dropdown-container">
+        <a href="messmenu.html">Messmenu</a>
+        <a href="rulebook.html">Rulebook</a>
+        <a href="gc.php">GC 18-19</a>
+        <a href="interiit.php">Inter IIT</a>
+       </div>
+    
+       <a href="projects.html">Projects</a>
+       <a href="contacts.html">Contacts</a>
+
+    <a class="dropdown-btn3">SoCult 
+            <i class="fa fa-caret-down"></i>
+    </a>
+      <div class="dropdown-container">
+        <a href="fests.html">Fests</a>
+        <a href="societies.html">Societies</a>
+
+       </div>
+    
+       <a href="projects.html">Projects</a>
+       <a href="contacts.html">Contacts</a>
+
+  <!-- <a class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </a>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div> -->
+</div>
+  
+    <div class="not-on-mob">
+      <ul  class="hide-on-med-and-down right">
                 <li ><a href="blog/" class="waves-effect">Blog</a></li>
                 <li id="events.html"><a href='events.html' class="waves-effect">Notices</a></li>
                 <li id="drop1" class="dropdown gc-results.html openiit.html"><a href="#" class="waves-effect">Updates</a>
@@ -81,19 +240,66 @@
                         <li id="societies.html"><a href="societies.html" class="waves-effect">Societies</a></li>
                     </ul>
                 </li>
-                <!-- <li id="projects.html"><a href="projects.html" class="waves-effect">Projects</a></li> -->
-                <li id="contacts.html"><a href="contacts.html" class="waves-effect">Contacts</a></li>
+      <li id="projects.html"><a href="projects.html" class="waves-effect">Projects</a></li>
+      <li id="contacts.html"><a href="contacts.html" class="waves-effect">Contacts</a></li>
             </ul>
-        </div>
-        
     </div>
+
+            
+
+      <span id="mob-nav" style="font-size:30px;cursor:pointer" onclick="openNav()"
+        >&#9776;</span>
+    </div>
+  </div>
 </nav>
 
+
+<script>
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+showDropDown(dropdown)
+var dropdown2 = document.getElementsByClassName("dropdown-btn2")
+showDropDown(dropdown2)
+var dropdown3 = document.getElementsByClassName("dropdown-btn3")
+showDropDown(dropdown3)
+
+function showDropDown(dropdown) {
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+    
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+}
+
+
+function openNav() {
+    console.log('in opend nabvvvv')
+    console.log('wth is this ', document.getElementById("mySidenav"))
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
 <script
-    src="https://code.jquery.com/jquery-2.2.4.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-</script>
-<script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"
+></script>
+<script
+  type="text/javascript"
+  src="materialize/js/bin/materialize.min.js"
+></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
