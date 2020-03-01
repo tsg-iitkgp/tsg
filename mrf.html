@@ -44,6 +44,10 @@
                 visibility: hidden;
             }
         }
+        #question
+        {
+            margin-left: 40%;
+        }
     </style>
     <script> 
         $(function(){
@@ -312,8 +316,9 @@
             alert("Roll number is empty");
             return;
         }
-        
+        document.getElementById('question').innerHTML = '<img src="gif/loader.gif">';
         (async () => {
+                    
                     try{
                         var rawResponse = await fetch(URL + '/que', {
                         method: 'POST',
@@ -325,6 +330,7 @@
                     });}
                     catch(err){
                         alert('Failed to connect to server. Please try again later !');
+                        document.getElementById('question').innerHTML ='Thank You!'
                     }
                     const content = await rawResponse.json();
 
@@ -363,7 +369,8 @@
             var to = document.getElementById('to').value;     
 
             console.log('inside');    
-            
+            document.getElementById('question').innerHTML = '<img src="gif/loader.gif">';
+
                 (async () => {
                     try{
                 const rawResponse = await fetch(URL + '/check', {
@@ -381,16 +388,19 @@
                     
                     if(content.message == "success") {
                         alert('SucessFully Registered Dates');
+                        document.getElementById('question').innerHTML = 'Thank You!';
                         window.location.reload();
                     }
 
                     else if(content.message == "DB Error") {
                         alert('Failed to update to Database, Try again please');
+                        document.getElementById('question').innerHTML = 'Thank You!';
                         window.location.reload();
                     }
 
                     else if(content.message == "wrong creds") {
                         alert('Wrong credentails');
+                        document.getElementById('question').innerHTML = 'Thank You!';
                         window.location.reload();
                     }
                     else{
@@ -401,6 +411,7 @@
                 }
                 catch(err){
                         alert('Failed to connect to server. Please try again later !');
+                        document.getElementById('question').innerHTML = 'Thank You!';
                     }
             })(); 
         
