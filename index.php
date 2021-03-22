@@ -17,12 +17,12 @@
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
 </script>
-<script> 
+<script>
 $(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
+  $("#header").load("header.html");
+  $("#footer").load("footer.html");
 });
-</script> 
+</script>
 
 
         <meta charset="utf-8">
@@ -36,14 +36,14 @@ $(function(){
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://www.gymkhana.iitkgp.ac.in" />
-        <meta property="og:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
+        <meta property="og:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" />
         <meta property="og:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
         <meta property="og:image" content="favicon.png" />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="website" />
         <meta property="twitter:url" content="http://www.gymkhana.iitkgp.ac.in" />
-        <meta property="twitter:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" /> 
+        <meta property="twitter:title" content="Technology Students' Gymkhana, Indian Institute of Technology Kharagpur" />
         <meta property="twitter:description" content="Official Website of Technology Students Gymkhana, IIT Kharagpur" />
         <meta property="twitter:image" content="favicon.png" />
 
@@ -62,7 +62,7 @@ $(function(){
     <body class="homepage">
         <script type="text/javascript" src="js/index.js"></script>
         <div class="container page z-depth-5">
-            
+
             <div id="header"></div>
 
             <div class="content">
@@ -96,7 +96,7 @@ $(function(){
                         </p>
 
                         <a href="https://wiki.metakgp.org/images/4/4d/Gymkhana_Constitution.pdf" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
-                        <a href="blog/" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
+                        <a href="https://tsg-blog.medium.com/" rel="noopener noreferrer" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
 
                         <br/><br/><br/>
                         <div>
@@ -179,7 +179,7 @@ $(function(){
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="materialize/js/bin/materialize.min.js"></script>
-        
+
         <script type="text/javascript" src="js/index.js"></script>
         <div id="footer"></div>
     </body>
