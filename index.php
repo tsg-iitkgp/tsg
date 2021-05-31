@@ -96,7 +96,7 @@ $(function(){
                         </p>
 
                         <a href="https://wiki.metakgp.org/images/4/4d/Gymkhana_Constitution.pdf" class="waves-effect waves-light btn purple"> <i class="material-icons left ">insert_drive_file</i> Constitution</a>
-                        <a href="https://tsg-blog.medium.com/" rel="noopener noreferrer" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
+                        <a href="https://tsgblog.iitkgp.ac.in/" rel="noopener noreferrer" class="waves-effect waves-light btn purple"> <i class="material-icons left">insert_drive_file</i>Blog</a>
 
                         <br/><br/><br/>
                         <div>
