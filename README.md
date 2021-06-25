@@ -1,3 +1,7 @@
+# This repo is new archived
+
+The project has been moved to [tsg-iitkgp/tsg-site](https://github.com/tsg-iitkgp/tsg-site)
+
 # What's here
 
 The repo contains the source code for GymKhana's official website written in PHP, HTML, CSS, SASS and JS. The website is linked to Google Analytics using the tech coordinator's GMail account for seeing the traffic statistics of the website.
